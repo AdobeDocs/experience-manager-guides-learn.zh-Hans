@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager指南4.1版
-description: '最新版本的Adobe Experience Manager指南 '
-source-git-commit: 714d335d95c54fb02b0fe02ad112fa36719dc970
+description: 最新版本的Adobe Experience Manager指南
+exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
+source-git-commit: 7fc8eb3ea46eee89eac4d5779f14d61aa6106505
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2973'
 ht-degree: 3%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 3%
 * 如果您使用的是版本3.8.5，则需要先升级到版本4.0.x，然后再升级到版本4.1。
 * 如果您使用的是3.8.5之前的版本，请参阅产品特定安装指南中的升级部分。
 
-有关详细信息，请参阅 [升级说明](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-1/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
+有关详细信息，请参阅 [升级说明](assets/Adobe-Experience-Manager-Guides_Upgrade-Instructions_EN.pdf).
 
 ## 兼容性矩阵
 
@@ -289,4 +290,3 @@ AEM指南不再支持为FrameMaker文档生成DITA输出格式。 此DITA选项�
 * SVG在XML编辑器的创作模式下无法正确呈现的图像。 (9426)
 * 通过salesforce发布时，基线不被接受。 (8953)
 * 无法从用户首选项设置中清除rootmap。 (8534)
-
