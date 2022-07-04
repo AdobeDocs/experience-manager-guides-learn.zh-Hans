@@ -2,7 +2,7 @@
 title: 版本控制中的内容 [!DNL AEM Guides]
 description: 版本控制中的内容 [!DNL Adobe Experience Manager Guides]
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 97254946f5ee732fe3b93ff60dd9ef51a379b9f4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 1%
@@ -29,8 +29,9 @@ ht-degree: 1%
    标签允许您指定要在发布时包含的版本。
 
    >[!NOTE]
-   > 
-   > 如果您的程序配置了预定义标签，则可以从中进行选择，以确保标签设置一致。
+   >
+   >如果您的程序配置了预定义标签，则可以从中进行选择，以确保标签设置一致。
+
 1. 选择&#x200B;**保存**。
 
    您已创建了主题的新版本，并且版本号已更新。 文档的第一个版本将为版本1.0。

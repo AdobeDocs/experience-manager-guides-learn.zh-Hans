@@ -2,7 +2,7 @@
 title: 条件
 description: 在AEM Guid中使用条件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -31,11 +31,11 @@ ht-degree: 3%
 
 5. 填写必填字段。
 
-   ·名称应与用于分析的属性相对应。
+   - 名称应与用于分析的属性相对应。
 
-   ·值是将在DITA代码源中使用的精确条目。
+   - 值是将在DITA代码源中使用的精确条目。
 
-   ·标签是输入属性的用户将看到的单词。
+   - “标签”是输入属性的用户将看到的单词。
 
 6. 单击&#x200B;[!UICONTROL **保存**]。
 
@@ -104,7 +104,6 @@ ht-degree: 3%
    >[!IMPORTANT]
    >
    >重要信息：选定的根映射必须是包含主题方案的映射。
-
 
    ![用户首选项](images/lesson-13/user-preferences-2.png)
 

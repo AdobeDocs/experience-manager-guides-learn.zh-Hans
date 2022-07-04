@@ -2,7 +2,7 @@
 title: 在AEM指南中处理图像
 description: 在Adobe Experience Manager指南中处理图像
 exl-id: 8b920a9a-bedb-434c-b6fb-3569ce4b7a81
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1f8fe099be2b4123eec6f7c973668b415097ac45
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 0%
@@ -27,10 +27,10 @@ ht-degree: 0%
 
    ![上传资产](images/lesson-4/upload-assets.png)
 
-
 1. 选择要从本地系统上传的图像，然后选择 **打开**.
 
    的 [!UICONTROL 上传资产] 对话框。
+
 1. 选择 **上传**.
 
 ## 在主题中插入图像
@@ -52,7 +52,6 @@ ht-degree: 0%
 1. 选择 **插入图像** 图标。
 
    ![“插入图像”图标](images/lesson-4/insert-image.png)
-
 
    此时将出现“插入图像”对话框。
 
@@ -88,9 +87,11 @@ ht-degree: 0%
 1. 在版本标签字段中，输入任何相关的标签。
 
    标签允许您指定要在发布时包含的版本。
+
    >[!NOTE]
    > 
    > 如果您的程序配置了预定义标签，则可以从中进行选择，以确保标签设置一致。
+
 1. 选择&#x200B;**保存**。
 
    您已创建了主题的新版本，并且版本号已更新。

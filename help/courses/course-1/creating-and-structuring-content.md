@@ -2,7 +2,7 @@
 title: 在中创建内容 [!DNL AEM Guides]
 description: 在中创建内容 [!DNL Adobe Experience Manager Guides]
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6959927315c7afc62a7423e835a36895c76fdc6d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -24,6 +24,7 @@ ht-degree: 1%
 1. 选择 **+** 图标和 **文件夹**.
 
    ![+ 图标](images/lesson-3/+-icon.png)
+
 1. 为文件夹提供一个标题。
 1. 选择&#x200B;**创建**。您已创建了新文件夹，该文件夹现在会显示在存储库中。 此文件夹将是您所有课程内容的主页。
 
@@ -36,6 +37,7 @@ ht-degree: 1%
    ![省略号图标](images/lesson-3/ellipses-icon.png)
 
    此时将显示“选项”菜单。
+
 1. 选择 **创建\>文件夹**.
    ![创建子文件夹](images/lesson-3/create-subfolder-with-markings.png)
 
@@ -48,6 +50,7 @@ ht-degree: 1%
    ![省略号图标](images/lesson-3/ellipses-icon.png)
 
    此时将显示“选项”菜单。
+
 1. 选择 **创建\>主题**.
 
    ![创建新主题](images/lesson-3/create-topic-with-markings.png)
@@ -92,6 +95,7 @@ ht-degree: 1%
    >[!NOTE]
    > 
    > 如果您的程序配置了预定义标签，则可以从中进行选择，以确保标签设置一致。
+
 1. 选择&#x200B;**保存**。
 
    您已创建了主题的新版本，并且版本号已更新。

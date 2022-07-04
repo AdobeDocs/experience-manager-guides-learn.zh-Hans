@@ -2,7 +2,7 @@
 title: 简单的内容创建工作流
 description: 在AEM指南中创建内容
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -37,13 +37,13 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
 
 3. 使用 **内容属性** ，用于修改图像
 
-   ·规模
+   - 比例
 
-   • position
+   - position
 
-   ·对齐，或
+   - 对齐，或
 
-   ·其他属性。
+   - 其他属性。
 
    ![内容属性](images/lesson-15/content-properties.png)
 
@@ -98,7 +98,6 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
 3. 选择 **定位于**.
 
 4. 选择 **存储库** 或 **地图** 跳转到所需的主题位置。
-
 
 ## 版本主题
 
@@ -183,7 +182,6 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
    - 左侧将显示带有标签的版本历史记录。
 
    ![版本历史记录](images/lesson-15/version-history.png)
-
 
 4. 单击某个版本可访问以下选项 **还原到此版本** 和 **预览版本**.
 
