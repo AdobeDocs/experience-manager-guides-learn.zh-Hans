@@ -4,8 +4,8 @@ user-guide-description: Adobe Experience Manager Guides 的视频收藏集。
 breadcrumb-title: AEM Guides 视频
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
