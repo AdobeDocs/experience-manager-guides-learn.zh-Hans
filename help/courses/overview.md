@@ -2,16 +2,14 @@
 title: 基于视频的学习课程 [!DNL Adobe Experience Manager Guides]
 description: 观看视频教程关于 [!DNL Adobe Experience Manager Guides]、 AEM XML附加组件、 AEM XML插件、 AEM DoX和AEM Dox。
 exl-id: 4066431b-0838-45a6-b6b1-e366f210eb8d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
 
 # 视频课程 [!DNL Adobe Experience Manager Guides] {#overview}
-
-Adobe Experience Manager指南(称为 [!DNL AEM Guides] 解决方案)是一款功能强大的企业级组件内容管理解决方案(CCMS)。
 
 查看此空间，可查看 [!DNL Adobe Experience Manager Guides].
 
