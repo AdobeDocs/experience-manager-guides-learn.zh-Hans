@@ -1,14 +1,16 @@
 ---
 title: 本机PDF发布功能 |设计页面布局
-description: '了解如何设计页面布局，以在PDF输出的不同部分中显示信息。 '
+description: 了解如何设计页面布局，以在PDF输出的不同部分中显示信息。
 hide: true
 hidefromtoc: true
-source-git-commit: 97c7337684e4afb8352912e53d6a59939f7d182f
+exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
+source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
 
 ---
+
 
 # 设计页面布局
 
@@ -85,7 +87,7 @@ PDF文档通常包含以下部分：
 
 1. 单击编辑标题(<img src="./assets/header-icon.svg" width="25">)图标将光标置于标题区域中。
 
-1. 单击“Intert Image（惰性图像）”(<img src="./assets/insert-image-icon.svg" width="25"> ) 图标.
+1. 单击“Intert Image（惰性图像）”(<img src="./assets/insert-image-icon.svg" width="25">) 图标.
 
    此时会出现“选择路径”弹出窗口。
 
@@ -135,6 +137,8 @@ PDF文档通常包含以下部分：
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >您还可以编辑所有字段的格式（默认格式除外）。 为此，请单击要编辑的格式旁边的编辑图标，进行更改，然后单击确定。
@@ -169,9 +173,9 @@ PDF文档通常包含以下部分：
 
       <img src="./assets/topic-title-moved-right-footer.png" width="500">
 
-| 开发人员角： | <img src="./assets/developer-corner-icon.svg" width="40"> |
+| 开发人员角： | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-如果您希望直接使用CSS和HTML代码，则还可以通过转到页面布局的“源”视图并在代码中进行更改来实现此目的。 以下代码片段显示了通过代码完成的相同页脚设置：
+| 如果您希望直接使用CSS和HTML代码，则还可以通过转到页面布局的“源”视图并在代码中进行更改来实现此目的。 以下代码片段显示了通过代码完成的相同页脚设置： |
 
 ```md
 …
@@ -217,6 +221,8 @@ PDF文档通常包含以下部分：
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
+   <br>
+
    >[!NOTE]
    >
    >最终发布的PDF将仅显示基于章节内容的目录条目。 如果章节中没有级别5标题，则不会在最终输出中显示该标题。
@@ -258,6 +264,8 @@ PDF文档通常包含以下部分：
    如以下示例所示，标题文本的“跨列”属性设置为“全部”。 这可确保即使文档是多列的，标题也会跨列。
 
    <img src="./assets/element-span-across-columns.png" width="400">
+
+   <br>
 
    >[!IMPORTANT]
    可以将“跨列”属性应用到任何DITA元素。
@@ -385,4 +393,3 @@ PDF文档通常包含以下部分：
 * **背景**:包含用于包含背景图像或颜色阴影的属性。 您可以设置“图像大小”（通过设置“高度”或“宽度”）、“背景重复”（作为重复、不重复、倒圆角或更多）和“背景位置”（作为左上、右中心、居中底部或更多）。
 
 * **多列**:包含用于为页面或任何特定元素（如章节目录）配置多列属性的属性。 有关属性及其使用方式的更多详细信息，请参阅 _使用多列页面布局_.
-
