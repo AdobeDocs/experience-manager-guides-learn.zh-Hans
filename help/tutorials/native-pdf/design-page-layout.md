@@ -4,7 +4,7 @@ description: 了解如何设计页面布局，以在PDF输出的不同部分中�
 hide: true
 hidefromtoc: true
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 64e8ab1288674437f6182010ce4963b3780e98a9
+source-git-commit: 2607a02867765b8f78134ab4e37012e8b08e222c
 workflow-type: tm+mt
 source-wordcount: '3289'
 ht-degree: 0%
@@ -137,7 +137,7 @@ PDF文档通常包含以下部分：
 
    <img src="./assets/insert-page-number-field.svg" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -175,7 +175,7 @@ PDF文档通常包含以下部分：
 
 | 开发人员角： | <img src="./assets/developer-corner-icon.svg" width="25"> |
 |--- |--- |
-| 如果您希望直接使用CSS和HTML代码，则还可以通过转到页面布局的“源”视图并在代码中进行更改来实现此目的。 以下代码片段显示了通过代码完成的相同页脚设置： |
+如果您希望直接使用CSS和HTML代码，则还可以通过转到页面布局的“源”视图并在代码中进行更改来实现此目的。 以下代码片段显示了通过代码完成的相同页脚设置：
 
 ```md
 …
@@ -206,6 +206,7 @@ PDF文档通常包含以下部分：
    默认的章节目录会插入到内容区域中。
 
    <img src="./assets/chapter-toc-default.png" width="400">
+    <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -221,7 +222,7 @@ PDF文档通常包含以下部分：
 
    <img src="./assets/chapter-toc-updated.png" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!NOTE]
    >
@@ -265,7 +266,7 @@ PDF文档通常包含以下部分：
 
    <img src="./assets/element-span-across-columns.png" width="400">
 
-   <br>
+   <img src="./assets/transparent-background.png" width="30">
 
    >[!IMPORTANT]
    可以将“跨列”属性应用到任何DITA元素。
