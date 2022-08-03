@@ -4,8 +4,8 @@ user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程�
 breadcrumb-title: AEM Guides 教程
 source-git-commit: cb066f0e09aec000f216c11c774c8da111b2a7f7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '121'
+ht-degree: 23%
 
 ---
 
