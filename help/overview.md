@@ -1,15 +1,15 @@
 ---
-title: TutorialsExperience Manager指南
+title: Experience Manager指南教程
 description: Experience Manager指南的教程集合(以前称为Adobe Experience Manager的XML Documentation)。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: b2c51539bbe49c6d5de601e319ceb5def99d9020
+source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '318'
+ht-degree: 2%
 
 ---
 
-# Tutorials和视频课程 [!DNL Adobe Experience Manager Guides] {#overview}
+# [!DNL Adobe Experience Manager Guides] 教程 {#overview}
 
 [!DNL Adobe Experience Manager Guides] (称为 [!DNL AEM Guides] 解决方案)是一款功能强大的企业级组件内容管理解决方案(CCMS)。 它支持Adobe Experience Manager中的本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用任何离线DITA创作工具(如Adobe FrameMaker或易于使用的内置Web编辑器)创建内容。
 
@@ -30,6 +30,10 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 入门课程](course-1/overview.md)**
 
    *了解如何使用创建、组织、创作和发布内容 [!DNL Adobe Experience Manager Guides].*
+
+* **[在内置Web编辑器中创作](course-3/overview.md)**
+
+   *了解如何使用Experience Manager指南中的本机Web编辑器创作内容。 全面了解用户首选项、编辑器设置、配置、工具栏等。*
 
 * **[输出生成 [!DNL AEM Guides]](course-2/overview.md)**
 
