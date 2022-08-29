@@ -2,10 +2,10 @@
 title: TutorialsExperience Manager指南
 description: 查找有关Experience Manager指南的教程视频(以前称为XML Documentation for Adobe Experience Manager)。 了解本机DITA支持和结构化创作在Experience Manager中的应用。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: fff5c163bc8551bea298cd8da320c2abf9b9be3b
+source-git-commit: 7fa60a962a94ad5011359398cc668f8080859a8c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 3%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
@@ -26,6 +26,11 @@ ht-degree: 3%
 * **[[!DNL AEM Guides] 入门课程](../courses/course-1/overview.md)**
 
    _了解如何使用创建、组织、创作和发布内容 [!DNL Adobe Experience Manager Guides]._
+
+
+* **[[!DNL AEM Guides] 在内置Web编辑器中创作](../courses/course-3/overview.md)**
+
+   _了解如何使用  [!DNL Adobe Experience Manager Guides]. 全面了解用户首选项、编辑器设置、配置、工具栏等。_
 
 * **[输出生成 [!DNL AEM Guides]](../courses/course-2/overview.md)**
 
