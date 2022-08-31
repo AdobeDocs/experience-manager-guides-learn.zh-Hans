@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 3c4ae9f5c00fa4918130df98cd42d7dd06e88543
+source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 23%
@@ -43,4 +43,4 @@ ht-degree: 23%
    + [隐藏的PDF模板](./native-pdf/pdf-template.md)
    + [PDF模板的隐藏组件](./native-pdf/components-pdf-template.md)
    + [隐藏设计页面布局](./native-pdf/design-page-layout.md)
-   + [隐藏的样式表](./native-pdf/Stylesheet.md)
+   + [隐藏的样式表](./native-pdf/stylesheet.md)
