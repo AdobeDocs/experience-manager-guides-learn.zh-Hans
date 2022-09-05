@@ -1,10 +1,8 @@
 ---
 title: 本机PDF发布功能 |自定义和配置本机PDF功能
 description: 了解如何自定义和配置本机PDF功能的各个组件。
-hide: true
-hidefromtoc: true
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%

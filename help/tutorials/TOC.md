@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 78db1486af3eb99b165a136d6bae6f7f15a1b527
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 23%
+source-wordcount: '127'
+ht-degree: 22%
 
 ---
 
@@ -32,6 +32,11 @@ ht-degree: 23%
    + [使用条件输出](./content-architecture/create-and-use-conditions.md)
    + [创建全局键](./content-architecture/create-global-keys.md)
 + 配置 {#configuring}
+   + 配置本机PDF发布功能 {#config-native-pdf-publish}
+      + [PDF模板](./native-pdf/pdf-template.md)
+      + [PDF模板的组件](./native-pdf/components-pdf-template.md)
+      + [设计页面布局](./native-pdf/design-page-layout.md)
+      + [使用常用内容样式](./native-pdf/stylesheet.md)
    + [设置自定义DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + 翻译 {#translation}
    + [从翻译中排除段落](./translation/exclude-paragraphs-from-translation.md)
@@ -39,8 +44,3 @@ ht-degree: 23%
    + [发布PDF输出](./web-editor/native-pdf-web-editor.md)
    + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
 + 版本控制 {#versioning}
-+ WIP本机PDF文章 {#hidden}
-   + [隐藏的PDF模板](./native-pdf/pdf-template.md)
-   + [PDF模板的隐藏组件](./native-pdf/components-pdf-template.md)
-   + [隐藏设计页面布局](./native-pdf/design-page-layout.md)
-   + [隐藏的样式表](./native-pdf/stylesheet.md)

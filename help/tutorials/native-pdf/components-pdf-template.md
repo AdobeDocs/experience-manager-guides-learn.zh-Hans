@@ -1,10 +1,8 @@
 ---
 title: 本机PDF发布功能 |PDF模板的组件
 description: 了解PDF模板的各个组件以及如何自定义和配置它们。
-hide: true
-hidefromtoc: true
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 563a301e4db20cd8076eaffd970d53b7a8743449
+source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
 workflow-type: tm+mt
 source-wordcount: '2275'
 ht-degree: 0%
