@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: cf0ccd878ec25cb9eadd2cc5fa6f63eeec8a442c
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 22%
+source-wordcount: '125'
+ht-degree: 23%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 22%
    + [使用条件输出](./content-architecture/create-and-use-conditions.md)
    + [创建全局键](./content-architecture/create-global-keys.md)
 + 配置 {#configuring}
-   + 配置本机PDF发布功能 {#config-native-pdf-publish}
+   + 本机PDF发布 {#config-native-pdf-publish}
       + [PDF模板](./native-pdf/pdf-template.md)
       + [PDF模板的组件](./native-pdf/components-pdf-template.md)
       + [设计页面布局](./native-pdf/design-page-layout.md)
