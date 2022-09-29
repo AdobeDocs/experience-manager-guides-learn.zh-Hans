@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager指南as a Cloud Service,2022年9月版
 description: 最新版本的Adobe Experience Manager指南as a Cloud Service
-source-git-commit: f2ad6e920c47fff61dd85e3aeafb558c7fd6cfea
+source-git-commit: 748a37298849b3fbf6079c19de3cb052dee3a464
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 3%
@@ -58,7 +58,7 @@ AEM指南as a Cloud Service在最新版本中提供了许多增强功能和新�
 现在，AEM指南提供了基于标签创建动态基线的功能。 如果您生成基线、下载基线或使用基线创建翻译项目，则会根据更新的标签动态选取文件。 此功能非常方便，因为您在更新标签时不必修改基线。
 您还可以将基线的快照导出为CSV。
 
-![创建基线](assets/preset-metadata.png)
+![创建基线](assets/dynamic-baseline.png)
 
 ### 在映射级别查找并替换文本
 
@@ -134,4 +134,4 @@ Adobe已在2022年9月版AEM指南as a Cloud Service确定以下已知问题。
 
 * 动态基线未与知识库发布集成。
 
-* 翻译 |由于目标内容发生任何更改，源内容会出现“版本差异”图标。
+* 翻译 |由于目标内容发生任何更改，源内容会显示“版本差异”图标。
