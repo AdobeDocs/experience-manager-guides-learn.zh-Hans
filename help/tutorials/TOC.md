@@ -2,17 +2,17 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: e3dfbe036758bc4357b474a35e44d12296ac4a52
+source-git-commit: e65bad1487c957894fd206f7e42a998c15497905
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 22%
+source-wordcount: '126'
+ht-degree: 23%
 
 ---
 
 
 # Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials [!DNL AEM Guides] for AEM](overview.md)
++ [Tutorials [!DNL AEM Guides]](overview.md)
 + 发行信息 {#release-info}
    + [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    + 发行说明 {#release-notes}
