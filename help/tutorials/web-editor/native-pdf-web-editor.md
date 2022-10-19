@@ -2,10 +2,10 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager指南中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 1b46f5e496e6c974abeba019a9d3174d5bc5315c
+source-git-commit: d832e78b690b533f44dc2205e9fea483d9213c58
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 0%
+source-wordcount: '2299'
+ht-degree: 1%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 0%
    * 单击对应的+图标 **预设** 要添加新的输出预设，请执行以下操作 **类型：PDF**
 3. 要配置现有PDF预设的设置，请执行以下操作：
    * 单击  **选项** ![选项](assets/options.svg) 图标，然后选择 **编辑**.
-您可以在 **常规**, **布局**, **安全性**&#x200B;和 **高级** 用于配置PDF输出预设的选项卡：
+您可以在 **常规**, **元数据**, **布局**, **安全性**&#x200B;和 **高级** 用于配置PDF输出预设的选项卡：
 
 **常规**
 
@@ -74,6 +74,23 @@ ht-degree: 0%
 | **PDF 文件** | 指定用于保存PDF的文件名。 默认情况下，PDF文件名会添加DITA映射名称和预设名称。 例如，ditamap为“TestMap”，预设的名称为“preset1”，则PDF的默认名称将为“TestMap_preset1.pdf”。 |
 | **使用** | 对于条件化内容，请从以下选项中进行选择，以根据这些条件生成PDF输出： <br>* **未应用** 如果不想对映射和源内容应用任何条件，请选择此选项。 <br> * **Ditaval文件** 选择DITAVAL文件以生成条件化内容。 要进行选择，请单击条件预设并找到文件。 <br> * **条件预设** 从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则会显示此选项。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要详细了解条件预设，请参阅 [使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **使用基线** | 如果已为选定的DITA映射创建基线，请选择此选项以指定要发布的版本。 请参阅 [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 以了解更多详细信息。 |
+
+**元数据**
+
+元数据是内容的描述或定义。 元数据有助于进行内容管理，并有助于在Internet上搜索文件。
+
+使用元数据选项卡为PDF输出设置标题、作者、主题和关键字。 此元数据会映射到输出PDF“文档属性”的“描述”选项卡中的元数据。
+
+**注意**:此元数据将覆盖在帐簿级别定义的元数据。
+
+![元数据选项卡](assets/pdf-metadata.png)
+
+| 设置 | 描述 |
+|---|---|
+| **标题** | 指定一个简短且清晰的标题以定义文档。 |
+| **创作** | 指定创建文档的作者的姓名。 |
+| **主题** | 定义与文档相关的主题或集合。 |
+| **关键字** | 使用相关关键词可改进搜索引擎优化(SEO)并帮助用户查找相关内容。 |
 
 **布局**
 

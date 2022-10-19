@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: ecc8b162bb521cda4954c2b87f89cffe69deccfd
+source-git-commit: 28712c3f2057d7553ed2fe955db0dfe278c8a9b9
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '130'
 ht-degree: 22%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 22%
    + 发行说明 {#release-notes}
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
-         + [当前的发行说明](./release-info/release-notes-2022.9.0.md)
+         + [当前的发行说明](./release-info/release-notes-2022.10.0.md)
+         + [9月发行说明](./release-info/release-notes-2022.9.0.md)
          + [8月发行说明](./release-info/release-notes-2022.8.0.md)
          + [5月发行说明](./release-info/release-notes-2022.5.0.md)
          + [4月发行说明](./release-info/release-notes-2022.4.0.md)
