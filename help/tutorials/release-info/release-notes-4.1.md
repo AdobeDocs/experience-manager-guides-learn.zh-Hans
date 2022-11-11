@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager指南4.1版
 description: 最新版本的Adobe Experience Manager指南
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: f74126c1eb7bccf0c9464cbe9b1138af5bd4938f
+source-git-commit: 0bddd791e7fb6e6f8eb0f8e2ad73146a758ffc47
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3400'
 ht-degree: 3%
 
 ---
@@ -119,6 +119,18 @@ ht-degree: 3%
 ## 新增功能和增强功能
 
 AEM指南在4.1版本中提供了许多增强功能和新增功能：
+
+### 本机PDF发布
+
+4.1版AEM指南中还增加了对创建本机PDF的支持。 引入了新的发布引擎，该引擎具有以下功能：
+* 创建CSS模板
+* 创建不同的页面模板
+* 包括CSS和页面模板的设计PDF模板
+* 以PDF格式发布映射和主题内容
+
+### 在基于文章的发布中支持知识库网站路径
+
+AEM指南提供了基于文章的发布功能，以逐步生成一个或多个主题的输出或将您的内容发布到知识库平台。 在4.1版本中，您还有一个额外选项，可选择需要发布主题/映射到的知识库网站路径。 选择路径后，将在指定的路径上生成输出。
 
 ### 增强的Web编辑器
 
