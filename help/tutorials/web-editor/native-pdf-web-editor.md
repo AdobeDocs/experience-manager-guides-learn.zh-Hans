@@ -2,10 +2,10 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager指南中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: e7fe44f6d0c0ce08d5f94140474212c280b41f52
+source-git-commit: e03ef8e99b2d60dc8d34a76d0a02180eab41e35f
 workflow-type: tm+mt
-source-wordcount: '2297'
-ht-degree: 1%
+source-wordcount: '2663'
+ht-degree: 0%
 
 ---
 
@@ -56,11 +56,14 @@ ht-degree: 1%
 
 1. 在“输出”选项卡中，单击 **预设** 中。
 此时将打开“预设”面板。
-   ![预设面板](assets/preset-panel.png)
-2. 在输出中 **预设** 面板中，执行以下操作之一：
+
+<img src="assets/preset-panel.png" alt="预设面板" width="600">
+
+1. 在输出中 **预设** 面板中，执行以下操作之一：
    * 双击某个预定义的PDF输出预设以查看该预设。
    * 单击对应的+图标 **预设** 要添加新的输出预设，请执行以下操作 **类型：PDF**
-3. 要配置现有PDF预设的设置，请执行以下操作：
+
+1. 要配置现有PDF预设的设置，请执行以下操作：
    * 单击  **选项** ![选项](assets/options.svg) 图标，然后选择 **编辑**.
 您可以在 **常规**, **元数据**, **布局**, **安全性**&#x200B;和 **高级** 用于配置PDF输出预设的选项卡：
 
@@ -70,10 +73,12 @@ ht-degree: 1%
 
 | 设置 | 描述 |
 | --- | --- |
-| **输出路径** | 存储PDF输出的AEM存储库中的路径。 确保输出路径未位于项目文件夹中。 如果留为空白，将在默认DITA映射输出位置中生成输出。 |
-| **PDF 文件** | 指定用于保存PDF的文件名。 默认情况下，PDF文件名会添加DITA映射名称和预设名称。 例如，ditamap为“TestMap”，预设的名称为“preset1”，则PDF的默认名称将为“TestMap_preset1.pdf”。 |
-| **使用** | 对于条件化内容，请从以下选项中进行选择，以根据这些条件生成PDF输出： <br>* **未应用** 如果不想对映射和源内容应用任何条件，请选择此选项。 <br> * **Ditaval文件** 选择DITAVAL文件以生成条件化内容。 要进行选择，请单击条件预设并找到文件。 <br> * **条件预设** 从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则会显示此选项。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要详细了解条件预设，请参阅 [使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
+| **输出路径** | 存储PDF输出的AEM存储库中的路径。 确保输出路径未位于项目文件夹中。 如果留为空白，将在默认DITA映射输出位置中生成输出。<br>您还可以使用以下现成的变量来定义输出路径。 您可以使用单个变量或变量组合来定义此选项。 <br> `${map_filename}`:使用DITA映射文件名称创建目标路径。 <br> `${map_title}`:使用DITA映射标题创建目标路径。 <br>`${preset_name}`:使用输出预设名称创建目标路径。 <br> `${language_code}`:使用映射文件所在的语言代码创建目标路径。 <br> `${map_parentpath}`:使用映射文件的完整路径创建目标路径。  <br>`${path_after_langfolder}`:使用语言文件夹后面映射文件的路径创建目标路径。 |
+| **PDF文件** | 指定用于保存PDF的文件名。 默认情况下，PDF文件名会添加DITA映射名称和预设名称。 例如，ditamap为“TestMap”，预设的名称为“preset1”，则PDF的默认名称将为“TestMap_preset1.pdf”。 <br>您还可以使用以下现成的变量来定义PDF文件。 您可以使用单个变量或变量组合来定义此选项。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
+| **使用** | 对于条件化内容，请从以下选项中进行选择，以根据这些条件生成PDF输出： <br>* **未应用** 如果不想对映射和源内容应用任何条件，请选择此选项。 <br>* **Ditaval文件** 选择DITAVAL文件以生成条件化内容。 要进行选择，请单击条件预设并找到文件。 <br> * **条件预设** 从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则会显示此选项。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要详细了解条件预设，请参阅 [使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> |
 | **使用基线** | 如果已为选定的DITA映射创建基线，请选择此选项以指定要发布的版本。 请参阅 [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 以了解更多详细信息。 |
+| **在已发布版本之间使用更改栏创建PDF** | 使用以下选项创建一个PDF，使用更改栏显示两个版本之间的内容差异：   <br>* **上一版本的基线** 选择要与当前版本或其他基线进行比较的基线版本。 PDF中会显示一个更改栏以指示已修改的内容。 更改栏是一条垂直线，可直观地标识新内容或修订内容。 更改栏显示在已插入、更改或删除的内容的左侧。 <br> **注意**:如果您选择 **使用基线** 并选择要发布的基线，将在两个选定的基线版本之间进行比较。 例如，如果在 **使用基线**，以及 **上一版本的基线**，将在基线版本1.1和基线版本1.3之间进行比较。 <br>* **显示添加的文本** 选择以绿色和下划线显示插入的文本。 默认情况下，此选项处于选中状态。 <br> * **显示已删除的文本** 选择以红色显示已删除的文本，并标有删除线。 默认情况下，此选项处于选中状态。 <br>**注意** 您还可以使用样式表自定义更改栏、插入内容或删除内容的样式。<br> |
+| **后生成工作流** | 选择以显示包含在AEM中配置的所有工作流的下拉列表。 您可以选择要在完成PDF生成工作流后执行的工作流。 |
 
 **元数据**
 
@@ -83,7 +88,8 @@ ht-degree: 1%
 
 **注意**:此元数据将覆盖在帐簿级别定义的元数据。
 
-![元数据选项卡](assets/pdf-metadata.png)
+<img src="assets/pdf-metadata.png" alt="元数据选项卡" width="600">
+
 
 | 设置 | 描述 |
 |---|---|
@@ -147,6 +153,6 @@ ht-degree: 1%
 6. 输出生成完成后，单击  **查看输出** ![查看输出](assets/view-output.svg) 图标来查看输出。\
    A **成功** 对话框。
 如果输出失败，将显示以下错误消息。
-   ![错误日志](assets/error-log.png)
+<img src="assets/error-log.png" alt="错误日志" width="250">
 
 要查看错误日志，请单击 **取消**，将鼠标悬停在选定的预设选项卡上，然后单击 ![选项](assets/options.svg) **选项** > **查看日志**.

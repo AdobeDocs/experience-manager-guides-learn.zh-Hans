@@ -2,10 +2,10 @@
 title: AEM指南版本
 description: 最新AEM指南版本和先决条件AEM版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: 4066b22849271f29b5339dbd2f1bfa0946cdbd8b
+source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '1114'
+ht-degree: 0%
 
 ---
 
@@ -13,17 +13,39 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Guides] 是部署在AEM上的应用程序。 它是功能强大的企业级组件内容管理解决方案(CCMS)，在Adobe Experience Manager中支持本机DITA，使AEM能够处理基于DITA的内容创建和交付。
 
-## UUID与非UUID之间的对比说明
+AEM指南包有两个变体 — UUID内部版本和非UUID内部版本。
 
-[!DNL AEM Guides] 包有两种模式可用 — UUID内部版本和非UUID内部版本。
+## UUID和非UUID内部版本
 
-客户在首次设置时，将需要确定UUID模式与非UUID模式之间的区别（请联系您的客户成功经理，以帮助您根据您的用户做出决策）。
+UUID内部版本与非UUID内部版本之间的主要区别如下：
 
-从 [!DNL AEM Guides] 对于较新版本，客户将需要确保选择相同的模式（UUID/非UUID）来匹配其现有模式。 非UUID内部版本不应直接升级到UUID内部版本。 从非UUID内部版本迁移到UUID内部版本时，需要迁移内容。
+|  | UUID内部版本 | 非UUID内部版本 |
+|---|---|---|
+| **资产标识** | 所有资产均使用存储库中资产的路径进行标识。 | 所有资产均使用其UUID（首次上传资产时系统生成的唯一ID）进行标识。 |
+| **参考创建** | 所有内容引用均基于其路径创建。 | 所有内容引用均基于其UUID进行创建。 |
+
+### UUID构建的好处
+
+* UUID安装的性能更高：
+   * 引用与路径无关：引用管理系统了解这些链接，因为引用是基于UUID而不是路径创建的。
+   * 移动/更新操作非常有效：即使资产移动到存储库中的其他路径，UUID也会保持不变。 因此，在移动/更新操作中，无需进行任何处理即可为资产之间的引用添加修补程序。
+* UUID内部版本具有前瞻性，因为我们也将此框架用于AEM指南的云设置。
+
+
+### 在两个内部版本之间进行选择
+
+* 如果您是新客户，我们建议您使用UUID内部版本。
+* 如果您是现有客户，则可以选择转为使用UUID内部版本，因为现在可以从非UUID内部版本迁移到UUID内部版本。 有关更多详细信息，请参阅 *非UUID到UUID内容迁移* 部分 **安装和配置Adobe Experience Manager指南。**
+
+>[!NOTE]
+>
+>* 客户在首次设置时将需要确定UUID模式与非UUID模式之间的关系（如果您需要帮助，请联系客户成功经理以帮助您根据您的用户情况做出决策）。
+>* 从一个AEM指南版本升级到较新版本时，客户需要确保选择相同的模式（UUID/非UUID）来匹配其现有模式。 非UUID内部版本不应直接升级到UUID内部版本。 从非UUID内部版本迁移到UUID内部版本时，需要迁移内容。
+
 
 **升级内部版本**
 
-从旧版本升级到较新版本的 [!DNL AEM Guides]，则可能需要执行一些迁移脚本。 有关升级说明，请参阅发行说明和特定于版本的文档。
+从旧版本升级到较新版本的 [!DNL AEM Guides]，则可能需要执行迁移脚本。 有关升级说明，请参阅发行说明和特定于版本的文档。
 
 并非所有升级路径都直接受支持。 例如，只能从版本3.8直接升级到版本4.0。如果您使用的是3.8之前的版本，请参阅特定于您的版本的文档以了解升级说明 [帮助存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 请联系您的客户成功经理以验证升级路径。
