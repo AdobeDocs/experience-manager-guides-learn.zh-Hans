@@ -2,10 +2,10 @@
 title: 发行说明 | Adobe Experience Manager指南as a Cloud Service,2022年11月版
 description: 最新版本的Adobe Experience Manager指南as a Cloud Service
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 84ff7619722fbda2787ce4c27cc69b5f71e25927
+source-git-commit: 0663ed4434fdf583a9446891f944d94b85f375c6
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -101,9 +101,7 @@ AEM指南为您提供了为全局配置文件和文件夹配置文件创建和�
 <img src="assets/send-translation.png" alt="翻译发送" width="600">
 
 
-## 本机PDF发布增强功能
-
-### PDF，更改栏显示文档版本之间的差异
+### 本机PDF |PDF，更改栏显示文档版本之间的差异
 
 现在，您可以使用更改栏创建一个PDF，以显示两个版本之间的内容差异。 您可以选择比较当前版本与先前版本的基线，或比较两个选定的基线版本。
 
@@ -113,7 +111,7 @@ PDF中会显示一个更改栏，用于指示已修改、已插入或已删除�
 * 以绿色显示插入内容并带下划线
 * 以红色显示已删除的内容，并标有删除线
 
-### 对输出路径和PDF文件名的变量支持
+### 本机PDF |对输出路径和PDF文件名的变量支持
 
 现在，您还可以使用以下现成的变量来定义输出路径和PDF文件。 您可以使用单个或一组变量来定义以下选项：
 * `${map_filename}`
@@ -124,7 +122,7 @@ PDF中会显示一个更改栏，用于指示已修改、已插入或已删除�
 * `${path_after_langfolder}` （仅用于输出路径）
 
 
-### 为DITA映射生成目录并重新排序页面布局
+### 本机PDF |为DITA映射生成目录并重新排序页面布局
 
 现在，您还可以使用模板的高级PDF设置在DITA映射中生成目录。 您可以选择启用或禁用各种页面布局的显示，还可以重新排序其位置。
 
