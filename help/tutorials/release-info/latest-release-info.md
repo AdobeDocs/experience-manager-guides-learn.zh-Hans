@@ -2,7 +2,7 @@
 title: AEM指南版本
 description: 最新AEM指南版本和先决条件AEM版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
-source-git-commit: f693ebb6a96ed9898050a754e10a74db235299fe
+source-git-commit: f74a9168708299d66d014dbc4bf280a1a4f07592
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -19,7 +19,7 @@ AEM指南包有两个变体 — UUID内部版本和非UUID内部版本。
 
 UUID内部版本与非UUID内部版本之间的主要区别如下：
 
-|  | UUID内部版本 | 非UUID内部版本 |
+|  | 非UUID内部版本 | UUID内部版本 |
 |---|---|---|
 | **资产标识** | 所有资产均使用存储库中资产的路径进行标识。 | 所有资产均使用其UUID（首次上传资产时系统生成的唯一ID）进行标识。 |
 | **参考创建** | 所有内容引用均基于其路径创建。 | 所有内容引用均基于其UUID进行创建。 |
