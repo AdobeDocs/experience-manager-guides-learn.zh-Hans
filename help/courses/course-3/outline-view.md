@@ -2,7 +2,7 @@
 title: 大纲视图
 description: 在AEM指南中使用大纲视图
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 在处理结构化文档时，“大纲视图”提供了广泛的支持。 展开和折叠视图、导航结构、使用属性（例如创建新ID），以及在单击按钮时重新组织、取消包装和重构元素。
 
->[!VIDEO](https://video.tv.adobe.com/v/342767)
+>[!VIDEO](https://video.tv.adobe.com/v/342767?quality=12&learn=on)
 
 ## 展开和折叠大纲视图
 

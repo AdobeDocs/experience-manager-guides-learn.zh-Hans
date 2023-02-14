@@ -2,7 +2,7 @@
 title: 跟踪更改
 description: 在AEM指南中跟踪更改
 exl-id: 57779920-b3b4-44be-a1fb-89ea7c89eef7
-source-git-commit: 7bc636b4aceee327d86cfa74a9f8e61e0ad0a1cf
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 您可以通过启用“跟踪更改”模式来跟踪文档上所做的所有更新。 通过此模式，您和您的团队可以捕获文档审阅过程中的所有插入和删除内容。
 
->[!VIDEO](https://video.tv.adobe.com/v/342763)
+>[!VIDEO](https://video.tv.adobe.com/v/342763?quality=12&learn=on)
 
 ## 使用“跟踪更改”功能
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    ![全部接受/拒绝](images/lesson-12/accept-reject-all.png)
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
    ![保存图标](images/lesson-12/save-icon.png)
 

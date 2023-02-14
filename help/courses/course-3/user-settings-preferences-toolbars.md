@@ -2,7 +2,7 @@
 title: 用户首选项、编辑器设置和编辑器工具栏
 description: 更改AEM指南中的用户首选项和编辑器设置
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 3d81727cdf4a58921724b0f1aa93b0700f821f60
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 编辑器具有高度可配置的界面。 用户首选项、编辑器设置和文件夹配置文件的组合意味着，您几乎可以针对特定工作环境对每个方面进行自定义。
 
->[!VIDEO](https://video.tv.adobe.com/v/342769)
+>[!VIDEO](https://video.tv.adobe.com/v/342769?quality=12&learn=on)
 
 ## 显示或隐藏元素标记
 
@@ -95,7 +95,7 @@ ht-degree: 2%
 
    ![主题](images/lesson-2/themes.png)
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
 编辑器已更新，可显示您的首选主题。
 
@@ -131,7 +131,7 @@ ht-degree: 2%
 
 3. 从可用选项中选择一个配置文件。
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
 现在已分配新的文件夹配置文件。 它更改了左侧面板中的工具栏选项、视图模式以及条件和代码片段。 它还可能会更改编辑器中内容的可视外观。
 
@@ -147,7 +147,7 @@ ht-degree: 2%
 
 3. 选择要处理的字典。
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
 字典会更新。 请注意，切换到AEM拼写检查后，您可以使用自定义单词列表。
 
@@ -165,7 +165,7 @@ ht-degree: 2%
 
    ![切换面板](images/lesson-2/toggle-panels.png)
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
 左侧面板现在配置为仅显示切换为“显示”的面板。
 
@@ -185,7 +185,7 @@ ht-degree: 2%
 
    ![元素列表](images/lesson-2/elements-list.png)
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 您可以在编辑器中的现有标记中立即看到对元素列表所做的更改。 您还可以在添加新元素时提供的选项中看到这些元素。
 
@@ -217,7 +217,7 @@ ht-degree: 2%
 
    ![条件选项卡](images/lesson-2/condition.png)
 
-4. 单击&#x200B;[!UICONTROL **保存**]。
+4. 单击“[!UICONTROL **保存**]”。
 
 ## 在编辑器设置中创建发布配置文件
 
@@ -233,6 +233,6 @@ ht-degree: 2%
 
 4. 根据需要填充字段。
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 已创建发布配置文件。

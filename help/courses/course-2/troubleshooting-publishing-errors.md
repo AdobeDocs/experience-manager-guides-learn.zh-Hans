@@ -2,7 +2,7 @@
 title: 发布错误疑难解答
 description: 对中的发布错误进行故障诊断 [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 发布地图通常很简单。 打开映射，选择输出预设，并生成输出！ 但是，如果映射或其主题中有错误，则输出生成可能会失败。 发生此情况时，了解如何进行故障排除非常重要。
 
->[!VIDEO](https://video.tv.adobe.com/v/338990)
+>[!VIDEO](https://video.tv.adobe.com/v/338990?quality=12&learn=on)
 
 ## 准备练习
 

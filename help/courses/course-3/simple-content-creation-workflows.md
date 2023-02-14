@@ -2,7 +2,7 @@
 title: 简单的内容创建工作流
 description: 在AEM指南中创建内容
 exl-id: e4b8e512-0688-44f7-b981-78af33b57b08
-source-git-commit: 92c269c4a5f73317345bbd0ab247951656426ff4
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 这些快捷键允许用户快速添加和修改图像、同时处理多个主题、更正错误、下载主题PDF，以及使用版本和标签。
 
->[!VIDEO](https://video.tv.adobe.com/v/342770)
+>[!VIDEO](https://video.tv.adobe.com/v/342770?quality=12&learn=on)
 
 ## 添加图像
 
@@ -113,7 +113,7 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
 
    ![“新版本”对话框](images/lesson-15/version-dialog.png)
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 版本号会更新。
 
@@ -157,7 +157,7 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
 
    ![用户首选项](images/lesson-15/user-preferences.png)
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 6. 版本主题。
 
@@ -165,7 +165,7 @@ AEM指南编辑器具有多个可简化内容创建工作流程的快捷键。 �
 
    ![“新版本标签”对话框](images/lesson-15/labels-dialog.png)
 
-8. 单击&#x200B;[!UICONTROL **保存**]。
+8. 单击“[!UICONTROL **保存**]”。
 
 版本号会更新。
 

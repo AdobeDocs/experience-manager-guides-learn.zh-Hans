@@ -2,7 +2,7 @@
 title: 使用报表
 description: 在中使用报表 [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 “映射功能板”中的“报表”选项卡允许您识别和解决损坏的链接、被引用和重用的内容(conref)、交叉引用或其他缺失的信息。
 
->[!VIDEO](https://video.tv.adobe.com/v/339039)
+>[!VIDEO](https://video.tv.adobe.com/v/339039?quality=12&learn=on)
 
 ## 准备练习
 

@@ -2,16 +2,16 @@
 title: Adobe Experience Manager指南编辑课程3
 description: AEM指南Web编辑器高级用户指南
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 # 课程概述
 
->[!VIDEO](https://video.tv.adobe.com/v/342759)
+>[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
 在本课程中，您将学习如何使用以下内容：
 

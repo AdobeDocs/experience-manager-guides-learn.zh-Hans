@@ -2,7 +2,7 @@
 title: 批量发布
 description: 批量发布 [!DNL Adobe Experience Manager Guides]
 exl-id: b277e846-ef71-47ec-a66c-ac9d392d53e0
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 发布时，通常需要多种类型的文档。 使用“映射收藏集”，您可以控制要组装和生成的输出数量和类型，并启动批量发布。 发布功能板允许您查看活动的发布作业。 批量发布功能板提供了一种批量激活收藏集的方法。
 
->[!VIDEO](https://video.tv.adobe.com/v/338985)
+>[!VIDEO](https://video.tv.adobe.com/v/338985?quality=12&learn=on)
 
 ## 使用映射集合
 

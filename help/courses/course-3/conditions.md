@@ -2,7 +2,7 @@
 title: 条件
 description: 在AEM Guid中使用条件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 01083e771baced42146044bf319d3897a2c5f51b
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 文件中提供了您可以选择用于本课程的示例文件 [conditions.zip](assets/conditions.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342755)
+>[!VIDEO](https://video.tv.adobe.com/v/342755?quality=12&learn=on)
 
 ## 为文件夹配置文件分配条件
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
    - “标签”是输入属性的用户将看到的单词。
 
-6. 单击&#x200B;[!UICONTROL **保存**]。
+6. 单击“[!UICONTROL **保存**]”。
 
 >[!NOTE]
 >

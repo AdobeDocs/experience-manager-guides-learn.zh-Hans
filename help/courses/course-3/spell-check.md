@@ -2,7 +2,7 @@
 title: 拼写检查和查找/替换
 description: 在AEM指南中使用拼写检查和查找/替换
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 0b4326b02ef52f5de77c3f26c18feec84567cebb
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 AEM指南编辑器具有强大的拼写检查和查找和替换功能。
 
->[!VIDEO](https://video.tv.adobe.com/v/342768)
+>[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
 更正拼写错误
 
@@ -43,7 +43,7 @@ AEM指南编辑器具有强大的拼写检查和查找和替换功能。
 
 4. 选择 **AEM拼写检查**.
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 配置自定义字典
 

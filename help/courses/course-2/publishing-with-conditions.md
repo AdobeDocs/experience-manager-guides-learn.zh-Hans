@@ -2,7 +2,7 @@
 title: 发布条件
 description: 使用Adobe Experience Manager指南发布条件
 exl-id: ea94824a-884b-447f-9562-e6c629b8133b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 4%
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 条件发布允许为一个或多个受众、产品或平台编写一个内容源。 然后，可以动态发布此信息，并且只能将特定所需的内容包含在输出中。
 
->[!VIDEO](https://video.tv.adobe.com/v/339041)
+>[!VIDEO](https://video.tv.adobe.com/v/339041?quality=12&learn=on)
 
 ## 准备练习
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 
 6. 根据需要重复执行上述步骤。
 
-7. 单击&#x200B;**保存**。
+7. 单击“**保存**”。
 
 ## 生成条件输出
 

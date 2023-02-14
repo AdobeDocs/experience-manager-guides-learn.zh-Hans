@@ -2,7 +2,7 @@
 title: 键
 description: 在AEM指南中使用DITA时，可通过键将变量信息包含到
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 文件中提供了您可以选择用于本课程的示例文件 [keys.zip](assets/keys.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342756)
+>[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
 ## 启用键
 

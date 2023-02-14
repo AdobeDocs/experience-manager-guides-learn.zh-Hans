@@ -2,7 +2,7 @@
 title: 内容重用
 description: 定期使用AEM指南中的功能
 exl-id: 453c5a09-0bcf-4760-87fc-df3ea4a3a30a
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 3%
@@ -13,7 +13,7 @@ ht-degree: 3%
 
 DITA的主要功能之一是可重复使用内容。 它允许从小短语到整个主题或地图重复使用内容。  但是，要有效地重复使用内容，必须对其进行妥善管理。 使用可重用信息时，请确保您拥有有效的内容策略。
 
->[!VIDEO](https://video.tv.adobe.com/v/342757)
+>[!VIDEO](https://video.tv.adobe.com/v/342757?quality=12&learn=on)
 
 ## 创建可重用主题
 

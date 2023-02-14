@@ -2,7 +2,7 @@
 title: 文件夹配置文件
 description: 创建和使用AEM指南的文件夹配置文件
 exl-id: 5a0daa68-51ae-42d0-8320-6e8bdb1fe545
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -15,7 +15,7 @@ AEM提供对配置工具的快速访问。 通过自定义文件夹配置文件�
 
 文件中提供了您可以选择用于本课程的示例文件 [folderprofiles.zip](assets/folderprofiles.zip).
 
->[!VIDEO](https://video.tv.adobe.com/v/342758)
+>[!VIDEO](https://video.tv.adobe.com/v/342758?quality=12&learn=on)
 
 ## 访问文件夹配置文件
 
@@ -208,6 +208,6 @@ AEM指南提供了现成的创作模板和映射。 您可以将其限制为特�
 
    ![选择用户首选项](images/lesson-3/select-user-pref.png)
 
-5. 单击&#x200B;[!UICONTROL **保存**]。
+5. 单击“[!UICONTROL **保存**]”。
 
 您已将文件夹配置文件应用到您的内容。 现在，在创建新DITA主题时，您将看到基于文件夹配置文件的主题类型受限列表。 “受众条件”包含全局设置以及特定于文件夹配置文件的设置。 您上传的代码片段文件创建了一组默认的代码片段供选择。 地图功能板显示受限的输出预设。

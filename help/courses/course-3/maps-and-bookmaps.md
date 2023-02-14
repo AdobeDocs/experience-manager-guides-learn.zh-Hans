@@ -2,7 +2,7 @@
 title: 地图和书签图
 description: 在AEM指南中创建和编辑地图和书签
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 Adobe Experience Manager指南的映射编辑器允许您创建和编辑映射文件。 使用映射编辑器，您可以编辑两种类型的文件 — DITA映射和书签映射。 就我们的目的而言，将这些概念视为基本上可互换的概念。
 地图编辑器有两种模式：基本地图编辑器和高级地图编辑器。
 
->[!VIDEO](https://video.tv.adobe.com/v/342766)
+>[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
 
 ## 创建映射
 
