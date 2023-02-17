@@ -2,9 +2,9 @@
 title: 创作基于Web的内容
 description: 了解如何使用Web编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
+source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可�
 
 ## 会话录制
 
->[视频](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 高亮
 
