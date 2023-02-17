@@ -1,13 +1,13 @@
 ---
 title: 创作基于Web的内容
 description: 了解如何使用Web编辑器创作结构化内容。
-source-git-commit: 78d8834a3c5ba038f28289bd5c90755badb38d82
+exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
+source-git-commit: 5b3ffb33619755b3a5bc6c541a07b3084e9154f1
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
-
 
 # 创作基于Web的内容
 
@@ -19,7 +19,7 @@ AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可�
 
 ## 会话录制
 
->查看录制的 [视频](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on) 会话。
+>[视频](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 高亮
 
@@ -51,11 +51,11 @@ AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可�
 > - Cloud Services2211及更高版本
 
 
-## 更多专家会议
+## 下一次专家会议
 
 - **主题**  — 本机PDF发布 *（基于调查结果）*
 - **已在** - 2023年2月23日
 
 ## 联系我们
 
-如有任何疑问，请发送电子邮件至techcomm@adobe.com。
+如有任何疑问，请发送电子邮件至 <techcomm@adobe.com>
