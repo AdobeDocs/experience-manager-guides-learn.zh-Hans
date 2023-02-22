@@ -1,9 +1,9 @@
 ---
-title: 本机PDF发布功能 |对目录条目和主题内容应用自定义样式
+title: 本机PDF发布功能 |在PDF输出中添加自定义书签
 description: 了解如何创建样式表和为内容创建样式。
-source-git-commit: fbb81704ea8d9d2793b066fa159b405460fa1dcf
+source-git-commit: fb7ffbaefcdca4302e43d8369bc056c1f08a3ed6
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 0%
 `bookmark-level: 3`
 
 这里， `bookmark-level` 是属性和数字 `3` 是指示书签在书签层次结构中添加的级别的值。 在以下示例中，第一级主题“联系人”有一个表格“联系人列表”，我们在该表格中添加了 `outputclass` 值为 `custom-bookmark`.
+
 
 <img src="./assets/custom-bookmark-attribute.png" width="500">
 
@@ -33,3 +34,8 @@ ht-degree: 0%
 在PDF输出中， *联系人列表* 表格添加在PDF书签列表的第2级，如下所示：
 
 <img src="./assets/custom-bookmark-in-pdf-output.png" width="500">
+
+>[!NOTE]
+>
+>您必须选择添加自定义书签的正确级别。 如果指定的数字小于父主题的书签，则自定义书签将占据父书签的位置，所有其他书签都将显示为子书签。 这可能会导致意外的书签结构。
+

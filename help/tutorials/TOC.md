@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 638bc7daa3bccfdb0334927ac277c4052cf2becb
+source-git-commit: ae85e78b428f1962945d3212f1b42839dbbe3096
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 18%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 22%
          + [2月发行说明](./release-info/release-notes-2022.2.0.md)
          + [1月发行说明](./release-info/release-notes-2022.1.0.md)
       + 内部部署/Managed Services {#on-prem-release-notes}
+         + [4.2发行说明](./release-info/release-notes-4.2.md)
          + [4.1.x发行说明](./release-info/release-notes-4.1.md)
          + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -40,6 +41,9 @@ ht-degree: 22%
       + [PDF模板的组件](./native-pdf/components-pdf-template.md)
       + [设计页面布局](./native-pdf/design-page-layout.md)
       + [使用常用内容样式](./native-pdf/stylesheet.md)
+      + [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
+      + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
+      + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
    + [设置自定义DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + 翻译 {#translation}
    + [从翻译中排除段落](./translation/exclude-paragraphs-from-translation.md)
