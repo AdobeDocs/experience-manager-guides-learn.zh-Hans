@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager指南4.2版
 description: 最新版本的Adobe Experience Manager指南
-source-git-commit: 2fb46bdfb7f42fd9b3ef19343700009818c5b4f2
+exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
+source-git-commit: 890d64aed5f4005e3f4d3143bc35804e39036ad3
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '3668'
 ht-degree: 2%
 
 ---
@@ -251,12 +252,12 @@ PDF中会显示一个更改栏，用于指示已修改、已插入或已删除�
 ### 本机PDF |对输出路径和PDF文件名的变量支持
 
 现在，您还可以使用以下现成的变量来定义输出路径和PDF文件。 您可以使用单个或一组变量来定义以下选项：
-* ${map_filename}
-* ${map_title}
-* ${preset_name}
-* ${language_code}
-* ${map_parentpath}（仅用于输出路径）
-* ${path_after_langfolder}（仅用于输出路径）
+* `${map_filename}`
+* `${map_title}`
+* `${preset_name}`
+* `${language_code}`
+* `${map_parentpath}` （仅用于输出路径）
+* `${path_after_langfolder}` （仅用于输出路径）
 
 ### 本机PDF |为DITA映射生成目录并重新排序页面布局
 
