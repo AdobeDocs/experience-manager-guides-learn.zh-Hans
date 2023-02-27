@@ -1,9 +1,9 @@
 ---
 title: 本机PDF发布要点
 description: 了解如何在AEM指南中使用本机pdf引擎发布PDF。
-source-git-commit: b79e7287cdf7eaff0a6fa47d94e12c8928a44b49
+source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ AEM指南具有内置的PDF发布引擎，该引擎为用户提供创建、开�
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [创作内容](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **用户指南** - [本机PDF发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
 - **社区论坛**  — 对于Experience League上特定于会话的社区交互，请访问  [AEM指南论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
@@ -53,7 +53,7 @@ AEM指南具有内置的PDF发布引擎，该引擎为用户提供创建、开�
 
 ## 下一次专家会议
 
-- **主题**  — 发布和报表 *（基于调查结果）*
+- **主题**  — 待定 *（等待调查结果）*
 - **已在** - 2023年3月30日
 
 ## 联系我们
