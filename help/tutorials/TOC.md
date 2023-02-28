@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: fefff9510c94c1917da694e30ffaf90bb887b577
+source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 18%
+source-wordcount: '189'
+ht-degree: 19%
 
 ---
 
@@ -58,3 +58,10 @@ ht-degree: 18%
       + [使用基线管理内容](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [本机PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + 文章 {#kb-articles}
+      + 创作 {#authoring}
+         + 韦贝迪托尔 {#webeditor}
+            + 舍马特龙 {#schematron}
+               + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+      + 工作流 {#workflows}
+         + [后生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
