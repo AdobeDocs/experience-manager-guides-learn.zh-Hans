@@ -2,23 +2,24 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 9eb44211684c8a3af036acf12390dafb617fd24a
+source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 18%
 
 ---
 
 
-# Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
+# 的Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [Tutorials [!DNL AEM Guides]](overview.md)
++ [的Tutorials [!DNL AEM Guides]](overview.md)
 + 发行信息 {#release-info}
    + [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    + 发行说明 {#release-notes}
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
-         + [当前的发行说明](./release-info/release-notes-2022.11.0.md)
+         + [当前的发行说明](./release-info/release-notes-2023.2.0.md)
+         + [11月发行说明](./release-info/release-notes-2022.11.0.md)
          + [10月发行说明](./release-info/release-notes-2022.10.0.md)
          + [9月发行说明](./release-info/release-notes-2022.9.0.md)
          + [8月发行说明](./release-info/release-notes-2022.8.0.md)
@@ -32,7 +33,7 @@ ht-degree: 0%
          + [4.1.x发行说明](./release-info/release-notes-4.1.md)
          + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ 内容架构和用例 {#content-arch}
++ 内容体系结构和用例 {#content-arch}
    + [使用条件输出](./content-architecture/create-and-use-conditions.md)
    + [创建全局键](./content-architecture/create-global-keys.md)
 + 配置 {#configuring}
@@ -40,7 +41,7 @@ ht-degree: 0%
       + [PDF模板](./native-pdf/pdf-template.md)
       + [PDF模板的组件](./native-pdf/components-pdf-template.md)
       + [设计页面布局](./native-pdf/design-page-layout.md)
-      + [使用常用内容样式](./native-pdf/stylesheet.md)
+      + [使用常见的内容样式](./native-pdf/stylesheet.md)
       + [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
       + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
       + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
@@ -52,16 +53,18 @@ ht-degree: 0%
    + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
 + 版本控制 {#versioning}
 + 知识库 {#knowledge-base}
-   + 专家会议 {#expert-session}
-      + [专家会议概述](./knowledge-base/expert-sessions/expert-session.md)
+   + 专家讲座 {#expert-session}
+      + [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
       + [翻译内容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       + [使用基线管理内容](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [本机PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
+   + 发布{#publishing}
+      + [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
-         + 韦贝迪托尔 {#webeditor}
-            + 舍马特龙 {#schematron}
+         + Webeditor {#webeditor}
+            + 模式 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 工作流 {#workflows}
-         + [后生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         + [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
