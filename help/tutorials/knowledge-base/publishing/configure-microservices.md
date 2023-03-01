@@ -1,7 +1,7 @@
 ---
 title: 为AEM Guidesas a Cloud Service配置新的基于微服务的发布
 description: 了解如何为AEM Guides配置新的基于微服务的发布。
-source-git-commit: afbc1712cf45dd0b570e20683946af6a86edae7e
+source-git-commit: c2981b5635353eb84c9e46a03de1b1ed07aa5bf3
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
