@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: d13a04448be357f37290dbd37317d82b5a8ea736
+source-git-commit: 2144508d9e7b4cb3de3e4f55ab160bfa26cd5f52
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '196'
 ht-degree: 18%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 18%
       + [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [本机PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
    + 发布{#publishing}
-      + [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
+      + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
          + Webeditor {#webeditor}
