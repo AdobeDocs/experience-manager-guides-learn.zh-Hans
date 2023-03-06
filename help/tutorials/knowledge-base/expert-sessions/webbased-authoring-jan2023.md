@@ -2,20 +2,20 @@
 title: 创作基于Web的内容
 description: 了解如何使用Web编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # 创作基于Web的内容
 
-AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可以使用基于Web的简化创作体验，但可以选择使用或启用诸如条件内容验证、拼写检查、内容重用、引用验证、友好名称和创作数学公式等强大功能。
+AEM Guides附带了用于创作结构化内容的内置Web编辑器。 您可以使用简化的基于Web的创作体验，但您仍可以选择使用或启用强大的功能，如条件内容验证、拼写检查、内容重用、引用验证、友好名称和创作数学公式。
 
 ## 会话概述
 
-在本课程中，您将学习如何使用Web编辑器创建、发布和管理内容。
+在此会话中，您将了解如何使用Web编辑器创建、发布和管理内容。
 
 ## 会话录制
 
@@ -24,17 +24,17 @@ AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可�
 ## 高亮
 
 - **日期** - 2023年1月19日
-- **出席人数** - 89
+- **与会者人数** - 89
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **Audience**  — 客户、合作伙伴和Adobe员工
 
-## 主要优点
+## 主要要点
 
-在本课程中，您将了解以下信息：
-- 为Web编辑器配置设置
+在本课程中，您将了解以下内容：
+- 配置Web编辑器的设置
 - 使用Web编辑器功能提高作者的工作效率
 - 扩展和集成可用功能
-- 通过自定义样式或品牌策略来个性化Web编辑器
+- 通过自定义样式或品牌化，个性化Web编辑器
 
 ## 相关资源
 
@@ -42,20 +42,15 @@ AEM指南附带一个用于创作结构化内容的内置Web编辑器。 您可�
 
 - **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **社区论坛**  — 对于Experience League上特定于会话的社区交互，请访问  [AEM指南论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 本会话中显示的功能在以下版本的AEM指南中可用：
-> - On-prem 4.1.3或更高版本
+> 此会话中显示的功能在以下版本的AEM Guides中可用：
+> - 内部部署4.1.3或更高版本
 > - Cloud Services2211及更高版本
 
 
-## 下一次专家会议
-
-- **主题** - [本机PDF发布要点](native-pdf-publishing-essentials-feb23.md)
-- **已在** - 2023年2月23日
-
 ## 联系我们
 
-如有任何疑问，请发送电子邮件至 <techcomm@adobe.com>
+如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>

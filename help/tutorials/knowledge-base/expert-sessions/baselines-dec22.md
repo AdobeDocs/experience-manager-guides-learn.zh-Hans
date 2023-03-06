@@ -1,21 +1,21 @@
 ---
 title: 使用基线管理内容
-description: 了解如何使用基线来有效管理内容。
+description: 了解如何使用基线有效地管理您的内容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: cb7cb66eb4ba81120afb43582867e859661b434c
+source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # 使用基线管理内容
 
-在AEM指南中，使用基线完成了发行管理，该基线允许您选择主题和资产的某个版本，然后该版本可用于发布或翻译。
+AEM Guides中的版本管理使用基线完成，该基线允许您选择主题和资源的版本，然后将其用于发布或翻译。
 
 ## 会话概述
 
-在本课程中，您将学习如何使用基线来有效管理内容。
+在此会话中，您将了解如何使用基线有效地管理内容。
 
 ## 会话录制
 
@@ -24,17 +24,17 @@ ht-degree: 0%
 ## 高亮
 
 - **日期** - 2022年12月8日
-- **出席人数** - 64
+- **与会者人数** - 64
 - **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **Audience**  — 客户、合作伙伴和Adobe员工
 
-## 主要优点
+## 主要要点
 
-在本课程中，您将了解以下信息：
-- AEM指南中的不同基线操作
+在本课程中，您将了解以下内容：
+- AEM Guides中的各种基线操作
 - 使用基线下载、发布和翻译
 - 使用基线的最佳实践
-- 抢先领略即将推出的新功能， **创建动态基线**
+- 偷看即将推出的新功能， **创建动态基线**
 
 ## 相关资源
 
@@ -42,20 +42,15 @@ ht-degree: 0%
 
 - **用户指南** - [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **社区论坛**  — 对于Experience League上特定于会话的社区交互，请访问 [AEM指南论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问 [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->本会话中显示的功能在以下版本的AEM指南中可用：
-> - 内部版本4.1及更高版本
+>此会话中显示的功能在以下版本的AEM Guides中可用：
+> - 内部部署4.1及更高版本
 > - Cloud Services2211及更高版本
 
 
-## 下一次专家会议
-
-- **主题** - [创作基于Web的内容](webbased-authoring-jan2023.md)
-- **已在** - 2023年1月19日
-
 ## 联系我们
 
-如有任何疑问，请发送电子邮件至 <techcomm@adobe.com>
+如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
