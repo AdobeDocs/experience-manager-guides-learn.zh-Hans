@@ -1,5 +1,5 @@
 ---
-source-git-commit: f79a387de64a31dc62455992c54fc82dc6235ebc
+source-git-commit: 2e1f1644e5f22fc928ad813f46137a3f284df022
 workflow-type: tm+mt
 source-wordcount: '5800'
 ht-degree: 1%
@@ -404,7 +404,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 ### 在AEM Guides视图{ .section}中签出的文件
 
-当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您在AEM存储库中使用AEM Guides签入。 执行以下步骤以访问此视图：
+当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您使用AEM Guides在AEM存储库中签入。 执行以下步骤以访问此视图：
 
 1. 单击 **窗口** \> **显示视图** \> **AEM Guides中签出的文件**.
 
@@ -632,9 +632,9 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 ### AEM Guides面板未浏览到打开的文件位置{ .section}
 
-问题：当您选择从AEM服务器打开文件以在Oxygon XML Author中编辑时，将打开该文件以在Oxygon XML Author中编辑。 但是，“AEM参考线”面板不会显示文件在导航树中的位置。
+问题：当您选择从AEM服务器打开文件以在Oxygon XML Author中进行编辑时，将打开该文件以在Oxygon XML Author中进行编辑。 但是，“AEM参考线”面板不会显示文件在导航树中的位置。
 
-解决方案：在文件路径中包含/content/dam两次的情况下，已发现此问题。 默认情况下，AEM中的所有资源都存储在/content/dam文件夹下。 如果上传或创建的文件夹结构也包含/content/dam，则会出现此问题。 您可以对此类文件执行所有常规操作，但默认情况下不显示它们在导航树中的位置。 要在导航树中访问此类文件，必须手动浏览到文件的位置。 请注意，在导航树中，重复的/content/dam路径将被替换为/content/assets 。
+解决方案：当文件路径中两次包含/content/dam时，会发现此问题。 默认情况下，AEM中的所有资源都存储在/content/dam文件夹下。 如果上传或创建的文件夹结构也包含/content/dam，则会出现此问题。 您可以对此类文件执行所有常规操作，但默认情况下不显示它们在导航树中的位置。 要在导航树中访问此类文件，必须手动浏览到文件的位置。 请注意，在导航树中，重复的/content/dam路径将被替换为/content/assets 。
 
 ### 配置日志记录{ .section}
 
@@ -644,21 +644,21 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
     1.  浏览到Oxygon XML Author的安装位置。
     
-    2.  在文本编辑器中打开oxyoAuthor19.1.vmoptions文件。
+    1.  在文本编辑器中打开oxyoAuthor19.1.vmoptions文件。
     
     **注意：**
     
     文件的版本号可能因系统上安装的应用程序的版本号而异。
     
-    3.  在文件中附加以下行：
+    1.  在文件中附加以下行：
     
     ```
     -Djava.util.logging.config.file=./log.properties
     ```
     
-    4.  保存并关闭文件。
+    1.  保存并关闭文件。
     
-    5.  在同一位置，创建一个名为log.properties的文件，该文件包含以下内容：
+    1.  在同一位置，创建一个名为log.properties的文件，该文件包含以下内容：
     
     ```
     handlers=java.util.logging.FileHandler
@@ -670,9 +670,9 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
     java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
     ```
     
-    6.  保存并关闭文件。
+    1.  保存并关闭文件。
     
-    7.  启动Oxygon XML Author。
+    1.  启动Oxygon XML Author。
     
     
     插件现在使用文件名aem-pluginX.log \（*其中X表示轮换号*\）在用户的主目录中创建日志。
