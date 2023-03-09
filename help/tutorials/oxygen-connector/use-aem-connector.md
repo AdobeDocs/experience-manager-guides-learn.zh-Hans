@@ -1,9 +1,7 @@
 ---
 title: Adobe Experience Manager Guides的氧气插件
 description: 了解如何使用Adobe Experience Manager Guides的氧气插件创建和管理您的内容。
-hide: true
-hidefromtoc: true
-source-git-commit: d52a3c2a09a5a3d8e572191b4f4ebf1aa25f30df
+source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
 workflow-type: tm+mt
 source-wordcount: '5812'
 ht-degree: 1%
@@ -410,7 +408,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 ### AEM Guides视图中的文件签出
 
-当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您在AEM存储库中使用AEM Guides签入。 执行以下步骤以访问此视图：
+当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您使用AEM Guides在AEM存储库中签入。 执行以下步骤以访问此视图：
 
 1. 单击 **窗口** \> **显示视图** \> **AEM Guides中签出的文件**.
 
