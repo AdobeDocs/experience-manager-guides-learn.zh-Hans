@@ -1,7 +1,7 @@
 ---
 title: FMPS和AEM指南
 description: 使用AEM Guides通过FMPS发布
-source-git-commit: 5c53f89a811571c2193769bb4821657df3212dc0
+source-git-commit: 82f010a97d0ed0e3c6351e6411e5955c79e0b01f
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -47,7 +47,7 @@ ht-degree: 0%
 用户可以提供“settings File(.sts)”和“ditaval”。 将基于您提供的条件使用ditaval进行筛选。
 
 - **设置文件**： FrameMaker /FMPS发布设置，其中包含您希望FMPS在发布时遵循的所有设置例如：使用自定义模板生成输出、生成标记和出血(PDF)、使用目录生成PDF、索引等。
-- **存在FMPS：** 预定义的ditaval和设置文件组合。用户可以预先创建FMPS预设，而不是提供单独的ditaval和设置文件，可以重复使用它来发布需求。
+- **FMPS预设：** 预定义的ditaval和设置文件组合。用户可以预先创建FMPS预设，而不是提供单独的ditaval和设置文件，可以重复使用它来发布需求。
 
 **注意：** 如果您未选择任何设置或FMPS预设，则FMPS将使用默认系统设置发布。
 
