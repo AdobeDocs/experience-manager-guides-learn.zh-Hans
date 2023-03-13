@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Manager Guides的氧气插件
 description: 了解如何使用Adobe Experience Manager Guides的氧气插件创建和管理您的内容。
-source-git-commit: 50b1b02c69ff81d4ee050d02ed945e88fac9dae0
+source-git-commit: c3d50c3fc9f12d98942b6cb68512e01559b47d93
 workflow-type: tm+mt
-source-wordcount: '5812'
-ht-degree: 1%
+source-wordcount: '5792'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 1%
 
 AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“Experience Manager”选项卡中搜索“氧气”，然后从以下位置下载插件安装程序： [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 
-**注意：** 从发行说明中查看特定Adobe Experience Manager Guides的氧气连接器版本兼容性。
+>[!NOTE]
+>
+>从发行说明中查看特定Adobe Experience Manager Guides的氧气连接器版本兼容性。
 
 安装安装程序后，将其安装在安装了Oxygon XML Author的本地计算机上。 在开始安装过程之前，您必须确保系统满足安装AEM Guides氧气插件的技术要求。
 
@@ -36,9 +38,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 ### 在Windows上安装插件
 
-**重要:**
-
-如果您的系统上安装了旧版插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 有关卸载说明的文章。
+>[!IMPORTANT]
+>
+>如果您的系统上安装了旧版插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 有关卸载说明的文章。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -63,16 +65,16 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    ![](images/oxygen-aem-connector.png)
 
-   **注意:**
-
-   如果您没有看到AEM Guides面板，请参阅故障排除部分中的解决方法 — [“缺少AEM Guides”面板](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >如果您没有看到AEM Guides面板，请参阅故障排除部分中的解决方法 — [“缺少AEM Guides”面板](#id192BH200ZAX).
 
 
 ### 在Mac上安装该插件
 
-**重要:**
-
-如果您的系统上安装了旧版插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 文章卸载说明。
+>[!IMPORTANT]
+>
+>如果您的系统上安装了旧版插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 文章卸载说明。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -82,9 +84,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    .dmg文件包含aem-connector-x.x文件夹和aem-connector-x.x安装文件。
 
-   **注意:**
-
-   文件名中的x.x是插件的版本号。
+   >[!NOTE]
+   >
+   >文件名中的x.x是插件的版本号。
 
 1. 在Oxygon XML Author的plugins文件夹中复制aem-connector-x.x文件夹。
 1. 双击aem-connector-x.x-setup文件以启动安装程序。
@@ -95,9 +97,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    ![](images/oxygen-aem-connector-mac.png)
 
-   **注意:**
-
-   如果您没有看到AEM Guides面板，请参阅故障排除部分中的解决方法 — [“缺少AEM Guides”面板](#id192BH200ZAX).
+   >[!NOTE]
+   >
+   >如果您没有看到AEM Guides面板，请参阅故障排除部分中的解决方法 — [“缺少AEM Guides”面板](#id192BH200ZAX).
 
 
 ### 安装用于从AEM Web界面启用文档编辑功能的软件包 {#id182CE0Q0TY4}
@@ -132,9 +134,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    **在氧气中编辑** 选项在工具栏中可用。 有关使用此选项的详细信息，请参阅 [从AEM Web界面在Oxygen XML Author中打开DITA主题](#id182CE0I905Z).
 
-   **注意:**
-
-   此 **在氧气中编辑** 选项在选择一个DITA主题时可见。 如果选择多个主题，则该选项将不可见。
+   >[!NOTE]
+   >
+   >此 **在氧气中编辑** 选项在选择一个DITA主题时可见。 如果选择多个主题，则该选项将不可见。
 
 
 ## 配置AEM Guides的氧气插件 {#id1826KF00AHS}
@@ -151,7 +153,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 更新给定文件以配置AEM Guides的氧气插件中的Web身份验证设置：
 
-**注意：** 在更新文件之前对其进行备份。
+>[!NOTE]
+>
+>在更新文件之前对其进行备份。
 
 **用于Mac和氧气24.1**
 
@@ -181,9 +185,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 -Djdk.module.illegalAccess=permit -Djava.ipc.external=true
 ```
 
-**注意:**
-
-您需要以管理员身份在Mac中运行oxygenAuthor.sh，在Windows中运行oxygenAuthor.bat。
+>[!NOTE]
+>
+>您需要以管理员身份在Mac中运行oxygenAuthor.sh，在Windows中运行oxygenAuthor.bat。
 
 ### 常规设置
 
@@ -191,7 +195,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 1. 在AEM Guides面板中，单击设置图标，然后选择 **设置**.
 
-   ![](images/Settings.png)
+   ![](images/settings.png)
 
 1. 指定以下详细信息：
    - **服务器URL**：AEM服务器的URL，例如：
@@ -202,9 +206,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
       在上述URL中，指定部署AEM服务器的服务器的主机名和端口。
 
-      **重要:**
-
-      如果您的AEM服务器部署在端口80或443上，则不需要在URL中指定它。
+      >[!IMPORTANT]
+      >
+      >如果您的AEM服务器部署在端口80或443上，则不需要在URL中指定它。
 
    - **身份验证：** 选择自 **基本\（用户名/密码\）** 或 **Web身份验证**. 如果您选择 **基本** 身份验证，您需要输入 **用户名** 和 **密码** 在“首选项”对话框中。
 
@@ -232,7 +236,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 1. 在 **类路径** 选项卡，选择中的com.adobe.o2.connector **使用插件中的ID为父类加载器** 下拉菜单。
 
-   ![](images/DITA%20Extension.png)
+   ![](images/dita-extension.png)
 
 1. 在 **扩展** 选项卡中，进行以下更改：
 1. 
@@ -285,7 +289,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 - **Connect**：选择此选项可连接到AEM服务器。 将Oxygon XML Author连接到AEM Server时，将禁用该选项。
 - **刷新**：选择此选项可从AEM存储库中获取文件和文件夹的最新状态。
 
-   **注意：** 确保在刷新文件之前保存文件。 当您选择时 **刷新** 选项，您会收到一则警告，要求在刷新文件之前先保存文件。 如果尚未保存文件，可以单击 **取消** 并保存它们。
+   >[!NOTE]
+   >
+   >确保在刷新文件之前保存文件。 当您选择时 **刷新** 选项，您会收到一则警告，要求在刷新文件之前先保存文件。 如果尚未保存文件，可以单击 **取消** 并保存它们。
 
 - **设置**：您可以使用此选项打开插件的常规“首选项”对话框。
 - **注销**：选择此选项可关闭AEM服务器连接。 此选项仅在使用Web身份验证模式时可用。
@@ -330,9 +336,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 如果您已选择 **打开时自动签出文件** 选项\（在“首选项”对话框中\），然后在打开文件时，将自动签出该文件并可用于编辑。 要打开文件，可以双击文件名或右键单击文件名并选择 **打开** 从上下文菜单中。 如果未选择此选项，则文件将以只读模式打开。
 
-**注意:**
-
-您还可以双击文件以将其打开。
+>[!NOTE]
+>
+>您还可以双击文件以将其打开。
 
 ### 在AEM Guides的编辑器中打开文件 {#id195GH0V30KX}
 
@@ -369,9 +375,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 在上面的屏幕快照中，其他用户签出的文件显示有一个黑色的锁定图标\(A\)。 由当前用户签出的文件以绿色锁\(B\)显示。
 
-**注意:**
-
-如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会收到一条错误消息。 确保未使用AEM Web界面移动或删除签出文件。
+>[!NOTE]
+>
+>如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会收到一条错误消息。 确保未使用AEM Web界面移动或删除签出文件。
 
 ### 签入文件 {#id182CF0J0FHS}
 
@@ -396,19 +402,19 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 1. \（可选\）在签入对话框中，添加评论 **版本注释** 文本框。
 
-   **注意:**
-
-   此注释显示在文件的AEM版本历史记录中。
+   >[!NOTE]
+   >
+   >此注释显示在文件的AEM版本历史记录中。
 
 1. 单击&#x200B;**确定**。
 
-**注意:**
-
-如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会收到一条错误消息。 确保未使用AEM Web界面移动或删除签出文件。
+>[!NOTE]
+>
+>如果签出文件被删除或移至AEM中的任何其他文件夹，则在签入文件时将会收到一条错误消息。 确保未使用AEM Web界面移动或删除签出文件。
 
 ### AEM Guides视图中的文件签出
 
-当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您使用AEM Guides在AEM存储库中签入。 执行以下步骤以访问此视图：
+当您在多个文件夹中时，很难确定在一个视图中签出了多少文件。 AEM Guides在AEM Guides视图中提供了“文件签出”，可提供当前已签出文件的完整快照。 通过此视图，您可以轻松地了解哪些文件已被您在AEM存储库中使用AEM Guides签入。 执行以下步骤以访问此视图：
 
 1. 单击 **窗口** \> **显示视图** \> **AEM Guides中签出的文件**.
 
@@ -511,7 +517,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    结果在“搜索结果”选项卡中显示为带有文件路径的列表。 如果您的搜索查询没有匹配的结果，则在中未找到任何结果 &lt;path of=&quot;&quot; the=&quot;&quot; selected=&quot;&quot; folder=&quot;&quot;> 将显示消息。
 
-   ![](images/Search.png)
+   ![](images/search.png)
 
 1. \（可选\）双击搜索结果中的文件以在Oxygen XML Author中打开它。
 1. 要返回到“AEM资料档案库”视图，请执行下列操作之一：
@@ -522,9 +528,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 您可以从AEM Web界面在Oxygon XML Author中打开和编辑DITA主题。 您需要在AEM中安装包才能启用此选项。 有关软件包安装的更多信息，请参见 [安装用于从AEM Web界面启用文档编辑功能的软件包](#id182CE0Q0TY4).
 
-**注意:**
-
-此 **在氧气中编辑** 选项可从AEM中的各个位置访问：选择主题时、预览主题时，或从DITA map控制台的主题和报表选项卡中。 如果选择多个主题，则该选项在工具栏中不可见。
+>[!NOTE]
+>
+>此 **在氧气中编辑** 选项可从AEM中的各个位置访问：选择主题时、预览主题时，或从DITA map控制台的主题和报表选项卡中。 如果选择多个主题，则该选项在工具栏中不可见。
 
 **打开DITA主题**
 
@@ -532,9 +538,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
 1. 在资源中选择主题并单击 **在氧气中编辑** 选项。
 
-   **注意:**
-
-   如果主题未签出，则它首先被签出，然后在编辑模式下在Oxygen中打开。
+   >[!NOTE]
+   >
+   >如果主题未签出，则它首先被签出，然后在编辑模式下在Oxygen中打开。
 
 1. 选择氧气XML作者 *&lt;version>* 在 **启动应用程序** 消息框。 您可以选择 **记住我选择的AEM链接** 选项以保存您的首选项。
 
@@ -545,9 +551,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 1. 选择并签出资源中的主题。
 1. 单击 **在氧气中编辑** 选项。
 
-   **注意:**
-
-   如果主题未签出，则它首先被签出，然后在编辑模式下在Oxygen中打开。
+   >[!NOTE]
+   >
+   >如果主题未签出，则它首先被签出，然后在编辑模式下在Oxygen中打开。
 
 1. 选择氧气XML作者 *&lt;version>* 在 **启动应用程序** 消息框。 您可以选择 **记住我选择的AEM链接** 选项以保存您的首选项。
 1. 在“氧气XML创作”中编辑主题。
@@ -555,18 +561,18 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 
    有关使用AEM Guides的氧插件签入主题的更多信息，请参阅 [签入文件](#id182CF0J0FHS).
 
-   **注意:**
-
-   确保使用AEM Guides的氧气插件签入主题，如果从AEM Web界面签入，则您在氧气XML创作中所做的更改未保存在主题的签入版本中。
+   >[!NOTE]
+   >
+   >确保使用AEM Guides的氧气插件签入主题，如果从AEM Web界面签入，则您在氧气XML创作中所做的更改未保存在主题的签入版本中。
 
 
 ## 使用属性配置文件 {#id1827JA002YK}
 
 AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。 您可以在全局级别或文件夹级别定义条件属性。 全局定义的条件在所有项目中均可见，而文件夹级别的条件仅在指定文件夹内创建的项目中可见。 内容作者可以使用这些条件属性来条件化他们创建或使用的DITA主题或映射中的内容。 要详细了解如何使用AEM Guides在AEM中创建条件属性，请参阅 *为全局或文件夹级别的配置文件配置条件属性* 安装和配置Adobe Experience Manager Guides中的部分。
 
-**注意:**
-
-确保已在AEM中添加条件属性并设置了 [配置属性自定义的首选项](#id1827K0D0OHT) 在将条件属性添加到内容之前。
+>[!NOTE]
+>
+>确保已在AEM中添加条件属性并设置了 [配置属性自定义的首选项](#id1827K0D0OHT) 在将条件属性添加到内容之前。
 
 执行以下步骤，向Oxygon XML Author中的内容添加条件属性：
 
@@ -650,9 +656,9 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
     
     1.  在文本编辑器中打开oxyoAuthor19.1.vmoptions文件。
     
-    **注意：**
-    
-    文件的版本号可能因系统上安装的应用程序的版本号而异。
+    >[！注意]
+    >
+    >根据系统上安装的应用程序的版本号，文件的版本号可能有所不同。
     
     1.  在文件中附加以下行：
     
