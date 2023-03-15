@@ -2,17 +2,17 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 53a4917328626f589f2a9e8243d169fa10a6efff
+source-git-commit: f5591818f3b9479678026a578b29d7e56e55f506
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 19%
+source-wordcount: '214'
+ht-degree: 17%
 
 ---
 
 
-# 的Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
+# Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
-+ [的Tutorials [!DNL AEM Guides]](overview.md)
++ [Tutorials [!DNL AEM Guides]](overview.md)
 + 发行信息 {#release-info}
    + [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    + 发行说明 {#release-notes}
@@ -33,7 +33,7 @@ ht-degree: 19%
          + [4.1.x发行说明](./release-info/release-notes-4.1.md)
          + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
-+ 内容体系结构和用例 {#content-arch}
++ 内容架构和用例 {#content-arch}
    + [使用条件输出](./content-architecture/create-and-use-conditions.md)
    + [创建全局键](./content-architecture/create-global-keys.md)
 + 配置 {#configuring}
@@ -41,10 +41,13 @@ ht-degree: 19%
       + [PDF模板](./native-pdf/pdf-template.md)
       + [PDF模板的组件](./native-pdf/components-pdf-template.md)
       + [设计页面布局](./native-pdf/design-page-layout.md)
-      + [使用常见的内容样式](./native-pdf/stylesheet.md)
-      + [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
-      + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
-      + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
+      + 常见内容样式 {#content-styles}
+         + [使用常用内容样式](./native-pdf/stylesheet.md)
+         + [使用自定义更改栏样式](./native-pdf/change-bar-style.md)
+         + [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
+         + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
+         + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
+         + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
    + [设置自定义DITA-OT](./configuring/setup-a-custom-dita-ot.md)
 + 翻译 {#translation}
    + [从翻译中排除段落](./translation/exclude-paragraphs-from-translation.md)
@@ -53,8 +56,8 @@ ht-degree: 19%
    + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
 + 版本控制 {#versioning}
 + 知识库 {#knowledge-base}
-   + 专家讲座 {#expert-session}
-      + [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
+   + 专家会议 {#expert-session}
+      + [专家会议概述](./knowledge-base/expert-sessions/expert-session.md)
       + [翻译内容](./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md)
       + [使用基线管理内容](./knowledge-base/expert-sessions/baselines-dec22.md)
       + [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
@@ -63,10 +66,10 @@ ht-degree: 19%
       + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
-         + Webeditor {#webeditor}
-            + 模式 {#schematron}
+         + 韦贝迪托尔 {#webeditor}
+            + 舍马特龙 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 发布 {#publishing}
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
       + 工作流 {#workflows}
-         + [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+         + [后生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
