@@ -1,7 +1,7 @@
 ---
 title: 本机PDF发布功能 |使用自定义更改栏样式
 description: 了解如何对更改栏应用样式。
-source-git-commit: 79de97e667bffae8d120deee68a0a82011047cf5
+source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -12,8 +12,7 @@ ht-degree: 0%
 
 更改栏是一条垂直线，可直观地标识新内容或修订内容。 AEM指南允许您在主题中更改内容的左侧显示一个更改栏，以及PDF输出目录中更改的主题。
 
-有关显示更改栏的更多详细信息，请参阅 *在已发布版本之间使用更改栏创建PDF* 设置
-[发布PDF输出](../web-editor/native-pdf-web-editor.md).
+有关显示更改栏的更多详细信息，请参阅 *在已发布版本之间使用更改栏创建PDF* 设置 [发布PDF输出](../web-editor/native-pdf-web-editor.md).
 
 ## 主题中的更改内容
 
