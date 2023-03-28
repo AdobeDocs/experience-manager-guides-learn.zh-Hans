@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager指南as a Cloud Service,2023年3月版
 description: 最新版本的Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 27c8c0f3ac5c6d9c318ac8fb7ed13299ac9994de
+source-git-commit: 07709048f560a77b923436d990c831a5f8b907e3
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## 索引现有内容的步骤(仅当您使用的是9月版AEM指南之前的版本时as a Cloud Service)
 
-执行以下步骤以索引现有内容，并在映射级别使用新的查找和替换文本：
+执行以下步骤，为现有内容编制索引，并在映射级别使用新的查找和替换文本：
 
 * 向服务器运行POST请求（验证正确） —  `http://<server:port>/bin/guides/map-find/indexing`.
 (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将编入索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
