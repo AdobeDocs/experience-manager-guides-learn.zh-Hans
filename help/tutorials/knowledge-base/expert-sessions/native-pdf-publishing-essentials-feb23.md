@@ -1,10 +1,11 @@
 ---
 title: 本机PDF发布要点
 description: 了解如何在AEM指南中使用本机pdf引擎发布PDF。
-source-git-commit: 285dbf9ea7eb5eb4288dfbdfc977d35b2feef111
+exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
+source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: '222'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +28,7 @@ AEM指南具有内置的PDF发布引擎，该引擎为用户提供创建、开�
 - **持续时间** - 60分钟
 - **受众**  — 客户、合作伙伴和Adobe员工
 
-## 主要优点
+## 要点
 
 在本课程中，您将了解以下信息：
 - PDF发布要点
@@ -50,11 +51,6 @@ AEM指南具有内置的PDF发布引擎，该引擎为用户提供创建、开�
 > - 内部版本4.2或更高版本
 > - Cloud Services2211及更高版本
 
-
-## 下一次专家会议
-
-- **主题**  — 待定 *（等待调查结果）*
-- **已在** - 2023年3月30日
 
 ## 联系我们
 
