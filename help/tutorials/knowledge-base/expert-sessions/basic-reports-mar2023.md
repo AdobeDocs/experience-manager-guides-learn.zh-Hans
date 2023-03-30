@@ -1,7 +1,7 @@
 ---
 title: AEM指南中的报表
 description: 了解AEM中提供了哪些所有报表来帮助用户提高内容质量。
-source-git-commit: 91afddedb73a54a3148afe13b456e9a83eeeb0f7
+source-git-commit: b1527db4ee7ee5847026b1ba12c668557c23766f
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 1%
@@ -38,16 +38,16 @@ ht-degree: 1%
 
 ## 要点
 
-在本课程中，您将了解以下信息：
+在本课程中，您了解了以下事项：
 - 报告在CCMS中的重要性
-- 哪些报表开箱即用
-- 如何扩展报告功能
+- 哪些报表开箱即用？
+- 如何扩展报告功能？
 - 内容报告示例
 
 
 ## 相关资源
 
-- 在本届会议中，我们演示了几份报告。 要创建类似报告，请参阅附加文档中提供的步骤。 [下载 PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
+- 在本届会议上，我们演示了几份报告。 要创建类似报告，请参阅附加文档中提供的步骤。 [下载 PDF](./assets/aem-guides-expert-session-reports-documentation.pdf)
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
