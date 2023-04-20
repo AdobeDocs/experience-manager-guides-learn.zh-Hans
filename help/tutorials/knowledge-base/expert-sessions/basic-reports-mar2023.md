@@ -1,10 +1,11 @@
 ---
 title: AEM指南中的报表
 description: 了解AEM中提供了哪些所有报表来帮助用户提高内容质量。
-source-git-commit: b909e6848c3f81e3350c1ce07165d5ea00564345
+exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
+source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 ## 下一次专家会议
 
-- **主题**  — 待定 *（等待调查结果）*
+- **主题**  — 内容和模板设置
 - **已在** - 2023年4月27日
 
 
