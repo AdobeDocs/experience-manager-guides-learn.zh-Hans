@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+source-git-commit: 6351465954bc9ce38151cd0bec339cd0653027f2
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -66,15 +66,17 @@ ht-degree: 16%
       + [创作基于Web的内容](./knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
       + [本机PDF发布要点](./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md)
       + [AEM指南中的报表](./knowledge-base/expert-sessions/basic-reports-mar2023.md)
-   + 发布{#publishing}
-      + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
          + 韦贝迪托尔 {#webeditor}
+            + 自定义 {#customizing}
+               + [将自定义按钮添加到工具栏](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [将自定义样式添加到Webeditor](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 舍马特龙 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 发布 {#publishing}
          + [配置AEM环境以发布本机PDF](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
+         + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
       + 工作流 {#workflows}
          + [后生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
