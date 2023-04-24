@@ -2,7 +2,7 @@
 title: 用户首选项、编辑器设置和编辑器工具栏
 description: 更改AEM指南中的用户首选项和编辑器设置
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 2%
@@ -33,7 +33,7 @@ ht-degree: 2%
 
    - 通过选择标记并将元素拖放到有效位置来拖放元素。
 
-2. 单击 [!UICONTROL **切换标记视图**] 图标来隐藏标记。
+1. 单击 [!UICONTROL **切换标记视图**] 图标来隐藏标记。
 
 标记消失，从而允许您重点关注文本。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 
    文件已签出，“存储库”中文件名旁边会显示一个“锁定”图标。
 
-2. 单击 [!UICONTROL **解锁**] 图标。
+1. 单击 [!UICONTROL **解锁**] 图标。
 
    ![签入](images/lesson-2/check-in-icon.png)
 
@@ -59,13 +59,13 @@ ht-degree: 2%
 
    ![特殊](images/lesson-2/special-icon.png)
 
-2. 在插入特殊字符对话框中，在搜索栏中键入该字符的名称。
+1. 在插入特殊字符对话框中，在搜索栏中键入该字符的名称。
 
    或者，使用选择类别下拉列表显示特定类别中的所有字符。
 
-3. 选择所需的字符。
+1. 选择所需的字符。
 
-4. 单击 [!UICONTROL **插入**].
+1. 单击 [!UICONTROL **插入**].
 
 特殊字符会插入到文本中。
 
@@ -89,13 +89,13 @@ ht-degree: 2%
 
    ![用户首选项](images/reuse/user-prefs-icon.png)
 
-2. 在用户首选项对话框中，单击 [!UICONTROL **主题**] 下拉列表。
+1. 在用户首选项对话框中，单击 [!UICONTROL **主题**] 下拉列表。
 
-3. 从可用选项中进行选择。
+1. 从可用选项中进行选择。
 
    ![主题](images/lesson-2/themes.png)
 
-4. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 编辑器已更新，可显示您的首选主题。
 
@@ -107,13 +107,13 @@ ht-degree: 2%
 
    ![用户首选项](images/reuse/user-prefs-icon.png)
 
-2. 在用户首选项对话框中，单击 [!UICONTROL **文件夹**] 图标。
+1. 在用户首选项对话框中，单击 [!UICONTROL **文件夹**] 图标。
 
    ![基本文件夹路径](images/lesson-2/base-path-folder-icon.png)
 
-3. 在选择路径对话框中，单击特定文件夹旁边的复选框。
+1. 在选择路径对话框中，单击特定文件夹旁边的复选框。
 
-4. 单击 [!UICONTROL **选择**].
+1. 单击 [!UICONTROL **选择**].
 
 下次启动编辑器时，存储库将显示在基本路径中指定的文件。
 
@@ -125,13 +125,13 @@ ht-degree: 2%
 
    ![用户首选项](images/reuse/user-prefs-icon.png)
 
-2. 在用户首选项对话框中，单击 [!UICONTROL **文件夹配置文件**] 下拉列表。
+1. 在用户首选项对话框中，单击 [!UICONTROL **文件夹配置文件**] 下拉列表。
 
    ![配置文件列表](images/lesson-2/folder-profiles-dropdown.png)
 
-3. 从可用选项中选择一个配置文件。
+1. 从可用选项中选择一个配置文件。
 
-4. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 现在已分配新的文件夹配置文件。 它更改了左侧面板中的工具栏选项、视图模式以及条件和代码片段。 它还可能会更改编辑器中内容的可视外观。
 
@@ -143,11 +143,11 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **常规**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **常规**] 选项卡。
 
-3. 选择要处理的字典。
+1. 选择要处理的字典。
 
-4. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 字典会更新。 请注意，切换到AEM拼写检查后，您可以使用自定义单词列表。
 
@@ -159,13 +159,13 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **面板**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **面板**] 选项卡。
 
-3. 根据需要，切换可用的面板以显示或隐藏。
+1. 根据需要，切换可用的面板以显示或隐藏。
 
    ![切换面板](images/lesson-2/toggle-panels.png)
 
-4. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 左侧面板现在配置为仅显示切换为“显示”的面板。
 
@@ -177,15 +177,15 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **元素列表**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **元素列表**] 选项卡。
 
-3. 键入 **元素名称** 和 **标签** 中。
+1. 键入 **元素名称** 和 **标签** 中。
 
-4. 单击 [!UICONTROL **加号**] 图标向列表添加更多元素。
+1. 单击 [!UICONTROL **加号**] 图标向列表添加更多元素。
 
    ![元素列表](images/lesson-2/elements-list.png)
 
-5. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 您可以在编辑器中的现有标记中立即看到对元素列表所做的更改。 您还可以在添加新元素时提供的选项中看到这些元素。
 
@@ -197,11 +197,11 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **属性列表**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **属性列表**] 选项卡。
 
-3. 键入 **属性名称** 和 **标签** 中。
+1. 键入 **属性名称** 和 **标签** 中。
 
-4. 单击 [!UICONTROL **加号**] 图标向列表添加更多属性。
+1. 单击 [!UICONTROL **加号**] 图标向列表添加更多属性。
 
 ## 在编辑器设置中配置条件
 
@@ -211,13 +211,13 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **条件**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **条件**] 选项卡。
 
-3. 选中要应用的条件的复选框。
+1. 选中要应用的条件的复选框。
 
    ![条件选项卡](images/lesson-2/condition.png)
 
-4. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 ## 在编辑器设置中创建发布配置文件
 
@@ -227,12 +227,12 @@ ht-degree: 2%
 
    ![编辑器设置](images/lesson-2/editor-settings-icon.png)
 
-2. 在编辑器设置对话框中，单击 [!UICONTROL **用户档案**] 选项卡。
+1. 在编辑器设置对话框中，单击 [!UICONTROL **用户档案**] 选项卡。
 
-3. 单击 [!UICONTROL **加号**] 图标。
+1. 单击 [!UICONTROL **加号**] 图标。
 
-4. 根据需要填充字段。
+1. 根据需要填充字段。
 
-5. 单击“[!UICONTROL **保存**]”。
+1. 单击“[!UICONTROL **保存**]”。
 
 已创建发布配置文件。

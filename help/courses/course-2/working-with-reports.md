@@ -2,7 +2,7 @@
 title: 使用报表
 description: 在中使用报表 [!DNL Adobe Experience Manager Guides]
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
    ![ollipses-9.png](images/ellipses-9.png)
 
-2. 选择 **[!UICONTROL 上传资产]**.
+1. 选择 **[!UICONTROL 上传资产]**.
 
    ![upload-assets.png](images/upload-assets.png)
 
-3. 选择要上传到文件夹的文件，然后选择 **上传**.
+1. 选择要上传到文件夹的文件，然后选择 **上传**.
 
 DITA文件将打开，您应查看这些文件中是否存在缺少内容、conref或交叉引用的问题。
 
@@ -41,15 +41,15 @@ DITA文件将打开，您应查看这些文件中是否存在缺少内容、conr
 
    ![ollipses-9.png](images/ellipses-9.png)
 
-2. 选择 **创建>映射**.
+1. 选择 **创建>映射**.
 
    ![create-map.png](images/create-map.png)
 
    此时将显示“创建新映射”对话框。
 
-3. 在模板字段中，选择 **Bookmap** (或 **地图** 根据您创建的内容类型)，并为映射提供一个标题。
+1. 在模板字段中，选择 **Bookmap** (或 **地图** 根据您创建的内容类型)，并为映射提供一个标题。
 
-4. 选择&#x200B;**创建**。
+1. 选择&#x200B;**创建**。
 
 此时将创建映射，并且左边栏会自动从“存储库”视图更改为“映射”视图。
 
@@ -60,22 +60,22 @@ DITA文件将打开，您应查看这些文件中是否存在缺少内容、conr
 
    ![edit-map.png](images/edit-map.png)
 
-2. 通过选择存储库图标切换回存储库视图。
+1. 通过选择存储库图标切换回存储库视图。
 
    ![repository-button.png](images/repository-button.png)
 
-3. 将主题从存储库拖放到编辑器的映射中，以将其添加到映射中。
+1. 将主题从存储库拖放到编辑器的映射中，以将其添加到映射中。
 行指示器将显示主题的放置位置。
 
-4. 根据需要继续添加主题。
+1. 根据需要继续添加主题。
 
-5. 完成后，选择 **另存为新版本。**
+1. 完成后，选择 **另存为新版本。**
 
    ![save-as-new-version.png](images/save-as-new-version.png)
 
-6. 在 *新版本的注释* 字段，输入描述性评论。
+1. 在 *新版本的注释* 字段，输入描述性评论。
 
-7. 选择&#x200B;**保存**。
+1. 选择&#x200B;**保存**。
 
 ## 生成AEM站点输出
 
@@ -84,16 +84,16 @@ DITA文件将打开，您应查看这些文件中是否存在缺少内容、conr
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
    “映射功能板”(Map Dashboard)将在另一个选项卡中打开。
-2. 在输出预设选项卡中，选择 **AEM Site**.
+1. 在输出预设选项卡中，选择 **AEM Site**.
 
    ![aem-site-checkbox](images/aem-site-checkbox.png)
 
-3. 选择 **生成**.
+1. 选择 **生成**.
 
-4. 导航到“输出”页以查看生成的输出的状态。
+1. 导航到“输出”页以查看生成的输出的状态。
 如果出现错误，“输出”选项卡在“生成设置”列下可显示橙色圆圈，而不是绿色圆圈，表示生成已完成。
 
-5. 选择生成设置列下的链接以打开生成的输出。
+1. 选择生成设置列下的链接以打开生成的输出。
 查看输出中缺少的内容。
 
 ## 报表选项卡
@@ -114,9 +114,9 @@ DITA文件将打开，您应查看这些文件中是否存在缺少内容、conr
 
    ![image-ellipsis.png](images/image-ellipsis.png)
 
-2. 选择 **[!UICONTROL 上传资产]**，然后选择缺少的图像。
+1. 选择 **[!UICONTROL 上传资产]**，然后选择缺少的图像。
 
-3. 选择 **上传**.
+1. 选择 **上传**.
 
 已上传缺少的图像。 现在，新生成的AEM网站输出将显示这些图像，并且“报表”选项卡将不再显示任何缺少的图像错误。
 
@@ -132,11 +132,11 @@ DITA文件将打开，您应查看这些文件中是否存在缺少内容、conr
 
    ![reuse-ellipsis.png](images/reuse-ellipsis.png)
 
-2. 选择 **在资产UI中查看**.
+1. 选择 **在资产UI中查看**.
 
    ![assets_ui.png](images/assets_ui.png)
 
-3. 将文件拖放到文件夹中。
+1. 将文件拖放到文件夹中。
 文件已上传，并且解决了conref错误。
 
 现在已解决所有错误。 “报表”页面将指示不再存在错误，生成AEM网站会生成完整输出，且不会缺少组件。

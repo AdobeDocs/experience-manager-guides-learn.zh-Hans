@@ -2,7 +2,7 @@
 title: 大纲视图
 description: 在AEM指南中使用大纲视图
 exl-id: 300f550f-dc79-4971-b8ba-43fe8499ea02
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 单击任何元素以跳转到该位置。
 
-2. 单击 [!UICONTROL **省略号**] 访问快捷方式选项。
+1. 单击 [!UICONTROL **省略号**] 访问快捷方式选项。
 
    ![上下文菜单](images/lesson-6/shortcut-options.png)
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 1. 单击 [!UICONTROL **省略号**] 的子菜单。
 
-2. 选择 **生成ID**.
+1. 选择 **生成ID**.
 
    ![省略号上下文菜单](images/lesson-6/ellipsis-popup.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 1. 单击并将元素拖到“大纲视图”中的其他位置。
 
-2. 将元素拖放到其他元素的顶部以替换它。 此操作由要替换的元素周围的方框表示。
+1. 将元素拖放到其他元素的顶部以替换它。 此操作由要替换的元素周围的方框表示。
 
    或者
 
@@ -63,13 +63,13 @@ ht-degree: 0%
 
 1. 选择元素。
 
-2. 单击 [!UICONTROL **省略号**].
+1. 单击 [!UICONTROL **省略号**].
 
-3. 选择 **重命名元素**.
+1. 选择 **重命名元素**.
 
    ![重命名元素上下文菜单](images/lesson-6/rename-before.png)
 
-4. 双击新元素名称。
+1. 双击新元素名称。
 
 元素现已重命名。
 
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 1. 选择要取消换行的元素。
 
-2. 单击 [!UICONTROL **省略号**].
+1. 单击 [!UICONTROL **省略号**].
 
-3. 选择 [!UICONTROL **取消换行元素**].
+1. 选择 [!UICONTROL **取消换行元素**].
 
 内容仍会保留，但结构已被删除。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    ![过滤器](images/lesson-6/filter-icon.png)
 
-2. 选择 **全部** 显示所有元素或 **断开的链接** 以查找和修复损坏的引用。
+1. 选择 **全部** 显示所有元素或 **断开的链接** 以查找和修复损坏的引用。
 
 ## 使用大纲视图搜索
 
@@ -99,4 +99,4 @@ ht-degree: 0%
 
    ![搜索栏](images/lesson-6/search-bar.png)
 
-2. 选择与您的需求最相关的结果。
+1. 选择与您的需求最相关的结果。

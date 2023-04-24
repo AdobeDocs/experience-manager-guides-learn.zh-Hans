@@ -2,7 +2,7 @@
 title: 键
 description: 在AEM指南中使用DITA时，可通过键将变量信息包含到
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 
    h.选择 [!UICONTROL **Extract**] 中。
 
-2. 提取完成后，单击 [!UICONTROL **转到目标文件夹**].
+1. 提取完成后，单击 [!UICONTROL **转到目标文件夹**].
 
    ![确认](images/lesson-9/go-to-target.png)
 
@@ -69,9 +69,9 @@ ht-degree: 0%
 
    g. **保存** 用户首选项。
 
-2. 导航到 **映射视图**.
+1. 导航到 **映射视图**.
 
-3. 打开指定的映射。
+1. 打开指定的映射。
 
 密钥已解析。
 
@@ -79,11 +79,11 @@ ht-degree: 0%
 
 1. 打开具有指定根映射的映射。
 
-2. 选择键。
+1. 选择键。
 
    ![键下拉列表](images/lesson-9/hybrid-key.png)
 
-3. 插入新密钥定义。
+1. 插入新密钥定义。
 
    a.在映射中的有效位置单击。
 
@@ -95,7 +95,7 @@ ht-degree: 0%
 
    d.单击 [!UICONTROL **插入**].
 
-4. 在keydef中添加topicmeta。
+1. 在keydef中添加topicmeta。
 
    a.单击 [!UICONTROL **插入元素**] 图标。
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
    b.在“插入元素”对话框中，搜索并选择“topicmeta”。
 
-5. 在topicmeta中添加关键词。
+1. 在topicmeta中添加关键词。
 
    a.单击 [!UICONTROL **插入元素**] 图标。
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
    b.在插入元素对话框中，搜索并选择“关键词”。
 
-6. 在topicmeta中添加关键词。
+1. 在topicmeta中添加关键词。
 
    a.单击 [!UICONTROL **插入元素**] 图标。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
    b.在 **插入元素** 对话框，搜索并选择“关键词”
 
-7. 在关键字中键入keydef的值。
+1. 在关键字中键入keydef的值。
 
 在图中，您的keydef现在应如下所示：
 
@@ -131,16 +131,16 @@ ht-degree: 0%
 
 1. 在映射中选择一个keydef元素。
 
-2. 在上下文菜单中，单击 [!UICONTROL **创建代码片段**].
+1. 在上下文菜单中，单击 [!UICONTROL **创建代码片段**].
 
-3. 在“新建代码片段”对话框中，添加标题和描述。
+1. 在“新建代码片段”对话框中，添加标题和描述。
 您也可能希望从内容中删除现有键或关键字定义。
 
-4. 单击&#x200B;[!UICONTROL **创建**]。
+1. 单击&#x200B;[!UICONTROL **创建**]。
 
-5. 在左侧面板中，选择 **代码片段**.
+1. 在左侧面板中，选择 **代码片段**.
 
-6. 将您刚刚创建的代码片段从“代码片段”面板拖放到映射中。
+1. 将您刚刚创建的代码片段从“代码片段”面板拖放到映射中。
 
-7. 使用内容属性，根据需要更新密钥定义。
+1. 使用内容属性，根据需要更新密钥定义。
 保存和刷新后，此组键值将可供任何定义了包含相同根映射的映射的用户使用。

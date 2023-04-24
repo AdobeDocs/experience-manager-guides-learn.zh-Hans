@@ -2,7 +2,7 @@
 title: 在AEM指南中发布默认输出
 description: 在中发布默认输出 [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
    “映射功能板”(Map Dashboard)将在另一个选项卡中打开。
 
-2. 在“输出预设”选项卡中，选择AEM站点和PDF。
+1. 在“输出预设”选项卡中，选择AEM站点和PDF。
 
    ![输出预设](images/lesson-9/pdf-aem.png)
 
-3. 选择 **生成。**
+1. 选择 **生成。**
 
-4. 导航到“输出”页以查看生成的输出的状态。
+1. 导航到“输出”页以查看生成的输出的状态。
 
    绿色圆圈表示生成已完成。
 

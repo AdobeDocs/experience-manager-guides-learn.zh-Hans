@@ -2,7 +2,7 @@
 title: 了解中的AEM用户界面 [!DNL AEM Guides]
 description: 了解中的AEM用户界面 [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 ## 访问XML编辑器
 
 1. 在登录屏幕中，输入您的用户名和密码，然后选择 **[!UICONTROL 登录]**.
-2. 选择 **[!UICONTROL XML编辑器]** 从AEM导航页面。
+1. 选择 **[!UICONTROL XML编辑器]** 从AEM导航页面。
 
 ## XML编辑器视图
 
@@ -69,7 +69,7 @@ ht-degree: 2%
 
 | 名称 | 描述 |
 | --- | --- |
-| 卡片视图 | 将每个资产显示为一个图标 |
+| 信息卡视图 | 将每个资产显示为一个图标 |
 | 列视图 | 以压缩的可扩展文件夹结构显示资产 |
 | 列表视图 | 在列表中显示资产及其详细信息 |
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 
 1. 从列表中选择要编辑的主题。
 此时会在资产UI中显示主题。
-2. 选择 **编辑** 中。
+1. 选择 **编辑** 中。
 您将返回到XML编辑器。
 
 ### 从卡片视图返回

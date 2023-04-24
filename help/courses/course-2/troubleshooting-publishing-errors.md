@@ -2,7 +2,7 @@
 title: 发布错误疑难解答
 description: 对中的发布错误进行故障诊断 [!DNL Adobe Experience Manager Guides]
 exl-id: b37ea3e7-59cf-4fc5-8fae-e1fadd26f8d8
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![error-log](images/error-log.png)
 
-2. 滚动浏览错误日志。
+1. 滚动浏览错误日志。
 
 ## 显示和隐藏错误类型
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 1. **选择** 或 **取消选择** 显示或隐藏高亮显示的任何错误类型。
 
-2. 使用 **下一步** 或 **上一个** 按钮（箭头）。
+1. 使用 **下一步** 或 **上一个** 按钮（箭头）。
 
 ## 解决错误
 

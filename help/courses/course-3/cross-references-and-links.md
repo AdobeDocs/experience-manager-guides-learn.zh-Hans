@@ -2,7 +2,7 @@
 title: 交叉引用和链接
 description: 在AEM指南中创建交叉引用和链接
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -24,7 +24,7 @@ XML编辑器和DITA为主题之间的链接提供了一种强大的方式。 有
 
 1. 打开要在其中插入外部交叉引用的文件。
 
-2. 为要引用的元素分配ID。
+1. 为要引用的元素分配ID。
 
    a.单击元素内部。
 
@@ -34,15 +34,15 @@ XML编辑器和DITA为主题之间的链接提供了一种强大的方式。 有
 
    d.在中查看元素及其值 **大纲视图** 。
 
-3. **保存** 确保存储库具有更新的ID的主题。
+1. **保存** 确保存储库具有更新的ID的主题。
 
-4. 单击 [!UICONTROL **参考**] 图标。
+1. 单击 [!UICONTROL **参考**] 图标。
 
    ![工具栏](images/lesson-7/references-icon.png)
 
-5. 从 **内容参考** 选项卡，选择要作为交叉引用插入的ID和元素配对。
+1. 从 **内容参考** 选项卡，选择要作为交叉引用插入的ID和元素配对。
 
-6. 单击 [!UICONTROL **选择**].
+1. 单击 [!UICONTROL **选择**].
 
 交叉引用已添加到主题中。
 
@@ -57,9 +57,9 @@ XML编辑器和DITA为主题之间的链接提供了一种强大的方式。 有
 
 1. 导航到 **大纲视图** 中。
 
-2. 单击 [!UICONTROL **过滤器**] 图标。
+1. 单击 [!UICONTROL **过滤器**] 图标。
 
-3. 选择 **断开的链接**.
+1. 选择 **断开的链接**.
 
    ![过滤器下拉列表](images/lesson-7/broken-links.png)
 

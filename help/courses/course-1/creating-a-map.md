@@ -2,7 +2,7 @@
 title: 在中创建映射 [!DNL AEM Guides]
 description: 了解如何在 [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -82,7 +82,7 @@ ht-degree: 1%
 您可以编辑映射中主题的层次结构。
 
 1. 单击主题的图标以将其选中。
-2. 使用箭头可分别降级和提升元素。
+1. 使用箭头可分别降级和提升元素。
 
    ![“存储库”图标](images/lesson-8/left-right.png)
 

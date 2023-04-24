@@ -2,7 +2,7 @@
 title: 的发行说明 [!DNL AEM Guides], 2022年1月版
 description: 1月版 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 升级当前版本 [!DNL Adobe Experience Manager Guides] as a Cloud Service(后称为 [!DNL AEM Guides] as a Cloud Service)设置：
 1. 查看Cloud Services的Git代码，并切换到在与要升级的环境对应的Cloud Services管道中配置的分支。
-2. 更新 `<dox.version>` 属性 `/dox/dox.installer/pom.xml` 文件，以将Cloud ServicesGit代码复制到2022.1.78。
-3. 提交更改并运行Cloud Services管道以升级到的1月版 [!DNL AEM Guides] as a Cloud Service。
+1. 更新 `<dox.version>` 属性 `/dox/dox.installer/pom.xml` 文件，以将Cloud ServicesGit代码复制到2022.1.78。
+1. 提交更改并运行Cloud Services管道以升级到的1月版 [!DNL AEM Guides] as a Cloud Service。
 
 ## 兼容性矩阵
 

@@ -2,7 +2,7 @@
 title: AEM指南编辑器配置
 description: 为AEM指南配置编辑器
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 0%
@@ -25,17 +25,17 @@ ht-degree: 0%
 
    ![“工具”图标](images/reuse/tools-icon.png)
 
-2. 选择 **指南** 中。
+1. 选择 **指南** 中。
 
-3. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
+1. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
 
    ![文件夹配置文件](images/reuse/folder-profiles-tile.png)
 
-4. 选择文件夹配置文件。
+1. 选择文件夹配置文件。
 
-5. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
+1. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-6. 单击 [!UICONTROL **下载**] 默认。
+1. 单击 [!UICONTROL **下载**] 默认。
 
    ![下载默认](images/lesson-4/download-default.png)
 
@@ -47,15 +47,15 @@ ht-degree: 0%
 
 1. 在文件夹配置文件中，单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-2. 在XML编辑器UI配置下，单击 [!UICONTROL **上传**].
+1. 在XML编辑器UI配置下，单击 [!UICONTROL **上传**].
 
    ![上传](images/lesson-4/upload.png)
 
-3. 双击用于修改的UI配置的文件，或如此处所示，提供的示例文件。
+1. 双击用于修改的UI配置的文件，或如此处所示，提供的示例文件。
 
    ![示例配置文件](images/lesson-4/sample-config-file.png)
 
-4. 单击 [!UICONTROL **保存**] 中。
+1. 单击 [!UICONTROL **保存**] 中。
 
 您已成功上传修改后的UI配置。
 
@@ -67,17 +67,17 @@ ht-degree: 0%
 
    ![“工具”图标](images/reuse/tools-icon.png)
 
-2. 选择 **指南** 中。
+1. 选择 **指南** 中。
 
-3. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
+1. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
 
    ![文件夹配置文件](images/reuse/folder-profiles-tile.png)
 
-4. 选择文件夹配置文件。
+1. 选择文件夹配置文件。
 
-5. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
+1. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-6. 在“CSS模板布局”下，单击 [!UICONTROL **下载**].
+1. 在“CSS模板布局”下，单击 [!UICONTROL **下载**].
 
    ![下载CSS](images/lesson-4/download-css.png)
 
@@ -89,15 +89,15 @@ ht-degree: 0%
 
 1. 在文件夹配置文件中，单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-2. 在“CSS模板布局”下，单击 [!UICONTROL **上传**].
+1. 在“CSS模板布局”下，单击 [!UICONTROL **上传**].
 
    ![上传 CSS](images/lesson-4/upload-css.png)
 
-3. 双击您自己的自定义CSS布局或此处显示的提供示例文件的文件。
+1. 双击您自己的自定义CSS布局或此处显示的提供示例文件的文件。
 
    ![示例CSS文件](images/lesson-4/sample-css-file.png)
 
-4. 单击 [!UICONTROL **保存**] 中。
+1. 单击 [!UICONTROL **保存**] 中。
 您已成功上传自定义CSS模板布局。
 
 ## 编辑XML编辑器代码段
@@ -108,25 +108,25 @@ ht-degree: 0%
 
    ![“工具”图标](images/reuse/tools-icon.png)
 
-2. 选择 **指南** 中。
+1. 选择 **指南** 中。
 
-3. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
+1. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
 
    ![文件夹配置文件](images/reuse/folder-profiles-tile.png)
 
-4. 选择文件夹配置文件。
+1. 选择文件夹配置文件。
 
-5. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
+1. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-6. 在“XML Editor Snippets（XML编辑器代码片段）”下，单击 **上传**.
+1. 在“XML Editor Snippets（XML编辑器代码片段）”下，单击 **上传**.
 
    ![上载片段](images/lesson-4/upload-snippets.png)
 
-7. 选择您自己的代码片段或使用提供的示例。
+1. 选择您自己的代码片段或使用提供的示例。
 
    ![示例代码片段](images/lesson-4/sample-snippet.png)
 
-8. 单击 [!UICONTROL **保存**] 中。
+1. 单击 [!UICONTROL **保存**] 中。
 
 您已成功将新的代码片段添加到编辑器中。
 
@@ -138,17 +138,17 @@ ht-degree: 0%
 
    ![“工具”图标](images/reuse/tools-icon.png)
 
-2. 选择 **指南** 中。
+1. 选择 **指南** 中。
 
-3. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
+1. 单击 [!UICONTROL **文件夹配置文件**] 拼贴。
 
    ![文件夹配置文件](images/reuse/folder-profiles-tile.png)
 
-4. 选择文件夹配置文件。
+1. 选择文件夹配置文件。
 
-5. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
+1. 单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-6. 在“XML内容版本标签”下，单击 [!UICONTROL **下载**].
+1. 在“XML内容版本标签”下，单击 [!UICONTROL **下载**].
 
    ![下载标签](images/lesson-4/download-labels.png)
 
@@ -160,14 +160,14 @@ ht-degree: 0%
 
 1. 在文件夹配置文件中，单击 [!UICONTROL **XML编辑器配置**] 选项卡。
 
-2. 在“XML内容版本标签”下，单击 [!UICONTROL **上传**].
+1. 在“XML内容版本标签”下，单击 [!UICONTROL **上传**].
 
    ![上传标签](images/lesson-4/upload-labels.png)
 
-3. 双击您自己的自定义标签或此处显示的示例文件的文件。
+1. 双击您自己的自定义标签或此处显示的示例文件的文件。
 
    ![示例标签文件](images/lesson-4/sample-labels-file.png)
 
-4. 单击 [!UICONTROL **保存**] 中。
+1. 单击 [!UICONTROL **保存**] 中。
 
 您已成功上传自定义XML内容版本标签。

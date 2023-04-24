@@ -2,7 +2,7 @@
 title: 发行说明 | Adobe Experience Manager指南as a Cloud Service,2022年4月版
 description: 4月版Adobe Experience Manager指南as a Cloud Service
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 3%
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 升级当前版本 [!DNL Adobe Experience Manager Guides] as a Cloud Service(后称为 *[!DNL AEM Guides]as a Cloud Service*)设置：
 1. 查看Cloud Services的Git代码，并切换到在与要升级的环境对应的Cloud Services管道中配置的分支。
-2. 更新 `<dox.version>` 属性 `/dox/dox.installer/pom.xml` 文件，以将Cloud ServicesGit代码复制到2022.4.133。
-3. 提交更改并运行Cloud Services管道以升级到4月版的 [!DNL AEM Guides] as a Cloud Service。
+1. 更新 `<dox.version>` 属性 `/dox/dox.installer/pom.xml` 文件，以将Cloud ServicesGit代码复制到2022.4.133。
+1. 提交更改并运行Cloud Services管道以升级到4月版的 [!DNL AEM Guides] as a Cloud Service。
 
 ## 兼容性矩阵
 
@@ -52,8 +52,8 @@ DITA内容键引用将一部分内容从一个主题插入到另一个主题中�
 现在，关键引用会根据根映射集按以下优先级顺序进行解析：
 
 1. 用户首选项
-2. “映射视图”面板
-3. 文件夹配置文件
+1. “映射视图”面板
+1. 文件夹配置文件
 
 有关更多详细信息，请参阅 *解决键引用* 中。
 

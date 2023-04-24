@@ -2,7 +2,7 @@
 title: 链接到中的网站 [!DNL AEM Guides]
 description: 链接到中的网站 [!DNL Adobe Experience Manager Guides]
 exl-id: 6b89f52e-ac15-4604-8bac-ab0bb5b5a978
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 1%
@@ -18,18 +18,18 @@ Web链接可将读者引导至网站，以获取更多信息、允许他们与�
 ## 插入链接
 
 1. 从存储库中选择您的概念，然后在编辑器中将其打开。
-2. 在概念中添加一个文本字符串并突出显示该字符串，或突出显示所选的现有文本。
+1. 在概念中添加一个文本字符串并突出显示该字符串，或突出显示所选的现有文本。
 
    此突出显示的文本将插入您的链接。
-3. 选择 **插入交叉引用** 按钮。
+1. 选择 **插入交叉引用** 按钮。
 
    ![“插入交叉引用”图标](images/lesson-5/insert-crossref-icon.png)
 
    此时将显示“引用”(Reference)对话框。
 
 
-4. 选择 **Web链接** 菜单中。
-5. 粘贴所需的URL，然后单击 **选择**.
+1. 选择 **Web链接** 菜单中。
+1. 粘贴所需的URL，然后单击 **选择**.
 
    该链接可正常工作，单击后将在新浏览器选项卡中打开一个网页。
 
