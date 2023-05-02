@@ -1,7 +1,8 @@
 ---
 title: 发行说明 | Adobe Experience Manager指南as a Cloud Service,2023年4月版
 description: 最新版本的Adobe Experience Manager指南as a Cloud Service
-source-git-commit: 77b118655ad8e37e00b0371497e4a2578ddd276e
+exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
+source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 2%
@@ -66,7 +67,7 @@ AEM指南现在为映射到PDF输出中元数据的元数据提供高级支持�
 
 ### 增强的“大纲视图”面板
 
-AEM指南提供简易的“大纲视图”面板，您可以在该面板中获取文档中使用的元素的分层视图。
+AEM指南提供了一个改进的“大纲视图”面板，在该面板中可获取文档中使用的元素的分层视图。
 
 <img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf元数据">
 
@@ -104,4 +105,3 @@ AEM指南as a Cloud Service提供了与基于微服务的发布同时运行大�
 Adobe已在2023年4月版AEM指南as a Cloud Service确定以下已知问题。
 
 * 本机PDF |明确打开输出预设后，才会填充旧元数据。
-
