@@ -1,13 +1,13 @@
 ---
 title: 使用基线
 description: 了解如何使用基线
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: dcafab53-c388-48c3-9455-e4251cdda17d
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
 
 ---
-
 
 # 使用基线 {#id1825FI0J0PF}
 
@@ -46,8 +46,7 @@ ht-degree: 0%
 1. 在 **设置基于的版本**，选择以下选项之一：
 
    - **标签**:选择此选项可根据应用于主题的标签选取主题。 输入标签以根据输入的字符串过滤列表。 从已过滤出的列表中，您可以选择标签以选择主题和具有指定标签的其他资产。
-
-      选择 **标签**，则还会为您提供一个额外选项来使用未对其应用指定标签的最新版本主题。 如果未选择此选项，并且任何主题或媒体文件上没有指定的标签，则基线创建过程将失败。 有关添加标签的更多信息，请参阅 [使用标签](web-editor-use-label.md#).
+   选择 **标签**，则还会为您提供一个额外选项来使用未对其应用指定标签的最新版本主题。 如果未选择此选项，并且任何主题或媒体文件上没有指定的标签，则基线创建过程将失败。 有关添加标签的更多信息，请参阅 [使用标签](web-editor-use-label.md#).
 
    - **版本** &lt;*时间戳*\>:在指定的日期和时间选取主题的版本。 请注意，您在此处指定的时间对应于您的AEM服务器的时区。 如果您的服务器处于不同的时区，则会根据您服务器的时区（而非本地时区）来选取主题。
 
@@ -55,7 +54,7 @@ ht-degree: 0%
 
 1. 如果要对一个或多个主题使用不同的版本，则可以通过手动选择这些主题来执行此操作。 单击 **浏览主题**，请选择要为其使用其他版本的主题。 从选定主题的选择版本下拉列表中，选择要在基线中使用的主题版本，然后单击 **确定**.
 
-   ![](images/baseline-select-version-drop-down.png)
+   ![](images/baseline-select-version-drop-down.png){width="800" align="left"}
 
    有关主题及其选定版本的信息会存储在后端。 您可以重复此步骤来更改多个主题的选定版本。
 
@@ -133,7 +132,7 @@ ht-degree: 0%
 
 1. 单击 **添加标签**.
 
-   ![](images/add-label-baseline-uuid.png)
+   ![](images/add-label-baseline-uuid.png){width="800" align="left"}
 
 1. 在 **添加标签** 对话框中，指定要与此基线关联的唯一标签。
 
@@ -144,7 +143,7 @@ ht-degree: 0%
    - 单击 **添加**.
 指定的标签将添加到DITA映射以及引用的主题和内容中。
 
-      ![](images/label-added-baseline-uuid.png)
+      ![](images/label-added-baseline-uuid.png){width="650" align="left"}
 
 
 ## 导出翻译的基线 {#id196SE600GHS}
@@ -163,7 +162,7 @@ ht-degree: 0%
 
 1. 在 **翻译** 选项卡，展开 **基线** 选项。
 
-   ![](images/export-baseline.png)
+   ![](images/export-baseline.png){width="800" align="left"}
 
 1. 选择 **使用基线** 选项，然后选择要导出的基线。
 
@@ -177,4 +176,3 @@ ht-degree: 0%
 
 
 **父主题：**[&#x200B;输出生成](generate-output.md)
-

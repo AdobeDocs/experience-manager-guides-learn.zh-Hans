@@ -1,13 +1,13 @@
 ---
 title: 使用DITA-OT将元数据传递到输出
 description: 了解如何使用DITA-OT将元数据传递到输出
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
 
 ---
-
 
 # 使用DITA-OT将元数据传递到输出 {#id21BJ00QD0XA}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 1. 选择并编辑要将元数据字段传递到的输出预设。 例如，选择PDF输出预设。
 1. 选择 **DITA-OT** 在生成下 &lt;output> 使用选定输出预设中的选项。
 
-   ![](images/custom-meta-data-output-preset.png)
+   ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
 1. 从属性下拉菜单中，选择要传递到DITA-OT发布的元数据。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 从 **属性** 下拉列表中，选择所需的自定义属性和默认属性。 例如，选择 `author`, `dc:title`和 `dc:description`. 这些是标准 `metadata/properties` 在创建文件后创建的文件。 下拉框下方列出了选定的属性。
 
-   ![](images/selected-metadata-properties.png)
+   ![](images/selected-metadata-properties.png){width="300" align="left"}
 
 1. 单击 **完成** 来保存更改。
 1. 生成输出。
@@ -43,4 +43,3 @@ ht-degree: 0%
 选定的元数据属性将传递到使用DITA-OT生成的输出。
 
 **父主题：**[&#x200B;输出生成](generate-output.md)
-

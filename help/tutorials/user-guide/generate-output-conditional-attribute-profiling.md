@@ -1,13 +1,13 @@
 ---
 title: 条件属性分析
 description: 了解如何进行条件属性分析
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # 条件属性分析 {#id1843I0HN0Y4}
 
@@ -43,7 +43,7 @@ AEM指南允许您使用相关的DITA属性轻松创建和关联条件属性。 
 
    以下屏幕截图显示了 `platform` 值为 `unix` 和 `Red Hat Linux`.
 
-   ![](images/add-profile.png)
+   ![](images/add-profile.png){width="800" align="left"}
 
 1. 如果要为同一属性添加更多值，请单击 **+** 图标，然后输入其他值和标签。
 
@@ -54,7 +54,6 @@ AEM指南允许您使用相关的DITA属性轻松创建和关联条件属性。 
 
 的 `platform` 属性存储在系统中。 每当作者决定使用 `platform` 属性，则文件夹中的DITA主题中的值将在Web编辑器的“属性”选项卡中显示。
 
-![](images/properties-tab.png)
+![](images/properties-tab.png){width="350" align="left"}
 
 **父主题：**[&#x200B;输出生成](generate-output.md)
-

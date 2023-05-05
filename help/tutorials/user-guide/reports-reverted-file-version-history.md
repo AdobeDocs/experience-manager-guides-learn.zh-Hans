@@ -1,13 +1,13 @@
 ---
 title: 还原的文件版本历史记录报表
 description: 了解如何还原文件版本历史记录报告
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: fa90b373-742a-4102-b00f-07e4113fef98
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 0%
 
 ---
-
 
 # 还原的文件版本历史记录报表 {#id205BBC00PRK}
 
@@ -19,7 +19,7 @@ AEM指南允许您为单个文件或文件夹中所有文件生成版本历史�
 
 - **资产UI**:选择文件并打开 **版本历史记录** 从左边栏。 的 **版本历史记录** 视图包含 **还原版本日志** 链接。 单击此链接时，将显示选定文件的还原版本历史记录。
 
-   ![](images/revert-log-from-assets-ui.png)
+   ![](images/revert-log-from-assets-ui.png){width="300" align="left"}
 
 - **主题预览**:在预览主题时，您还可以显示 **版本历史记录** 面板。 您将获得一个与资产UI类似的面板，从中可以单击 **还原版本日志** 用于访问活动文档的还原版本历史记录的链接。
 
@@ -38,7 +38,7 @@ AEM指南允许您为单个文件或文件夹中所有文件生成版本历史�
 
 1. 单击 **显示日志** 生成选定文件或文件夹的报告。
 
-   ![](images/revert-version-history-report.png)
+   ![](images/revert-version-history-report.png){width="800" align="left"}
 
    报告包含以下详细信息：
 
@@ -56,4 +56,3 @@ AEM指南允许您为单个文件或文件夹中所有文件生成版本历史�
 
 
 **父主题：**[&#x200B;报表](reports-intro.md)
-

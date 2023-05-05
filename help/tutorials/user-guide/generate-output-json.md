@@ -1,13 +1,13 @@
 ---
 title: JSON
 description: 了解如何使用JSON
-source-git-commit: 8b6294425c6e60d1c5b37d98e99114014a104ee6
+exl-id: 0a938cc2-1a6f-4ee4-ad7e-f94ad2a0cf94
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # JSON {#id231KK0180T4}
 
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 > 您还可以在Web编辑器中编辑JSON文件。
 
-| JSON输出选项 | 描述 |
+| JSON选项 | 描述 |
 | --- | --- |
 | 输出路径 | 存储JSON输出的AEM存储库中的路径。 |
 | 索引文件 | 您可以为要为JSON输出创建的索引文件指定名称。 默认情况下，它选取DITA映射的文件名并添加后缀(例如 `map_filename_index.json`)。<br><br>在设置索引文件时，也可以使用变量。 有关使用变量的更多详细信息，请参阅 [使用变量设置“目标路径”、“网站名称”或“文件名”选项](generate-output-use-variables.md#id18BUG70K05Z). |
@@ -48,4 +48,3 @@ ht-degree: 1%
 | 后生成工作流 | 选择此选项时，将显示新的“生成后工作流”下拉列表，其中包含在AEM中配置的所有工作流。 您必须选择要在输出生成工作流完成后执行的工作流。<br><br>**注意**:有关创建自定义输出后生成工作流的更多信息，请参阅 _自定义输出后生成工作流_ 中的安装和配置Adobe Experience Manager指南as a Cloud Service指南。 |
 
 **父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)
-

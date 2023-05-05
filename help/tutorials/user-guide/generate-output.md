@@ -1,13 +1,13 @@
 ---
 title: 输出生成
 description: 了解如何生成输出
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
-
 
 # 输出生成 {#id1645H8040HD}
 
@@ -43,29 +43,4 @@ AEM指南具有内置的发布功能，可以以各种行业标准格式生成�
 >[!IMPORTANT]
 >
 > 仅具有发布者或管理员权限的用户可以使用本主题中描述的功能。
-
-- **[了解输出预设](generate-output-understand-presets.md)**
-
-- **[使用变量设置“目标路径”、“网站名称”或“文件名”选项](generate-output-use-variables.md)**
-
-- **[创建、编辑、复制或删除输出预设](generate-output-create-edit-preset.md)**
-
-- **[使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md)**
-
-- **[条件属性分析](generate-output-conditional-attribute-profiling.md)**
-
-- **[使用条件预设](generate-output-use-condition-presets.md)**
-
-- **[使用基线](generate-output-use-baseline-for-publishing.md)**
-
-- **[从映射控制台为DITA映射生成输出](generate-output-for-a-dita-map.md)**
-
-- **[使用映射收集生成输出](generate-output-use-map-collection-output-generation.md)**
-
-- **[使用发布功能板管理发布任务](generate-output-publish-dashboard.md)**
-
-- **[基本故障诊断](generate-output-basic-troubleshooting.md)**
-
-- **[批量激活已发布的内容](conf-bulk-activation.md)**
-
 

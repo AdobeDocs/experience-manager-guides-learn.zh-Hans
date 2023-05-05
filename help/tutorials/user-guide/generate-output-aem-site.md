@@ -1,13 +1,13 @@
 ---
 title: AEM Site
 description: 了解如何AEM Site
-source-git-commit: 23d6c87b525f0763990166e46f4bd4ac2d6e7cd5
+exl-id: 8523ec55-d7f3-439d-96e8-163c7632f73c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '2545'
 ht-degree: 0%
 
 ---
-
 
 # AEM Site {#id205BE3008SW}
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 发布上下文允许您指定发布特定输出时必须从哪个映射中使用哪个主题。 让我们通过一个示例来了解这一点 — 假设您有四个文件夹：样本a、样本b、样本c和样本d。每个文件夹都包含一个DITA映射（DITA映射A、DITA映射B、DITA映射C和DITA映射D）。当DITA映射中的主题链接到DITA映射B、C或D中的主题时，将发生交叉映射链接。在以下屏幕截图中，示例概念主题包含指向其他DITA映射一部分文件的链接\（或引用\）。
 
-![](images/sample-concept-link-to-other.png){width="450" align="left"}
+![](images/sample-concept-link-to-other.png){width="350" align="left"}
 
 现在，当您为包含此主题的映射文件配置AEM Site发布设置时，可以选择发布时所用链接内容的发布上下文。 发布上下文是DITA映射及其输出预设的组合。 输出预设反过来又包含内容的特定版本和条件预设。 DITA映射、输出预设、\（文件\）版本和条件的整个组合定义链接映射的发布上下文。
 
@@ -143,8 +143,7 @@ AEM指南支持在现有AEM站点中发布DITA内容。 例如，如果您现有
 
 您可以在AEM Site输出中搜索字符串。 默认情况下，您只能在标题中搜索字符串。 要在内容或AEM站点输出正文中搜索字符串，请联系您的系统管理员以启用flattening.enabled属性。
 
-
-<img src="images/aem-output-search.png" alt="搜索AEM Site输出" width="800">
+![搜索AEM Site输出](images/aem-output-search.png){width="650" align="left"}
 
 有关更多详细信息，请参阅 *配置AEM Site节点结构的拼合* 安装和配置Adobe Experience Manager指南中的部分。
 

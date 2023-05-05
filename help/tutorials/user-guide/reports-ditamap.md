@@ -1,13 +1,13 @@
 ---
 title: 映射功能板中的DITA映射报告
 description: 从映射功能板了解DITA映射报告
-source-git-commit: 8a104cfe17778a71915e3700f49fc6892493ccd0
+exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # 映射功能板中的DITA映射报告 {#id205BB800EEN}
 
@@ -23,7 +23,7 @@ AEM指南为您的管理员提供了报告功能，以便在文档被实时推�
 
 1. 单击 **报表**.
 
-   ![](images/reports-page-uuid.png)
+   ![](images/reports-page-uuid.png){width="800" align="left"}
 
    “报表”页面分为两部分：
 
@@ -35,7 +35,7 @@ AEM指南为您的管理员提供了报告功能，以便在文档被实时推�
 
       单击某个主题时，将显示选定主题的详细报告。
 
-      ![](images/detailed-report-uuid.png)
+      ![](images/detailed-report-uuid.png){width="800" align="left"}
 
       突出显示的项目 **A**, **B**, **C** 和 **D** 如下所述：
 
@@ -79,20 +79,19 @@ AEM指南为您的管理员提供了报告功能，以便在文档被实时推�
 
 1. 单击 **生成报表** 用于生成DITA映射报表。
 
-   ![](images/generate-DITA-map-report.png)
+   ![](images/generate-DITA-map-report.png){width="800" align="left"}
 
 1. 当报表准备好下载后，您将收到通知。 单击 **下载** 下载生成报表的CSV。
 
-   ![](images/download-report-dialog.png)
+   ![](images/download-report-dialog.png){width="550" align="left"}
 
 
    您还可以稍后从AEM通知收件箱中下载生成的报表的CSV。
 
    单击收件箱中生成的报表以下载该报表。
 
-   ![](images/report-inbox--notification.png)
+   ![](images/report-inbox--notification.png){width="300" align="left"}
 
 在将报表下载到收件箱中后，您还可以选择报表，然后使用顶部的打开图标打开选定的报表。
 
 **父主题：**[&#x200B;报表](reports-intro.md)
-

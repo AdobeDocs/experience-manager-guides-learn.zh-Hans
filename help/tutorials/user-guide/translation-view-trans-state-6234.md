@@ -1,13 +1,13 @@
 ---
 title: 查看翻译状态
 description: 了解如何查看翻译状态
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
 
 ---
-
 
 # 查看翻译状态 {#id169SEK00KOW}
 
@@ -23,7 +23,7 @@ ht-degree: 0%
    >
    > 您可以根据内容的翻译状态\（作为“不同步缺少副本”、“正在进行”或“正在同步”\）、源类型\（作为“全部”、DITA、DITA映射或“资源\”）、修改日期进一步筛选内容。 您还可以输入关键字以搜索特定主题。
 
-   ![](images/status-translation-uuid.png)
+   ![](images/status-translation-uuid.png){width="800" align="left"}
 
 
 “翻译”选项卡包含以下部分：
@@ -32,4 +32,3 @@ ht-degree: 0%
 - **详细信息**:显示主题标题、主题类型、主题的语言代码、源语言、源主题的版本、添加到主题的标签以及翻译状态。
 
 **父主题：**[&#x200B;翻译内容](translation.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 创建批量激活映射集合
 description: 了解如何创建批量激活映射集合
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
 
 ---
-
 
 # 创建批量激活映射集合 {#id214GG0E90EV}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    DITA映射文件将添加到您的批量激活映射集合中。
 
-   ![](images/bulk-activation-collection-created.png)
+   ![](images/bulk-activation-collection-created.png){width="800" align="left"}
 
 
 “映射和预设”选项卡显示以下列中的信息：
@@ -70,4 +70,3 @@ ht-degree: 0%
 - **映射和预设** 表：“映射和预设”表显示了以下列：
 
 **父主题：**[&#x200B;批量激活已发布的内容](conf-bulk-activation.md)
-

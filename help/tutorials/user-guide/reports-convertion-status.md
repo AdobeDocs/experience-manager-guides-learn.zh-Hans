@@ -1,13 +1,13 @@
 ---
 title: 转化状态报表
 description: 了解如何转化状态报告
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 41887af2-404f-41d7-b54c-ec49797200f0
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
 
 # 转化状态报表 {#id205BBA00WZZ}
 
@@ -23,7 +23,7 @@ AEM指南提供了强大的转换功能，可将各种格式的文档转换为DI
 
    系统上执行的所有转化任务都会显示转化状态报告。
 
-   ![](images/conversion-status-report.png)
+   ![](images/conversion-status-report.png){width="800" align="left"}
 
 1. 报表页面分为两部分：
 
@@ -33,7 +33,7 @@ AEM指南提供了强大的转换功能，可将各种格式的文档转换为DI
 
       以下屏幕截图显示了状态为“失败”、“活动”和“已排队”的转化任务的报告数据。
 
-      ![](images/conversion-report-failed-active-queued.png)
+      ![](images/conversion-report-failed-active-queued.png){width="800" align="left"}
 
    - **报表数据：**
 
@@ -55,4 +55,3 @@ AEM指南提供了强大的转换功能，可将各种格式的文档转换为DI
 
 
 **父主题：**[&#x200B;报表](reports-intro.md)
-

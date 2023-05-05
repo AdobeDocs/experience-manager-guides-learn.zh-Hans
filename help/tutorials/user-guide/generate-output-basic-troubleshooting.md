@@ -1,13 +1,13 @@
 ---
 title: 基本故障诊断
 description: 了解如何进行基本故障诊断
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: b5ab2618-6f11-4aaa-8471-09521f8bb512
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
 
 ---
-
 
 # 基本故障诊断 {#id1821I0Y0G0A}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
    的 **常规** 列 **生成的输出** 显示用于提供有关输出生成成功或失败的可视提示的图标。
 
-   ![](images/output-general-settings.png)
+   ![](images/output-general-settings.png){width="300" align="left"}
 
    在上述屏幕截图中，第一个和第三个图标显示失败的输出生成。 第二个图标显示成功的输出生成，但显示消息。 最后一个是成功生成输出，且没有任何消息。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    日志文件将在新选项卡中打开。
 
-   ![](images/log-file.png)
+   ![](images/log-file.png){width="800" align="left"}
 
 1. 应用以下过滤器以突出显示日志文件中的文本：
    - 致命：突出显示日志文件中具有粉红色的致命错误。
@@ -61,15 +61,15 @@ ht-degree: 0%
 
    - *DITA映射文件相关错误*:如果在DITA映射文件或DITA映射中包含的任何其他文件中发现错误，则日志文件将包含字符串“生成失败”。 您可以检查日志文件中提供的信息，以找到错误文件并修复问题。
 
-      在以下示例日志文件代码片段中，您可以看到 `BUILD FAILED` 消息以及错误的原因。
+   在以下示例日志文件代码片段中，您可以看到 `BUILD FAILED` 消息以及错误的原因。
 
-      ![](images/dita-error-in-log-file.png)
+   ![](images/dita-error-in-log-file.png){width="650" align="left"}
 
-      - *AEM指南相关错误*:在日志文件中可以识别的另一种错误类型与AEM指南进程本身相关。 在这种情况下，DITA映射文件已成功解析，但输出生成过程因AEM指南中的某些内部错误而失败。 如果出现此类错误，您必须向技术支持团队寻求帮助。
+   - *AEM指南相关错误*:在日志文件中可以识别的另一种错误类型与AEM指南进程本身相关。 在这种情况下，DITA映射文件已成功解析，但输出生成过程因AEM指南中的某些内部错误而失败。 如果出现此类错误，您必须向技术支持团队寻求帮助。
 
-         在以下示例日志文件代码片段中，您可以看到 `BUILD SUCCESSFUL` 消息，然后是其他技术错误。
+   在以下示例日志文件代码片段中，您可以看到 `BUILD SUCCESSFUL` 消息，然后是其他技术错误。
 
-         ![](images/process-error-in-log-file.png)
+   ![](images/process-error-in-log-file.png){width="650" align="left"}
 
 
 ## 解决JSP编译错误
@@ -78,7 +78,7 @@ ht-degree: 0%
 
 请执行以下步骤以解决此问题：
 
-1. 从全局导航中，选择工具，然后选择操作\> Web Console。
+1. 从全局导航中，选择工具，然后选择操作\> Web控制台。
 
    此时将显示Adobe Experience Manager Web控制台配置页面。
 
@@ -90,4 +90,3 @@ ht-degree: 0%
 
 
 **父主题：**[&#x200B;输出生成](generate-output.md)
-

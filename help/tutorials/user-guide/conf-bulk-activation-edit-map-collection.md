@@ -1,13 +1,13 @@
 ---
 title: 编辑批量激活映射集合
 description: 了解如何编辑批量激活图集合
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # 编辑批量激活映射集合 {#id214GI40B0XA}
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 1. 单击&#x200B;**删除**。
 
-   ![](images/bulk-activation-delete-map.png)
+   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
 
    所选映射将从批量激活映射集合中删除。
 
@@ -41,4 +41,3 @@ ht-degree: 1%
 
 
 **父主题：**[&#x200B;批量激活已发布的内容](conf-bulk-activation.md)
-

@@ -1,13 +1,13 @@
 ---
 title: 内容重用报表
 description: 了解如何重用内容报表
-source-git-commit: bb7a8d49e5425b7fc856277c054558c75394fcb2
+exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 0%
 
 ---
-
 
 # 内容重用报表 {#id205BB900OQD}
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 单击 **生成报表** 以获取内容重用报表。
 
-   ![](images/content-reuse-uuid.png)
+   ![](images/content-reuse-uuid.png){width="800" align="left"}
 
    报表页面分为两部分：
 
@@ -61,4 +61,3 @@ ht-degree: 0%
 > 您还可以将内容重用报表导出为CSV格式。 为此，请单击屏幕左上角的导出到CSV链接，然后选择保存CSV文件的位置。 然后，您可以在任何CSV编辑器中打开此CSV文件。
 
 **父主题：**[&#x200B;报表](reports-intro.md)
-

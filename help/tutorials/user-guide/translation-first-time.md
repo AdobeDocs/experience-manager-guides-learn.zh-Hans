@@ -1,13 +1,13 @@
 ---
 title: 内容翻译的最佳实践
 description: 了解内容翻译的最佳实践
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 1%
 
 ---
-
 
 # 内容翻译的最佳实践 {#id1678G0S702F}
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 下图显示了在全局使用内容和三个语言副本时AEM中的文件夹结构示例。
 
-![](images/aem-directory_structure.png)
+![](images/aem-directory_structure.png){width="800" align="left"}
 
 ## 配置翻译服务
 
@@ -129,4 +129,3 @@ ht-degree: 1%
 > 如果您拒绝翻译作业中一个或多个主题的翻译，则 **正在进行** 所有已拒绝主题的翻译状态将还原为其原始状态。 将根据最新的翻译状态检查并恢复引荐主题的状态。 此外，即使目标项目中创建的翻译遭到拒绝，也不会删除这些翻译文件。
 
 **父主题：**[&#x200B;翻译内容](translation.md)
-

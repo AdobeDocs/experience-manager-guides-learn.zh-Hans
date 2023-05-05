@@ -1,13 +1,13 @@
 ---
 title: 激活输出
 description: 了解如何激活输出
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: a3b6cfed-813e-433c-891f-bb0715e7b94a
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 2%
 
 ---
-
 
 # 激活输出 {#id214GGF00V5U}
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 1. 选择要发布的收藏集，然后单击 **打开**.
 
-   ![](images/bulk-activation-collection-open.png)
+   ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
 1. \(*可选*\)从左边栏应用所需的过滤器，以根据其修改的\（状态\）、输出预设或语言来过滤映射：
 1. 执行下列操作之一：
@@ -31,10 +31,9 @@ ht-degree: 2%
    - 要激活所选映射的输出，请选择映射文件并单击 **快速发布**.
    - 要激活所有DITA映射及其配置预设的输出，请选中映射\(column\)旁边的复选框，然后单击 **快速发布。**
 
-      ![](images/bulk-activation-collection-quick-publish.png)
+      ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
 
 
 激活选定映射文件的输出后，“已发布”列将更新为当前日期和时间。
 
 **父主题：**[&#x200B;批量激活已发布的内容](conf-bulk-activation.md)
-

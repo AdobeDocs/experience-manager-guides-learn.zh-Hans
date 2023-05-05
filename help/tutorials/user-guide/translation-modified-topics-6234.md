@@ -1,13 +1,13 @@
 ---
 title: 翻译修改的主题
 description: 了解如何翻译修改的主题
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 48b868c3-27ec-4641-b40d-17a641be7497
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
 
 ---
-
 
 # 翻译修改的主题 {#id16A5A0B6072}
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
    如果单击箭头可查看更多详细信息。 您可以看到特定语言副本已过期。
 
-   ![](images/out-of-sync-uuid.png)
+   ![](images/out-of-sync-uuid.png){width="800" align="left"}
 
 1. 单击复选框以选择要发送以进行重新翻译的主题。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 在项目控制台中导航到翻译项目。 将在文件夹中创建新的翻译作业卡片。 单击省略号可查看文件夹的资产。
 
-   ![](images/incremental-job.PNG)
+   ![](images/incremental-job.PNG){width="300" align="left"}
 
 1. 要开始翻译，请单击翻译作业卡片上的箭头，然后选择 **开始** 列表。 系统会显示一条消息，通知作业已启动。
 
@@ -76,4 +76,3 @@ ht-degree: 0%
 
 
 **父主题：**[&#x200B;翻译内容](translation.md)
-

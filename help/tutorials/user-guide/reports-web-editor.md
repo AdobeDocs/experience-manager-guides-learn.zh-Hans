@@ -1,13 +1,13 @@
 ---
 title: Web编辑器中的DITA映射报表
 description: 了解如何从Web编辑器中DITA映射报告
-source-git-commit: 895d9bd3587c871d5223df5b71403d10bdc3d762
+exl-id: b1011cec-6374-4026-bf1c-54a1981c760e
+source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
 
 ---
-
 
 # Web编辑器中的DITA映射报表 {#id231HF0Z0NXA}
 
@@ -25,9 +25,10 @@ AEM指南在Web编辑器中附带一项功能，让您能够检查引用的整�
 1. 单击 **管理** 选项卡。
 1. 双击 **主题列表** 左边。 将显示DITA映射中存在的主题列表。
 
-   ![](images/web-editor-topiclist-panel.png)
+   ![](images/web-editor-topiclist-panel.png){width="800" align="left"}
 
 1. 从 **过滤器** 面板，您可以根据 **引用类型** \（直接或间接\）、 **文档状态** \(您的主题的当前状态。 例如，如果您的主题处于“编辑”、“审阅中”或“审阅中”状态，则这些主题将列出\)或 **作者** 主题。
+
 1. 您还可以使用以下主题筛选选项来选择在列表中显示以下列：
 
    - **主题** 主题的标题在DITA映射中指定。 您可以单击主题以对其进行编辑。
@@ -57,7 +58,7 @@ AEM指南允许您从Web编辑器中标记DITA内容。 您可以对单个主题
 1. 单击 **管理** 选项卡。
 1. 双击 **元数据** 左边。 将显示DITA映射中所有引用的元数据列表。 这还包括媒体引用。
 
-   ![](images/web-editor-metadata-panel.png)
+   ![](images/web-editor-metadata-panel.png){width="800" align="left"}
 
 1. 从 **过滤器** 面板，您可以根据 **文档状态** \(您的主题的当前状态。 例如，如果您的主题处于“编辑”、“审阅中”或“审阅中”状态，则这些主题将列出\)、 **引用** \（直接或间接\）、 **文件类型** \（引用的映射、主题和图像\）。
 1. 您还可以选择仅查看 **没有标记的文件** 或从 **标记** 筛选器以查看与其关联的文件。
@@ -92,7 +93,7 @@ AEM指南允许您从Web编辑器中标记DITA内容。 您可以对单个主题
 
 1. 选择 **管理** 从上方。
 
-   ![](images/web-editor-manage-metadata.png)
+   ![](images/web-editor-manage-metadata.png){width="350" align="left"}
 
 1. 如果要添加任何新标记，请从下拉列表中选择新标记，以将其应用于所有选定主题。 您还可以通过单击标记旁边的交叉图标来删除任何标记。
 
@@ -114,11 +115,11 @@ AEM指南允许您从Web编辑器中标记DITA内容。 您可以对单个主题
 
    - 订购依据 **多媒体**，则多媒体的****名称会显示在第一列中，并且在同一行的另一列中显示所有已使用引用的名称。 例如，以下屏幕截图显示了第一列中的多媒体WarmCoolForC.gif以及在同一行的第三列中使用它的三个引用。
 
-      ![](images/multimedia-report-file-order.png)
+      ![](images/multimedia-report-file-order.png){width="650" align="left"}
 
    - 如果您订购方式 **在中使用** 列中，您将看到转换视图，其中已使用多媒体的引用的名称列在第一列中，而多媒体名称列在单独行的另一列中。 例如，以下屏幕截图显示了第一列中三个引用\（调整座位温度、更改座位温度显示和船员区域\）的名称，而三行中的第三列中则显示了多媒体WarmCoolForC.gif。
 
-      ![](images/multimedia-report-used-in-order.png)
+      ![](images/multimedia-report-used-in-order.png){width="650" align="left"}
 
 1. 您可以根据 **多媒体类型**&#x200B;和 **引用类型**. 多媒体文件列表会根据您在下拉菜单中的选择进行显示。 例如，您可以选择仅显示DITA映射中的音频引用，而文件仅显示其中使用的音频引用。
 
@@ -138,10 +139,11 @@ AEM指南允许您从Web编辑器中标记DITA内容。 您可以对单个主题
    >[!NOTE]
    >
    > 单击 **刷新** 以获取全新的多媒体列表，并查看映射文件中的任何更改，或DITA映射中的任何多媒体是否已更新。
+
 1. 您还可以在Web编辑器中单击并播放音频或视频文件。 您可以更改视频的音量或视图。 在快捷菜单中，您还可以选择下载、更改播放速度或查看画中画。
-   ![](images/video-web-editor.png)
+
+   ![](images/video-web-editor.png){width="800" align="left"}
 
 1. 单击 **下载CSV** 下载DITA映射中多媒体的当前快照。 CSV包含选定的列以及 **多媒体** 中。 然后，您可以在任何CSV编辑器中打开此多媒体CSV文件。
 
 **父主题：**[&#x200B;报表](reports-intro.md)
-
