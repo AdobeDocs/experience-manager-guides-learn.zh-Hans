@@ -1,13 +1,13 @@
 ---
 title: 发送主题以供审阅
 description: 了解如何发送主题以供审阅
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7a9b36ad-44d4-4952-9906-d95feb95d0c6
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 0%
 
 ---
-
 
 # 发送主题以供审阅 {#id199RD0S035Z}
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 1. 单击快速操作中的选择图标，然后选择要发送以供审阅的主题。
 
-   ![](images/select-asset-62.png)
+   ![](images/select-asset-62.png){width="300" align="left"}
 
 1. 在工具栏中，单击 **创建审核任务**. 此时将显示审核任务创建页面。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
    >
    > 您只能为那些具有修订版本的主题创建审阅任务。 如果所选主题没有修订版，将显示提示。
 
-   ![](images/create-review-task-023.png)
+   ![](images/create-review-task-023.png){width="650" align="left"}
 
 1. 输入 **标题** 选择DITA **项目** 从下拉列表中。
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 
    随即会显示“内容”页面。
 
-   ![](images/content_page_review.png)
+   ![](images/content_page_review.png){width="800" align="left"}
 
 1. 在内容页面上，选择要共享以供审阅的主题版本。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
    将显示“审阅人”页面，您可以在其中添加或删除审阅人。 默认情况下，在“指定给”字段中添加的审阅人会自动添加到为审阅选择的每个主题中。
 
-   ![](images/add-reviewers-topics.png)
+   ![](images/add-reviewers-topics.png){width="650" align="left"}
 
 1. 在“审阅人”页面上，可以添加或删除审阅人。 “审阅人”页面上提供了以下操作：
 
@@ -208,7 +208,7 @@ AEM指南允许您同时发送DITA映射中的一个或多个主题以供审阅�
 
    将显示“内容”页面，其中包含从映射文件引用的所有主题。 如果您的DITA映射包含嵌套映射，则此处还列出了嵌套映射中的主题。
 
-   ![](images/content-page-map-review.png)
+   ![](images/content-page-map-review.png){width="800" align="left"}
 
 1. 在内容页面上，选择要共享以供审阅的主题版本。
 
@@ -265,4 +265,3 @@ AEM指南允许您同时发送DITA映射中的一个或多个主题以供审阅�
 会向所有审阅人发送一封电子邮件，通知他们已分配了要审阅的主题。 电子邮件包含一个直接链接，用户可以单击该链接并在浏览器窗口中访问该主题。 主题以及DITA映射在审阅模式下打开。
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

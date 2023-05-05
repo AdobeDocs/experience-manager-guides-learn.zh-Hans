@@ -1,13 +1,13 @@
 ---
 title: 了解Web编辑器功能
 description: 了解Web编辑器功能
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
+source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
 workflow-type: tm+mt
 source-wordcount: '14387'
 ht-degree: 0%
 
 ---
-
 
 # 了解Web编辑器功能 {#id176NC500V5Z}
 
@@ -566,7 +566,7 @@ Web编辑器中的版本历史记录功能不仅允许您检查活动主题上�
    >
    > 如果某个版本已应用标签，则\（在括号\中）也会显示它们以及版本号。
 
-   从下拉列表中选择版本后，“还原到选定的版本”选项即可使用。 预览窗口会显示当前版本与所选主题版本之间的差异。
+   从下拉列表中选择版本后，“还原到选定版本”选项即可使用。 预览窗口会显示当前版本与所选主题版本之间的差异。
 
    ![](images/version-history-revert-diff-dialog-web-editor.png){width="550" align="left"}
 

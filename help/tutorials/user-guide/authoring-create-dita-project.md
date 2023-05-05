@@ -1,13 +1,13 @@
 ---
 title: 创建DITA项目
 description: 了解如何创建DITA项目
-source-git-commit: 101766d51d43eb728f0316155acffd19548f83be
+exl-id: 6dc88ac4-249a-4da2-9787-a58370e281ca
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # 创建DITA项目 {#id1645HA00NM6}
 
@@ -33,7 +33,7 @@ AEM指南提供了DITA项目模板，可用于创建和管理审阅任务。
 
 1. 单击 **创建** \> **项目** 启动“创建项目”向导。
 
-   ![](images/project-console-63.png)
+   ![](images/project-console-63.png){width="650" align="left"}
 
 1. 在创建项目页面上，选择 **DITA项目** 模板，单击 **下一个**.
 
@@ -41,7 +41,7 @@ AEM指南提供了DITA项目模板，可用于创建和管理审阅任务。
 
    中的信息 **基本** 选项卡：
 
-   ![](images/create-project.png)
+   ![](images/create-project.png){width="650" align="left"}
 
    - 输入项目的 **标题**, **描述**&#x200B;和 **到期日期**.
 
@@ -75,4 +75,3 @@ AEM指南提供了DITA项目模板，可用于创建和管理审阅任务。
 
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

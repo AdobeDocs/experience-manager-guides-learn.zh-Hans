@@ -1,13 +1,13 @@
 ---
 title: 查看已完成的审核任务
 description: 了解如何查看已完成的审阅任务
-source-git-commit: 176aee433300ce8d4d9cfbab2edb007acae4de87
+exl-id: 37f10fc3-e4ca-4e73-a887-65c7e9496f5e
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
-
 
 # 查看已完成的审核任务
 
@@ -19,8 +19,7 @@ ht-degree: 0%
 
 但是，您可以搜索或过滤任何评论。 您还可以选择显示或隐藏条件并相应地显示条件化内容。 您可以下载任何附件，但无法上载或删除评论的任何附件。
 
-<img src="images/complete-task-reviewer.png" alt="已完成审阅任务审阅人" width="800">
-
+![](images/complete-task-reviewer.png){width="800" align="left"}
 
 
 ## 作为作者
@@ -29,7 +28,6 @@ ht-degree: 0%
 
 但是，您可以搜索或过滤任何评论。 您可以下载任何附件，但无法上载或删除评论的任何附件。
 
-<img src="images/completed-task-author.png" alt=" 已完成审阅任务作者" width="800">
+![](images/completed-task-author.png){width="800" align="left"}
 
 因此，无论是作为审阅人还是作者，您都可以查看已审阅的内容以及注释，但是您不能在已完成的审阅任务中进行任何更改。
-

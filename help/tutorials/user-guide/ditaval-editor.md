@@ -1,15 +1,15 @@
 ---
 title: 使用DITAVAL编辑器
 description: 了解如何使用DIAVAL编辑器
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+source-git-commit: c6eceb8ea3ce41f12ea1f689dc8aeab2b4ba3d9c
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
 
 
-# DITAVAL编辑器 {#id17C5E0U0OQE}
+# DITAVAL编辑器 {#ditaval-editor}
 
 DITAVAL文件用于生成条件输出。 在单个主题中，您可以使用元素属性添加条件以条件化内容。 然后，创建一个DITAVAL文件，其中指定了生成内容时应选取的条件，以及最终输出中应排除的条件。
 
@@ -48,25 +48,25 @@ AEM指南允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DI
 
    DITAVAL编辑器允许您执行以下任务：
 
-   答：切换左侧面板：切换左侧面板视图。 如果您已通过DITA映射打开DITAVAL文件，则映射和存储库将显示在此面板中。 有关通过DITA映射打开文件的更多信息，请参阅 [通过DITA映射编辑主题](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
+   答：切换左侧面板切换左侧面板视图。 如果您已通过DITA映射打开DITAVAL文件，则映射和存储库将显示在此面板中。 有关通过DITA映射打开文件的更多信息，请参阅 [通过DITA映射编辑主题](map-editor-advanced-map-editor.md#id17ACJ0F0FHS).
 
-   B:保存：保存您在文件中所做的更改。 所有更改都将保存在文件的当前版本中。
+   B:保存保存您在文件中所做的更改。 所有更改都将保存在文件的当前版本中。
 
-   C:添加属性：在DITAVAL文件中添加单个资产。
+   C:添加资产在DITAVAL文件中添加单个资产。
 
-       ![](images/ditaval-editor-props.png)
-       
-       第一个下拉列表列出了可在DITAVAL文件中使用的允许的DITA属性。 支持五个属性 — “audience”、“platform”、“product”、“prop”和“otherprop”。
-   
-   :第二个下拉列表显示为选定属性配置的值。 然后，下一个下拉列表会显示您可以对选定属性配置的操作。 操作下拉列表中允许的值为 —  `include`, `exclude`, `passthrough`和 `flag`. 有关这些值的更多信息，请参阅 [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 元素
+   ![](images/ditaval-editor-props.png)
 
-   D:添加所有属性：如果要通过单击添加系统中定义的所有条件属性或属性，请使用添加所有属性功能。
+   第一个下拉列表列出了可在DITAVAL文件中使用的允许的DITA属性。 支持五个属性 —  `audience`, `platform`, `product`, `props`和 `otherprops`.
 
->[!NOTE]
->
-> 如果DITAVAL文件中已存在所有定义的条件属性，则无法添加更多属性。 在此方案中，您会收到一条错误消息。
+   第二个下拉列表显示为选定属性配置的值。 然后，下一个下拉列表会显示您可以对选定属性配置的操作。 操作下拉列表中允许的值为 —  `include`, `exclude`, `passthrough`和 `flag`. 有关这些值的更多信息，请参阅 [prop](http://docs.oasis-open.org/dita/dita/v1.3/errata01/os/complete/part3-all-inclusive/langRef/ditaval/ditaval-prop.html#ditaval-prop) 元素
 
-    ![](images/ditaval-all-props.png)
+   D:添加所有属性如果要通过单击添加系统中定义的所有条件属性或属性，请使用添加所有属性功能。
+
+   >[!NOTE]
+   >
+   > 如果DITAVAL文件中已存在所有定义的条件属性，则无法添加更多属性。 在此方案中，您会收到一条错误消息。
+
+   ![](images/ditaval-all-props.png)
 
 1. 编辑完DITAVAL文件后，单击 **保存**.
 
@@ -79,13 +79,13 @@ AEM指南允许您使用DITAVAL编辑器轻松创建和编辑DITAVAL文件。 DI
 
 AEM指南的DITAVAL编辑器支持以两种不同模式或视图查看DITAVAL文件：
 
-作者：这是DITAVAL编辑器的典型“What You Get \(WYSISYG\)”视图。 您可以使用简单的用户界面添加或删除属性，该用户界面会在下拉列表中显示属性、其值和操作。 在“创作”视图中，您可以选择插入单个资产，并通过单击插入所有资产。
+**作者**:这是DITAVAL编辑器的典型“What You Get \(WYSISYG\)”视图。 您可以使用简单的用户界面添加或删除属性，该用户界面会在下拉列表中显示属性、其值和操作。 在“创作”视图中，您可以选择插入单个资产，并通过单击插入所有资产。
 
-:您还可以通过将指针悬停在文件名上方来查找当前正在处理的DITAVAL文件版本。
+您还可以通过将指针悬停在文件名上方来查找当前正在处理的DITAVAL文件版本。
 
-来源：“源”视图显示构成DITAVAL文件的基础XML。 除了在此视图中进行常规文本编辑之外，作者还可以使用智能目录添加或编辑属性。
+**来源**:“源”视图显示构成DITAVAL文件的基础XML。 除了在此视图中进行常规文本编辑之外，作者还可以使用智能目录添加或编辑属性。
 
-    要调用智能目录，请将光标放在任何属性定义的末尾，并输入“&lt;”。 编辑器将显示可在该位置插入的所有有效XML元素的列表。
-    
-    ![](images/ditaval-source-view.png)
+要调用智能目录，请将光标放在任何属性定义的末尾，并输入“&lt;”。 编辑器将显示可在该位置插入的所有有效XML元素的列表。
+
+![](images/ditaval-source-view.png)
 

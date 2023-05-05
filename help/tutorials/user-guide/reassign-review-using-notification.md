@@ -1,13 +1,13 @@
 ---
 title: 使用通知重新分配审核任务
 description: 了解如何使用通知重新分配审核任务
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: d20865a8-2c30-4bd7-8594-64e0ccdb665a
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
 
 ---
-
 
 # 使用通知重新分配审核任务 {#id21BNH03M0KS}
 
@@ -28,7 +28,7 @@ ht-degree: 0%
    >
    > 审核人员必须具有重新分配的权限，并且应是用户管理员组的一部分。
 
-   ![](images/reassign-user-inbox.png)
+   ![](images/reassign-user-inbox.png){width="800" align="left"}
 
 1. 选择 **重新分配**.
 
@@ -37,4 +37,3 @@ ht-degree: 0%
 分配的审阅人在收件箱中收到重新分配的审阅任务的通知。
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

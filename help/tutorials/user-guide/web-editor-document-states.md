@@ -1,13 +1,13 @@
 ---
 title: 文档状态
 description: 了解如何记录状态
-source-git-commit: 13106cd1c7f6d38fecb67dd93eef66263eb29bae
+exl-id: 6ab85a63-02d2-4802-a6b8-99e6551a567b
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
 
 ---
-
 
 # 文档状态 {#id1821HC00URO}
 
@@ -69,11 +69,11 @@ AEM指南提供了文档批准工作流，可帮助您控制文档开发过程�
 
 1. 如果文档处于标记为已批准的状态，则会显示以下对话框：
 
-   ![](images/mark-approved-correct-state.png){width="550" align="left"}
+   ![](images/mark-approved-correct-state.png){width="300" align="left"}
 
    如果文档无法标记为已批准，则会显示以下消息：
 
-   ![](images/mark-approved-incorrect-state.png){width="550" align="left"}
+   ![](images/mark-approved-incorrect-state.png){width="300" align="left"}
 
 1. 如果您的文档已准备好标记为已批准，请从下拉列表中选择一个标签，然后单击 **批准**.
 
@@ -102,4 +102,3 @@ AEM指南提供了文档批准工作流，可帮助您控制文档开发过程�
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)
-

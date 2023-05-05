@@ -1,13 +1,13 @@
 ---
 title: 使用高级映射编辑器
 description: 了解如何使用高级映射编辑器
-source-git-commit: cb0f21b0e22c58da478a4b1a6d6aa99ad42f0f3d
+exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '3675'
 ht-degree: 0%
 
 ---
-
 
 # 使用高级映射编辑器 {#id1942D0S0IHS}
 
@@ -33,21 +33,21 @@ ht-degree: 0%
 
 1. 选择映射文件后，单击 **编辑主题**.
 
-   ![](images/edit-map-main-menu.png)
+   ![](images/edit-map-main-menu.png){width="800" align="left"}
 
    或者，您也可以选择 **编辑主题** 选项：
 
-   ![](images/edit-map-action-menu.png)
+   ![](images/edit-map-action-menu.png){width="800" align="left"}
 
    此时会打开映射文件，以在Web编辑器中进行编辑。
 
 1. 单击 **编辑** 图标。
 
-   ![](images/edit-map-icon.png)
+   ![](images/edit-map-icon.png){width="550" align="left"}
 
    此时将在高级映射编辑器界面中打开映射。 如果已打开新的映射文件，则编辑器中只显示映射的标题。
 
-   ![](images/new-map-file-in-editor.png)
+   ![](images/new-map-file-in-editor.png){width="800" align="left"}
 
    - **A** - \(*主工具栏*\):这类似于Web编辑器的主工具栏。 请参阅 [主工具栏](web-editor-features.md#id2051EA0G05Z) ，以了解更多详细信息。
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    该主题将添加到映射中。
 
-   ![](images/map-editor-add-topic.png)
+   ![](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 要添加后续主题或子映射，请将主题或子映射拖放到映射中的所需位置。
 
@@ -77,15 +77,15 @@ ht-degree: 0%
 
    - 文件会添加到地图编辑区域中水平条显示的位置。 在以下屏幕截图中， *概述* 主题将在 *常规描述* 和 *启动和登陆站点* 主题。
 
-      ![](images/horizontal-line-in-adv-map-editor.png)
+      ![](images/horizontal-line-in-adv-map-editor.png){width="350" align="left"}
 
    - 要替换主题，请将主题放在要替换的主题的顶部、左侧或右侧。 主题左侧或右侧的垂直栏表示将替换为该主题上所放置的主题。
 
-      ![](images/vertical-bar-left-right.png)
+      ![](images/vertical-bar-left-right.png){width="550" align="left"}
 
       但是，在替换主题之前，您会收到确认提示。 只有在您进行确认后，才会替换主题。
 
-      ![](images/replace-topic-confirm.png)
+      ![](images/replace-topic-confirm.png){width="300" align="left"}
 
    - 如果将子映射添加到DITA映射，则子映射将在DITA映射中显示为链接。 要查看子映射的所有主题，请按住Crtl并单击子映射链接。 子映射的内容将显示在新选项卡中。 同样，要从DITA映射中打开一个主题，请按住Crtl并单击主题链接，该链接会在新选项卡中打开。
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
    - 要更改主题的位置，请选择主题\（通过单击主题图标\），然后将其拖放到映射文件中的所需位置。 确保水平条在要放置主题的位置可见。 在以下屏幕截图中，主题 *启动和登陆站点* 在 *概述* 主题。
 
-      ![](images/move-topic-adv-map-editor.png)
+      ![](images/move-topic-adv-map-editor.png){width="350" align="left"}
 
    - 要检查映射文件的属性，请右键单击映射编辑区域中的任意位置，然后选择 **属性** 中。 根据您的AEM版本，您可以看到诸如元数据、计划\(de\)激活、引用、文档状态等属性。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 **插入主题参考** - ![](images/insert-topic-reference.png)
 
 显示主题搜索对话框。 导航到要插入的主题/映射文件，然后单击选择以将其添加到映射中。
-![](images/insert-topic-reference-dialog.png)
+![](images/insert-topic-reference-dialog.png){width="800" align="left"}
 
 
 **插入主题组** - ![](images/insert-topic-group.png)
@@ -130,7 +130,7 @@ ht-degree: 0%
 
 显示“插入键定义”对话框。 使用此对话框可定义要在映射中使用的任何键定义。
 
-![](images/insert-key-definition-dialog.png)
+![](images/insert-key-definition-dialog.png){width="300" align="left"}
 
 **此项前插入/此项后插入** - ![](images/insert_element_before_icon.svg) / ![](images/insert_element_after_icon.svg)
 
@@ -199,7 +199,7 @@ ht-degree: 0%
 
 除了组织映射文件中的主题之外，您还可以使用布局视图中某个元素可用的选项菜单执行以下操作：
 
-![](images/map-editor-options-menu.png)
+![](images/map-editor-options-menu.png){width="650" align="left"}
 
 - **添加**:您可以选择从映射编辑器中添加新主题或空引用：
    - **空引用**:此选项允许您在DITA映射中添加空引用。 您以后可以双击插入的空引用，并添加主题详细信息。 有关更多详细信息，请参阅 [创建主题](web-editor-features.md#id228ICI0105U) 中。
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 - **其他属性** 如果您的管理员为属性创建了配置文件，则您将获得这些属性及其配置的值。 使用“内容属性”面板，您可以选择这些属性，并将其分配给主题中的相关内容。 您还可以在 **显示属性** 选项卡。 为元素定义的属性显示在“布局”和“大纲”视图中。 这有助于您快速查看映射中定义了特定属性的所有主题。 例如，所有将平台属性定义为“Android”的主题。
 
-   ![](images/layout-inline-attributes.png)
+   ![](images/layout-inline-attributes.png){width="650" align="left"}
 
 
    有关更多详细信息，请参阅 *显示属性* 在 *编辑器设置* 中的功能描述 [左面板](web-editor-features.md#id2051EA0M0HS) 中。
@@ -310,7 +310,7 @@ AEM指南允许作者在Web编辑器中打开DITA映射，并查看主题在映�
    >
    > 您还可以在资产UI中选择DITA映射文件，然后单击 **编辑主题** 在主工具栏中启动Web编辑器。
 
-   ![](images/web-editor-map-view_cs.png)
+   ![](images/web-editor-map-view_cs.png){width="350" align="left"}
 
 1. \(*可选*\)您还可以在编辑之前从映射中选择主题并签出文件。 要签出文件，请从左窗格中选择一个或多个文件，然后单击 **结帐**. 您还可以通过选择检出的文件并单击 **取消签出和解锁** 图标。
 
@@ -320,13 +320,13 @@ AEM指南允许作者在Web编辑器中打开DITA映射，并查看主题在映�
 
    以下屏幕截图突出显示了以下图标：“签出”和“锁定”\(A\)、“取消签出”和“解锁”\(B\)、“另存为新版本和解锁”\(C\)、“编辑”\(D\)、“预览”\(E\)、显示不同DITA文件类型\(F\)的不同图标，以及签出的文件\(G\)。
 
-   ![](images/file-checkout-map-editor.png)
+   ![](images/file-checkout-map-editor.png){width="550" align="left"}
 
 1. 单击任意主题链接可在Web编辑器中将其打开以进行编辑。
 
    您可以在编辑器中打开多个主题，每个主题都会在编辑器的新选项卡中打开。 即使DITA映射包含子映射，子映射中的主题也会在新选项卡中打开以进行编辑。 如果要查看子映射下的主题，可以单击并展开子映射。
 
-   ![](images/web-editor-multiple-topics.png)
+   ![](images/web-editor-multiple-topics.png){width="800" align="left"}
 
    如果单击映射文件，则会在Web浏览器的新选项卡中打开该映射。
 
@@ -334,14 +334,14 @@ AEM指南允许作者在Web编辑器中打开DITA映射，并查看主题在映�
 
    - 您可以单独保存它们。 如果单击 **关闭而不保存** 您的主题将看到一个对话框，提示您保存未保存的主题：
 
-      ![](images/save-multiple-topics.PNG)
+      ![](images/save-multiple-topics.PNG){width="550" align="left"}
 
       您可以选择保存所有选定的主题或取消选择您不希望保存的主题。
 
    - 您可以使用 **另存为新版本并解锁** 按钮。 保存主题的修订版本时，将创建一个新修订版本，并且锁也会释放。
    - 如果管理员已启用关闭时签入文件的选项，则在关闭签出的文件时，系统会提示您保存文件。 启用此选项后，当您使用更改的文件关闭编辑器时，将显示需要保存的已签出文件的列表。 签出的文件会显示一个锁图标：
 
-      ![](images/save-on-close.PNG)
+      ![](images/save-on-close.PNG){width="550" align="left"}
 
       - 单击 **关闭而不保存** 按钮关闭文件而不保存任何更改。
 
@@ -364,7 +364,7 @@ AEM指南允许作者在Web编辑器中打开DITA映射，并查看主题在映�
 
 - **高级映射编辑器**:在高级映射编辑器中，单击预览图标以查看当前映射的预览。
 
-   ![](images/map-preview-icon.png)
+   ![](images/map-preview-icon.png){width="350" align="left"}
 
    您可以在预览模式下执行以下其他任务：
 
@@ -380,4 +380,3 @@ AEM指南允许作者在Web编辑器中打开DITA映射，并查看主题在映�
 
 
 **父主题：**[&#x200B;使用地图编辑器](map-editor.md)
-

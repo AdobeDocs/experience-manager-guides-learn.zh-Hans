@@ -1,13 +1,13 @@
 ---
 title: 使用标签
 description: 了解如何使用标签
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 3ea56d06-537f-4bfd-922d-df1f23e61a20
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
 
 ---
-
 
 # 使用标签 {#id164JBG0M0T1}
 
@@ -33,8 +33,7 @@ AEM指南允许您向文件的不同版本添加标签。 您可以使用这些�
 
    标签显示在所选主题的版本历史记录中。 以下屏幕截图显示了标签 *x.x版本* 和 *用户指南* 已添加到主题的突出显示版本。
 
-
-![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 >[!NOTE]
 >
@@ -49,12 +48,11 @@ AEM指南允许您向文件的不同版本添加标签。 您可以使用这些�
 
    在版本历史记录中，您将看到主题的所有版本以及附加到这些版本的标签。 下图显示了一个主题不同版本的示例，其中一个版本添加了标签。
 
-   ![](images/labels.png)
+   ![](images/labels.png){width="300" align="left"}
 
 1. 单击删除按钮\(**X**\)删除标签。
 
-   ![](images/delete-labels.png)
+   ![](images/delete-labels.png){width="300" align="left"}
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)
-

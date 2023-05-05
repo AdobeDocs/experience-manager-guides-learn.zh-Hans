@@ -1,13 +1,13 @@
 ---
 title: 智能标记
 description: 了解如何智能标记
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
 
 ---
-
 
 # 智能标记 {#id216KH0ID0Y8}
 
@@ -23,12 +23,12 @@ AEM指南附带添加智能标记的功能。 您可以使用XML关键字提取�
 1. 在预览模式下打开主题，然后选择 **重新处理资产** 图标。
 1. 选择XML关键词提取以提取相关关键词。
 
-   ![](images/smart-tag-reprocess-asset.png)
+   ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}
 
 1. 选择“运行后处理”选项。 成功启动工具时，会显示一条消息。
 1. 将自动提取标记，并可在选定主题的“属性”页面上看到这些标记。
 
-   ![](images/properties-smart-tags.png)
+   ![](images/properties-smart-tags.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -38,4 +38,3 @@ AEM指南附带添加智能标记的功能。 您可以使用XML关键字提取�
 *请联系您的客户成功团队以在环境中启用此功能。 此功能未作为现成支持的一部分启用。*
 
 **父主题：**[&#x200B;管理元数据](manage-metadata.md)
-

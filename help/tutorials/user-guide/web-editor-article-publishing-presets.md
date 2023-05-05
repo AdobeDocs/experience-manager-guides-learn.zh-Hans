@@ -1,13 +1,13 @@
 ---
 title: 从Web编辑器创建输出预设
 description: 了解如何从Web编辑器创建输出预设
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 7fde0057-06a5-428e-a91b-9e9386a56270
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # 从Web编辑器创建输出预设 {#id218CL400JW3}
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 在 **输出** 选项卡，选择+图标以为DITA映射创建输出预设。
 
-   ![](images/output-tab-preset_cs.png)
+   ![](images/output-tab-preset_cs.png){width="350" align="left"}
 
 1. 在添加预设对话框中输入预设的名称，然后单击 **添加**.
 
@@ -43,20 +43,19 @@ ht-degree: 0%
    1. 从 **文章** 选项卡，选择要为其生成输出的主题。
 1. 选择 **生成预设** 图标来生成输出。
 
-   ![](images/add-preset-articles-tab_cs.png)
+   ![](images/add-preset-articles-tab_cs.png){width="800" align="left"}
 
 1. 您将看到输出生成过程的状态。 的 **主题** 列列出了在 **状态** 列显示每个主题的发布状态。
 
    要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
-   ![](images/add-preset-output-generated_cs.png)
+   ![](images/add-preset-output-generated_cs.png){width="800" align="left"}
 
 
 >[!NOTE]
 >
 > 您还可以从“选项”菜单中编辑、重命名、复制或删除现有输出预设。
 
-![](images/edit-preset_cs.png)
+![](images/edit-preset_cs.png){width="550" align="left"}
 
 **父主题：**[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
-

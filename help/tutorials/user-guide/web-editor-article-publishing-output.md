@@ -1,13 +1,13 @@
 ---
 title: 从“存储库”面板生成输出
 description: 了解如何从“存储库”面板生成输出
-source-git-commit: a78a775406c07c1ec12665cdb00f65ca91f03f95
+exl-id: 3dea81c3-1e57-4f14-9afe-6b075bd410e0
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # 从“存储库”面板或“映射视图”面板生成输出 {#id218CL6010AE}
 
@@ -28,16 +28,16 @@ ht-degree: 0%
 1. 在 **作者** 选项卡，选择要发布的DITA映射中的主题。
 
 1. 选择 **快速生成** 的“选项”菜单。
-   ![](images/select-topic-options-menu_cs.png)
+   ![](images/select-topic-options-menu_cs.png){width="650" align="left"}
 
 1. 要发布单个DITA映射中使用的主题，请选择要用于发布的映射的输出预设并单击 **生成**.
-   ![](images/select-preset_cs.png)
+   ![](images/select-preset_cs.png){width="350" align="left"}
 
 1. 您将看到输出生成过程的状态。 要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 1. 如果您有一个通用主题，该主题可跨多个主题使用，请选择各种DITA映射以及要用于发布的输出预设，然后单击 **生成。**
 
-   ![](images/select-preset-multiple-maps_cs.png)
+   ![](images/select-preset-multiple-maps_cs.png){width="350" align="left"}
 
 1. 您将看到输出生成过程的状态。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
    - **地图**:列出包含所选主题的DITA映射。
    - **状态**:显示每个主题的发布状态。
 要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
-      ![](images/output-multiple-maps_cs.png)
+      ![](images/output-multiple-maps_cs.png){width="800" align="left"}
 
 
 ## 从Web编辑器中生成DITA映射的输出
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 1. 选择 **快速生成** 从DITA映射的“选项”菜单中。
 
-   ![](images/select-map-options-menu_cs.png)
+   ![](images/select-map-options-menu_cs.png){width="650" align="left"}
 
 1. 选择要用于发布的DITA映射的输出预设，然后单击 **生成。**
 
@@ -78,10 +78,9 @@ ht-degree: 0%
    >
    > 您将只看到当前DITA映射中包含所有选定主题的输出预设。
 
-   ![](images/generate-output-multiple-topics_cs.png)
+   ![](images/generate-output-multiple-topics_cs.png){width="650" align="left"}
 
 1. 您将看到输出生成过程的状态。要查看输出，请将鼠标指针悬停在主题上，然后单击“查看输出”。
 
 
 **父主题：**[&#x200B;从Web编辑器中基于文章的发布](web-editor-article-publishing.md)
-

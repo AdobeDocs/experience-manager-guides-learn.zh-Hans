@@ -1,13 +1,13 @@
 ---
 title: 创建映射
 description: 了解如何创建地图
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: d35ee09f-f951-4866-a2b1-e4b19f76e7a1
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
 
 ---
-
 
 # 创建映射 {#id176FEN0D05Z}
 
@@ -25,7 +25,7 @@ AEM指南提供了两个现成的映射模板 — DITA映射和书签映射。 �
    >
    > 映射文件中引用主题的方式取决于映射模板。 例如，如果选择映射模板，则主题引用\(`topicref`\)用于引用主题。 对于书签，主题引用是使用 `chapter` 元素。
 
-   ![](images/map-template.png)
+   ![](images/map-template.png){width="650" align="left"}
 
 1. 在属性页面上，指定映射 **标题**.
 
@@ -41,7 +41,7 @@ AEM指南提供了两个现成的映射模板 — DITA映射和书签映射。 �
 
    您从资产UI创建的每个新映射文件 **创建** \> **DITA映射** 或者，会为Web编辑器分配唯一的映射ID。 此外，新映射会另存为DAM中的最新工作副本。 在保存新创建映射的修订版之前，版本历史记录中不会显示任何版本号。 如果打开映射进行编辑，则版本信息将显示在映射文件选项卡的右上角：
 
-   ![](images/first-version-map-none.png)
+   ![](images/first-version-map-none.png){width="650" align="left"}
 
    新创建映射的版本信息显示为 *无*. 保存新版本时，会为其分配版本号1.0。有关保存新版本的详细信息，请参阅 [另存为新版本](web-editor-features.md#save-as-new-version-id209ME400GXA).
 
@@ -53,4 +53,3 @@ AEM指南提供了两个现成的映射模板 — DITA映射和书签映射。 �
 
 
 **父主题：**[&#x200B;使用地图编辑器](map-editor.md)
-

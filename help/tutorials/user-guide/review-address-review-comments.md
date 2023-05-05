@@ -1,13 +1,13 @@
 ---
 title: 地址审阅注释
 description: 了解如何处理审阅评论
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 0%
 
 ---
-
 
 # 地址审阅注释 {#id2056B0X0KBI}
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 > 在处理审阅注释\（对于活动审阅文档\）时，请确保您 — 不要在启用了完整标记视图的多个选项卡中打开审阅中的主题，不要在“创作”和“源”视图模式之间切换。
 
-![](images/comments-page-web-editor_cs.png)
+![](images/comments-page-web-editor_cs.png){width="650" align="left"}
 
 在Web编辑器模式下，右侧面板包含“审阅”和“跟踪的更改”图标。 “审阅”面板显示审阅人在文档中所做的所有注释。 “跟踪的更改”面板显示文档中所有插入和删除的注释的状态。
 
@@ -41,11 +41,11 @@ ht-degree: 0%
 
    如果要一次合并建议的更改\（插入或删除\），只需右键单击内容中的注释，然后选择“接受更改”或“拒绝更改”。 根据您的选择，将接受或拒绝该评论。 接受评论的，在内容中添加内容；如果被拒绝，则从内容中删除。 此外，评论的状态会在“审阅”面板中发生更改。
 
-   ![](images/import-comment-accept-web-editor_cs.png)
+   ![](images/import-comment-accept-web-editor_cs.png){width="800" align="left"}
 
    您还可以使用右侧面板中的审阅功能接受或拒绝注释。 单击任何注释会突出显示文档中的注释。
 
-   ![](images/changes-tab_cs.png)
+   ![](images/changes-tab_cs.png){width="800" align="left"}
 
    >[!IMPORTANT]
    >
@@ -61,4 +61,3 @@ ht-degree: 0%
 
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

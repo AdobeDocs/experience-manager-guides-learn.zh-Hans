@@ -1,13 +1,13 @@
 ---
 title: 使用审阅功能板管理审阅任务
 description: 了解如何使用审阅功能板管理审阅任务
-source-git-commit: f3d747082103c73a365ee400cbd4dcdabd36eabf
+exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 0%
 
 ---
-
 
 # 使用审阅功能板管理审阅任务 {#id2056B0Y70X4}
 
@@ -23,13 +23,13 @@ ht-degree: 0%
 
    此时会显示包含任务图块的项目面板。
 
-   ![](images/review-management.png)
+   ![](images/review-management.png){width="800" align="left"}
 
 1. 单击 **评论** 拼贴。
 
    将显示“审阅功能板”。 功能板列出了您创建的所有审核任务。
 
-   ![](images/review-dashboard.png)
+   ![](images/review-dashboard.png){width="800" align="left"}
 
    “审阅”功能板显示有关审阅任务的详细信息，如任务名称、开始审阅的人、开始审阅的日期、到期日期、状态、作者未接受或拒绝的新注释数以及审阅人的名称。 任务按新创建任务与旧任务的顺序列出。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 ## “任务”选项卡
 
-![](images/review-task-page.png)
+![](images/review-task-page.png){width="800" align="left"}
 
 您可以在 **任务** 选项卡：
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## “内容”选项卡
 
-![](images/review-content-page.png)
+![](images/review-content-page.png){width="800" align="left"}
 
 您可以在 **内容** 选项卡：
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## “审阅人”选项卡 {#reviewer-tab-id199RF0N0MUI}
 
-![](images/reviewers-tab.png)
+![](images/reviewers-tab.png){width="800" align="left"}
 
 您可以在 **审阅人** 选项卡：
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 在“审核功能板”主页中，如果您选择审核任务并单击 **状态**，则会显示审核任务的状态报告：
 
-![](images/review-status-report.png)
+![](images/review-status-report.png){width="800" align="left"}
 
 审核任务的状态报告包含以下详细信息：
 
@@ -123,4 +123,3 @@ ht-degree: 0%
 - 审阅人上次访问任何主题的日期。
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

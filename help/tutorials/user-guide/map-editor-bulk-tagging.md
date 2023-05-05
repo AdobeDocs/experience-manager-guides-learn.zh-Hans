@@ -1,13 +1,13 @@
 ---
 title: 批量标记DITA内容
 description: 了解如何批量标记DITA内容
-source-git-commit: 528dd5d33f38c29809e7e7dafd77d860daaba8db
+exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
 
 ---
-
 
 # 批量标记DITA内容 {#id179SG0TN05Z}
 
@@ -31,7 +31,7 @@ AEM指南允许您在几次点击后标记DITA内容。 您可以使用批量标
 
 1. 选择要应用标记的主题或子映射。
 
-   ![](images/apply-tags-uuid.png)
+   ![](images/apply-tags-uuid.png){width="650" align="left"}
 
 
    >[!NOTE]
@@ -106,4 +106,3 @@ AEM指南允许您在几次点击后标记DITA内容。 您可以使用批量标
 如果您对主题应用了很长的标记列表，则可能会发现进行导航有点麻烦。 通过单击“隐藏标记”图标，可以在DITA映射控制台视图中轻松隐藏标记。 同样，当标记不可见时，单击显示标记会显示所有标记。
 
 **父主题：**[&#x200B;管理元数据](manage-metadata.md)
-

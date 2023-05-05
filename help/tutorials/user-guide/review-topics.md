@@ -1,13 +1,13 @@
 ---
 title: 查看主题
 description: 了解如何查看主题
-source-git-commit: 849985574a4d21334ac73be3e664ff5ea9a898c4
+exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
+source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
 
 ---
-
 
 # 查看主题 {#id2056B0W0FBI}
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    当使用DITA映射启动审阅工作流时，将显示以下屏幕：
 
-   ![](images/multiple-topics-review.png)
+   ![](images/multiple-topics-review.png){width="800" align="left"}
 
    此屏幕上提供以下选项：
 
@@ -57,13 +57,13 @@ ht-degree: 0%
 
    图中的所有主题都显示为一个复合文档。 通常会显示允许审阅人审阅的主题。 不显示不允许审阅的主题。
 
-   ![](images/review-read-only.png)
+   ![](images/review-read-only.png){width="800" align="left"}
 
    在上面的屏幕截图中，将共享常规描述主题以查看当前审阅人，该主题正常显示。 但是，下一个主题“飞行内容的历史记录”不会共享以供审阅，它将以只读模式显示。 目录中还突出显示了当前关注的主题。
 
    选择并共享一个或多个主题以供审阅时，将显示以下屏幕：
 
-   ![](images/review-composite-view.png)
+   ![](images/review-composite-view.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -85,15 +85,15 @@ ht-degree: 0%
 
 当您查看单个主题时，您会获得一个额外的选项，以切换回文档视图。 在以下屏幕截图中，将打开映射文件中的特定主题以供审阅。 突出显示的选项 —  **显示文档视图** 允许用户切换回映射文件的文档视图。
 
-![](images/switch-document-view.png)
+![](images/switch-document-view.png){width="800" align="left"}
 
 **使用不同类型的注释工具**  — 您可以通过突出显示文本、点进文本、插入文本或添加注释来添加内联注释。 “注释”工具栏中提供的不同类型的注释工具如下所述：
 
-![](images/comments-toolbar.png)
+![](images/comments-toolbar.png){width="350" align="left"}
 
 - **突出显示** \(![](images/review-highlight-icon.svg)\):要添加高亮显示注释，请选择文本并单击高亮显示图标。 或者，单击高亮图标并选择所需的文本：
 
-   ![](images/highlight-comment.png)
+   ![](images/highlight-comment.png){width="650" align="left"}
 
    “注释”面板中会出现一个弹出窗口，您可以在其中为突出显示的内容添加注释。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 1. 选择要突出显示或点进的文本。 此时会出现上下文工具栏。
 
-   ![](images/review-quick-launch-toolbar.png)
+   ![](images/review-quick-launch-toolbar.png){width="550" align="left"}
 
 1. 单击 **突出显示**&#x200B;或 **三振** 图标。
 1. 您可以在注释面板中为高亮显示或删除操作添加注释。
@@ -128,7 +128,7 @@ ht-degree: 0%
 - 您可以编辑自己的评论，方法是在“评论”面板中单击评论的文本，然后选择 **编辑** 的双曲余切值。
 - 您可以删除自己的注释，方法是单击“注释”面板中的注释，然后选择 **删除** 选项。
 
-   ![](images/review-comment-options-menu.png)
+   ![](images/review-comment-options-menu.png){width="300" align="left"}
 
    >[!NOTE]
    >
@@ -142,17 +142,17 @@ ht-degree: 0%
 
 - 以下屏幕截图显示了 *审阅* 模式：
 
-![](images/review-author-mode.png)
+![](images/review-author-mode.png){width="550" align="left"}
 
 以下屏幕截图显示了 *预览* 模式：
 
-![](images/review-preview-mode.png)
+![](images/review-preview-mode.png){width="550" align="left"}
 
 **将附件添加到评论**  — 如果要通过提供其他文件中提供的其他信息来补充注释，则可以通过将注释附加到该文件来添加注释。 作为审阅人，您可以轻松地从本地系统向注释添加一个或多个文件。 可以将文件添加到所有支持的注释形式 — 高亮、删除线、插入文本或注释。
 
 插入任何注释时，将显示注释弹出窗口。 在弹出窗口中提供其他评论或信息后，按Enter键提交。 添加评论后，您将获得用于向该评论添加附件的选项。
 
-![](images/comment-pop-up-panel.png)
+![](images/comment-pop-up-panel.png){width="800" align="left"}
 
 在上面的屏幕截图中，文档包含高亮显示注释的弹出窗口，该注释也会添加到“注释”面板中。 文件附件图标 ![](images/file-attach-review.svg)可在这两个位置随注释一起访问。
 
@@ -177,21 +177,21 @@ ht-degree: 0%
 
 - 默认情况下，只显示与注释一起附加的两个文件。 如果有更多文件，则 **查看附件** 按钮可显示与评论关联的所有附件\（其数量多于两个\）的数量。 您可以单击编号以查看所有附件。 例如，如果您有四个带有评论的附件，则会在按钮上看到+2。
 
-![](images/review-view-attachment.png)
+![](images/review-view-attachment.png){width="550" align="left"}
 
 - 将鼠标指针悬停在附件上可提供用于下载或删除附件的选项。 仅当当前审阅人已添加该注释时，才可删除附件，如以下屏幕截图所示：
 
-![](images/current-user-comment-options.png)
+![](images/current-user-comment-options.png){width="550" align="left"}
 
 其他审阅人或作者只获得下载附件选项。
 
-![](images/other-reviewer-download.png)
+![](images/other-reviewer-download.png){width="550" align="left"}
 
 - 您可以从 **查看附件** 对话框。 选择附件并单击 **下载** 图标。
 
 - 您还可以从 **查看附件** 对话框。 选择附件并单击 **删除** 图标。
 
-![](images/attach-files-comments-panel.png)
+![](images/attach-files-comments-panel.png){width="550" align="left"}
 
 
 **“条件”面板**  — 如果您的主题包含条件内容，则您将看到 **条件** \(![](images/conditions-icon.svg)\)图标。 单击 **条件** 图标会打开“条件”面板，通过该面板，您可以根据主题中的可用条件突出显示内容。
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 :您可以禁用 **突出显示所有条件** 选项，并将主题中存在的所有内容视为普通文本，且不会突出显示任何内容。
 
-![](images/review-conditions-panel.png)
+![](images/review-conditions-panel.png){width="350" align="left"}
 
 您可以选择隐藏或显示特定条件。
 
@@ -208,7 +208,7 @@ ht-degree: 0%
 - 如果显示条件条件化内容，则会在审阅模式下突出显示。 例如，在以下屏幕截图中，只有内容使用两个条件 —  `win` 和 `mac` 中。
 
 
-![](images/review-condition-normal-mode.png)
+![](images/review-condition-normal-mode.png){width="650" align="left"}
 
 在预览模式下，非条件内容和使用两个显示条件的条件的条件内容 —  `win` 和 `mac` 中。 将不显示隐藏条件的其余条件化内容。
 
@@ -220,7 +220,7 @@ ht-degree: 0%
 
 - 单击“已过时的注释”图标\(![](images/outdated-comment-icon.svg)\)在中显示文档的最新版本和注释版本之间的差异。 文档顶部将显示版本号\（正在比较的版本）。
 
-   ![](images/comments-page-review-mode.png)
+   ![](images/comments-page-review-mode.png){width="800" align="left"}
 
    >[!NOTE]
    >
@@ -244,4 +244,3 @@ ht-degree: 0%
 要删除过滤器并查看所有注释，请从 **过滤器类型** 对话框，单击 **应用**.
 
 **父主题：**[&#x200B;查看主题或映射](review.md)
-

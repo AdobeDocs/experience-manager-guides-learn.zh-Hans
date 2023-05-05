@@ -1,13 +1,13 @@
 ---
 title: 从Web编辑器翻译文档
 description: 了解如何从Web编辑器翻译文档
-source-git-commit: 331871308035441f047b1ed588215b586daf3d28
+exl-id: 02fc2b51-5b9a-4ad6-9e2e-726ab7602514
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 0%
 
 ---
-
 
 # 从Web编辑器翻译文档 {#id21BKF0Z0YZF}
 
@@ -46,7 +46,7 @@ AEM指南在Web编辑器中附带一项强大的功能，可让您将内容翻�
    >
    > 语言仅显示为其创建与源语言平行的语言文件夹的语言。 在任何其他级别创建的语言文件夹（如源语言文件夹的下一级）也不会显示。 确保在与源语言文件夹相同的级别创建所有目标语言文件夹。
 
-   ![](images/translation-languages.png)
+   ![](images/translation-languages.png){width="350" align="left"}
 
 1. 您还可以使用以下选项：
 
@@ -72,11 +72,11 @@ AEM指南在Web编辑器中附带一项强大的功能，可让您将内容翻�
    - **目标标签**:目标文件选定版本的标签
 1. 单击 **发送以进行翻译** 在右上角。
 
-   ![](images/translation-send.png)
+   ![](images/translation-send.png){width="800" align="left"}
 
 1. 从下拉菜单中，选择 **创建新的翻译项目**.
 
-   ![](images/translation-project-types.png)
+   ![](images/translation-project-types.png){width="350" align="left"}
 
    除了新的翻译项目之外，您还可以从以下选项中进行选择：
 
@@ -107,7 +107,7 @@ AEM指南允许您将源文件的标签传递到目标文件。 这将帮助您�
 
 例如，如果您的某些源文件带有版本标签 `Release 1.0` ，则您也可以传递源标签\(`Release 1.0`\)到已翻译的文件。
 
-![](images/translation-pass-source-label.png)
+![](images/translation-pass-source-label.png){width="650" align="left"}
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ AEM指南允许您将源文件的标签传递到目标文件。 这将帮助您�
 
 AEM指南提供了检查所选版本与主题的最后一个翻译源版本之间差异的功能。 您可以选择将 **不同步** 文件。
 
-![](images/translation-version-diff.png)
+![](images/translation-version-diff.png){width="800" align="left"}
 
 选择 **显示差异**&#x200B;图标\(![](images/show-difference-icon.svg)\)，以查看所选文件的最后一个翻译版本与当前版本之间的差异的主题。
 
@@ -127,7 +127,7 @@ AEM指南提供了检查所选版本与主题的最后一个翻译源版本之�
 
 的 **版本差异** 对话框。 它显示 **上次翻译版本** 和 **所选版本** 左边的数字。 预览窗口显示上次翻译版本与所选主题版本之间的差异。
 
-![](images/version-diff.png)
+![](images/version-diff.png){width="650" align="left"}
 
 ## 取消不同步的资产
 
@@ -138,7 +138,7 @@ AEM指南提供了检查所选版本与主题的最后一个翻译源版本之�
 1. 选择要更改其状态的不同步资产。
 1. 选择 **标记同步** 按钮\(![](images/translation-mark-in-sync-icon.svg)\)。 的 **标记同步** 对话框。
 
-   ![](images/translation-mark-in-sync.png)
+   ![](images/translation-mark-in-sync.png){width="550" align="left"}
 
 1. 单击 **强制同步**. 它会将选定“不同步”资产的状态设置为“同步”。
 
@@ -156,7 +156,6 @@ AEM指南提供了检查所选版本与主题的最后一个翻译源版本之�
 
 在对话框中单击引用的名称，以在预览模式下将其打开。 您还可以单击翻译项目以开始翻译。
 
-![](images/translation-in-progress.png)
+![](images/translation-in-progress.png){width="550" align="left"}
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)
-

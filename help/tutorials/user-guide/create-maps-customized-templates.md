@@ -1,13 +1,13 @@
 ---
 title: 根据自定义模板创建映射
 description: 了解如何根据自定义模板创建地图
-source-git-commit: 66915827a0b169069cc482763f0f50b9e9b6aa64
+exl-id: 02513148-3876-4549-962a-9984f619030f
+source-git-commit: 3bca42f0954afc2362ab24f369e698113324dbc3
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
 
 ---
-
 
 # 根据自定义模板创建映射 {#id225VF0808MP}
 
@@ -33,7 +33,7 @@ AEM指南允许您从dita-templates文件夹创建自定义映射和主题。 �
 
 1. 在 **资产UI**，导航到dita-templates文件夹。
 
-   ![](images/dita-templates.png)
+   ![](images/dita-templates.png){width="800" align="left"}
 
 1. 单击 **主题** 文件夹以将其打开。单击 **创建\> DITA模板**.
 1. 在Blueprint页面上，选择 **主题** 然后单击 **下一个。**
@@ -55,7 +55,7 @@ AEM指南允许您从dita-templates文件夹创建自定义映射和主题。 �
 1. 单击 **地图** 文件夹来打开它。
 1. 单击 **创建\> DITA模板。**
 
-   ![](images/create-dita-template.png)
+   ![](images/create-dita-template.png){width="300" align="left"}
 
 1. 在Blueprint页面上，选择 **地图** 单击 **下一个**.
 1. 在属性页面上，指定映射模板 **标题**.
@@ -104,7 +104,11 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 示例
 
 ```XML
-<title>	<sub>		<b>{title}</b>	</sub></title>
+<title>    
+    <sub>        
+        <b>{title}</b>    
+    </sub>
+</title>
 ```
 
 ## 使用映射模板创建新映射
@@ -144,4 +148,3 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
 - 如果在文件夹的同一级别创建了另一个映射或主题，则新创建资产的名称会附加0,1,2等。 您可以选择打开映射以进行编辑或将映射文件保存在存储库中。
 
 **父主题：**[&#x200B;使用地图编辑器](map-editor.md)
-
