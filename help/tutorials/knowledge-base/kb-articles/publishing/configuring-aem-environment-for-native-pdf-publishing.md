@@ -1,171 +1,171 @@
 ---
-title: 配置AEM环境以发布本机PDF
-description: 配置AEM环境以发布本机PDF
-source-git-commit: f26b8f94e1d7a3c9dd0aaab2eb196a77119e47ac
+title: 設定AEM環境以進行原生PDF發佈
+description: 設定AEM環境以進行原生PDF發佈
+exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
+source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
 
 ---
 
+# 設定AEM環境以進行原生PDF發佈
 
-# 配置AEM环境以发布本机PDF
+AEM Guides包含原生PDF發佈引擎，可讓使用者設計、開發及發佈PDF格式的內容。
 
-AEM指南包含一个本机PDF发布引擎，该引擎允许用户以PDF格式设计、开发和发布内容。
+它提供建立不同頁面配置、CSS範本的功能，並搭配頁面配置和CSS設計PDF範本。
 
-它提供了创建不同页面布局、CSS模板以及结合页面布局和CSS设计PDF模板的功能。
-
-在AEM指南中配置此本机PDF的步骤因操作系统而异。 根据安装AEM的操作系统，使用下面的配置步骤。
+在AEM Guides中設定此原生PDF的步驟因作業系統而異。 請根據安裝AEM的作業系統，使用下列設定步驟。
 
 ## 前提条件
 
-设置本机PDF的最低要求：
+設定原生PDF的最低需求：
 
-- 已安装的Java平台、标准版8或11 JDK（Java SE开发工具包）和JRE（Java SE运行时环境）
+- 已安裝Java平台、Standard Edition 8或11 JDK （Java SE開發套件）和JRE （Java SE執行階段環境）
 - AEM 6.5 SP13、SP12、SP11或SP10
 - 指南4.1及更高版本（非UUID或UUID）
 
-本机PDF发布引擎需要OracleJDK才能在AEM crx-quickstart文件夹中生成节点模块。 默认情况下，它支持以下操作系统：
+原生PDF發佈引擎需要OracleJDK才能在AEM crx-quickstart資料夾中產生節點模組。 依預設，它支援下列作業系統：
 
-- Windows 10、Windows 2019服务器及更高版本。
-- Linux — （RHEL 8及更高版本、CentOS 7及更高版本、Ubuntu 18及更高版本）
-- Mac操作系统（基于英特尔）
+- Windows 10、windows 2019 server及更新版本。
+- Linux - （RHEL 8及更高版本、CentOS 7及更高版本、Ubuntu 18及更高版本）
+- Mac作業系統（以Intel為基礎）
 
-## Windows Server配置步骤(JAVA 11/8)
+## Windows Server (JAVA 11/8)的設定步驟
 
-1. 确保AEM服务器关闭。
-2. 在Windows任务栏上，右键单击Windows图标，然后选择“系统”。
-3. 在“设置”窗口的“相关设置”下，单击“高级系统设置”。
-4. 在高级选项卡上，单击环境变量。
-5. 在系统变量部分中，单击“_新建_”创建新的环境变量。
-6. 输入变量名称作为JAVA_HOME。
-7. 在值字段中，提供Java安装路径，然后单击确定。
+1. 確定AEM伺服器已關閉。
+2. 在Windows工作列上，以滑鼠右鍵按一下Windows圖示並選取「系統」。
+3. 在「設定」視窗中的「相關設定」下，按一下「進階系統設定」。
+4. 在進階索引標籤上，按一下環境變數。
+5. 在系統變數區段中，按一下「_新增_」以建立新的環境變數。
+6. 輸入變數名稱作為JAVA_HOME。
+7. 在值欄位中，提供Java安裝路徑，然後按一下「確定」。
 
    例如：
 
-   JAVA 11:
+   JAVA 11：
 
    C:\Program Files\JAVA\jdk-11.0.15.1
 
-   JAVA 8:
+   JAVA 8：
 
    C:\Program Files\JAVA\ jdk1.8.0_144
 
-8. 添加从系统变量中选择的路径，然后单击编辑。
+8. 從系統變數新增選取路徑，然後按一下編輯。
 
-9. 现在，路径变量内提供服务器路径的值，然后单击确定。
+9. 現在，路徑內變數會提供伺服器路徑的值，然後按一下「確定」。
 
    例如：
 
-   JAVA 11:
+   JAVA 11：
 
    %JAVA_HOME%\bin\server\
 
-   JAVA 8:
+   JAVA 8：
 
    %JAVA_HOME%\jre\bin\server\
 
-10. 再次在环境变量对话框中单击“确定”。
-11. 再次在“系统属性”对话框中单击“确定”。
-12. 现在，启动AEM服务器。
-13. 在Web编辑器中通过预设生成本机PDF。
+10. 在環境變數對話方塊中再次按一下「確定」。
+11. 再次按一下[系統屬性]對話方塊上的[確定]。
+12. 現在啟動AEM伺服器。
+13. 從網頁編輯器中的預設集產生原生PDF。
 
-## Linux服务器配置步骤(RHEL7/centOS 7)
+## Linux伺服器的設定步驟(RHEL7/centOS 7)
 
-1. 确保AEM服务器关闭
-2. 通过执行echo $JAVA_HOME验证JAVA_HOME变量
-3. 如果未设置JAVA_HOME变量，请执行步骤4。 否则，请直接移动到步骤5。
-4. 根据已安装的java版本，使用以下命令设置JAVA_HOME变量
+1. 確定AEM伺服器已關閉
+2. 執行回應$JAVA_HOME以驗證JAVA_HOME變數
+3. 如果未設定JAVA_HOME變數，請依照步驟4操作。 否則，請直接移至步驟5。
+4. 根據安裝的java版本，使用以下命令設定JAVA_HOME變數
 
    例如：
 
-   JAVA 11:
+   JAVA 11：
 
-   1. 导出JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
-   2. 导出路径=$PATH:$JAVA\_HOME/bin
-   3. 导出LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
+   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   2. 匯出路徑=$PATH： $JAVA\_HOME/bin
+   3. export LD\_LIBRARY\_PATH=/usr/lib/jvm/jdk-11.0.15.1/lib/server:/usr/java/jdk-11.0.15.1/lib/server
 
-   JAVA 8:
+   JAVA 8：
 
-   1. 导出JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
-   2. 导出路径=$PATH:$JAVA\_HOME/bin
+   1. export JAVA\_HOME=/usr/lib/jvm/java-11.0.15.1
+   2. 匯出路徑=$PATH： $JAVA\_HOME/bin
 
 
-5. 重新启动AEM Server
-6. 复制“_node_modules.zip_“(在本文底部附加到crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/目录)。
-7. 在crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/位置中打开终端。
-8. 使用以下命令删除node_modules目录
+5. 重新啟動AEM伺服器
+6. 複製&quot;_node_modules.zip_」附加到本文底部的crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/目錄。
+7. 在crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166/位置中開啟終端機。
+8. 使用以下命令刪除node_modules目錄
 
-   **rm -rf节点模块**
+   **rm -rf節點模組**
 
-9. 使用以下命令解压缩node_modules.zip
+9. 使用以下命令解壓縮node_modules.zip
 
    **unzip node_modules.zip**
 
-10. 如果未安装/识别unzip命令，则可以使用以下命令安装该命令
+10. 如果未安裝/辨識unzip命令，則可使用以下命令進行安裝
 
-   **yum安装解压缩**
+   **yum安裝unzip**
 
-11. 安装fontconfig包。
-命令：yum install fontconfig
-12. 在Web编辑器中通过预设生成本机PDF。
+11. 安裝fontconfig套件。
+命令： yum install fontconfig
+12. 從網頁編輯器中的預設集產生原生PDF。
 
-**注意** :node_modules.zip包可下载 [此处](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
+**注意** ：可以下載node_modules.zip套件 [此處](https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:295d8f03-41e1-429b-8465-2761ce3c2fb3).
 
-对于使用指南4.1或更早版本的用户而言，手动导入下载的Linux操作系统节点模块是一种解决方法。
+手動匯入Linux作業系統下載的節點模組是使用Guides 4.1或更早版本的使用者的因應措施。
 
-## Mac计算机的配置步骤(JAVA 11/8)
+## Mac電腦的設定步驟(JAVA 11/8)
 
-1. 安装OracleJAVA 11或OracleJAVA 8。
-2. 将JAVA_HOME环境变量设置为已安装的JAVA目录。
-3. 打开Unix外壳。
-（此处使用Bash设置配置）
+1. 安裝OracleJAVA 11或OracleJAVA 8。
+2. 將JAVA_HOME環境變數設定為已安裝的JAVA目錄。
+3. 開啟Unix shell。
+（此處使用Bash來設定設定）
 
-   命令：nano ~/bashrc
+   命令： nano ~/.bashhrc
 
-4. 根据已安装的java版本，使用以下命令设置JAVA_HOME变量
+4. 根據安裝的java版本，使用以下命令設定JAVA_HOME變數
 
    例如：
 
-   JAVA 11:
+   JAVA 11：
 
-   导出JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
+   export JAVA\_HOME= /Library/Java/JavaVirtualMachines/jdk-11.0.15.1.jdk/Contents/Home
 
-5. 重装巴什克
+5. 重新載入bashrc
 
-   命令：来源~/.bashrc。
+   命令： source ~/.bashrc.
 
-6. 使用命令echo $JAVA_HOME验证是否已设置JAVA_HOME
+6. 使用命令echo $JAVA_HOME驗證是否已設定JAVA_HOME
 
-7. 从AEM安装路径执行以下三个命令
+7. 從AEM安裝路徑執行以下三個命令
 
-   C:/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
+   C：/{aem-installation-folder}/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166
 
-   i)查找。 -type d -exec chmod 0755 {} \;ii)查找。 -type f -exec chmod 0755 {} \;iii)。/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix 。 install —unsafe-perm —scripts-prepend-node-path
+   i)尋找。 -type d -exec chmod 0755 {} \； ii)尋找。 -type f -exec chmod 0755 {} \； iii) 。/node-darwin/bin/node node-darwin/lib/node_modules/npm/bin/npm-cli.js —prefix 。 install —unsafe-perm —scripts-prepend-node-path
 
-8. 使用以下命令验证是否安装了Java
+8. 使用以下命令確認是否已安裝Java
 
-   i)运行 **./node-darwin/bin/node** 来自/crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166文件夹的命令
+   i)執行 **./node-darwin/bin/node** /crx-quickstart/profiles/nodejs—b1aad0a7-9079-e56c-1ed8-6fcababe8166資料夾中的命令
 
    ![mac](../assets/publishing/mac.png)
 
-   ii)a = require(&#39;java&#39;)
+   ii) a = require(&#39;java&#39;)
 
-9. 安装fontconfig包。
-命令：apt install fontconfig
+9. 安裝fontconfig套件。
+命令： apt install fontconfig
 
-10. 在Web编辑器中通过预设生成本机PDF。
+10. 從網頁編輯器中的預設集產生原生PDF。
 
 ## 疑难解答
 
-以下是在环境变量设置不正确的情况下，在PDF生成过程中可能发生的常见错误。
+以下是環境變數未正確設定時，在PDF產生期間可能發生的常見錯誤。
 
-### Windows/Mac操作系统中出现空指针异常
+### Null指標例外狀況在Windows/Mac作業系統中
 
-![空指针异常](../assets/publishing/null-pointer-exception.png)
+![null指標例外狀況](../assets/publishing/null-pointer-exception.png)
 
-### RHEL 7 Linux OS中缺少库
+### RHEL 7 Linux OS中缺少程式庫
 
-![缺少库](../assets/publishing/missing-libraries.png)
+![缺少資料庫](../assets/publishing/missing-libraries.png)
 
-如果您在执行上述任何步骤时遇到任何问题，请将问题发布到AEM指南社区 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以寻求帮助。
+如果您在執行上述任何步驟時遇到任何問題，請在AEM Guides社群中發佈您的問題 [論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以取得協助。

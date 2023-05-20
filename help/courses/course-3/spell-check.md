@@ -1,6 +1,6 @@
 ---
-title: 拼写检查和查找/替换
-description: 在AEM指南中使用拼写检查和查找/替换
+title: 拼字檢查及尋找/取代
+description: 在AEM Guides中使用拼字檢查和尋找/取代
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,118 +9,118 @@ ht-degree: 0%
 
 ---
 
-# 拼写检查和查找/替换
+# 拼字檢查與尋找/取代
 
-AEM指南编辑器具有强大的拼写检查和查找和替换功能。
+AEM Guides編輯器擁有強大的拼字檢查及尋找和取代功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342768?quality=12&learn=on)
 
-更正拼写错误
+修正拼字錯誤
 
-1. 在打开的主题中找到错误，该主题中显示有红色下划线。
+1. 在開啟的主題中找到錯誤，並以紅色底線顯示。
 
-1. 按住Ctrl并单击单词内的鼠标辅助按钮。
+1. 按住Ctrl鍵並按一下文字中的滑鼠輔助按鈕。
 
-1. 从建议中选择正确的拼写。
+1. 從建議中選擇正確的拼字。
 
-如果不建议正确拼写，您始终可以手动编辑单词。
+如果不建議使用正確的拼字，您可以隨時手動編輯該字。
 
-## 切换到AEM拼写检查
+## 切換至AEM拼字檢查
 
-您可能希望使用浏览器默认词典以外的拼写检查工具。
+您可能想要使用瀏覽器預設字典以外的拼字檢查工具。
 
-1. 导航到 **编辑器设置**.
+1. 導覽至 **編輯器設定**.
 
-1. 选择 **常规** 设置选项卡。
+1. 選取 **一般** 設定索引標籤。
 
-   ![拼写检查配置](images/lesson-11/configure-dictionary.png)
+   ![拼字檢查設定](images/lesson-11/configure-dictionary.png)
 
-1. 有两个选项：
+1. 有兩個選項：
 
-   - **浏览器拼写检查**  — 拼写检查使用浏览器内置词典的默认设置。
+   - **瀏覽器拼字檢查**  — 拼字檢查的預設設定使用瀏覽器的內建字典。
 
-   - **AEM拼写检查**  — 使用它使用AEM自定义词典构建自定义词列表。
+   - **AEM拼字檢查**  — 使用此選項來建立使用AEM自訂字典的自訂字詞清單。
 
-1. 选择 **AEM拼写检查**.
+1. 選擇 **AEM拼字檢查**.
 
 1. 单击“[!UICONTROL **保存**]”。
 
-配置自定义字典
+設定自訂字典
 
-管理员可以更改设置，以便AEM词典可识别自定义词语，如公司名称。
+管理員可以變更設定，讓AEM字典辨識自訂單字，例如公司名稱。
 
-1. 导航到 **工具** 中。
+1. 導覽至 **工具** 窗格。
 
-1. 登录到 **CRXDE Lite**.
+1. 登入 **CRXDE Lite**.
 
-   ![AEM UICRXDE Lite图标](images/lesson-11/crxde-lite.png)
+   ![AEM UICRXDE Lite圖示](images/lesson-11/crxde-lite.png)
 
-1. 导航到 **_/apps/fmdita/config节点_**.
+1. 導覽至 **_/apps/fmdita/config節點_**.
 
-   ![CRXDE Lite配置节点](images/lesson-11/config-node.png)
+   ![CRXDE Lite設定節點](images/lesson-11/config-node.png)
 
-1. 创建新文件。
+1. 建立新檔案。
 
-   a.右键单击配置文件夹。
+   a.以滑鼠右鍵按一下設定資料夾。
 
-   b.选择 **创建>创建文件**.
+   b.選擇 **「建立」>「建立檔案」**.
 
-   ![新建字典文件](images/lesson-11/new-dictionary-file.png)
+   ![建立新字典檔案](images/lesson-11/new-dictionary-file.png)
 
-   c.命名文件 _**user_dictionary.txt**_.
+   c.為檔案命名 _**user_dictionary.txt**_.
 
-   ![用户词典文本](images/lesson-11/user-dictionary.png)
+   ![使用者字典文字](images/lesson-11/user-dictionary.png)
 
-   d.单击 [!UICONTROL **确定**].
+   d.按一下 [!UICONTROL **確定**].
 
-1. 打开文件。
+1. 開啟檔案。
 
-1. 添加要包含在自定义词典中的词语列表。
+1. 新增要包含在自訂字典中的單字清單。
 
-1. 单击 [!UICONTROL **全部保存**].
+1. 按一下 [!UICONTROL **全部儲存**].
 
-1. 关闭文件。
+1. 關閉檔案。
 
-作者可能需要重新启动其Web编辑器会话，以在AEM词典中获取更新的自定义词列表。
+作者可能需要重新啟動網頁編輯器工作階段，才能在AEM字典中取得更新的自訂字詞清單。
 
-## 在单个文件中查找并替换
+## 在單一檔案中尋找和取代
 
-1. 单击顶部工具栏上的查找和替换图标。
+1. 按一下頂端工具列上的「尋找和取代」圖示。
 
-   ![“查找替换”图标](images/lesson-11/find-replace-icon.png)
+   ![尋找取代圖示](images/lesson-11/find-replace-icon.png)
 
-1. 在底部工具栏中，键入一个单词或短语。
+1. 在底部工具列中，輸入單字或片語。
 
-1. 单击 [!UICONTROL **查找**].
+1. 按一下 [!UICONTROL **尋找**].
 
-1. 如果需要，请键入一个词来替换找到的词。
+1. 必要時，鍵入一個單字來取代找到的單字。
 
-1. 单击 [!UICONTROL **替换**].
+1. 按一下 [!UICONTROL **Replace**].
 
-## 在整个存储库中查找和替换
+## 在整個存放庫中尋找和取代
 
-1. 导航到 **存储库**.
+1. 導覽至 **存放庫**.
 
-1. 单击 [!UICONTROL **查找和替换**] 图标。
+1. 按一下 [!UICONTROL **尋找和取代**] 圖示加以檢視。
 
-1. 单击 [!UICONTROL **显示设置**] 图标。
+1. 按一下 [!UICONTROL **顯示設定**] 圖示。
 
-1. 选择
+1. 選擇
 
-   - **替换前签出文件**  — 如果管理员启用了，则在替换搜索词之前会自动签出文件。
+   - **取代前簽出檔案**  — 如果由管理員啟用，檔案會在取代搜尋字詞之前自動出庫。
 
-   - **仅全字**  — 限制搜索仅返回输入的确切字词或短语。
+   - **僅限全字**  — 將搜尋限製為只傳回輸入的確切字詞或片語。
 
-   ![在存储库中查找替换](images/lesson-11/repository-find-replace.png)
+   ![在存放庫中尋找取代](images/lesson-11/repository-find-replace.png)
 
-1. 单击 [!UICONTROL **应用过滤器**] 图标，以选择要在存储库中执行搜索的路径。
+1. 按一下 [!UICONTROL **套用篩選器**] 圖示來選取您要執行搜尋的存放庫中的路徑。
 
-1. 输入“查找并替换”的术语。
+1. 輸入要尋找和取代的字詞。
 
-1. 如果需要，请选择 **替换后创建新版本**.
+1. 如有需要，請選取 **取代後建立新版本**.
 
-1. 单击 [!UICONTROL **查找**].
+1. 按一下 [!UICONTROL **尋找**].
 
-1. 打开所需的文件，然后使用箭头从一个找到的结果导航到下一个结果。
+1. 開啟所需的檔案，並使用箭頭來從某個找到的結果瀏覽至下一個結果。
 
-   ![查找替换导航UI](images/lesson-11/find-replace-navigation.png)
+   ![尋找取代導覽UI](images/lesson-11/find-replace-navigation.png)

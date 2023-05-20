@@ -1,6 +1,6 @@
 ---
-title: 创建全局键
-description: 如何创建要在组织内容中使用的全局键
+title: 建立全域索引鍵
+description: 如何建立要在組織內容中使用的全域金鑰
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# 创建全局键
+# 建立全域索引鍵
 
-组织应当使用键，以防其出现一些可恢复且通用的文本（如产品名称或产品宣传），这些文本在许多地方都使用，但容易发生更改。 通过为此类可重用文本使用键，您可以在单个位置（如键值中）进行更改，从而在多个位置推送更新。
+組織應使用索引鍵，以防止有許多地方都使用某些可重複且常見的文字（例如產品名稱或產品推介），但這些文字很容易變更。 對此類可重複使用的文字使用索引鍵，可讓您透過在單一位置（例如索引鍵值）進行變更，將更新推送到多個位置。
 
-## 步骤1:创建用于存储密钥的全局映射
+## 步驟1：建立全域地圖以儲存金鑰
 
-创建映射并添加 [!UICONTROL keyref] 元素。
+建立地圖並新增 [!UICONTROL keyref] 元素加入。
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,9 +36,9 @@ ht-degree: 0%
 </map>
 ```
 
-在此，您定义了两个定义（如上所示），提供了 [!UICONTROL keyref] as _AEM_ 对于 _Adobe Experience Manager_ 文本。
+您在此處定義了兩個定義（如上所示），並提供 [!UICONTROL keyref] 作為 _AEM_ 的 _Adobe Experience Manager_ 文字。
 
-## 步骤2:将此映射添加到发布映射
+## 步驟2：將此地圖新增至您的出版物地圖
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -52,12 +52,12 @@ ht-degree: 0%
 </map>
 ```
 
-## 步骤3:使用键可引用全局键映射中定义的变量
+## 步驟3：使用索引鍵來參照全域索引鍵對映中定義的變數
 
-+ 编辑主题并使用 [!UICONTROL keyref].
-+ 如屏幕截图所示，将显示一个可从中选择关键词的小窗口。 在添加“关键字”元素时，将显示该内容。
++ 編輯主題並使用 [!UICONTROL keyref].
++ 如熒幕擷圖所示，將顯示一個小視窗，您可在其中選擇關鍵字。 當您新增「keyword」元素時，就會顯示這個專案。
    ![插入元素](assets/insert_element.png)
-   ![关键参考](assets/key_ref.png)
+   ![索引鍵參考](assets/key_ref.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>

@@ -1,6 +1,6 @@
 ---
-title: 在AEM指南中发布默认输出
-description: 在中发布默认输出 [!DNL Adobe Experience Manager Guides]
+title: 在AEM Guides中發佈預設輸出
+description: 在中發佈預設輸出 [!DNL Adobe Experience Manager Guides]
 exl-id: 97a259dd-4266-4a7b-8677-3fa261714687
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,40 +9,40 @@ ht-degree: 0%
 
 ---
 
-# 发布默认输出
+# 發佈預設輸出
 
-完成映射后，可以以多种输出格式发布内容。
+完成地圖後，您就可以使用多種輸出格式發佈內容。
 
 >[!VIDEO](https://video.tv.adobe.com/v/336662?quality=12&learn=on)
 
-## 将地图发布为AEM网站和PDF
+## 將地圖發佈為AEM網站和PDF
 
-有许多输出预设可供您选择。 本指南将重点介绍AEM Site和PDF输出。
+有許多輸出預設集可供您選擇。 本指南重點說明AEM網站和PDF輸出。
 
-1. 在存储库中，选择映射上的省略号图标以打开“选项”菜单，然后 **在地图功能板中打开。**
+1. 在存放庫中，選取地圖上的省略符號圖示以開啟「選項」功能表，然後 **在地圖儀表板中開啟。**
 
-   ![在地图功能板中打开](images/lesson-9/map-dashboard-with-markings.png)
+   ![在地圖儀表板中開啟](images/lesson-9/map-dashboard-with-markings.png)
 
-   “映射功能板”(Map Dashboard)将在另一个选项卡中打开。
+   「對映圖示板」會在另一個標籤中開啟。
 
-1. 在“输出预设”选项卡中，选择AEM站点和PDF。
+1. 在「輸出預設集」索引標籤中，選取「AEM網站」和「PDF」。
 
-   ![输出预设](images/lesson-9/pdf-aem.png)
+   ![輸出預設集](images/lesson-9/pdf-aem.png)
 
-1. 选择 **生成。**
+1. 選取 **產生。**
 
-1. 导航到“输出”页以查看生成的输出的状态。
+1. 導覽至「輸出」頁面，檢視所產生輸出的狀態。
 
-   绿色圆圈表示生成已完成。
+   綠色圓圈表示產生已完成。
 
-   ![输出生成结束](images/lesson-9/green-circle.png)
+   ![輸出產生完成](images/lesson-9/green-circle.png)
 
-## AEM网站输出
+## AEM網站輸出
 
-在AEM站点输出中，主题、列表、图像、标题、表格以及使用XML编辑器创建的其他内容都由AEM自动发布到Web友好内容。
+在AEM網站輸出中，主題、清單、影像、標題、表格和使用XML編輯器建立的其他內容都會由AEM自動發佈為網頁易記內容。
 
-您可以在目录以及相关信息部分中看到下属主题。 这些链接都可用于导航。
+您可以在目錄以及相關資訊區段中檢視從屬主題。 這些連結都可用來導覽。
 
-## PDF输出
+## PDF輸出
 
-完成的PDF文档包含映射的默认标题作为封面上的主标题。 章节封面页面使用章节编号设置样式，并包含指向中主题的链接。
+完成的PDF檔案包含地圖的預設標題作為封面頁上的主要標題。 章節封面頁面會使用章節編號來設定樣式，並包含內含主題的連結。

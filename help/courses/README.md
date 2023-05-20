@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # Adobe Experience Manager指南
 
-这是存储“AEM指南”课程视频和Markdown文件的存储库。
+這是儲存「AEM Guides」課程的影片和Markdown檔案的存放庫。

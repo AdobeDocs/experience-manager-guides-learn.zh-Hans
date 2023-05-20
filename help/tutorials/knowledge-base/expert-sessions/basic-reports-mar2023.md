@@ -1,30 +1,30 @@
 ---
-title: AEM指南中的报表
-description: 了解AEM中提供了哪些所有报表来帮助用户提高内容质量。
+title: AEM Guides中的報表
+description: 瞭解哪些報表可在AEM中使用，以協助使用者改善內容品質。
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
 source-git-commit: 7871a54f3181fd114e24e0e10cfc15351cefd761
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '280'
+ht-degree: 1%
 
 ---
 
-# AEM指南中的报表
+# AEM Guides中的報表
 
-在组织设置中，您需要先验证内容的整体完整性，然后再推送文档以供最终用户使用。 在多用户和大型环境中，这种需要变得更为重要，在这些环境中，内容可以在不同的环境中重复使用，因此验证内容或文档是必不可少的。 在结构化内容的上下文中，通常需要一些特定类型的报表。
-
-
-## 会话概述
-
-在本课程中，我们向用户展示了现成的报表。 我们大致介绍了以下内容：
-- 文档（映射）和主题报告
-- 元数据报表和批量元数据管理选项
-- 内容重用报表
-- 内容导入正确性
-- 利用AEM Assets报告功能
+在組織設定中，您想要先驗證內容的整體完整性，然後再推送檔案供一般使用者使用。 在多使用者及大型環境中，這種需求變得更為重要，因為內容可在不同的內容中重複使用，因此有必要驗證您的內容或檔案。 在結構化內容的內容中，通常需要一些特定型別的報表。
 
 
-## 会话录制
+## 工作階段概觀
+
+在本次研討會中，我們展示了可供使用者使用的現成報告。 我們廣泛涵蓋下列內容：
+- 檔案（地圖）和主題報表
+- 中繼資料報表和大量中繼資料管理選項
+- 內容重複使用報表
+- 內容匯入正確性
+- 善用AEM Assets報告功能
+
+
+## 工作階段錄製
 
 >[!VIDEO](https://video.tv.adobe.com/v/3417529/guides--reporting-reporting?quality=12&learn=on)
 
@@ -32,43 +32,43 @@ ht-degree: 0%
 ## 高亮
 
 - **日期** - 2023年3月30日
-- **出席人数** - 102
-- **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **出席者人數** - 102
+- **持續時間** - 60分鐘
+- **對象**  — 客戶、合作夥伴和Adobe員工
 
 
 ## 要点
 
-在本课程中，您了解了以下事项：
-- 报告在CCMS中的重要性
-- 现成可用的报表
-- 内容报告示例
+在本次研討會中，您已瞭解下列內容：
+- 報告在CCMS中的重要性
+- 現成可用的報表
+- 內容報告的範例
 
 
-## 相关资源
+## 相關資源
 
-- **[下载AEM指南报表手册](./assets/aem-guides-expert-session-reports-documentation.pdf)** 以了解会议中演示的报告的详细信息。
+- **[下載AEM Guides報表手冊](./assets/aem-guides-expert-session-reports-documentation.pdf)** 以瞭解工作階段中所示範之報告的詳細資訊。
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
+- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社区论坛**  — 对于Experience League上特定于会话的社区交互，请访问  [AEM指南论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 本会话中显示的功能在以下版本的AEM指南中可用：
-> - 内部部署：4.2或更高版本
-> - Cloud Services:2302或更高版本
+> 下列版本的AEM Guides提供本工作階段中顯示的功能：
+> - 內部部署： 4.2或更新版本
+> - Cloud Services：2302或更新版本
 
 
 
-## 下一次专家会议
+## 下一次專家會議
 
-- **主题**  — 内容和模板设置
-- **已在** - 2023年4月27日
+- **主題**  — 內容和範本設定
+- **排程日期** - 2023年4月27日
 
 
-## 联系我们
+## 聯絡我們
 
-如有任何疑问，请发送电子邮件至 <techcomm@adobe.com>
+如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>

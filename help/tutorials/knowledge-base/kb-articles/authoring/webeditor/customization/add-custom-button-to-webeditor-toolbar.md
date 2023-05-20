@@ -1,48 +1,49 @@
 ---
-title: 在WebDitor工具栏中添加新的自定义可操作按钮
-description: 了解如何在浏览器工具栏中添加新的自定义按钮并调用javascript以自定义操作该按钮。
-source-git-commit: 26a6acde54953eab1d751f165d0f7769c7e790fe
+title: 在Webeditor工具列中新增自訂可操作按鈕
+description: 瞭解如何在瀏覽器工具列中新增自訂按鈕，並呼叫javascript以自訂操作。
+exl-id: 118c4545-9eda-4e1e-a224-843767e49b5b
+source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
-# 在WebDitor工具栏中添加新的自定义可操作按钮
+# 在Webeditor工具列中新增自訂可操作按鈕
 
-在本文中，我们将了解如何在浏览器工具栏中添加新的自定义按钮，以及如何调用javascript以执行所需的自定义操作。
+在本文中，我們將瞭解如何在瀏覽器工具列中新增自訂按鈕，並呼叫javascript以執行所需的自訂操作。
 
-向Webeditor添加可操作的按钮涉及以下步骤：
-- 在 *ui_config.json* 在需要它的位置
-- 在编辑器中注册按钮单击事件，以便用户在单击按钮时执行操作
-
-
-## 以示例实施
-
-让我们通过一个示例来了解这个示例，其中作者希望将jira引用添加到主题主题部分。 嵌入了jira reference-id的prolog部分可能如下所示：
-
-![包含JIRA ID引用的Prolog部分](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
-
-应从API中检索包含JIRA ID的“change-request-id”元素（例如，基于应用程序描述的特定JIRA查询）。 当用户创作prolog部分时，用户应该能够单击按钮并从Web编辑器工具栏插入jira引用id，类似于：
-
-![Prolog部分 — 添加JIRA引用](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
-
-当用户单击该按钮时，应显示一个对话框，该对话框应提取可能的选项并允许用户选择所需的JIRA ID，类似于：
-
-![Prolog部分添加JIRA ID对话框](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
-
-然后，应将“change-request-id”添加到prolog:
-
-![包含JIRA ID引用的Prolog部分](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+將可操作的按鈕新增至Webeditor涉及以下步驟：
+- 將按鈕新增至 *ui_config.json* 在需要的位置
+- 在瀏覽器中註冊按一下按鈕的事件，讓使用者在按一下按鈕時執行動作
 
 
+## 以範例來實作
 
-## 实施此
+讓我們透過作者想要在主題序言區段新增jira參考的範例來瞭解這一點。 內嵌jira reference-id的prolog區段可能如下所示：
+
+![含JIRA ID參考的Prolog區段](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
+
+包含JIRA ID的「change-request-id」元素應從API中擷取（比方說，根據應用程式描述的特定JIRA查詢）。 當使用者編寫prolog區段時，使用者應該能夠按一下按鈕並從網頁編輯器工具列插入jira參考id，例如：
+
+![Prolog區段 — 新增JIRA參考](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference.png)
+
+而且當使用者按一下按鈕時，應該會顯示對話方塊，其中應提取可能的選項，並允許使用者選取所需的JIRA ID，例如：
+
+![Prolog區段新增JIRA ID對話方塊](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-insertjirareference-dialog.png)
+
+然後應將「change-request-id」新增至prolog：
+
+![含JIRA ID參考的Prolog區段](../../../assets/authoring/webeditor-add-customtoolbarbutton-prolog-sample.png)
 
 
-### 通过在Webiditor中配置按钮，将其添加到 *ui_config.json*
 
-使用文件夹配置文件检查 *ui_config.json* 在“XML编辑器配置”选项卡下，将按钮配置JSON添加到“工具栏”组的所需部分
+## 實作此專案
+
+
+### 藉由在中設定按鈕，將其新增至Webeditor *ui_config.json*
+
+使用資料夾設定檔來檢查 *ui_config.json* 在「XML編輯器設定」索引標籤下方，將按鈕設定JSON新增到「工具列」群組的所需區段中
 
 ```
 {
@@ -54,35 +55,35 @@ ht-degree: 0%
 }
 ```
 
-[使用此链接可了解有关文件夹配置文件和配置ui_config.json的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
+[使用此連結來進一步瞭解資料夾設定檔和設定ui_config.json](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en)
 
 
-### 处理新按钮的单击事件
+### 處理新按鈕的點按事件
 
-    注意：下面提到的步骤将作为本帖子中附加的包提供
+    注意：以下提及的步驟可作為此貼文附加的套件提供
 
 
-- 保存文件夹配置文件后，在项目目录下创建一个“cq:ClientLibraryFolder”(可以位于 */apps*)并添加属性，如以下屏幕截图所示：
-   ![Webeditor的客户端库设置](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
+- 儲存資料夾設定檔後，在專案目錄(可能位於 */apps*)並新增屬性，如下列熒幕擷圖所示：
+   ![Webeditor的使用者端資料庫設定](../../../assets/authoring/webeditor-add-customtoolbarbutton-clientlibrarysettings.png)
 
 ```
 This example uses "coralui3" library to show a dialog as it is used in the Javascript sample we presented.
 You may use different library of your choice.
 ```
 
-- 在此客户端库文件夹下，创建两个文件，如下所述：
-   - *overrides.js*:将具有用于处理“insertJIRARef”的点击事件的javascript代码（使用附加的包获取此javascript的内容）
-   - *js.txt*:其中将包含“overrides.js”以启用此javascript
+- 在此使用者端程式庫資料夾底下建立兩個檔案，如下所述：
+   - *覆寫.js*：會有javascript程式碼來處理「insertJIRARef」的點選事件（使用附加的套件取得此javascript的內容）
+   - *js.txt*：其中包含「overrides.js」以啟用此javascript
 
-- 保存更改后，您应该可以进行测试。
+- 儲存變更，您就可以開始測試了。
 
 
 ### 测试
 
-- 打开Web编辑器
-- 从用户首选项中选择您在其中添加自定义的文件夹配置文件 *ui_config.json*. 如果将其添加到全局配置文件，则您可能已经在使用了它。
-- 打开一个主题，您会注意到工具栏中有一个新按钮“插入日志引用”
-- 然后，您可以按照下面给出的方式，将prolog部分添加到主题中，并尝试在prolog元素“change-request-reference”内单击“Insert Jira Reference”按钮
+- 開啟Web編輯器
+- 從使用者偏好設定中選擇您新增自訂的資料夾設定檔 *ui_config.json*. 如果您將其新增至全域設定檔，表示您可能已經在使用它。
+- 開啟一個主題，您會注意到工具列有一個新按鈕「插入Jira參考」
+- 然後，您可以將prolog區段（如下所示）新增至主題，並嘗試在prolog元素「change-request-reference」內按一下「插入Jira參考」按鈕
 
 ```
 <prolog>
@@ -97,15 +98,15 @@ You may use different library of your choice.
 </prolog>
 ```
 
-请参阅下面的屏幕截图，了解其外观：
+請參考下方的熒幕擷圖以瞭解其外觀：
 
-![测试新按钮](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
+![測試新按鈕](../../../assets/authoring/webeditor-add-customtoolbarbutton-testing.png)
 
 
 ### 附件
 
-- 将安装具有工具栏按钮操作javascript代码的Webeditor客户端库的示例clientlibs包： [使用此链接下载](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
-- 示例 *ui_config.json* 上传到文件夹配置文件时，您可以执行以下操作： [下载示例ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
+- 範例clientlibs套件將會安裝具有工具列按鈕動作javascript程式碼的webeditor使用者端程式庫： [使用此連結下載](../../../assets/authoring/webeditor-addbuttonontoolbar-insertjira-clientlib.zip)
+- 範例 *ui_config.json* 上傳至資料夾設定檔的許可權： [下載範例ui_config.json](../../../assets/authoring/sample_ui_config_Guides4.2-InsertJiraReference.json)
 
 ```
 Please note this is compatible to AEM 6.5 and AEM Guides version 4.2.

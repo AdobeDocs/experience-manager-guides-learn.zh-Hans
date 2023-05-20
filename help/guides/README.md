@@ -7,9 +7,9 @@ ht-degree: 21%
 ---
 # Adobe Experience Manager指南
 
-此文件夹包含所有AEM指南。
+此資料夾包含所有AEM Guides指南。
 
 欢迎您贡献文档内容。请参阅以下资源：
 
-* [参与](contributing.md) 以了解如何贡献文档内容。
-* [行为准则](code-of-conduct.md) 概述为文档项目贡献内容时应遵循的行为标准。
+* [投稿](contributing.md) 以概略瞭解如何協助撰寫本檔案。
+* [行為準則](code-of-conduct.md) 當您協助撰寫本說明檔案專案時，我們期望的行為標準概觀。

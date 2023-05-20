@@ -1,6 +1,6 @@
 ---
-title: 在中创建映射 [!DNL AEM Guides]
-description: 了解如何在 [!DNL Adobe Experience Manager Guides]
+title: 在中建立地圖 [!DNL AEM Guides]
+description: 瞭解如何在中建立地圖 [!DNL Adobe Experience Manager Guides]
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,101 +9,101 @@ ht-degree: 1%
 
 ---
 
-# 创建地图
+# 建立地圖
 
-地图是一种组织工具，可让您以层次结构添加和组织信息。 此任务将向您展示如何创建地图并组织地图中的内容。
+地圖是一種組織工具，可讓您以階層結構新增及組織資訊。 此工作會示範如何建立地圖及組織地圖中的內容。
 
-您可以从以下位置下载示例DITA文件：
+您可以從這裡下載範例DITA檔案：
 
 * [Documents-with-Visual-Content.dita](assets/working-with-maps/Documents-with-Visual-Content.dita)
-* [使用 — Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
+* [Working-with-Tables.dita](assets/working-with-maps/Working-with-Tables.dita)
 
 >[!VIDEO](https://video.tv.adobe.com/v/336725?quality=12&learn=on)
 
-## 上传映射组件
+## 上傳地圖元件
 
-如果需要，您可以将本地样例文件上传到AEM，以获取更完整的一组材料。
+如有需要，您可以將本機範例檔案上傳到AEM，以獲得更完整的材料集。
 
-1. 将任何本地文件拖放到AEM中以上传它们。
-1. 根据需要对任何文件（包括图像和主题）重复执行上述步骤。
+1. 將任何本機檔案拖放到AEM中以上傳它們。
+1. 視需要重複處理任何檔案，包括影像和主題。
 
-## 创建映射
+## 建立地圖
 
-1. 要打开 [!UICONTROL 选项] 菜单中，选择主文件夹上的省略号图标。
+1. 若要開啟 [!UICONTROL 選項] 功能表中，選取主要資料夾上的省略符號圖示。
 
-   ![省略号图标](images/lesson-8/ellipses-9.png)
+   ![省略符號圖示](images/lesson-8/ellipses-9.png)
 
-1. 选择 **[!UICONTROL 创建]** > **[!UICONTROL 地图]**.
+1. 選取 **[!UICONTROL 建立]** > **[!UICONTROL 地圖]**.
 
 
-   ![创建映射](images/lesson-8/create-map-with-markings.png)
+   ![建立地圖](images/lesson-8/create-map-with-markings.png)
 
-   的 [!UICONTROL 新建映射] 对话框。
+   此 [!UICONTROL 建立新地圖] 對話方塊隨即顯示。
 
-1. 在 [!UICONTROL 模板] 字段，选择 **[!UICONTROL Bookmap]** ，并为您的地图提供一个标题。
+1. 在 [!UICONTROL 範本] 欄位，選取 **[!UICONTROL Bookmap]** 從下拉式功能表，為您的地圖指定標題。
 1. 选择&#x200B;**[!UICONTROL 创建]**。
 
-   此时将创建映射，并且左边栏会自动从“存储库”视图更改为“映射”视图。
+   您的地圖隨即建立，而左側邊欄會自動從「存放庫」檢視變更為「地圖」檢視。
 
-## 插入映射组件
+## 插入地圖元件
 
-1. 选择左边栏中的铅笔图标。
+1. 選取左側邊欄中的鉛筆圖示。
 
-   ![“编辑”图标](images/lesson-8/pencil-icon.png)
+   ![編輯圖示](images/lesson-8/pencil-icon.png)
 
-   这是编辑图标，用于在编辑器中打开映射。
+   這是「編輯」圖示，可讓您在編輯器中開啟對應。
 
-1. 通过选择存储库图标切换回存储库视图。
+1. 選取「存放庫」圖示，切換回「存放庫」檢視。
 
-   ![“存储库”图标](images/common/repository-icon.png)
+   ![存放庫圖示](images/common/repository-icon.png)
 
-1. 将主题从存储库拖放到编辑器的映射中，以将其添加到映射中。
+1. 將主題從存放庫拖放至編輯器中的對映，以對映中新增主題。
 
-   行指示器可显示主题的放置位置。
+   行指示器會顯示主題的位置。
 
-1. 根据需要继续添加主题。
+1. 繼續視需要新增主題。
 
-## 查看映射预览
+## 檢視地圖預覽
 
-“预览”功能可使用默认格式快速查看内容。 它显示标题、段落、列表以及主题中显示的任何其他内容。
+「預覽」可讓您使用預設格式快速檢視內容。 它會顯示標題、段落、清單，以及主題中的任何其他內容。
 
-1. 选择 **[!UICONTROL 预览]** 来访问Advertising Cloud的帮助。
+1. 選取 **[!UICONTROL 預覽]** 從上方的黑色功能表列。
 
    ![“预览”按钮](images/common/select-preview.png)
 
-您的内容将在 [!UICONTROL 预览].
+您的內容開啟於 [!UICONTROL 預覽].
 
-1. 要返回“创作视图”并恢复映射编辑，请选择 **作者。**
+1. 若要返回「作者」檢視並繼續編輯對映，請選取 **作者。**
 
-   ![“创作”按钮](images/lesson-5/author-map.png)
+   ![「作者」按鈕](images/lesson-5/author-map.png)
 
-## 配置映射结构
+## 設定地圖結構
 
-您可以编辑映射中主题的层次结构。
+您可以編輯地圖中主題的階層。
 
-1. 单击主题的图标以将其选中。
-1. 使用箭头可分别降级和提升元素。
+1. 按一下主題的圖示以選取它。
+1. 使用箭頭可分別降級和升級元素。
 
-   ![“存储库”图标](images/lesson-8/left-right.png)
+   ![存放庫圖示](images/lesson-8/left-right.png)
 
-## 将映射另存为新版本
+## 將地圖另存為新版本
 
-映射完成后，您可以将工作另存为新版本并记录更改。
+現在地圖已完成，您可以將您的工作儲存為新版本，並記錄您的變更。
 
-1. 选择 **[!UICONTROL 另存为新版本]** 图标。
+1. 選取 **[!UICONTROL 另存為新版本]** 圖示。
 
-   ![“另存为新版本”图标](images/common/save-as-new-version.png)
+   ![另存為新版本圖示](images/common/save-as-new-version.png)
 
-1. 在“新版本的注释”字段中，输入简短但清晰的更改摘要。
+1. 在「新版本的註解」欄位中，輸入簡短但清楚的變更摘要。
 
-1. 在版本标签字段中，输入任何相关的标签。
+1. 在「版本標籤」欄位中，輸入任何相關標籤。
 
-   标签允许您指定要在发布时包含的版本。
+   標籤可讓您指定發佈時要包含的版本。
 
    >[!NOTE]
    > 
-   > 如果您的程序配置了预定义标签，则可以从中进行选择，以确保标签设置一致。
+   > 如果您的程式設定了預先定義的標籤，您可以從中選取以確保一致的標籤。
 
 1. 选择&#x200B;**保存**。
 
-   您已创建映射的新版本，版本号已更新。
+   您已建立新版地圖，且版本號碼已更新。

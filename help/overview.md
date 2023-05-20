@@ -1,6 +1,6 @@
 ---
-title: Experience Manager指南教程
-description: Experience Manager指南的教程集合(以前称为Adobe Experience Manager的XML Documentation)。
+title: Experience Manager指南教學課程
+description: Experience Manager指南(前身為Adobe Experience Manager的XML Documentation)的教學課程系列。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
 source-git-commit: 0ab4c1590507b38cd3dbeb385a2200dc169fc36a
 workflow-type: tm+mt
@@ -9,39 +9,39 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Experience Manager Guides] 教程 {#overview}
+# [!DNL Adobe Experience Manager Guides] 教學課程 {#overview}
 
-[!DNL Adobe Experience Manager Guides] (称为 [!DNL AEM Guides] 解决方案)是一款功能强大的企业级组件内容管理解决方案(CCMS)。 它支持Adobe Experience Manager中的本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用任何离线DITA创作工具(如Adobe FrameMaker或易于使用的内置Web编辑器)创建内容。
+[!DNL Adobe Experience Manager Guides] (稱為 [!DNL AEM Guides] 解決方案)是功能強大、企業級元件內容管理解決方案(CCMS)。 它啟用Adobe Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具(例如Adobe FrameMaker或易於使用的內建Web編輯器)來建立內容。
 
-[!DNL AEM Guides] 解决方案提供所有核心CCMS功能，如协作、审阅、翻译、搜索和报告DITA内容，使作者能够通过高效的内容重用和强大的工作流在更短的时间内完成更多工作。 此外，用户还可以利用其同类最佳的单击发布功能，通过DITA-OT为最常用的格式(Experience Manager Sites、PDF、HTML5、EPUB和自定义输出)生成基于DITA的输出。
+[!DNL AEM Guides] 解決方案提供所有核心CCMS功能，例如DITA內容的共同作業、檢閱、翻譯、搜尋和報告，透過有效率的內容重複使用和強大的工作流程，讓作者在更短的時間內完成更多工作。 此外，使用者可以利用其同級最佳的單點發佈功能，針對最常用的格式(Experience Manager Sites、PDF、HTML5、EPUB和透過DITA-OT的自訂輸出)產生DITA型輸出。
 
-使用 [!DNL AEM Guides] 解决方案，企业可以向最终用户提供无缝的个性化体验，并确保售前和售后内容的一致性和一致性。 可以轻松实现对内容完整性的完全控制。 此外，本地化时间和成本也显着减少。
+替換為 [!DNL AEM Guides] 解決方案，企業可為使用者提供順暢且個人化的體驗，並確保售前與售後內容的一致性與一致性。 可以輕鬆實現內容完整性的完整控制。 此外，本地化時間與成本也大幅降低。
 
 >[!NOTE]
 > 
-> Adobe Experience Manager指南以前称为“Adobe Experience Manager的XML Documentation”。 请注意，文档中的某些引用仍可能是指以前的品牌，但仍适用于当前产品。
+> Adobe Experience Manager Guides先前稱為「Adobe Experience Manager適用的XML Documentation」。 請注意，檔案內的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
 
 ## 新增功能
 
-* **[[!DNL AEM Guides] 创作课程](course-3/overview.md)**
+* **[[!DNL AEM Guides] 製作課程](course-3/overview.md)**
 
-   *高级用户指南 [!DNL AEM Guides] 编辑器*
+   *進階使用手冊： [!DNL AEM Guides] 編輯者*
 
-* **[[!DNL AEM Guides] 入门课程](course-1/overview.md)**
+* **[[!DNL AEM Guides] 快速入門課程](course-1/overview.md)**
 
-   *了解如何使用创建、组织、创作和发布内容 [!DNL Adobe Experience Manager Guides].*
+   *瞭解如何建立、組織、編寫和發佈內容 [!DNL Adobe Experience Manager Guides].*
 
-* **[在内置Web编辑器中创作](course-3/overview.md)**
+* **[在內建Web編輯器中編寫](course-3/overview.md)**
 
-   *了解如何使用Experience Manager指南中的本机Web编辑器创作内容。 全面了解用户首选项、编辑器设置、配置、工具栏等。*
+   *瞭解如何在Experience Manager指南中使用原生網頁編輯器創作內容。 全面瞭解使用者偏好設定、編輯器設定、設定、工具列等。*
 
-* **[输出生成 [!DNL AEM Guides]](course-2/overview.md)**
+* **[輸出產生方式 [!DNL AEM Guides]](course-2/overview.md)**
 
-   *了解如何使用 [!DNL Adobe Experience Manager Guides]. 了解可用于生成输出的各种功能 — 报告、基线、条件、疑难解答、批量发布和激活。*
+   *瞭解如何使用產生輸出 [!DNL Adobe Experience Manager Guides]. 瞭解輸出產生的各種可用功能 — 報告、基線、條件、疑難排解、大量發佈和啟用。*
 
 
 ## 其他资源
 
-* [[!DNL AEM Guides] 在线用户指南](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
+* [[!DNL AEM Guides] 線上使用手冊](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
 * [[!DNL AEM Guides] PDF指南](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
 * [Experience League — 探索AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)

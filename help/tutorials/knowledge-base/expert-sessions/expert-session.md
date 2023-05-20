@@ -1,23 +1,24 @@
 ---
-title: 专家会议概述
-description: 专家会议的登陆页面部分。
-source-git-commit: 474f9c3079a2b48bd1664469e1d063f14b49e6df
+title: 專家會議概述
+description: 專家工作階段區段的登陸頁面。
+exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
+source-git-commit: a23ede21ab8060f629be0466d127d9c1f01f9b5d
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
-# 参加我们每月的专家会议，了解AEM指南的全部潜力！
+# 參加我們的每月專家會議，探索AEM Guides的完整潛能！
 
-我们每月的专家会议旨在帮助我们的客户和合作伙伴深入了解AEM指南。 每个会议都重点介绍AEM指南中的重要功能或更新，我们的专家团队将在该指南中指导您完成入门和出门操作。
+我們每月的專家會議旨在協助客戶和合作夥伴獲得AEM Guides的寶貴見解。 每場會議都著重於AEM Guides中的重要功能或更新，我們的專家團隊將引導您完成所有工作。
 
-在这些会议中，我们的专家将深入讨论我们产品的特性、功能和优势，并分享实用提示和最佳实践，帮助您充分利用这些功能。 无论您是新用户还是经验丰富的专业人士，这些会议都将为您提供最大限度地利用AEM指南所需的信息。
+在這些會議中，我們的專家將討論我們產品的深入特性、功能和優點，並分享可幫助您充分利用產品的實用提示和最佳實務。 無論您是新使用者還是經驗豐富的專家，這些工作階段都會提供您所需的資訊，以讓您充分利用AEM Guides。
 
-我们理解，您的时间很宝贵，因此我们让这些专家会议变得简单易用。 您可以通过访问 [社区论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 或通过发送给您的电子邮件。
+我們瞭解您的時間很寶貴，因此我們讓您輕鬆存取這些專家會議。 若要報名參加即將舉辦的研討會，請造訪我們的 [社群論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 或透過寄給您的電子郵件進行。
 
-如果您错过了以前的任何会话，则可以访问此部分中的录制。
+如果您錯過先前的任何一個作業，可以存取此節中的錄製。
 
-不要错过这个加深对AEM指南了解的机会。
+不要錯過這個機會，以更深入地瞭解AEM Guides。
 
-**请立即注册参加我们的下一次专家会议，并获得成功所需的洞察！**
+**立即報名參加我們的下一次專家會議，獲得成功所需的深入見解！**

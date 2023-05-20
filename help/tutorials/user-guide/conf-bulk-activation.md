@@ -1,41 +1,40 @@
 ---
-title: 批量激活已发布的内容
-description: 了解如何批量激活已发布的内容
-source-git-commit: 7cd719921e68ac1763d09d9665d912e3697e5849
+title: 大量啟用已發佈的內容
+description: 瞭解如何大量啟用已發佈的內容
+exl-id: 66c454bb-f09e-442f-b863-60ee249a0e08
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
+# 大量啟用已發佈的內容 {#id214GG080LE8}
 
-# 批量激活已发布的内容 {#id214GG080LE8}
-
-在真实的词语情景中，作者将有权访问AEM的创作实例，而实际内容将发布到AEM的发布实例。 然后，可以在不同地理位置进一步部署发布实例。 发布的输出必须通过不同的进程移到这些发布服务器上。 将内容从创作实例移动到发布实例的过程称为内容的激活或复制。
+在真實情境中，當實際內容發佈至AEM的發佈執行個體時，您的作者就能存取AEM的製作執行個體。 然後，發佈執行個體可進一步部署至不同的地理位置。 已發佈的輸出必須透過不同程式移至這些發佈伺服器。 將內容從製作執行個體移至發佈執行個體的程式稱為內容的啟動或復寫。
 
 >[!NOTE]
 >
-> 有关如何在AEM中设置创作和发布实例的更多详细信息，请参阅 [创作和发布架构概述](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
+> 如需如何在AEM中設定作者和發佈執行個體的詳細資訊，請參閱 [製作和發佈架構概覽](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/administering/author-publish/author-publish-architecture-overview.html?lang=en#prerequisites).
 
-借助AEM指南的批量激活功能，您可以快速轻松地激活内容，从创作到发布实例。 通过批量激活功能，您可以灵活地：
+透過AEM Guides的大量啟用功能，您可以輕鬆快速地啟用從製作到發佈執行個體的內容。 大量啟動功能可讓您靈活地：
 
-- 将多个映射\（添加到映射集合\）添加到单个激活任务
+- 將一個或多個對映\（到對映集合\）新增到單一啟動任務
 
-- 从要发布的多个输出预设中选择一个
+- 從多個輸出預設集中選取一個您要發佈的輸出預設集
 
-- 定义必须激活输出的区域设置
+- 定義必須啟動輸出的地區設定
 
-- 访问审核日志以检查您的激活任务是否成功完成或是否出现问题
-
-
-- **[创建批量激活映射集合](conf-bulk-activation-create-map-collection.md)**
-
-- **[激活输出](conf-bulk-activation-publish-map-collection.md)**
-
-- **[编辑批量激活映射集合](conf-bulk-activation-edit-map-collection.md)**
-
-- **[删除批量激活映射集合](conf-bulk-activation-delete-map-collection.md)**
+- 存取稽核記錄，以檢查您的啟動任務是否成功完成或發生一些問題
 
 
-**父主题：**[&#x200B;输出生成](generate-output.md)
+- **[建立大量啟用地圖集合](conf-bulk-activation-create-map-collection.md)**
 
+- **[啟動輸出](conf-bulk-activation-publish-map-collection.md)**
+
+- **[編輯大量啟用地圖集合](conf-bulk-activation-edit-map-collection.md)**
+
+- **[刪除大量啟用地圖集合](conf-bulk-activation-delete-map-collection.md)**
+
+
+**父級主題：**[&#x200B;輸出產生](generate-output.md)

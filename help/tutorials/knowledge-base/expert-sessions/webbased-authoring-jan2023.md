@@ -1,56 +1,56 @@
 ---
-title: 创作基于Web的内容
-description: 了解如何使用Web编辑器创作结构化内容。
+title: 編寫網頁型內容
+description: 瞭解如何使用網頁編輯器編寫結構化內容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# 创作基于Web的内容
+# 編寫網頁型內容
 
-AEM Guides附带了用于创作结构化内容的内置Web编辑器。 您可以使用简化的基于Web的创作体验，但您仍可以选择使用或启用强大的功能，如条件内容验证、拼写检查、内容重用、引用验证、友好名称和创作数学公式。
+AEM Guides隨附內建的網頁編輯器，可供撰寫結構化內容。 您可以使用簡化的網頁式撰寫體驗，但選擇使用或啟用強大的功能，例如條件式內容驗證、拼字檢查、內容重複使用、參考驗證、好記的名稱和撰寫數學方程式。
 
-## 会话概述
+## 工作階段概觀
 
-在此会话中，您将了解如何使用Web编辑器创建、发布和管理内容。
+在這場會議中，您將瞭解如何使用網頁編輯器建立、發佈和管理內容。
 
-## 会话录制
+## 工作階段錄製
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414171/dita-authoring-ccms-web-author?quality=12&learn=on)
 
 ## 高亮
 
 - **日期** - 2023年1月19日
-- **与会者人数** - 89
-- **持续时间** - 60分钟
-- **Audience**  — 客户、合作伙伴和Adobe员工
+- **出席者人數** - 89
+- **持續時間** - 60分鐘
+- **對象**  — 客戶、合作夥伴和Adobe員工
 
-## 主要要点
+## 要点
 
-在本课程中，您将了解以下内容：
-- 配置Web编辑器的设置
-- 使用Web编辑器功能提高作者的工作效率
-- 扩展和集成可用功能
-- 通过自定义样式或品牌化，个性化Web编辑器
+在這場會議中，您將瞭解以下內容：
+- 設定網頁編輯器的設定
+- 使用網頁編輯器功能提高作者的生產力
+- 擴充及整合可用功能
+- 自訂樣式或品牌化，個人化網頁編輯器
 
-## 相关资源
+## 相關資源
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
+- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
-- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 此会话中显示的功能在以下版本的AEM Guides中可用：
-> - 内部部署4.1.3或更高版本
-> - Cloud Services2211及更高版本
+> 下列版本的AEM Guides提供本工作階段中顯示的功能：
+> - 內部部署4.1.3或更新版本
+> - Cloud Services 2211和更新版本
 
 
-## 联系我们
+## 聯絡我們
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>

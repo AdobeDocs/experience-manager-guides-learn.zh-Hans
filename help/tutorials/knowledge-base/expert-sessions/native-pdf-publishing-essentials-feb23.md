@@ -1,6 +1,6 @@
 ---
-title: 本机PDF发布要点
-description: 了解如何在AEM指南中使用本机pdf引擎发布PDF。
+title: 原生PDF發佈要點
+description: 瞭解如何使用AEM Guides中的原生PDF引擎發佈PDF。
 exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
 source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
 workflow-type: tm+mt
@@ -9,49 +9,49 @@ ht-degree: 1%
 
 ---
 
-# 本机PDF发布要点
+# 原生PDF發佈要點
 
-AEM指南具有内置的PDF发布引擎，该引擎为用户提供创建、开发和发布PDF格式的内容的功能。 其丰富的功能集允许创建各种页面布局、自定义样式表以及设计无缝内容发布所需的各种PDF组件。
+AEM Guides具有內建的PDF發佈引擎，使用者能夠建立、開發和發佈PDF格式的內容。 其豐富的功能集可建立多樣化的頁面配置、自訂樣式表，以及設計無縫內容發佈所需的各種PDF元件。
 
-## 会话概述
+## 工作階段概觀
 
-在本课程中，您将学习如何在AEM指南中使用本机pdf引擎发布PDF
+在這場會議中，您將瞭解如何使用AEM Guides中的原生PDF引擎發佈PDF
 
-## 会话录制
+## 工作階段錄製
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416076/native-pdf?quality=12&learn=on)
 
 ## 高亮
 
 - **日期** - 2023年2月23日
-- **出席人数** - 135
-- **持续时间** - 60分钟
-- **受众**  — 客户、合作伙伴和Adobe员工
+- **出席者人數** - 135
+- **持續時間** - 60分鐘
+- **對象**  — 客戶、合作夥伴和Adobe員工
 
 ## 要点
 
-在本课程中，您将了解以下信息：
-- PDF发布要点
-- 创建和自定义PDF模板的各种组件
-- 用于发布的内容结构和样式
-- 通过脚本处理输出
-- 高级配置、安全性、打印和生产
+在這場會議中，您將瞭解以下內容：
+- PDF發佈Essentials
+- 建立和自訂PDF範本的各種元件
+- 發佈用的內容建構和樣式設定
+- 透過指令碼操控輸出
+- 進階設定、安全性、列印與生產
 
-## 相关资源
+## 相關資源
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [本机PDF发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
+- **使用手冊** - [原生PDF發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **社区论坛**  — 对于Experience League上特定于会话的社区交互，请访问  [AEM指南论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 本会话中显示的功能在以下版本的AEM指南中可用：
-> - 内部版本4.2或更高版本
-> - Cloud Services2211及更高版本
+> 下列版本的AEM Guides提供本工作階段中顯示的功能：
+> - 內部部署4.2或更新版本
+> - Cloud Services 2211和更新版本
 
 
-## 联系我们
+## 聯絡我們
 
-如有任何疑问，请发送电子邮件至 <techcomm@adobe.com>
+如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>

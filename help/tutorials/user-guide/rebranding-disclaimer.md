@@ -1,7 +1,8 @@
 ---
 title: 免责声明
-description: 这是一份免责声明，用于解决XML Documentation for Adobe Experience Manager到AEM指南中产品名称变更的问题
-source-git-commit: 9b58355ee3d57b057e97cd98fa5e27d398847a9d
+description: 此免責宣告旨在說明將適用於Adobe Experience Manager的XML Documentation產品名稱變更為AEM Guides
+exl-id: 80ac238d-cc11-417e-9848-0d6840c14379
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
@@ -10,5 +11,4 @@ ht-degree: 3%
 
 # 免责声明 {#id2263D0P0TYU}
 
-*Adobe Experience Manager指南* 以前被命名为 *XML Documentation for Adobe Experience Manager*. 请注意，文档中的某些引用仍可能是指以前的品牌，但仍适用于当前产品。
-
+*Adobe Experience Manager指南* 先前品牌為 *適用於Adobe Experience Manager的XML Documentation*. 請注意，檔案內的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。

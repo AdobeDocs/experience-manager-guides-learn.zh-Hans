@@ -1,31 +1,32 @@
 ---
-title: 本机PDF发布功能 |使用自定义更改栏样式
-description: 了解如何对更改栏应用样式。
-source-git-commit: b6fd82fd09c04a3deefab51b1064a3b6aea73e47
+title: 原生PDF發佈功能 |使用自訂變更列樣式
+description: 瞭解如何在變更列上套用樣式。
+exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
+source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# 使用自定义更改栏样式
+# 使用自訂變更列樣式
 
-更改栏是一条垂直线，可直观地标识新内容或修订内容。 AEM指南允许您在主题中更改内容的左侧显示一个更改栏，以及PDF输出目录中更改的主题。
+變更列是垂直線，可在視覺上識別新內容或修訂的內容。 AEM Guides可讓您在主題內已變更內容的左側顯示變更列，也可在PDF輸出的目錄(TOC)中顯示已變更的主題。
 
-有关显示更改栏的更多详细信息，请参阅 *在已发布版本之间使用更改栏创建PDF* 设置 [发布PDF输出](../web-editor/native-pdf-web-editor.md).
+如需顯示變更列的詳細資訊，請參閱 *在已發佈版本之間使用變更列建立PDF* 設定於 [發佈PDF輸出](../web-editor/native-pdf-web-editor.md).
 
-## 主题中的更改内容
+## 主題中變更的內容
 
-更改栏显示在已插入、更改或删除的主题中内容的左侧。
+變更列會顯示在已插入、變更或刪除之主題的內容左側。
 
-您可以修改以下样式以显示更改的内容，以及其中的更改栏。
+您可以修改下列樣式，以顯示變更的內容以及變更列。
 
 
 >[!NOTE]
 >
->这些样式是 `layout.css` 文件，并且您可以根据需要对其进行编辑。
+>這些樣式是 `layout.css` 檔案，您可以視需要加以編輯。
 
-例如，您可以在 `.inserted-block` 样式来定义插入内容在已发布PDF输出中的显示方式。
+例如，您可以在 `.inserted-block` 樣式定義插入內容在發佈PDF輸出中的顯示方式。
 
 
 ```css
@@ -42,7 +43,7 @@ ht-degree: 0%
 ...
 ```
 
-同样，您也可以使用 `.deleted-block` 样式来定义已删除内容在已发布PDF输出中的显示方式。
+同樣地，您可以使用 `.deleted-block` 樣式來定義已刪除內容在發佈PDF輸出中的顯示方式。
 
 ```css
 ...
@@ -59,9 +60,9 @@ ht-degree: 0%
 ...
 ```
 
-您可以使用 `.inserted-change-bar` 和 `.deleted-change-bar` 样式来修改更新内容左侧显示的更改栏的外观。
+您可以使用 `.inserted-change-bar` 和 `.deleted-change-bar` 樣式來修改出現在更新內容左側的變更列的外觀。
 
-例如，您可以使用 `-ro-change-bar-color` 属性 `.inserted-change-bar` 样式以绿色显示插入的更改栏。 您还可以使用 `-ro-change-bar-color` 属性 `.deleted-change-bar` 样式以红色显示已删除的更改栏。
+例如，您可以使用 `-ro-change-bar-color` 中的屬性 `.inserted-change-bar` 以綠色顯示插入的變更列的樣式。 您也可以使用 `-ro-change-bar-color` 中的屬性 `.deleted-change-bar` 以紅色顯示刪除的變更列樣式。
 
 ```css
 ...
@@ -75,13 +76,13 @@ ht-degree: 0%
 ...
 ```
 
-<img src="./assets/changed-bar-content.png" alt="更改了条形主题内容" width="500">
+<img src="./assets/changed-bar-content.png" alt="變更的列主題內容" width="500">
 
-## 目录（目录）中更改了主题
+## 目錄(TOC)中變更的主題
 
-您还可以在PDF输出的目录中，在已更改主题的左侧添加更改栏。 您可以使用 `-ro-change-bar-color` 属性 `.changed-topic` 样式，以在“目录”列表中为更新主题选择的颜色中添加更改栏。
+您也可以在PDF輸出的目錄，在已變更主題左側新增變更列。 您可以使用 `-ro-change-bar-color` 中的屬性 `.changed-topic` 樣式，以您選擇的顏色為目錄清單中更新的主題新增變更列。
 
-例如，您可以添加绿色的更改栏。
+例如，您可以新增綠色的變更列。
 
 ```css
 ...
@@ -92,6 +93,6 @@ ht-degree: 0%
 ```
 
 
-此时会针对目录中已完成某些更新的所有主题显示一个绿色更改栏。 您可以单击目录中更改的主题，并查看详细更改。
+這會針對目錄中所有已完成部分更新的主題顯示綠色變更列。 您可以按一下目錄中已變更的主題，並檢視詳細的變更。
 
-<img src="./assets/changed-bar-TOC.png" alt="更改了栏目目录" width="500">
+<img src="./assets/changed-bar-TOC.png" alt="變更的橫條目錄" width="500">

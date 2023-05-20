@@ -1,36 +1,36 @@
 ---
-title: 关于Adobe Experience Manager指南
-description: 了解如何了解Adobe Experience Manager指南as a Cloud Service
-source-git-commit: fac7596f16e5321d708dd251012ac9753eb19ea4
+title: 關於Adobe Experience Manager指南
+description: 瞭解如何as a Cloud Service使用Adobe Experience Manager Guides
+exl-id: c55429d9-ce2a-4dbf-b780-377b1372b828
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
+# 關於Adobe Experience Manager指南 {#id1645E0A50MY}
 
-# 关于Adobe Experience Manager指南 {#id1645E0A50MY}
+Adobe Experience Manager Guides \(稱為 *AEM指南* 在本指南的後面部分\)是一個功能強大、企業級元件內容管理解決方案\(CCMS\)。 提供兩種風格 — 內部部署和雲端服務。 它啟用Adobe Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用簡單易用的內建網頁編輯器建立內容。
 
-Adobe Experience Manager指南\(称为 *AEM指南* 本指南的后面部分)是一款功能强大的企业级组件内容管理解决方案\(CCMS\)。 它有两种风格 — 内部部署和云服务。 它支持Adobe Experience Manager中的本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用易于使用的内置Web编辑器创建内容。
+AEM Guides提供DITA內容的所有核心CCMS功能，例如編寫、共同作業、檢閱、翻譯、搜尋、報告和中繼資料管理，讓作者透過有效率的內容重複使用和強大的工作流程，以更短的時間完成更多工作。 此外，使用者可以利用其同級最佳的單點發佈功能，針對最常用的格式(Adobe Experience Manager Sites、PDF、HTML5、EPUB和透過DITA-OT的自訂輸出)產生DITA型輸出。
 
-AEM指南提供所有核心CCMS功能，如创作、协作、审阅、翻译、搜索、报告和元数据管理等，从而让作者能够通过高效的内容重用和强大的工作流在更短的时间内完成更多工作。 此外，用户还可以利用其同类最佳的单击发布功能，通过DITA-OT为最常用的格式(Adobe Experience Manager Sites、PDF、HTML5、EPUB和自定义输出)生成基于DITA的输出。
+透過AEM Guides，企業可以為使用者提供順暢的個人化體驗，並確保售前和售後內容的一致性和一致性。 可以輕鬆實現內容完整性的完整控制。 此外，本地化時間與成本也大幅降低。
 
-借助AEM指南，企业可以向最终用户提供无缝的个性化体验，并确保售前和售后内容的一致性和一致性。 可以轻松实现对内容完整性的完全控制。 此外，本地化时间和成本也显着减少。
+## 優點總覽
 
-## 优点概览
+- 為使用者提供統一的購買前和購買後內容體驗
 
-- 为最终用户提供统一的购买前和购买后内容体验
+- 透過DITA-OT將全通路發佈體驗到Experience Manager Sites、PDF、HTML5、EPUB和自訂輸出
 
-- 通过DITA-OT将全渠道的体验发布到Experience Manager Sites、PDF、HTML5、EPUB和自定义输出
+- 熟悉現有的Adobe工具/系統，並有機會與單一合作夥伴整合
 
-- 熟悉现有Adobe工具/系统，并有机会与一个合作伙伴进行整合
+- 單一CMS可管理端對端行銷和技術內容
 
-- 单个CMS用于端到端管理营销和技术内容
+- 透過有效率的內容重複使用，加快上市速度
 
-- 通过高效的内容重复利用加快上市速度
+- 強大的稽核、共同作業和翻譯工作流程
 
-- 强大的审阅、协作和翻译工作流程
+- 縮短本地化時間並降低成本
 
-- 减少了本地化时间和成本
-
-- 降低维护费用
+- 減少維護費用

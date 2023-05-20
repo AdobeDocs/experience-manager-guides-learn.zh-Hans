@@ -1,59 +1,58 @@
 ---
-title: 下载文件
-description: 了解如何下载文件
-source-git-commit: cc0fbca257d82cc82db5b5da8d263309fd71de55
+title: 下載檔案
+description: 瞭解如何下載檔案
+exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
+source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
+# 下載檔案 {#id216MC0H0BE8}
 
-# 下载文件 {#id216MC0H0BE8}
+您可以下載資產，包括DITA和非DITA檔案。 您可以透過多種方式下載資產，有些是AEM的原生方法，有些則受到AEM Guides支援。 如需原生AEM資產下載資訊，請參閱 [從Adobe Experience Manager下載資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) 在AEM檔案中。 以下章節說明透過AEM Guides中的DITA map主控台下載檔案的機制。
 
-您可以下载资产，包括DITA和非DITA文件。 您可以通过多种方式下载资产，一些方法是AEM的本机方法，而其他方法则受AEM指南支持。 有关本机AEM资产下载信息，请参阅 [从Adobe Experience Manager下载资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) 在AEM文档中。 以下部分介绍在AEM指南中通过DITA映射控制台下载文件的机制。
+## 匯出DITA map檔案
 
-## 导出DITA映射文件
+在AEM存放庫中擁有DITA map檔案後，您就可以下載map檔案及其相依專案。 這可讓您彈性地共用完整的對應檔案，以進行離線編輯、驗證、檢閱或只是建立備份。
 
-将DITA映射文件放入AEM存储库后，即可下载映射文件及其依赖项。 这样，您就可以灵活地共享完整的映射文件，以便进行离线编辑、验证、审阅或仅创建备份。
+執行以下步驟來下載DITA map檔案及其相依檔案：
 
-执行以下步骤以下载DITA映射文件及其相关文件：
+1. 在「資產」UI中，導覽至您要下載的DITA map。
 
-1. 在资产UI中，导航到要下载的DITA映射。
+1. 按一下DITA map以在DITA map主控台中開啟它。
 
-1. 单击DITA映射以在DITA映射控制台中将其打开。
+1. 選取 **主題** 標籤以檢視DITA map中可用的主題清單。
 
-1. 选择 **主题** 选项卡，查看DITA映射中可用的主题列表。
+1. 在主工具列中，按一下 **下載地圖**.
 
-1. 在主工具栏中，单击 **下载地图**.
-
-   此时会出现“下载映射”对话框。
+   「下載地圖」對話方塊隨即顯示。
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 单击&#x200B;**下载**。在“下载映射”对话框中，您可以选择以下选项：
+1. 单击&#x200B;**下载**。在「下載對應」對話方塊中，您可以選擇下列選項：
 
-   - **使用基线**:选择此选项可获取为DITA映射创建的基线列表。 如果要根据特定基线下载映射文件及其内容，请从下拉列表中选择基线。 有关使用基线的更多详细信息，请参阅 [使用基线](generate-output-use-baseline-for-publishing.md#).
-   - **扁平化文件层次结构**:选择此选项可将所有引用的主题和媒体文件保存在一个文件夹中。
+   - **使用基準線**：選取此選項可取得為DITA map建立的基準線清單。 如果要根據特定基準線下載對應檔案及其內容，請從下拉式清單中選取「基準線」。 如需有關使用基準線的詳細資訊，請參閱 [使用基準線](generate-output-use-baseline-for-publishing.md#).
+   - **平面化檔案階層**：選取此選項，將所有參照的主題和媒體檔案儲存在單一資料夾中。
 
    >[!NOTE]
    >
-   > 您还可以在不选择任何选项的情况下下载映射文件。 在这种情况下，将下载引用主题和媒体文件的最后一个持久版本。
+   > 您也可以在不選取任何選項的情況下下載地圖檔案。 在這種情況下，會下載參照主題和媒體檔案的最後一個儲存版本。
 
-1. 在单击 **下载** 按钮，则映射下载请求将排入队列。 地图准备好下载后，您将收到以下通知。
+1. 在您按一下 **下載** 按鈕時，對應下載請求會排入佇列。 一旦地圖可供下載，您將會收到以下通知。
 
    ![](images/download-map-prompt.png){width="550" align="left"}
 
-   - 单击 **下载** 下载.zip格式的映射文件。
+   - 按一下 **下載** 以下載.zip格式的對映檔案。
 
-   - 单击 **稍后下载** 以在以后下载映射文件。 可以从AEM通知收件箱访问下载链接。 单击收件箱中生成的映射通知以下载.zip格式的映射。
+   - 按一下 **稍後下載** 以稍後下載地圖檔案。 可從AEM通知收件匣存取下載連結。 按一下收件匣中產生的對應通知，以下載.zip格式的對應。
    >[!NOTE]
    >
-   > 默认情况下，下载的映射会在AEM通知收件箱中保留五天。
+   > 依預設，下載的地圖會在AEM通知收件匣中保留五天。
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-下载映射后，您可以选择映射，然后使用顶部的打开图标打开选定的报表。
+下載地圖後，您可以選取地圖，並使用頂端的開啟圖示來開啟選取的報表。
 
-**父主题：**[&#x200B;管理内容](authoring.md)
-
+**父級主題：**[&#x200B;管理內容](authoring.md)

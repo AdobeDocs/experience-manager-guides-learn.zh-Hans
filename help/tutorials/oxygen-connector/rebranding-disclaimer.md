@@ -7,5 +7,5 @@ ht-degree: 2%
 ---
 # 免责声明 {#id2263D0P0TYU}
 
-*Adobe Experience Manager指南* 以前称为 *适用于Adobe Experience Manager的XML Documentation*. 请注意，文档中的某些引用可能仍引用以前的品牌，但仍适用于当前产品。
+*Adobe Experience Manager指南* 先前品牌為 *適用於Adobe Experience Manager的XML Documentation*. 請注意，檔案內的某些參考資料可能仍會參考先前的品牌，但仍適用於目前的產品。
 

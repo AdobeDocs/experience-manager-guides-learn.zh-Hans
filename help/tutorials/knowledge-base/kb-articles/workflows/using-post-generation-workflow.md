@@ -1,56 +1,56 @@
 ---
-title: 后生成工作流
-description: 以示例介绍帖子生成工作流程
-source-git-commit: 447cd512d1b6cdce3bd1ddded1575dab87daa04a
+title: 貼文產生工作流程
+description: 附範例的後生成工作流程概觀
+exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
+source-git-commit: 3cfa0a58c5681668fbb3c97dcbe1e8f7e32335fc
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
+# AEM Guides發佈 — 貼文產生工作流程
 
-# AEM指南发布 — 帖子生成工作流程
-
-AEM指南让您能够灵活地指定输出后生成工作流。 您可以对使用AEM指南生成的输出执行一些后处理任务。
-例如，您可能想要在PDF输出中设置某些属性，或者在生成输出后向一组用户发送电子邮件。
-
-
-## 使用后代工作流程涉及哪些步骤
-
-### 创建工作流流程
-
-创建基于Java或ECMA的工作流进程，以对生成的输出执行操作。 例如，将某些元数据从源复制到生成的内容或处理生成输出的元数据。
-- 我们将举一个使用ECMA脚本创建此类流程的示例（您可以引用附加的包）
-- 有关基于Java的工作流流程，请参阅章节“*自定义输出后生成工作流*“ [安装和配置指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
+AEM Guides可讓您靈活地指定輸出後產生工作流程。 您可以在使用AEM Guides產生的輸出上執行一些後處理任務。
+例如，您可能想要在PDF輸出上設定某些屬性，或者您可能想要在輸出產生後向一組使用者傳送電子郵件。
 
 
-### 创建工作流模型
+## 使用後世產生工作流程需要哪些步驟
 
-使用您在上一步中创建的自定义工作流流程，创建工作流模型并将该流程步骤添加到该模型中。
-- 您还需要添加强制流程步骤“*完成后生成*”作为工作流的最后一步。
+### 建立工作流程程式
 
-请参阅下面显示的工作流模型示例：
-
-![后代工作流模型](../assets/workflows/pgwf-workflow-model.png)
-
-
-### 在地图上使用此后生成工作流
-
-生成后工作流是一个属性，可在AEM指南发布机制内的任何输出预设上配置。 示例:
-
-![输出预设的后处理工作流](../assets/workflows/pgwf-preset-settings.png)
+建立以Java或ECMA為基礎的工作流程處理，對產生的輸出執行操作。 例如，將部分中繼資料從來源複製到產生的內容，或操控產生的輸出的中繼資料。
+- 我們將以使用ECMA指令碼建立此類程式的範例為例（您可以參考附加的套件）
+- 如需瞭解以Java為基礎的工作流程程式，請參閱區段&quot;*自訂輸出後產生工作流程*&#x200B;的「 [安裝及設定指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/4-2/Adobe-Experience-Manager-Guides_UUID_Installation-Configuration-Guide_EN.pdf#page=119)
 
 
-假定已创建所选模型。
+### 建立工作流程模型
+
+使用您在上一步建立的自訂工作流程程式，建立工作流程模型並將該程式步驟新增到其中。
+- 您還需要新增強制流程步驟»*完成產生貼文*」作為工作流程的最後一步。
+
+請參考下列範例工作流程模型：
+
+![產生後工作流程模型](../assets/workflows/pgwf-workflow-model.png)
+
+
+### 在地圖上使用此貼文產生工作流程
+
+產生後工作流程是可設定在AEM Guides發佈機制中任何輸出預設集的屬性。 示例:
+
+![輸出預設集上的產生後工作流程](../assets/workflows/pgwf-preset-settings.png)
+
+
+假設已建立選取的模型。
 
 
 ### 测试
 
-现在，您可以使用此预设运行发布并验证流程步骤输出
+現在您可以使用此預設集執行發佈，並驗證程式步驟輸出
 
 
-## 示例
+## 样本
 
-有关参考，您可以使用以下包并通过包管理器安装该包，以测试示例后生成工作流(*如上面的屏幕截图所述*)
+如需參考資訊，您可以使用以下套件，並透過套件管理員進行安裝，以測試範例產生後工作流程(*如上述熒幕擷取畫面所述*)
 
-[基于ECMA的后生成工作流模型](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)
+[基於ECMA的後生成工作流程模型範例](../assets/workflows/sample-pgwf-ecma-test-wfmetadata.zip)

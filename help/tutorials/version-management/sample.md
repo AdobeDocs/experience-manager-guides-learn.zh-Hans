@@ -5,7 +5,7 @@ source-wordcount: '1'
 ht-degree: 100%
 
 ---
-# 示例
+# 样本
 
 <!--
 ---

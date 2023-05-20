@@ -1,6 +1,6 @@
 ---
-title: 生成.book或.fm文件的输出
-description: 了解如何生成.book或.fm文件的输出
+title: 產生.book或.fm檔案的輸出
+description: 瞭解如何產生.book或.fm檔案的輸出
 exl-id: 578cff9f-cb27-4df3-8571-277f81b930d7
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -9,23 +9,23 @@ ht-degree: 0%
 
 ---
 
-# 生成.book或.fm文件的输出 {#generating_output_fm_docs}
+# 產生.book或.fm檔案的輸出 {#generating_output_fm_docs}
 
-执行以下步骤为FrameMaker文档生成输出：
+執行以下步驟來產生FrameMaker檔案的輸出：
 
-1. 在资产UI中，导航到，然后单击 `.book` 或 `.fm` 文件。
+1. 在Assets UI中，導覽至，然後按一下 `.book` 或 `.fm` 您要發佈的檔案。
 
-   将显示DITA映射控制台，其中显示了可用于生成输出的输出预设列表。
+   DITA map主控台隨即出現，顯示可用於產生輸出的輸出預設集清單。
 
    ![](images/publish-fm-doc.png){width="800" align="left"}
 
-1. 选择一个或多个要用于生成输出的输出预设。
+1. 選取要用來產生輸出的一或多個輸出預設集。
 
-1. 单击生成图标以启动输出生成过程。
+1. 按一下「產生」圖示以啟動輸出產生程式。
 
 
 >[!NOTE]
 >
-> 您可以通过单击“输出”来查看输出生成请求的当前状态。 有关更多信息，请参阅 [查看输出生成任务的状态](fm-output-view-status.md).
+> 您可以按一下「輸出」，檢視輸出產生請求的目前狀態。 如需詳細資訊，請參閱 [檢視輸出產生任務的狀態](fm-output-view-status.md).
 
-**父主题：**[&#x200B;生成FrameMaker文档的输出](fm-output-generatation.md)
+**父級主題：**[&#x200B;產生FrameMaker檔案的輸出](fm-output-generatation.md)

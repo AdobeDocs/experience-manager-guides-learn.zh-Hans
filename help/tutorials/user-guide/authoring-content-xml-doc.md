@@ -1,6 +1,6 @@
 ---
-title: 使用AEM指南创作内容
-description: 了解如何使用AEM指南创作内容
+title: 使用AEM Guides製作內容
+description: 瞭解如何使用AEM Guides創作內容
 exl-id: 6a6354ce-29cc-4bd7-8235-579fe3647682
 source-git-commit: 3c3aef9f6beefad69c1bf13f55643a79992ac6f7
 workflow-type: tm+mt
@@ -9,19 +9,19 @@ ht-degree: 0%
 
 ---
 
-# 使用AEM指南创作内容 {#id221EB0P0E20}
+# 使用AEM Guides製作內容 {#id221EB0P0E20}
 
-AEM指南附带三个现成的编辑器。 您可以使用它们创建、编辑和发布文档。
+AEM Guides隨附三個現成的編輯器。 您可以使用它們來建立、編輯和發佈您的檔案。
 
-1. **Web编辑器**:使用它创建和编辑结构化文档。
-1. **地图编辑器**:使用它创建和编辑DITA映射和书签映射文件。
-1. **编辑器**:使用它生成条件输出。
+1. **網頁編輯器**：用它來建立和編輯結構化檔案。
+1. **地圖編輯器**：使用它來建立和編輯DITA map和bookmap檔案。
+1. **Ditaval編輯器**：使用它產生條件式輸出。
 
-- **[使用Web编辑器](web-editor.md)**
+- **[使用網頁編輯器](web-editor.md)**
 
-- **[使用地图编辑器](map-editor.md)**
+- **[使用地圖編輯器](map-editor.md)**
 
-- **[DITAVAL编辑器](ditaval-editor.md)**
+- **[DITAVAL編輯器](ditaval-editor.md)**
 
 
-**父主题：**[&#x200B;创作内容](authoring-content.md)
+**父級主題：**[&#x200B;作者內容](authoring-content.md)

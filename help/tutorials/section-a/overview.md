@@ -1,6 +1,6 @@
 ---
 title: 概述
-description: Experience ManagerAEM指南概述。
+description: Experience ManagerAEM Guides概觀。
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
 workflow-type: tm+mt
 source-wordcount: '35'
@@ -11,7 +11,7 @@ ht-degree: 5%
 
 # 概述 {#overview}
 
-本用户指南所关注的产品的1-2个句子概述。 本用户指南包含有关的众多特性和功能的视频和教程 *xyz*.
+本使用手冊主要介紹的產品1-2句概觀。 本使用手冊包含許多功能的相關影片和教學課程 *xyz*.
 
 <!--
 

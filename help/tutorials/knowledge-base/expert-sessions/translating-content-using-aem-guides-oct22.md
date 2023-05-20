@@ -1,56 +1,56 @@
 ---
 title: 翻译内容
-description: 了解如何将内容翻译成多种语言。
+description: 瞭解如何將您的內容翻譯成多種語言。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # 翻译内容
 
-AEM Guides为多语言内容创建提供了终极解决方案，并具备强大的翻译功能。
+AEM Guides提供終極的多語言內容建立解決方案，並具備強大的翻譯功能。
 
-## 会话概述
+## 工作階段概觀
 
-在本课程中，您将了解人工翻译工作流和机器翻译工作流的翻译过程、集成机制和成本效益。
+在本課程中，您將瞭解翻譯流程、整合機制，以及人工和機器翻譯工作流程的成本效益等相關資訊。
 
-## 会话录制
+## 工作階段錄製
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414140/translation-aem-guides?quality=12&learn=on)
 
 ## 高亮
 
 - **日期** - 2022年10月27日
-- **与会者人数** - 94
-- **持续时间** - 60分钟
-- **Audience**  — 客户、合作伙伴和Adobe员工
+- **出席者人數** - 94
+- **持續時間** - 60分鐘
+- **對象**  — 客戶、合作夥伴和Adobe員工
 
-## 主要要点
+## 要点
 
-在本课程中，您将了解以下内容：
-- 公司投资翻译以改善业务的原因
-- 可用的框架机制和翻译过程
-- 自动化翻译工作流、API和仪表板
-- 结构化内容翻译的最佳实践
+在這場會議中，您將瞭解以下內容：
+- 公司投資翻譯以改善業務的原因
+- 可用的框架機制和翻譯程式
+- 自動化翻譯工作流程、API和控制面板
+- 結構化內容翻譯的最佳實務
 
-## 相关资源
+## 相關資源
 
-- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [翻译内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
+- **使用手冊** - [翻譯內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ftranslation.html)
 
-- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问 [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
+- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪 [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions)
 
 >[!NOTE]
 >
-> 此会话中显示的功能在以下版本的AEM Guides中可用：
-> - 内部部署4.1或更高版本
-> - Cloud Services2207或更高版本
+> 下列版本的AEM Guides提供本工作階段中顯示的功能：
+> - 內部部署4.1或更新版本
+> - Cloud Services 2207或更新版本
 
 
-## 联系我们
+## 聯絡我們
 
-如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>
+如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
