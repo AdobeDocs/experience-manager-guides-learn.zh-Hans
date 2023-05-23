@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 0cc1e12382fb90784ea78cb500bf0a24d6ec50df
+source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 7%
+source-wordcount: '1012'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,13 @@ ht-degree: 7%
             + [2月發行說明](./release-info/release-notes-2022.2.0.md)
             + [1月發行說明](./release-info/release-notes-2022.1.0.md)
       + 內部部署/Managed Services {#on-prem-release-notes}
-         + [4.2發行說明](./release-info/release-notes-4.2.md)
+         + 4.2版 {#42-release}
+            + 新增功能 {#42-whats-new}
+               + [4.2.1新增功能](./release-info/whats-new-4.2.1-release.md)
+               + [4.2新增功能](./release-info/whats-new-4.2-release.md)
+            + 发行说明 {#42-release-notes}
+               + [4.2.1發行說明](./release-info/release-notes-4.2.1.md)
+               + [4.2發行說明](./release-info/release-notes-4.2.md)
          + [4.1.x發行說明](./release-info/release-notes-4.1.md)
          + [4.0.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x發行說明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
@@ -156,6 +162,64 @@ ht-degree: 7%
       + [內容重複使用報表](./user-guide/reports-content-reuse.md)
       + [轉換狀態報表](./user-guide/reports-convertion-status.md)
       + [還原檔案版本記錄報告](./user-guide/reports-reverted-file-version-history.md)
++ 安裝及設定指南 {#install-guide}
+   + 內部部署 {#on-prem-ig}
+      + [免责声明](./install-guide/rebranding-disclaimer.md)
+      + [關於本指南](./install-guide/introduction.md)
+      + 下載並安裝 {#download-install-aemg}
+         + [概述](./install-guide/download-install.md)
+         + [技術需求](./install-guide/download-install-technical-requirements.md)
+         + [安裝Adobe Experience Manager](./install-guide/download-install-aem.md)
+         + [首次下載並安裝AEM Guides](./install-guide/download-install-aemg-first-time.md)
+         + [配置 Dispatcher](./install-guide/download-install-configure-dispatcher.md)
+         + [驗證AEM Guides安裝](./install-guide/download-install-verify-aemg-installation.md)
+         + [升級Adobe Experience Manager指南](./install-guide/upgrade-xml-documentation.md)
+         + [解除安裝AEM Guides](./install-guide/download-install-unistall-aemg.md)
+         + [適用於效能最佳化的Recommendations](./install-guide/download-install-recommend-perf-optimiz.md)
+      + [非UUID移轉至UUID內容](./install-guide/migrate-uuid-non-uuid.md)
+      + [使用者管理與安全性](./install-guide/user-admin-sec.md)
+      + [使用自訂DITA-OT和DITA專業化](./install-guide/dita-ot-specialization.md)
+      + [設定檔案狀態](./install-guide/customize-doc-state.md)
+      + 内容迁移 {#content-migration}
+         + [移轉現有內容](./install-guide/migrate-content.md)
+         + [上傳現有DITA內容](./install-guide/migrate-content-upload-existing-dita-content.md)
+         + [移轉非DITA內容](./install-guide/migrate-content-non-dita.md)
+      + 設定UUID和非UUID檔案名稱 {#conf-non-uuid-filename}
+         + [設定檔案名稱](./install-guide/conf-file-names.md)
+         + [根據UUID設定自動檔案名稱](./install-guide/conf-auto-uuid-filenames.md)
+         + [設定Regx為有效的檔案名稱字元](./install-guide/conf-file-names-valid-regx.md)
+         + [設定AEM網站輸出的有效檔案名稱](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + 使用主題和地圖範本 {#topic-map-template}
+         + [設定主題和對應範本](./install-guide/conf-template-tags.md)
+         + [設定自訂DITA主題範本](./install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [設定自訂DITA map範本](./install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + 使用網頁編輯器設定 {#web-editor-configs}
+      + [自訂Web編輯器](./install-guide/conf-web-editor.md)
+      + [自訂工具列](./install-guide/conf-web-editor-customize-toolbar.md)
+      + [設定標籤檢視的預設值](./install-guide/configure-default-value-tags-view.md)
+      + [設定UUID型連結的顯示](./install-guide/conf-uuid-based-links.md)
+      + [在同一個索引標籤中開啟DITA主題或對應檔案](./install-guide/open-dita-files-same-tab.md)
+      + [在左側面板中設定自訂面板](./install-guide/configure-custom-panel.md)
+      + [在網頁編輯器中設定檔案自動儲存](./install-guide/auto-save-in-editor.md)
+      + [設定檔案瀏覽對話方塊的篩選器](./install-guide/conf-custom-file-filters.md)
+      + [設定關閉時儲存為新版本的提示](./install-guide/conf-save-as-new-version-close.md)
+      + [設定關閉時簽入檔案的提示](./install-guide/conf-checkin-file-close.md)
+      + [設定允許的特殊字元](./install-guide/conf-special-chars.md)
+      + [自動產生元素ID](./install-guide/auto-generate-ids.md)
+      + [自訂AEM預設字典](./install-guide/customize-aem-custom-dictionary.md)
+      + [設定文字篩選](./install-guide/config-text-filters.md)
+      + [設定查詢的LimitReads數目](./install-guide/conf-query-limitreads.md)
+      + [安裝文章式發佈的套件](./install-guide/configure-article-based-publishing.md)
+      + [將「進階地圖編輯器」設定為預設值](./install-guide/conf-map-editor.md)
+      + [預設包含@navtitle屬性](./install-guide/auto-add-navtitle.md)
+      + [設定全域或資料夾層級設定檔](./install-guide/conf-folder-level.md)
+      + [版本管理](./install-guide/version-management.md)
+      + [整合案頭式XML編輯器](./install-guide/integrate-desktop-editors.md)
+      + [設定輸出產生設定](./install-guide/conf-output-generation.md)
+      + [設定和自訂工作流程](./install-guide/customize-workflows.md)
+      + [翻译内容](./install-guide/translation.md)
+      + [設定AEM Assets UI的搜尋](./install-guide/conf-dita-search.md)
+      + [附錄](./install-guide/appendix.md)
 + 內容架構和使用案例 {#content-arch}
    + [使用條件輸出](./content-architecture/create-and-use-conditions.md)
    + [建立全域索引鍵](./content-architecture/create-global-keys.md)

@@ -2,9 +2,9 @@
 title: 啟動Web編輯器
 description: 瞭解如何啟動網頁編輯器
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,34 @@ ht-degree: 0%
 
 登入AEM時，您會看到「導覽」頁面：
 
-![](images/web-editor-from-navigation-page_cs.png){width="800" align="left"}
+![](images/web-editor-from-navigation-page.png){width="800" align="left"}
 
-按一下 **XML編輯器** 連結會直接將您帶往網頁編輯器。
+按一下 **指南** 連結會直接將您帶往網頁編輯器。
 
 ![](images/web-editor-launch-page.png){width="800" align="left"}
 
 當您未選取任何檔案就啟動網頁編輯器時，會顯示空白的網頁編輯器畫面。 您可以開啟檔案以從AEM存放庫或您的最愛集合進行編輯。
+
+- 按一下 **指南** 圖示(![](images/aem-guides-icon.png) )，返回AEM導覽頁面。
+
+- 此 **關閉** 按鈕會根據您的設定帶您前往目的地：
+
+
+
+   <details>
+
+   <summary> Cloud Service </summary>
+
+   如果您正在使用Cloud Services，請按一下 **關閉** 按鈕返回AEM導覽頁面。
+   </details>
+
+   <details>
+
+   <summary> 內部部署軟體</summary>
+
+   如果您使用AEM Guides On-premise Software （4.2.1及更新版本），請按一下 **關閉** 按鈕，返回Assets UI中的目前檔案路徑。
+
+   </details>
 
 ## AEM ASSETS UI {#id2056BG0307U}
 
@@ -53,7 +74,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果您未簽出檔案，您將看不到編輯選項。
+   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果您未出庫檔案，將無法看到編輯選項。
 
 1. 關閉資產選擇模式，然後按一下您要編輯的主題。
 
@@ -98,7 +119,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果您未簽出檔案，則檔案將在編輯器中以唯讀模式開啟。
+   > 如果您的管理員已設定 **停用編輯而不簽出** 選項，則在編輯之前必須先出庫檔案。 如果您未出庫檔案，則檔案會在編輯器中以唯讀模式開啟。
 
 
 **父級主題：**[&#x200B;使用網頁編輯器](web-editor.md)

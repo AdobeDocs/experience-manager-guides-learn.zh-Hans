@@ -2,16 +2,18 @@
 title: 使用地圖編輯器
 description: 瞭解如何使用地圖編輯器
 exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 使用地圖編輯器 {#id181OF0M30Y4}
 
-AEM Guides的地圖編輯器可讓您建立和編輯地圖檔案。 使用「對映編輯器」，您可以編輯兩種型別的檔案 — DITA map和bookmap。 您可以使用建立這些檔案 **建立** \> **DITA Map** 工作流程。 您也可以建立自己的地圖範本，並根據自訂範本建立地圖。 如需使用自訂DITA範本的詳細資訊，請參閱 *設定範本和標籤以進行編寫* 在「as a Cloud Service安裝與設定Adobe Experience Manager Guides」中。
+AEM Guides的地圖編輯器可讓您建立和編輯地圖檔案。 使用「對映編輯器」，您可以編輯兩種型別的檔案 — DITA map和bookmap。 您可以使用建立這些檔案 **建立** \> **DITA Map** 工作流程。 您也可以建立自己的地圖範本，並根據自訂範本建立地圖。 這些範本必須新增到資料夾設定檔中，才能顯示在範本選擇Blueprint和Web編輯器中。
+
+請注意，全域和資料夾設定檔組態僅適用於資料夾層級的管理使用者。 如需設定全域和資料夾層級設定檔的詳細資訊，請參閱 *設定製作範本* 在安裝和設定適用於您設定的Adobe Experience Manager Guides中。
 
 地圖編輯器提供兩種模式 — 「基本地圖編輯器」和「進階地圖編輯器」。 基本地圖編輯器只能透過設定使用。 如果您的管理員已啟用它，則只有基本地圖編輯器可供使用。 依預設，所有新地圖都會在「進階地圖編輯器」中開啟以進行編輯。 「進階對映編輯器」可在Web編輯器本身中使用，用於編輯DITA主題檔案。
 

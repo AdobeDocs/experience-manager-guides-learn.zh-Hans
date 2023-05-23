@@ -2,9 +2,9 @@
 title: 檢視翻譯狀態
 description: 瞭解如何檢視翻譯狀態
 exl-id: 2662d86e-5ebd-4f41-a1e9-5bf4c96ffce2
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,5 @@ ht-degree: 0%
    >[!NOTE]
    >
    > 您可以根據內容的翻譯狀態\（如未同步遺失的副本、進行中或同步中\）、來源型別\（如全部、DITA、DITA map或資源\）、修改日期來進一步篩選內容。 您也可以輸入關鍵字來搜尋特定主題。
-
-   ![](images/status-translation-uuid.png){width="800" align="left"}
-
-
-「翻譯」標籤包含下列區段：
-
-- **摘要**：顯示參考的主題和原始語言數量及其程式碼。
-- **詳細資料**：顯示主題標題、主題型別、主題語言代碼、來源語言、來源主題版本、新增至主題的標籤以及翻譯狀態。
 
 **父級主題：**[&#x200B;翻譯內容](translation.md)

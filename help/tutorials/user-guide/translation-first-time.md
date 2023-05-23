@@ -2,9 +2,9 @@
 title: 內容翻譯的最佳實務
 description: 瞭解內容翻譯的最佳實務
 exl-id: 4eff0f27-b3d1-4c6e-af88-bcb3f6d96990
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: d87a2e054310e3421dcbf347232a420638823b93
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,16 @@ ht-degree: 1%
 1. 按一下 **開始** 以建立新的翻譯專案。
 
    系統會使用選取的主題版本建立新的翻譯專案。 此時，會顯示快顯訊息，確認已建立翻譯專案。 一旦翻譯專案中提供了所有目標語言副本，您就會在收件匣中收到通知。 一旦翻譯專案中提供了目標語言副本區域，您就可以開始翻譯工作。
+
+   ![](images/status-translation-uuid.png){width="800" align="left"}
+
+
+「翻譯」標籤包含下列區段：
+
+- **摘要**：顯示參考的主題和原始語言數量及其程式碼。
+- **詳細資料**：顯示主題標題、主題型別、主題語言代碼、來源語言、來源主題版本、新增至主題的標籤以及翻譯狀態。
+
+
 
 
 ## 開始翻譯工作 {#id225IK030OE8}
