@@ -1,6 +1,6 @@
 ---
-title: 驗證AEM Guides安裝
-description: 瞭解如何驗證AEM Guides安裝
+title: 验证AEM Guides的安装
+description: 了解如何验证AEM Guides的安装
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '165'
@@ -9,28 +9,28 @@ ht-degree: 0%
 ---
 
 
-# 驗證AEM Guides安裝 {#id213BD030FBE}
+# 验证AEM Guides的安装 {#id213BD030FBE}
 
-安裝AEM Guides後，您必須確認安裝是否成功。 執行以下步驟來驗證安裝程式：
+安装AEM Guides后，您需要验证安装是否成功。 执行以下步骤来验证安装过程：
 
-1. 登入您的AEM執行個體並導覽至AEM Web Console套件組合頁面。 存取套件頁面的預設URL為：
+1. 登录到AEM实例，然后导航到AEM Web Console的“捆绑包”页面。 用于访问包页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/bundles
    ```
 
-   隨即顯示套件組合清單。
+   此时将显示一个捆绑包列表。
 
-1. 在篩選文字方塊中輸入fmdita並按下，以篩選套件組合清單 **輸入**.
+1. 通过在过滤文本框中输入fmdita来过滤捆绑列表，然后按 **输入**.
 
-   套件組合清單會經過篩選，以顯示AEM Guides安裝的套件組合。 如果安裝成功，則所有已安裝的套件組合都會有 **狀態** 之 **作用中**.
+   将筛选捆绑包列表，以显示AEM Guides安装的捆绑包。 如果安装成功，则所有已安装的捆绑包都将具有 **状态** 之 **活动**.
 
-   如果任何套件組合沒有 **作用中** 狀態，然後檢查AEM記錄檔以疑難排解安裝問題。
+   如果任何捆绑包中没有 **活动** 状态，然后检查AEM日志以解决安装问题。
 
 
 >[!IMPORTANT]
 >
-> 您可以考慮許多效能最佳化建議，以提升系統效能。 另請參閱 [適用於效能最佳化的Recommendations](download-install-recommend-perf-optimiz.md#) 以取得詳細資訊。
+> 您可以考虑使用许多性能优化建议来提高系统性能。 参见 [用于性能优化的Recommendations](download-install-recommend-perf-optimiz.md#) 了解详细信息。
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 

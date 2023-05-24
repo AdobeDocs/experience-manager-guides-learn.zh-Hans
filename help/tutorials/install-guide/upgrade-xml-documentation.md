@@ -1,6 +1,6 @@
 ---
-title: 升級Adobe Experience Manager指南
-description: 瞭解如何升級Adobe Experience Manager Guides
+title: 升级Adobe Experience Manager指南
+description: 了解如何升级Adobe Experience Manager Guides
 source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
 workflow-type: tm+mt
 source-wordcount: '2750'
@@ -9,77 +9,77 @@ ht-degree: 1%
 ---
 
 
-# 升級Adobe Experience Manager指南 {#id224MBE0M0XA}
+# 升级Adobe Experience Manager指南 {#id224MBE0M0XA}
 
 >[!NOTE]
 >
-> 請依照產品授權版本專屬的升級指示操作。
+> 按照特定于您的产品的许可版本的升级说明进行操作。
 
-您可以將目前版本的AEM Guides升級至4.2.1版
-- 如果您是使用4.1、4.1.x或4.2版，則可以直接升級至4.2.1版。
-- 如果您使用的是4.0版，則必須先升級至4.2版，才能升級至4.2.1版。
-- 如果您使用的是3.8.5版，則必須先升級至4.0版，才能升級至4.2版。
-- 如果您使用的版本早於3.8.5，請參閱產品特定安裝指南中的升級AEM Guides區段。
+您可以将当前版本的AEM Guides升级到4.2.1版
+- 如果您使用的是版本4.1、4.1.x或4.2，则可以直接升级到版本4.2.1。
+- 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.2.1。
+- 如果您使用的是版本3.8.5，则需要先升级到版本4.0，然后再升级到版本4.2。
+- 如果您使用的版本低于3.8.5，请参阅特定于产品的安装指南中的升级AEM Guides部分。
 
 >[!NOTE]
 >
-> 您必須先安裝AEM Service Pack，才能升級AEM Guides版本。
+> 在升级AEM Guides版本之前，您必须安装AEM Service Pack。
 
-如需詳細資訊，請參閱下列程式：
+有关更多详细信息，请参阅以下过程：
 
-- [從3.8.5升級至4.0版](#id2256DK003E1)
-- [升級至4.2版](#id22A3F500SXA)
-- [升級至4.2.1版](#upgrade-version-4-2-1)
+- [从3.8.5升级到版本4.0](#id2256DK003E1)
+- [升级到版本4.2](#id22A3F500SXA)
+- [升级到版本4.2.1](#upgrade-version-4-2-1)
 
 
 >[!IMPORTANT]
 >
-> 在開始升級之前，請先進行完整的系統備份，以避免任何資料遺失。
+> 在开始升级之前，请进行完整的系统备份以避免任何数据丢失。
 
-## 從3.8.5版升級至4.0版 {#id2256DK003E1}
+## 从版本3.8.5升级到版本4.0 {#id2256DK003E1}
 
-如果您是使用AEM Guides 3.8.5版，則可升級至AEM Guides 4.0版。 使用升級功能，您不必解除安裝舊版AEM Guides。
+如果您使用的是AEM Guides版本3.8.5，则可以升级到AEM Guides版本4.0。 使用升级功能，您无需卸载以前版本的AEM Guides。
 
-在執行程式之前，您必須先完成某些工作。 以下小節將逐步引導您瞭解先決條件、報表產生和移轉程式。 此外，安裝AEM Guides 4.0版後，您可以根據客戶設定自訂各種設定。
+在运行该进程之前，必须完成某些任务。 以下子部分将指导您完成先决条件、报告生成和迁移过程。 此外，安装AEM Guides版本4.0后，您可以根据客户设置自定义各种配置。
 
 >[!NOTE]
 >
-> 此升級程式僅適用於3.8.5版到4.0版。如需從3.4版或更新版本升級至3.8.5的程式，請參閱 *升級AEM指南* 產品特定安裝指南的區段，請見 [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅 *升级AEM指南* 特定产品的安装指南中提供的部分，请参见 [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
 
 ****前提条件****
 
-在開始AEM Guides升級程式之前，請確定您擁有：
+在开始AEM Guides升级过程之前，请确保您具有：
 
-1. 匯入開放供稽核的主題中的稽核註釋。
-1. 已關閉所有進行中的評論。
-1. 已關閉所有翻譯任務。
-1. 解除安裝安裝在AEM Guides舊版\（主要或修補程式版本\）頂端的AEM Guides修補程式。
+1. 导入了打开供审阅的主题中的审阅注释。
+1. 已关闭所有活动审核。
+1. 已关闭所有翻译任务。
+1. 卸载AEM Guides早期版本\（主要版本或修补程序版本\）顶部安装的所有AEM Guides热修复程序。
 
-**安裝4.0版之前**
+**安装版本4.0之前**
 
-安裝4.0版之前，請執行以下步驟：
+在安装版本4.0之前，请执行以下步骤：
 
-1. 確定目前的AEM Guides版本為3.8.5。
-1. 下載升級指令碼套件。 若要這麼做，請在搜尋「XML Documentation solution 4.0升級套件」，網址為 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 將下載zip檔案。
-1. 透過封裝管理程式將此封裝上傳至AEM並安裝此封裝。
-1. 安裝升級套件後，請以相同順序執行下列指定的指令碼，並依照指定的指示操作：
+1. 确保此时的AEM Guides版本为3.8.5。
+1. 下载升级脚本包。 为此，请在上搜索“XML Documentation solution 4.0升级包” [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) 下载zip文件。
+1. 通过包管理器将此包上传到AEM并安装此包。
+1. 安装升级软件包后，请按照相同的顺序运行以下给定的脚本，然后按照给定的说明操作：
 
-**檢查升級相容性API**
+**检查升级兼容性API**
 
-此API的設計目的是評估目前系統狀態，並報告升級是否可行。 若要執行此指令碼，請觸發以下指定的端點：
+此API旨在评估当前系统状态，并报告是否可以进行升级。 要运行此脚本，请触发以下给定的端点：
 
-|端點|/bin/dxml/upgrade/3xto4x/report| |請求型別|**GET** 您可以使用網頁瀏覽器，以管理員身分登入AEM執行個體。| |預期回應| — 如果可以移動所有必要的節點，您將獲得通過檢查。 <br> — 如果目標位置存在節點，您會收到相關錯誤。 清除存放庫\（刪除節點/var/dxml\）並重新安裝升級套件，然後再次觸發此端點。 <br>**注意：** 這不是常見的錯誤，因為3.x AEM Guides之前並未使用目標位置。 <br>  — 如果此指令碼失敗，請勿繼續並報告給您的客戶成功團隊。|
+|终结点|/bin/dxml/upgrade/3xto4x/report| |请求类型|**GET** 您可以使用Web浏览器，在该浏览器中，您以管理员身份登录到AEM实例。| |预期响应| — 如果可以移动所有需要的节点，您将获得一个通过检查。 <br> — 如果目标位置存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：** 这不是常见的错误，因为3.x AEM Guides之前未使用目标位置。 <br>  — 如果此脚本不成功，请不要继续，并报告给您的客户成功团队。|
 
-**系統資料移轉API**
+**系统数据迁移API**
 
-此API的設計用途是移轉系統資料，如 [移轉對應](#id2244LE040XA) 區段。
+此API用于迁移 [迁移映射](#id2244LE040XA) 部分。
 
-1. 如果Check upgrade compatibility API失敗，請勿執行此指令碼\（不要繼續\）。
-1. 一旦Check upgrade compatibility API傳回成功，您就可以執行升級指令碼。
+1. 如果Check upgrade compatibility API失败，请勿执行此脚本\（不继续\）。
+1. 检查升级兼容性API返回成功后，您可以运行升级脚本。
 
-|端點|/bin/dxml/upgrade/3xto4x| |請求型別|**POST** 此指令碼為POST請求，因此應透過Postman等代理程式執行。| |預期回應| — 一旦移轉成功，您可以安裝XML Documentation解決方案4.0版。<br> — 發生錯誤時，請還原至最後一個查核點，並與您的客戶成功團隊共用錯誤記錄和API輸出。|
+|终结点|/bin/dxml/upgrade/3xto4x| |请求类型|**POST** 此脚本是一个POST请求，因此应通过Postman等代理执行。| |预期响应| — 迁移成功后，您可以安装XML Documentation解决方案版本4.0。<br> — 如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。|
 
-**移轉對應**：上述API會將來源位置下的所有資料移轉至目標位置。
+**迁移映射**：上述API将源位置下的所有数据迁移到目标位置。
 
 | 源 | 目标 |
 |------|------|
@@ -87,199 +87,199 @@ ht-degree: 1%
 | /content/dxml | /var/dxml |
 | /etc/fmdita | /libs/fmdita |
 
-## 安裝4.0版 {#id23598G006XA}
+## 安装版本4.0 {#id23598G006XA}
 
-1. 只有在升級步驟成功時，才安裝4.0版。
-1. 從下載4.0版套件 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)：
+1. 仅当升级步骤成功时，才安装版本4.0。
+1. 从下载4.0版本包 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html)：
 
-   - 如果您使用UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0 UUID版本」。
-   - 如果您使用非UUID版本的軟體，請搜尋「適用於AEM 6.5的XML Documentation解決方案的4.0非UUID版本」。
-使用CRX封裝管理員將封裝上傳到現有AEM伺服器執行個體並安裝。
+   - 如果您使用的是UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0 UUID版本”。
+   - 如果您使用的是非UUID版本的软件，请搜索“适用于AEM 6.5的XML Documentation解决方案的4.0非UUID版本”。
+使用CRX包管理器将包上传到现有AEM服务器实例并进行安装。
 
    >[!NOTE]
    >
-   > 等待所有系統元件啟動。
+   > 等待所有系统组件启动。
 
-1. 安裝套件後清除瀏覽器快取。
-1. 如果在AEM Author例項上設定Dispatcher，請執行以下步驟：
-   - 請確定下列專案已在Dispatcher規則中處理：
-   - URL模式/home/users/\*/preferences已加入白名單。
-   - 不會快取URL模式/libs/cq/security/userinfo.json 。
-1. 清除Dispatcher快取\(以清除任何 `clientlibs` cached\)。
+1. 安装包后清除浏览器缓存。
+1. 如果在AEM创作实例上配置了Dispatcher，请执行以下步骤：
+   - 确保在Dispatcher规则中处理以下内容：
+   - 已将URL模式/home/users/\*/preferences列入白名单。
+   - 未缓存URL模式/libs/cq/security/userinfo.json 。
+1. 清除Dispatcher缓存\(以清除任何 `clientlibs` 已缓存\)。
 
-## 升級至4.2版 {#id22A3F500SXA}
+## 升级到版本4.2 {#id22A3F500SXA}
 
-升級至4.2版須視目前AEM Guides的版本而定。
+升级到4.2版取决于当前版本的AEM Guides。
 
-如果您是使用4.0、4.1或4.1.x版，則可以直接升級至4.2版。
+如果您使用的是版本4.0、4.1或4.1.x，则可以直接升级到版本4.2。
 
 ****前提条件****
 
-在開始AEM Guides 4.2升級程式之前，請確定您擁有：
+在开始AEM Guides 4.2升级过程之前，请确保您具有：
 
-1. 已升級至AEM Guides 4.0、4.1或4.1.x版。
-1. 已關閉所有翻譯任務。
-1. 將記錄層級變更為 **資訊** 的 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 類別並將這些記錄附加至新的記錄檔中，例如， `logs/translation_upgrade.log.`
+1. 已升级到AEM Guides版本4.0、4.1或4.1.x。
+1. 已关闭所有翻译任务。
+1. 已将日志级别更改为 **信息** 对象 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 将这些日志附加到新日志文件中，例如， `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
-> 您應關閉所有進行中的評論。 如果檢閱任務在升級至4.2時未關閉，舊的進行中檢閱任務會持續將使用者帶入舊的檢閱頁面，並且升級後建立的檢閱任務將顯示功能中的最新更新。
+> 您应关闭所有活动审阅。 如果在升级到4.2时审阅任务未关闭，则较早的进行中审阅任务将继续让用户访问较早的审阅页面，并且升级后创建的审阅任务将显示功能中的最新更新。
 
-## 安裝4.2版 {#id2245IK0E0EV}
+## 安装版本4.2 {#id2245IK0E0EV}
 
-1. 從下載4.2版的套件 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. 安裝4.2版本的套件。
-1. 完成套件安裝後，請等候記錄中的下列訊息：
+1. 从下载4.2版本包 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 安装版本4.2包。
+1. 完成软件包安装后，请等待日志中显示以下消息：
 
    `Completed the post deployment setup script`
 
-   上述訊息指出所有安裝步驟均已完成。
+   上述消息指示所有安装步骤均已完成。
 
-   如果您遇到以下任何錯誤首碼，請將其報告給您的客戶成功團隊：
+   如果您遇到以下任何错误前缀，请将其报告给您的客户成功团队：
 
-   - 部署後安裝指令碼錯誤
-   - 移植翻譯MAP時發生例外狀況
-   - 無法將屬性的翻譯對應從v1連線至v2
-1. 升級氧氣聯結器外掛程式，隨版本4.2 \（如有需要\）發行。
-1. 安裝套件後清除瀏覽器快取。
-1. 繼續升級自訂，如下節所述。
+   - 部署后设置脚本出错
+   - 移植翻译MAP时出现异常
+   - 无法为属性将翻译映射从v1端口转换为v2
+1. 升级氧气连接器插件，随版本4.2 \（如果需要\）一起发布。
+1. 安装包后清除浏览器缓存。
+1. 继续升级自定义项，如下节所述。
 
-## 安裝4.2版之後 {#id2326F02004K}
+## 安装版本4.2之后 {#id2326F02004K}
 
 >[!IMPORTANT]
 >
-> 升級後的伺服器上未顯示高科技範本。 若要在伺服器上包含高科技範本，您可以複製該範本：來源： /libs/fmdita/pdf/Hi-Tech目的地： /content/dam/dita-templates/pdf
+> 升级后的服务器上未显示高科技模板。 要在服务器上包含高科技模板，您可以复制该模板：源： /libs/fmdita/pdf/Hi-Tech目标： /content/dam/dita-templates/pdf
 
-安裝AEM Guides後，您可以將適用於新安裝版本的各種設定合併到您的設定中。
+安装AEM Guides后，您可以将适用于从新安装的版本到安装的各种配置合并。
 
 >[!NOTE]
 >
-> 可以自訂dam-update-asset模型。 因此，如果已完成任何自訂，那麼我們需要將自訂和AEM Guides同步到模型的工作副本中。
+> 可以自定义dam-update-asset模型。 因此，如果已进行了任何自定义，则需要将自定义设置和AEM Guides同步到模型的工作副本中。
 
-1. **DAM更新資產工作流程\（後處理變更\）：**
+1. **DAM更新资产工作流\（后处理更改\）：**
 
-1. 開啟URL：
+1. 打开URL：
 
    ```http
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. 選取 **DAM更新資產工作流程**.
-1. 按一下 **編輯**.
-1. 如果 **DXML後處理啟動器** 元件存在，請確定自訂已同步。
-1. 如果 **DXML後處理啟動器** 元件不存在，請執行以下步驟來插入它：
+1. 选择 **DAM更新资产工作流**.
+1. 单击 **编辑**.
+1. 如果 **DXML后处理启动器** 组件存在，请确保自定义项已同步。
+1. 如果 **DXML后处理启动器** 组件不存在，请执行以下步骤以插入该组件：
 
-1. 按一下 **插入元件** \(負責AEM Guides後續處理，將此作為程式的最後一步\)。
-1. 設定 **程式步驟** 詳細資料如下：
+1. 单击 **插入组件** \(负责AEM Guides的后处理，将此作为该过程的最后一步\)。
+1. 配置 **流程步骤** ，详情如下：
 
-   **通用索引標籤**
+   **“常用”选项卡**
 
-   **標題：** DXML後處理啟動器
+   **标题：** DXML后处理启动器
 
-   **說明**：DXML後處理啟動器步驟，此步驟將觸發用於已修改/已建立資產的DXML後處理的Sling作業
+   **描述**：DXML后处理启动器步骤，它将触发用于修改/创建的资产的DXML后处理的sling作业
 
-   **「程式」標籤**
+   **“进程”选项卡**
 
-   - 選取 **DXML後處理啟動器**&#x200B;從 **程式** 下拉式清單
+   - 选择 **DXML后处理启动器**&#x200B;从 **进程** 下拉列表
 
-   - 選取 **處理常式前進**
+   - 选择 **处理程序前进**
 
-   - 選取 **完成**
+   - 选择 **完成**
 
-1. 按一下 **同步** 完成變更後於右上角顯示。 您將會收到成功通知。
+1. 单击 **同步** 完成更改后位于右上角。 您将收到一个成功通知。
 
    >[!NOTE]
    >
-   > 重新整理並確認自訂變更和AEM Guides後處理步驟存在於最終工作流程模型中。
+   > 刷新并验证最终工作流模型中是否存在自定义更改和AEM Guides后处理步骤。
 
-1. 一次 **DAM更新資產工作流程**&#x200B;已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 一次 **DAM更新资产工作流**&#x200B;经过验证，检查相应的启动器配置。 为此，请转到AEM Workflow界面并打开启动器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   尋找下列兩個啟動器\（若有需要\），並對應至下列兩個啟動器\（應為作用中\） **DAM更新資產工作流程**：
+   查找并更改\（如有必要\）对应于以下两个启动器\（应该处于活动状态\） **DAM更新资产工作流**：
 
-1. 「 」的啟動器&#x200B;*節點已建立*「 for **DAM更新資產工作流程** — 適用於條件 `"jcr:content/jcr:mimeType!=video"`，萬用字元值應為：
+1. “ ”的启动器&#x200B;*节点已创建*“，表示 **DAM更新资产工作流** — 表示条件 `"jcr:content/jcr:mimeType!=video"`，则“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
-   - &#39;excludeList&#39;應具有 `"event-user-data:changedByWorkflowProcess"`.
-   - 「 」的啟動器&#x200B;*節點已修改*「 for **DAM更新資產工作流程 —** 條件&quot;`jcr:content/jcr:mimeType!=video`&quot;，
+   - “excludeList”应具有 `"event-user-data:changedByWorkflowProcess"`.
+   - “ ”的启动器&#x200B;*节点已修改*“，表示 **DAM更新资产工作流 —** 条件&quot;`jcr:content/jcr:mimeType!=video`“，
    - 
-      - 萬用字元值應為：
+      - “通配”值应为：
 
    ```json
    `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
    ```
 
-   - &#39;excludeList&#39;應具有 `"event-user-data:changedByWorkflowProcess"`.
-1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下是一些範例：
-   - 從/libs/fmditor/libsis重疊的任何元件都應與新的產品程式碼進行比較，且更新應在/apps下的重疊檔案中完成。
-   - 產品中使用的任何clientlib類別都應檢閱是否有變更。 任何覆寫的設定\（下方範例\）都應與最新的設定進行比較，以取得最新的功能：
+   - “excludeList”应具有 `"event-user-data:changedByWorkflowProcess"`.
+1. 升级完成后，请确保验证并更新任何自定义项/叠加图，以匹配新的应用程序代码。 下面给出了一些示例：
+   - 从/libs/fmditor/libsis叠加的任何组件都应与新的产品代码进行比较，并且更新应在/apps下的叠加文件中完成。
+   - 应审查产品中使用的任何clientlib类别是否有更改。 任何覆盖的配置\（下面的示例\）都应与最新的配置进行比较，以获取最新的功能：
    - elementmapping.xml
-   - ui\_config.json\（可能已在資料夾設定檔中設定\）
+   - ui\_config.json\（可能已在文件夹配置文件中设置\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
-   - 檢查是否有任何自訂程式碼使用任何舊路徑\(如 [移轉對應](#id2244LE040XA) section\) — 應更新為新路徑，以便自訂也能如預期運作。
-1. 閱讀目前版本引進的任何新設定\(檢查 [發行說明](../release-info/release-notes-4.2.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如，使用4.0版中引入的「改善檔案和版本處理」，您需要啟用設定。
+   - 检查是否有任何自定义代码使用任何旧路径\(如 [迁移映射](#id2244LE040XA) section\) — 应更新为新路径，以便自定义项也能按预期工作。
+1. 阅读当前版本中引入的任何新配置\(check [发行说明](../release-info/release-notes-4.2.md)\)并查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
 
-## 為現有內容建立索引以使用新尋找和取代的步驟：
+## 为现有内容编制索引以使用新查找和替换的步骤：
 
-執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
+执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. \(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都將建立索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- 对服务器运行POST请求\（使用正确的身份验证\） —  `http://<server:port\>/bin/guides/map-find/indexing`. \(可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
-- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- 该API将返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
-- 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+- 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
-## 升級至4.2.1版 {#upgrade-version-4-2-1}
+## 升级到版本4.2.1 {#upgrade-version-4-2-1}
 
-升級至4.2.1版須視目前AEM Guides的版本而定。
+升级到4.2.1版取决于AEM Guides的当前版本。
 
-如果您是使用4.1版、4.1.x版或4.2版，則可以直接升級至4.2.1版。
+如果您使用的是版本4.1、4.1.x或4.2，则可以直接升级到版本4.2.1。
 
 >[!NOTE]
 >
->後續處理和編制索引可能需要幾個小時。 建議您在非尖峰時段啟動升級程式。
+>后处理并编制索引可能需要几个小时。 我们建议您在非高峰时间启动升级过程。
 
 ****前提条件****
 
-在開始AEM Guides 4.2.1升級程式之前，請確定您擁有：
+在开始AEM Guides 4.2.1升级过程之前，请确保您具有：
 
-1. 升級至AEM Guides 4.1、4.1.x或4.2版。
-1. 已關閉所有翻譯任務。
-1. 將記錄層級變更為 **資訊** 的 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 類別並將這些記錄附加至新的記錄檔中，例如， `logs/translation_upgrade.log.`
+1. 已升级到AEM Guides版本4.1、4.1.x或4.2。
+1. 已关闭所有翻译任务。
+1. 已将日志级别更改为 **信息** 对象 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript` 将这些日志附加到新日志文件中，例如， `logs/translation_upgrade.log.`
 
 >[!NOTE]
 >
-> 您應關閉所有進行中的評論。 如果檢閱任務在升級至4.2時未關閉，舊的進行中檢閱任務會持續將使用者帶入舊的檢閱頁面，並且升級後建立的檢閱任務將顯示功能中的最新更新。
+> 您应关闭所有活动审阅。 如果在升级到4.2时审阅任务未关闭，则较早的进行中审阅任务将继续让用户访问较早的审阅页面，并且升级后创建的审阅任务将显示功能中的最新更新。
 
-## 安裝4.2.1版
+## 安装版本4.2.1
 
-1. 從下載4.2.1版套件 [Adobe軟體發佈入口網站](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-1. 安裝4.2.1版本的套件。
-1. 您可以選擇「點選」觸發器，以啟動翻譯對應升級工作。 如需詳細資訊，請參閱 [透過Servlet啟用指令碼的觸發](#enable-trigger-serverlet).
+1. 从下载4.2.1版本包 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 安装版本4.2.1包。
+1. 您可以选择点击触发器以启动翻译图升级作业。 有关详细信息，请参阅 [通过Servlet启用脚本触发](#enable-trigger-serverlet).
 
 
-1. 完成套件安裝後，請等候記錄中的下列訊息：
+1. 完成软件包安装后，请等待日志中显示以下消息：
 
    `Completed the post deployment setup script`
 
-   上述訊息指出所有安裝步驟均已完成。
+   上述消息指示所有安装步骤均已完成。
 
-   如果您遇到以下任何錯誤首碼，請將其報告給您的客戶成功團隊：
+   如果您遇到以下任何错误前缀，请将其报告给您的客户成功团队：
 
-   - 部署後安裝指令碼錯誤
-   - 移植翻譯MAP時發生例外狀況
-   - 無法將屬性的翻譯對應從v1連線至v2
-1. 升級氧氣聯結器外掛程式，隨版本4.2 \（如有需要\）發行。
-1. 安裝套件後清除瀏覽器快取。
-1. 繼續升級自訂，如下節所述。
+   - 部署后设置脚本出错
+   - 移植翻译MAP时出现异常
+   - 无法为属性将翻译映射从v1端口转换为v2
+1. 升级氧气连接器插件，随版本4.2 \（如果需要\）一起发布。
+1. 安装包后清除浏览器缓存。
+1. 继续升级自定义项，如下节所述。
 
-### 透過Servlet啟用指令碼的觸發{#enable-trigger-serverlet}
+### 通过Servlet启用脚本触发{#enable-trigger-serverlet}
 
 POST：
 
@@ -297,9 +297,9 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 }
 ```
 
-在上述回應JSON中，索引鍵 `lockNodePath` 會保留在存放庫中建立的節點路徑，指向已提交的工作。 它會在作業完成後自動刪除，在此之前，您可以參照此節點來瞭解作業的目前狀態。
+在上述响应JSON中，键 `lockNodePath` 保存指向在存储库中创建的节点的路径，该节点指向提交的作业。 作业完成后，该节点会被自动删除，在此之前，您可以引用此节点来了解作业的当前状态。
 
-範例記錄：以下是觸發指令碼後記錄檔中顯示的記錄範例。
+示例日志：以下是触发脚本后日志文件中显示的日志示例。
 
 ```
 04.05.2023 14:17:12.876 *INFO* [[0:0:0:0:0:0:0:1] [1683190032736] POST /bin/guides/script/start HTTP/1.1] com.adobe.dxml.common.executor.RunnableSynchronizedOTS Acquiring lock for job : translation-map-upgrade
@@ -312,106 +312,106 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 04.05.2023 14:17:12.909 *INFO* [pool-59-thread-1] com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2
 ```
 
-尋找 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` 和 `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` 然後再繼續進行後續步驟。
+查找 `com.adobe.fmdita.translationservices.TranslationMapUpgradeScript Completed porting of translation map from V1 to V2` 和 `com.adobe.fmdita.xmltranslation.ots.TranslationMapUpgradeOTS Completed the thread to upgrade translation map from V1 to V2` 然后再继续后续步骤。
 
 
 
-## 安裝4.2.1版之後
+## 安装版本4.2.1之后
 
 >[!IMPORTANT]
 >
-> 升級後的伺服器上未顯示高科技範本。 若要在伺服器上包含高科技範本，您可以複製該範本：來源： /libs/fmdita/pdf/Hi-Tech目的地： /content/dam/dita-templates/pdf
+> 升级后的服务器上未显示高科技模板。 要在服务器上包含高科技模板，您可以复制该模板：源： /libs/fmdita/pdf/Hi-Tech目标： /content/dam/dita-templates/pdf
 
-安裝AEM Guides後，您可以將適用於新安裝版本的各種設定合併到您的設定中。
+安装AEM Guides后，您可以将适用于从新安装的版本到安装的各种配置合并。
 
 >[!NOTE]
 >
-> 可以自訂dam-update-asset模型。 因此，如果已完成任何自訂，那麼我們需要將自訂和AEM Guides同步到模型的工作副本中。
+> 可以自定义dam-update-asset模型。 因此，如果已进行了任何自定义，则需要将自定义设置和AEM Guides同步到模型的工作副本中。
 
-1. **DAM更新資產工作流程\（後處理變更\）：**
+1. **DAM更新资产工作流\（后处理更改\）：**
 
-1. 開啟URL：
+1. 打开URL：
 
    ```http
    http://localhost:4502/libs/cq/workflow/admin/console/content/models.html
    ```
 
-1. 選取 **DAM更新資產工作流程**.
-1. 按一下 **編輯**.
-1. 如果 **DXML後處理啟動器** 元件存在，請確定自訂已同步。
-1. 如果 **DXML後處理啟動器** 元件不存在，請執行以下步驟來插入它：
+1. 选择 **DAM更新资产工作流**.
+1. 单击 **编辑**.
+1. 如果 **DXML后处理启动器** 组件存在，请确保自定义项已同步。
+1. 如果 **DXML后处理启动器** 组件不存在，请执行以下步骤以插入该组件：
 
-1. 按一下 **插入元件** \(負責AEM Guides後續處理，將此作為程式的最後一步\)。
-1. 設定 **程式步驟** 詳細資料如下：
+1. 单击 **插入组件** \(负责AEM Guides的后处理，将此作为该过程的最后一步\)。
+1. 配置 **流程步骤** ，详情如下：
 
-   **通用索引標籤**
+   **“常用”选项卡**
 
-   **標題：** DXML後處理啟動器
+   **标题：** DXML后处理启动器
 
-   **說明**：DXML後處理啟動器步驟，此步驟將觸發用於已修改/已建立資產的DXML後處理的Sling作業
+   **描述**：DXML后处理启动器步骤，它将触发用于修改/创建的资产的DXML后处理的sling作业
 
-   **「程式」標籤**
+   **“进程”选项卡**
 
-   - 選取 **DXML後處理啟動器**&#x200B;從 **程式** 下拉式清單
+   - 选择 **DXML后处理启动器**&#x200B;从 **进程** 下拉列表
 
-   - 選取 **處理常式前進**
+   - 选择 **处理程序前进**
 
-   - 選取 **完成**
+   - 选择 **完成**
 
-1. 按一下 **同步** 完成變更後於右上角顯示。 您將會收到成功通知。
+1. 单击 **同步** 完成更改后位于右上角。 您将收到一个成功通知。
 
    >[!NOTE]
    >
-   > 重新整理並確認自訂變更和AEM Guides後處理步驟存在於最終工作流程模型中。
+   > 刷新并验证最终工作流模型中是否存在自定义更改和AEM Guides后处理步骤。
 
-1. 一次 **DAM更新資產工作流程**&#x200B;已驗證，請檢查對應的啟動器設定。 若要這麼做，請前往AEM Workflow介面並開啟啟動器。
+1. 一次 **DAM更新资产工作流**&#x200B;经过验证，检查相应的启动器配置。 为此，请转到AEM Workflow界面并打开启动器。
 
    ```http
    http://localhost:4502/libs/cq/workflow/content/console.html
    ```
 
-   尋找下列兩個啟動器\（若有需要\），並對應至下列兩個啟動器\（應為作用中\） **DAM更新資產工作流程**：
+   查找并更改\（如有必要\）对应于以下两个启动器\（应该处于活动状态\） **DAM更新资产工作流**：
 
-1. 「 」的啟動器&#x200B;*節點已建立*「 for **DAM更新資產工作流程** — 適用於條件 `"jcr:content/jcr:mimeType!=video"`，萬用字元值應為：
+1. “ ”的启动器&#x200B;*节点已创建*“，表示 **DAM更新资产工作流** — 表示条件 `"jcr:content/jcr:mimeType!=video"`，则“通配”值应为：
 
    ```json
    /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
-   - &#39;excludeList&#39;應具有 `"event-user-data:changedByWorkflowProcess"`.
-   - 「 」的啟動器&#x200B;*節點已修改*「 for **DAM更新資產工作流程 —** 條件&quot;`jcr:content/jcr:mimeType!=video`&quot;，&#39;萬用字元&#39;值應該是：
+   - “excludeList”应具有 `"event-user-data:changedByWorkflowProcess"`.
+   - “ ”的启动器&#x200B;*节点已修改*“，表示 **DAM更新资产工作流 —** 条件&quot;`jcr:content/jcr:mimeType!=video`“”，“通配”值应为：
 
    ```json
    `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
    ```
 
-   - `excludeList` 應該有 `"event-user-data:changedByWorkflowProcess"`.
+   - `excludeList` 应该具有 `"event-user-data:changedByWorkflowProcess"`.
 
 
-1. 升級完成後，請確定所有自訂/覆蓋圖均已驗證並更新，以符合新的應用程式程式碼。 以下是一些範例：
-   - 從/libs/fmditor/libsis重疊的任何元件都應與新的產品程式碼進行比較，且更新應在/apps下的重疊檔案中完成。
-   - 產品中使用的任何clientlib類別都應檢閱是否有變更。 任何覆寫的設定\（下方範例\）都應與最新的設定進行比較，以取得最新的功能：
+1. 升级完成后，请确保验证并更新任何自定义项/叠加图，以匹配新的应用程序代码。 下面给出了一些示例：
+   - 从/libs/fmditor/libsis叠加的任何组件都应与新的产品代码进行比较，并且更新应在/apps下的叠加文件中完成。
+   - 应审查产品中使用的任何clientlib类别是否有更改。 任何覆盖的配置\（下面的示例\）都应与最新的配置进行比较，以获取最新的功能：
    - elementmapping.xml
-   - ui\_config.json\（可能已在資料夾設定檔中設定\）
+   - ui\_config.json\（可能已在文件夹配置文件中设置\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
-   - 檢查是否有任何自訂程式碼使用任何舊路徑\(如 [移轉對應](#id2244LE040XA) section\) — 應更新為新路徑，以便自訂也能如預期運作。
-1. 閱讀目前版本引進的任何新設定\(檢查 [發行說明](../release-info/release-notes-4.2.1.md)\)並檢視是否有任何功能受到影響，然後採取適當的動作。 例如，使用4.0版中引入的「改善檔案和版本處理」，您需要啟用設定。
+   - 检查是否有任何自定义代码使用任何旧路径\(如 [迁移映射](#id2244LE040XA) section\) — 应更新为新路径，以便自定义项也能按预期工作。
+1. 阅读当前版本中引入的任何新配置\(check [发行说明](../release-info/release-notes-4.2.1.md)\)并查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
 
-## 為現有內容建立索引以使用新尋找和取代的步驟：
+## 为现有内容编制索引以使用新查找和替换的步骤：
 
-執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
+执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 確保 `damAssetLucene` 索引已完成。 視伺服器上存在的資料量而定，最多可能需要幾個小時。 您可以透過檢查重新索引欄位在中設定為false來確認重新索引已完成
-   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下專案新增任何自訂： `damAssetLucene`，您可能需要再次套用這些變數。
+- 确保 `damAssetLucene` 索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查重新索引字段在中是否设置为false来确认重新索引已完成
+   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下位置添加了任何自定义项： `damAssetLucene`，您可能需要再次应用它们。
 
-- 對伺服器執行POST要求\（使用正確的驗證\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都將建立索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） —  `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- 您也可以傳遞根資料夾，以索引特定資料夾（及其子資料夾）的DITA map。 例如， `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. 請注意，如果同時傳遞了路徑引數和根引數，則只會考慮路徑引數。
+- 您还可以传递根文件夹，以便为特定文件夹（及其子文件夹）的DITA映射编制索引。 例如， `http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`. 请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
-- 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+- 该API将返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
 
-- 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+- 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 

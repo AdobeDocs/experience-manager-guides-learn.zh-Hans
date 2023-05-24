@@ -1,6 +1,6 @@
 ---
-title: 上傳檔案
-description: 瞭解如何上傳檔案
+title: 上传文件
+description: 了解如何上传文件
 exl-id: d6a73953-94dd-4fa5-b09c-5e4c77fead62
 source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
@@ -9,40 +9,40 @@ ht-degree: 0%
 
 ---
 
-# 上傳檔案 {#id176FF000JUI}
+# 上传文件 {#id176FF000JUI}
 
-您很可能擁有要搭配AEM Guides使用的現有DITA內容的存放庫。 對於這類現有內容，您可以使用下列任何一種方法，將內容大量上傳至AEM存放庫：
+最有可能的情况是，您拥有要与AEM Guides一起使用的现有DITA内容的存储库。 对于此类现有内容，您可以使用以下任意方法将内容批量上传到AEM存储库：
 
 >[!IMPORTANT]
 >
-> 另請參閱 [將數位資產新增至Adobe Experience Manager as a Cloud Service資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) 以瞭解AEM支援的內容上傳方法的詳細資訊。
+> 参见 [将数字资源添加到Adobe Experience Manager as a Cloud Service Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html) 有关AEM中支持的内容上传方法的详细信息。
 
-## Assets Console使用者介面
+## Assets控制台用户界面
 
-您可以在案頭上選取內容，然後在AEM使用者介面\（網頁瀏覽器\）上拖曳至目的地資料夾。 如需詳細資訊，請參閱 [上傳資產](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) 在AEM檔案中。
+您可以在桌面上选择内容，然后在AEM用户界面\（Web浏览器\）上拖动到目标文件夹。 有关更多详细信息，请参阅 [上传资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html#upload-assets) 在AEM文档中。
 
 ## AEM 桌面应用程序
 
-如果您是創意專業人員，並想要管理本機案頭上的資產，請使用AEM案頭應用程式。 您可以使用案頭應用程式開啟及編輯這些資產。 您也可以維護版本並與其他使用者共用檔案。 如需詳細資訊，請參閱 [AEM案頭應用程式](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
+如果您是创意专业人士，并且希望管理本地桌面上的资源，请使用AEM桌面应用程序。 您可以使用桌面应用程序打开和编辑这些资源。 您还可以维护版本并与其他用户共享文件。 有关更多详细信息，请参阅 [AEM桌面应用程序](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
-## 資產大量擷取器
+## 资源批量提取器
 
-如果您有大規模的移轉和偶爾的大量擷取，請使用資產大量擷取器來上傳您的內容。 使用此工具，您可以從支援的資料存放區（如Azure或S3）上傳大量內容。 如需詳細資訊，請參閱 [資產大量擷取器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
+如果您进行了大规模迁移并偶尔进行了批量摄取，请使用资产批量摄取器上传您的内容。 使用此工具，您可以从受支持的数据存储区（如Azure或S3）上传批量内容。 有关更多详细信息，请参阅 [资源批量提取器](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor).
 
-## 使用FrameMaker進行大量上傳
+## 使用FrameMaker批量上传
 
-Adobe FrameMaker隨附強大的AEM聯結器，可讓您輕鬆上傳現有的DITA和其他FrameMaker檔案\(`.book` 和 `.fm`\)匯入AEM。 您可以使用各種檔案上傳功能，例如上傳單一檔案、上傳具有或不具有相依性的完整資料夾\（如內容參照、交叉參照和圖形\）。
+Adobe FrameMaker附带强大的AEM连接器，可让您轻松上传现有DITA和其他FrameMaker文档\(`.book` 和 `.fm`\)到AEM中。 您可以使用各种文件上传功能，例如上传单个文件、上传具有或不具有依赖关系的完整文件夹\（如内容引用、交叉引用和图形\）。
 
-如需有關在FrameMaker中使用大量上傳功能的詳細資訊，請參閱區段 *建立CRX資料夾並上傳檔案* FrameMaker使用手冊中的。
+有关在FrameMaker中使用批量上传功能的更多详细信息，请参阅部分 *创建CRX文件夹并上传文件* 《FrameMaker用户指南》中的。
 
-## 上傳內容時的錯誤處理 {#id201MI0I04Y4}
+## 上传内容时出错 {#id201MI0I04Y4}
 
-如果上傳一個或多個檔案失敗，會在上傳流程結束時顯示一個提示，其中包含上傳失敗的檔案清單：
+如果上传一个或多个文件失败，将在上传过程结束时显示一个提示，其中包含上传失败的文件列表：
 
 ![](images/uuid-files-failed-to-upload_cs.png){width="650" align="center"}
 
-如需各種檔案上傳情況的詳細資訊，請參閱 [上傳DITA內容](authoring-file-management.md#).
+有关各种文件上传方案的更多详细信息，请参阅 [上传DITA内容](authoring-file-management.md#).
 
-如果您使用AEM案頭應用程式或資產大量擷取器等工具，則對重複檔案執行的動作會由AEM伺服器中的設定控制。 請連絡您的系統管理員以瞭解此設定。
+如果您使用AEM桌面应用程序或Asset批量引入器等工具，则对重复文件执行的操作将由AEM服务器中的设置控制。 请联系您的系统管理员以了解此配置。
 
-**父級主題：**[&#x200B;管理內容](authoring.md)
+**父主题：**[&#x200B;管理内容](authoring.md)

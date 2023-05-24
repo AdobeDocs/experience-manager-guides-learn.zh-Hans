@@ -5,8 +5,8 @@ source-wordcount: '15'
 ht-degree: 6%
 
 ---
-# Adobe Experience Manager Guides的氧氣外掛程式
+# Adobe Experience Manager Guides的氧气插件
 
 - [免责声明](rebranding-disclaimer.md)
-- [Adobe Experience Manager Guides的氧氣外掛程式](use-aem-connector.md)
+- [Adobe Experience Manager Guides的氧气插件](use-aem-connector.md)
 

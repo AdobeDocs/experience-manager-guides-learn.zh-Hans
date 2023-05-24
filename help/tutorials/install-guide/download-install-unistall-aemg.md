@@ -1,6 +1,6 @@
 ---
-title: 解除安裝AEM Guides
-description: 瞭解如何解除安裝AEM Guides
+title: 卸载AEM Guides
+description: 了解如何卸载AEM Guides
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '148'
@@ -9,42 +9,42 @@ ht-degree: 0%
 ---
 
 
-# 解除安裝AEM Guides {#id21BHG0C0SXA}
+# 卸载AEM Guides {#id21BHG0C0SXA}
 
-您可以使用CRX封裝管理員解除安裝AEM Guides。 在解除安裝期間，存放庫的內容會還原為緊接在安裝套件之前建立的快照。
+您可以使用CRX包管理器卸载AEM Guides。 在卸载过程中，存储库的内容将恢复到紧接在安装软件包之前创建的快照。
 
-執行以下步驟以解除安裝AEM Guides：
+执行以下步骤卸载AEM Guides：
 
-1. 登入您的AEM執行個體並導覽至CRX封裝管理員。 存取封裝管理器的預設URL為：
+1. 登录AEM实例并导航到CRX包管理器。 访问包管理器的默认URL是：
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
    ```
 
-1. 搜尋com.adobe.fmdita套件。
-1. 按一下封裝以將其展開。
-1. 按一下 **更多** 以開啟下拉式清單。
-1. 按一下 **解除安裝** 並等待解除安裝完成。
-1. 如果您不再需要此套件，請按一下 **刪除** 解除安裝套件之後。
+1. 搜索com.adobe.fmdita包。
+1. 单击包以将其展开。
+1. 单击 **更多** 以打开下拉菜单。
+1. 单击 **卸载** 并等待卸载完成。
+1. 如果您不再需要此包，请单击 **删除** 卸载包之后。
 
-## 解除安裝之後
+## 卸载后
 
-若要在解除安裝後清除剩餘檔案，請執行下列步驟：
+要在卸载后清除剩余文件，请执行以下步骤：
 
-1. 使用以下專案清除指令碼快取：
+1. 使用以下方式清除脚本缓存：
 
    ```http
    http://<host>:<port>/system/console/scriptcache
    ```
 
-1. 您可以使用以下工具讓快取失效：
+1. 您可以使用以下命令使缓存失效：
 
    ```http
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
    ```
 
-1. 按一下 **使快取失效**.
-1. 清除瀏覽器的快取。
+1. 单击 **使缓存失效**.
+1. 清理浏览器的缓存。
 
-**父級主題：**[&#x200B;下載並安裝](download-install.md)
+**父主题：**[&#x200B;下载并安装](download-install.md)
 

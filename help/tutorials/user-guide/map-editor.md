@@ -1,6 +1,6 @@
 ---
-title: 使用地圖編輯器
-description: 瞭解如何使用地圖編輯器
+title: 使用映射编辑器
+description: 了解如何使用地图编辑器
 exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
 source-git-commit: e69665f3c4a0db10365719ac671cbd3ac0c455ec
 workflow-type: tm+mt
@@ -9,29 +9,29 @@ ht-degree: 0%
 
 ---
 
-# 使用地圖編輯器 {#id181OF0M30Y4}
+# 使用映射编辑器 {#id181OF0M30Y4}
 
-AEM Guides的地圖編輯器可讓您建立和編輯地圖檔案。 使用「對映編輯器」，您可以編輯兩種型別的檔案 — DITA map和bookmap。 您可以使用建立這些檔案 **建立** \> **DITA Map** 工作流程。 您也可以建立自己的地圖範本，並根據自訂範本建立地圖。 這些範本必須新增到資料夾設定檔中，才能顯示在範本選擇Blueprint和Web編輯器中。
+AEM Guides的映射编辑器允许您创建和编辑映射文件。 使用映射编辑器，可以编辑两种类型的文件 — DITA映射和bookmap。 您可以使用创建这些文件 **创建** \> **DITA映射** 工作流。 您还可以创建自己的映射模板，并根据自定义模板创建映射。 必须将这些模板添加到文件夹配置文件中，才能在模板选择Blueprint和Web编辑器中显示。
 
-請注意，全域和資料夾設定檔組態僅適用於資料夾層級的管理使用者。 如需設定全域和資料夾層級設定檔的詳細資訊，請參閱 *設定製作範本* 在安裝和設定適用於您設定的Adobe Experience Manager Guides中。
+请注意，全局和文件夹配置文件配置仅适用于文件夹级别的管理用户。 有关设置全局和文件夹级别配置文件的详细信息，请参阅 *配置创作模板* 在安装和配置适用于您的设置的Adobe Experience Manager Guides中。
 
-地圖編輯器提供兩種模式 — 「基本地圖編輯器」和「進階地圖編輯器」。 基本地圖編輯器只能透過設定使用。 如果您的管理員已啟用它，則只有基本地圖編輯器可供使用。 依預設，所有新地圖都會在「進階地圖編輯器」中開啟以進行編輯。 「進階對映編輯器」可在Web編輯器本身中使用，用於編輯DITA主題檔案。
+地图编辑器提供两种模式 — 基本地图编辑器和高级地图编辑器。 基本映射编辑器仅可通过配置使用。 如果您的管理员启用了它，则只有基本映射编辑器可用。 默认情况下，将在高级映射编辑器中打开所有新映射进行编辑。 高级映射编辑器在Web编辑器本身中可用，用于编辑DITA主题文件。
 
-本主題將引導您完成建立DITA map，然後使用「進階對映編輯器」和「基本對映編輯器」來編輯對映檔案的過程。
+本主题将指导您完成创建DITA映射，然后使用高级映射编辑器和基本映射编辑器编辑映射文件的过程。
 
 >[!TIP]
 >
-> 請參閱 *地圖編輯器* 最佳作法指南中的區段，以瞭解使用地圖編輯器的最佳作法。
+> 请参阅 *映射编辑器* 部分，了解有关使用地图编辑器的最佳实践。
 
-- **[建立地圖](map-editor-create-map.md)**
+- **[创建映射](map-editor-create-map.md)**
 
-- **[根據自訂範本建立地圖](create-maps-customized-templates.md)**
+- **[根据自定义模板创建映射](create-maps-customized-templates.md)**
 
-- **[使用進階地圖編輯器](map-editor-advanced-map-editor.md)**
+- **[使用高级映射编辑器](map-editor-advanced-map-editor.md)**
 
-- **[使用基本地圖編輯器](map-editor-basic-map-editor.md)**
+- **[使用基本映射编辑器](map-editor-basic-map-editor.md)**
 
-- **[地圖編輯器中的其他功能](map-editor-other-features.md)**
+- **[地图编辑器中的其他功能](map-editor-other-features.md)**
 
 
-**父級主題：**[&#x200B;使用AEM Guides製作內容](authoring-content-xml-doc.md)
+**父主题：**[&#x200B;使用AEM Guides创作内容](authoring-content-xml-doc.md)

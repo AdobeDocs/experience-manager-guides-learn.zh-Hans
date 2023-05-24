@@ -1,6 +1,6 @@
 ---
-title: 設定輸出產生設定
-description: 瞭解如何設定輸出產生設定
+title: 配置输出生成设置
+description: 了解如何配置输出生成设置
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '5761'
@@ -8,145 +8,145 @@ ht-degree: 1%
 
 ---
 
-# 設定輸出產生設定 {#id181AI0B0E30}
+# 配置输出生成设置 {#id181AI0B0E30}
 
-AEM Guides隨附許多設定選項，供您自訂輸出產生程式。 本主題涵蓋可協助您設定輸出產生程式的所有設定和自訂。
+AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本主题介绍有助于您设置输出生成过程的所有配置和自定义设置。
 
-## 在DITA map圖示板上設定基準線標籤 {#id223MD0D0YRM}
+## 在DITA map仪表板中配置基线选项卡 {#id223MD0D0YRM}
 
-您可以設定和隱藏可在地圖圖示板上使用的「基準線」標籤。
+您可以配置和隐藏地图仪表板上可用的“基线”选项卡。
 
-此 **隱藏基準線標籤** 選項預設為未啟用，您需要從configMgr啟用它。 執行以下步驟，在Web編輯器中啟用預設選項：
+此 **“隐藏基线”选项卡** 选项默认未启用，您需要从configMgr启用它。 执行以下步骤以在Web编辑器中默认启用此选项：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
 
-1. 選取 **隱藏基準線標籤** 選項。
+1. 选择 **“隐藏基线”选项卡** 选项。
 
 1. 单击“**保存**”。
 
    >[!NOTE]
    >
-   > 此設定預設為停用，且可在地圖圖示板上使用「基準線」標籤。
+   > 此配置默认处于禁用状态，并且基线选项卡在映射仪表板上可用。
 
 
-## 設定FrameMaker Publishing Server {#id1678G0Z0TN6}
+## 配置FrameMaker发布服务器 {#id1678G0Z0TN6}
 
-您可以使用FrameMaker Publishing Server \(FMPS\)來產生DITA內容的輸出。 設定FMPS可讓您以FMPS支援的多種格式產生輸出。
-
->[!NOTE]
->
-> 若要使用FMPS產生輸出，您必須設定FMPS伺服器。 如需安裝和組態詳細資訊，請參閱FrameMaker Publishing Server使用手冊。
-
-若要設定AEM Guides以使用FMPS，請更新 `com.adobe.fmdita.config.ConfigManager` Web控制檯中的套件組合。
+可以使用FrameMaker Publishing Server \(FMPS\)为DITA内容生成输出。 配置FMPS将允许您生成FMPS支持的多种格式的输出。
 
 >[!NOTE]
 >
-> 存取http://&lt;server name=&quot;&quot;>：&lt;port>/system/console/configMgr URL以開啟Web主控台。
+> 要使用FMPS生成输出，您需要设置FMPS服务器。 有关安装和配置的详细信息，请参阅《FrameMaker Publishing Server用户指南》。
+
+要将AEM Guides配置为使用FMPS，请更新 `com.adobe.fmdita.config.ConfigManager` 捆绑包中的组件。
+
+>[!NOTE]
+>
+> 访问http://&lt;server name=&quot;&quot;>：&lt;port>/system/console/configMgr URL打开Web控制台。
 
 | 属性 | 描述 |
 |--------|-----------|
-| FrameMaker Publishing Server登入網域 | 指定主控FrameMaker Publishing Server的網域名稱或工作群組名稱。 根據FMPS版本，提供網域名稱如下：-   **FMPS 2020**：IP位址，如192.168.1.101 <br>- **FMPS 2019及舊版**：IP位址或網域名稱 |
-| FrameMaker Publishing伺服器URL | 指定FrameMaker發佈伺服器的URL。 根據FMPS版本，提供FMPS URL如下：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019及舊版**： `http://<fmps_ip>:<port>/fmserver/v1/` |
-| FMPS版本 | 指定FrameMaker Publishing Server的版本號碼。 根據FMPS版本，提供版本資訊如下： <br>- **FMPS 2020**：2020 <br> - **FMPS 2019及舊版**：2019或2017 |
-| FrameMaker Publishing伺服器使用者名稱與密碼 | 指定要存取FrameMaker Publishing Server的使用者名稱和密碼。 |
-| fmps逾時 | \(*可選*\)指定AEM Guides等待FrameMaker Publishing Server回應的時間\（以秒為單位）。 如果在指定時間內未收到回應，AEM Guides會終止發佈工作，並將工作標籤為失敗。 <br> 預設值： 300秒\（5分鐘\） |
-| 外部AEM URL | *\（可選\）* FrameMaker Publishing Server將放置所產生輸出檔案的AEM URL。 例如：`http://<server-name>:<port>/`。 |
-| AEM管理員使用者名稱和密碼 | *\（可選\）* AEM設定管理員的使用者名稱和密碼。 FrameMaker Publishing Server將使用此資料與AEM通訊。 |
-| FMPS工作執行等待逾時 | 此設定僅適用於FMPS 2020。 指定FMPS停止等候此處理序執行的時間\（以秒為單位）。 |
+| FrameMaker Publishing Server登录域 | 指定承载FrameMaker Publishing Server的域名或工作组名称。 根据FMPS版本，提供域名为：-   **FMPS 2020**：IP地址，如192.168.1.101 <br>- **FMPS 2019及更早版本**：IP地址或域名 |
+| FrameMaker Publishing Server URL | 指定FrameMaker发布服务器的URL。 基于FMPS版本，提供FMPS URL如下所示：<br>- **FMPS 2020**： `http://<fmps_ip>:<port>` \(http://192.168.1.101:7000\) <br> - **FMPS 2019及更早版本**： `http://<fmps_ip>:<port>/fmserver/v1/` |
+| FMPS版本 | 指定FrameMaker Publishing Server的版本号。 基于FMPS版本，提供版本信息如下： <br>- **FMPS 2020**：2020 <br> - **FMPS 2019及更早版本**：2019或2017 |
+| FrameMaker Publishing Server用户名和密码 | 指定访问FrameMaker Publishing Server的用户名和密码。 |
+| FMPS超时 | \(*可选*\)指定AEM Guides等待FrameMaker Publishing Server响应的时间\（以秒为单位）。 如果在指定的时间内未收到响应，AEM Guides将终止发布任务，并且任务被标记为失败。 <br> 默认值：300秒\（5分钟\） |
+| 外部AEM URL | *\（可选\）* FrameMaker Publishing Server将放置生成的输出文件的AEM URL。 例如：`http://<server-name>:<port>/`。 |
+| AEM管理员用户名和密码 | *\（可选\）* AEM设置管理员的用户名和密码。 FrameMaker Publishing Server将使用此数据与AEM通信。 |
+| FMPS任务执行等待超时 | 此设置仅适用于FMPS 2020。 指定FMPS停止等待此进程执行的时间\（以秒为单位）。 |
 
-## 在現有AEM網站中設定混合式發佈 {#id1691I0V0MGR}
+## 在现有AEM站点中配置混合发布 {#id1691I0V0MGR}
 
-如果您的AEM網站包含DITA內容，您可以設定AEM網站輸出，將DITA內容發佈到網站內預先定義的位置。 例如，在以下AEM網站頁面熒幕擷圖中， `ditacontent` 節點已保留以儲存DITA內容：
+如果您有一个包含DITA内容的AEM站点，则可以配置AEM站点输出以将DITA内容发布到站点内的预定义位置。 例如，在AEM Site页面的以下屏幕截图中， `ditacontent` 节点已保留以存储DITA内容：
 
 ![](assets/publish-in-aem-site.png){width="300" align="left"}
 
-頁面中的其餘節點會直接從AEM網站編輯器編寫。 將發佈設定設為將DITA內容發佈至預先定義的位置，可確保不會有任何現有的非DITA內容被AEM Guides發佈程式修改。
+页面中的其余节点直接从AEM站点编辑器创作。 将发布设置配置为将DITA内容发布到预定义位置，可以确保AEM Guides发布过程不会修改任何现有的非DITA内容。
 
-您需要在現有網站上執行下列設定，以允許將DITA內容發佈到預先定義的節點：
+您需要在现有站点上执行以下配置，以允许将DITA内容发布到预定义节点：
 
-- 設定您網站的範本屬性
+- 配置网站的模板属性
 
-- 在您的網站中新增節點以發佈DITA內容
+- 在站点中添加节点以发布DITA内容
 
 
-執行以下步驟來設定您現有網站的範本屬性：
+执行以下步骤可配置现有站点的模板属性：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 導覽至您網站的範本設定節點。 例如，AEM Guides會將預設範本設定儲存在下列節點中：
+1. 导航到站点的模板配置节点。 例如，AEM Guides将默认模板配置存储在以下节点中：
 
    `/libs/fmdita/config/templates/default`
 
    >[!NOTE]
    >
-   > 請勿讓預設組態檔案中的任何自訂都可在 `libs` 節點。 您必須建立 `libs` 中的節點 `apps` 節點並更新 `apps` 僅限節點。
+   > 请勿使默认配置文件中的任何自定义设置在 `libs` 节点。 您必须创建一个叠加 `libs` 中的节点 `apps` 节点并更新以下文件中的所需文件： `apps` 仅节点。
 
-1. 新增下列屬性：
+1. 添加以下属性：
 
    | 属性名称 | 类型 | 价值 |
    |-------------|----|-----|
-   | `topicContentNode` | 字符串 | 指定您要發佈DITA內容的節點名稱。 例如，AEM Guides發佈DITA內容的預設節點為： <br>`jcr:content/contentnode` |
-   | `topicHeadNode` | 字符串 | 指定要儲存DITA內容的中繼資料資訊的節點名稱。 例如，AEM Guides儲存中繼資料資訊的預設節點為： <br>`jcr:content/headnode` |
+   | `topicContentNode` | 字符串 | 指定要在其中发布DITA内容的节点名称。 例如，AEM Guides发布DITA内容的默认节点为： <br>`jcr:content/contentnode` |
+   | `topicHeadNode` | 字符串 | 指定要在其中存储DITA内容的元数据信息的节点名称。 例如，AEM Guides存储元数据信息的默认节点为： <br>`jcr:content/headnode` |
 
 
-下列熒幕擷圖顯示新增到AEM Guides預設範本節點中的屬性：
+以下屏幕截图显示了在AEM Guides的默认模板节点中添加的属性：
 
 ![](assets/add-content-node.png){width="800" align="left"}
 
-下次當您使用網站的範本設定發佈任何DITA內容時，該內容會發佈到 `topicContentNode` 和 `topicHeadNode` 屬性。
+下次使用站点的模板配置发布任何DITA内容时，该内容将发布到 `topicContentNode` 和 `topicHeadNode` 属性。
 
-不過，若為現有網站，您必須手動新增 `topicContentNode` 和 `topicHeadNode` 節點。
+但是，对于现有站点，您必须手动添加 `topicContentNode` 和 `topicHeadNode` 节点。
 
-執行以下步驟，將所需節點新增至現有站台：
+执行以下步骤，将所需的节点添加到现有站点：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 尋找 `jcr:content` 在您的網站節點內。
+1. 查找 `jcr:content` 在站点节点中。
 
-1. 新增 `topicContentNode` 和 `topicHeadNode` 與您在網站的範本設定中指定的名稱相同的節點。
+1. 添加 `topicContentNode` 和 `topicHeadNode` 与在站点的模板配置中指定的名称相同的节点。
 
 
-## 自訂AEM網站輸出 {#id166TG0B30WR}
+## 自定义AEM站点输出 {#id166TG0B30WR}
 
-AEM Guides支援以下列格式建立輸出：
+AEM Guides支持以下列格式创建输出：
 
-- AEM網站
+- AEM站点
 
 - PDF
 
 - HTML5
 - ePub
-- 透過DITA-OT自訂輸出
+- 通过DITA-OT自定义输出
 
-對於AEM Site輸出，您可以為不同的輸出任務指派不同的設計範本。 這些設計範本可以不同版面配置DITA內容。 例如，您可以為內部和外部對象指定不同的設計範本。
+对于AEM Site输出，您可以为不同的输出任务分配不同的设计模板。 这些设计模板可以呈现不同布局的DITA内容。 例如，您可以为内部和外部受众指定不同的设计模板。
 
-您也可以使用自訂的DITA Open Toolkit \(DITA-OT\)外掛程式搭配AEM Guides。 您可以上傳這些自訂DITA-OT外掛程式，以特定方式產生PDF輸出。
+您还可以将自定义DITA Open Toolkit \(DITA-OT\)插件与AEM Guides结合使用。 您可以上传这些自定义DITA-OT插件以按特定方式生成PDF输出。
 
 >[!TIP]
 >
-> 請參閱 *AEM網站發佈* 最佳作法指南中的區段[附錄.md\#](appendix.md#) 以取得建立AEM網站輸出的相關最佳實務。
+> 请参阅 *AEM站点发布* 最佳实践指南中的部分[附录.md\#](appendix.md#) 以获取有关创建AEM站点输出的最佳实践。
 
-### 自訂設計範本以產生輸出 {#customize_xml-add-on}
+### 自定义用于生成输出的设计模板 {#customize_xml-add-on}
 
-AEM Guides使用一組預先定義的設計範本來產生AEM Site輸出。 您可以自訂AEM Guides的設計範本，以產生符合您公司品牌設定的輸出。 設計範本是各種樣式\(CSS\)、指令碼\（伺服器端和使用者端\）、資源\（影像、標誌和其他資產\）以及將所有這些資源繫結在一起的JCR節點的集合。 設計範本可以像隻有幾個JCR節點的單一伺服器端指令碼一樣簡單，也可以是樣式、資源和JCR節點的複雜組合。 在產生AEM Site輸出時，AEM Guides發佈子系統會使用設計範本，這些範本可控制所產生輸出的結構、外觀和風格。
+AEM Guides使用一组预定义的设计模板来生成AEM Site输出。 您可以自定义AEM Guides的设计模板，以生成符合您公司品牌要求的输出。 设计模板是各种样式\(CSS\)、脚本\（服务器端和客户端\）、资源\（图像、徽标和其他资源\）以及将所有这些资源绑定在一起的JCR节点的集合。 设计模板可以像具有几个JCR节点的单个服务器端脚本一样简单，也可以是样式、资源和JCR节点的复杂组合。 设计模板由AEM Guides发布子系统在生成AEM Site输出时使用，它们控制所生成输出的结构、外观和风格。
 
-設計範本資源在伺服器上的放置位置沒有限制，但通常會根據其功能進行邏輯組織。 例如，預設範本的所有JavaScript和CSS檔案都儲存在 `/etc/designs/fmdita/clientlibs/siteoutput/default` 資料夾。 無論這些檔案位於何處，都會由JCR節點集合連結在一起。 這些JCR節點和檔案共同構成了整個設計範本。
+设计模板资源在服务器上的放置位置没有限制，但通常会根据其功能进行逻辑组织。 例如，默认模板的所有JavaScript和CSS文件都存储在 `/etc/designs/fmdita/clientlibs/siteoutput/default` 文件夹。 无论这些文件位于何处，它们都由JCR节点集合链接在一起。 这些JCR节点和文件共同构成了整个设计模板。
 
-AEM Guides隨附的預設設計範本可讓您自訂登陸、主題和搜尋頁面元件。 您可以複製預設設計和對應的參照範本，並指定不同的元件以產生所需的輸出。
+AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索页面组件。 可制作缺省设计和相应参照模板的副本，并指定不同的元件来生成所需的输出。
 
-執行以下步驟，指定您自己的設計範本以用於AEM Site輸出產生：
+执行以下步骤，指定用于AEM Site输出生成的您自己的设计模板：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 導覽至預設的設計範本節點。 預設設計範本節點的位置為：
+1. 导航到默认的设计模板节点。 默认设计模板节点的位置为：
 
    `/libs/fmdita/config/templates/`
 
@@ -154,128 +154,128 @@ AEM Guides隨附的預設設計範本可讓您自訂登陸、主題和搜尋頁�
 
    >[!NOTE]
    >
-   > 複製預設設計範本，從 `libs` 資料夾至 `apps` 資料夾並進行變更 `apps` 資料夾。 您也必須變更從預設範本節點參照的範本。 參照的範本放在 `/libs/fmdita/templates/default/cqtemplates` 節點。 在中複製參照的範本 `apps` 資料夾。
+   > 复制默认设计模板 `libs` 文件夹到 `apps` 文件夹并进行更改 `apps` 文件夹。 您还必须在从默认模板节点引用的模板中进行更改。 引用的模板位于 `/libs/fmdita/templates/default/cqtemplates` 节点。 在中复制引用的模板 `apps` 文件夹。
 
-1. 按一下 *預設* 中的元件 *範本* 節點以存取其屬性。
+1. 单击 *默认* 中的组件 *模板* 节点以访问其属性。
 
-   下表說明AEM Guides的設計範本屬性。
+   下表描述了AEM Guides的设计模板属性。
 
    | 属性 | 描述 |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | 指定 `cq:Template` 這些對應頁面的節點\（登陸、搜尋和主題\）。 根據預設 `cq:Template` 這些頁面的節點可在以下網址找到： `/libs/fmdita/templates/default/cqtemplates` 節點。 此節點會定義登陸、搜尋和主題頁面的結構和屬性。 <br>此 `shadowPageTemplate` 用於最佳化區塊內容。 您必須將此屬性的值設為： <br> `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意** 您必須指定 `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 為選擇性屬性。 如果您不想產生搜尋和登入頁面，請勿指定這些屬性。 |
-   | `title` | 設計範本的描述性名稱。 |
-   | `topicContentNode` | 將在主題頁面中包含DITA內容的節點位置。 路徑是相對於主題頁面的路徑。 |
-   | `topicHeadNode` | 包含衍生自DITA內容之標頭值\（或中繼資料\）的節點位置。 路徑是相對於主題頁面。 |
-   | `tocNode` | 將包含目錄的節點位置。 路徑是相對於登陸頁面或目的地路徑的。 |
-   | `basePathProp` | 儲存已發佈網站根目錄路徑的屬性名稱。 |
-   | `indexPathProp` | 用於儲存已發佈網站之登陸/索引頁面路徑的屬性名稱。 |
-   | `pdfPathProp` | 儲存主題PDF路徑的屬性名稱(如果已啟用主題PDF產生功能)。 |
-   | `pdfTypeProp` | 用於儲存PDF產生型別的屬性名稱。 目前此屬性一律包含「主題」。 |
-   | `searchPathProp` | 儲存搜尋頁面路徑的屬性名稱（如果範本包含搜尋頁面）。 |
-   | `siteTitleProp` | 儲存所發佈網站標題的屬性名稱。 此標題通常與正在發佈的地圖的標題相同。 |
-   | `sourcePathProp` | 儲存目前頁面之來源DITA主題之路徑的屬性名稱。 |
-   | `tocPathProp` | 用於儲存已發佈站台TOC根目錄路徑的屬性名稱。 |
+   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | 指定 `cq:Template` 这些相应页面对应的节点\（登陆、搜索和主题\）。 默认情况下， `cq:Template` 可以在中找到这些页面的节点 `/libs/fmdita/templates/default/cqtemplates` 节点。 此节点定义登陆、搜索和主题页面的结构和属性。 <br>此 `shadowPageTemplate` 用于优化分块内容。 您需要将此属性的值设置为： <br> `fmdita/templates/default/cqtemplates/shadowpage` <br> **注释** 您必须为 `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 是可选属性。 如果不希望生成搜索和登陆页面，请不要指定这些属性。 |
+   | `title` | 设计模板的描述性名称。 |
+   | `topicContentNode` | 将在主题页面中包含DITA内容的节点的位置。 路径相对于主题页面。 |
+   | `topicHeadNode` | 将包含派生自DITA内容的标头值\（或元数据\）的节点位置。 路径相对于主题页面。 |
+   | `tocNode` | 将包含TOC的节点的位置。 路径相对于登陆页面或目标路径。 |
+   | `basePathProp` | 用于存储已发布站点的根目录的路径的属性名称。 |
+   | `indexPathProp` | 用于存储已发布站点的登陆/索引页面路径的属性名称。 |
+   | `pdfPathProp` | 存储主题PDF路径的属性名称(如果启用了主题PDF生成)。 |
+   | `pdfTypeProp` | 用于存储PDF生成类型的属性名称。 目前，此属性始终包含“主题”。 |
+   | `searchPathProp` | 用于存储搜索页面路径的属性名称（如果模板包含搜索页面）。 |
+   | `siteTitleProp` | 用于存储正在发布的站点标题的属性名称。 此标题通常与所发布地图的标题相同。 |
+   | `sourcePathProp` | 用于存储当前页面的源DITA主题的路径的属性名称。 |
+   | `tocPathProp` | 用于存储已发布站点的目录根路径的属性名称。 |
 
 
 >[!NOTE]
 >
-> 建立自訂設計範本節點後，您必須更新AEM Site輸出預設集中的「設計」選項才能使用自訂設計範本節點。
+> 创建自定义设计模板节点后，必须更新AEM Site输出预设中的“设计”选项才能使用自定义设计模板节点。
 
-如需詳細資訊，請參閱 [建立您的第一個Adobe Experience Manager 6.3網站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 和 [基本知識](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) 在AEM上開發您自己的網站。
+有关更多信息，请参阅 [创建您的第一个Adobe Experience Manager 6.3网站](https://helpx.adobe.com/experience-manager/using/first_aem63_website.html) 和 [基础知识](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-basics.html) 在AEM上开发您自己的网站。
 
-### 使用檔案標題產生AEM網站輸出
+### 使用文档标题生成AEM站点输出
 
-產生AEM Site輸出時，產生URL的方式對內容的可發現性起著重要作用。 如果您使用UUID型檔案名稱，根據檔案的UUID產生URL將不利於搜尋。 身為管理員或發佈者，您可以控制要如何產生AEM Site輸出的URL。 AEM Guides提供的設定可讓您選擇使用檔案的標題來產生AEM Site輸出的URL，而不是使用以UUID為基礎的檔案名稱。 對於以UUID為基礎的檔案系統，此選項預設為開啟。 這表示當您產生UUID型檔案系統的AEM Site輸出時，會使用檔案的標題來產生URL，而非檔案的UUID。
+在生成AEM Site输出时，生成URL的方式对内容的可发现性起着重要作用。 如果您使用的是基于UUID的文件名，则根据文件的UUID生成URL将不利于搜索。 作为管理员或发布者，您可以控制如何为AEM Site输出生成URL。 AEM Guides为您提供了一种配置，通过该配置，您可以选择使用文件的标题而不是基于UUID的文件名来生成AEM Site输出的URL。 默认情况下，对于基于UUID的文件系统，此选项处于打开状态。 这意味着在为基于UUID的文件系统生成AEM Site输出时，使用文件的标题生成URL，而不是文件的UUID。
 
-產生AEM Site輸出時，產生URL的方式對內容的可發現性起著重要作用。 若是非UUID檔案系統，AEM Site輸出會使用檔案名稱而非檔案標題產生。 身為管理員或發佈者，您可以控制要如何產生AEM Site輸出的URL。 AEM Guides提供設定，您可選擇使用檔案標題（而非檔案名稱）產生AEM Site輸出的URL。 此選項預設為OFF。 這表示產生AEM Site輸出時，會使用檔案名稱來產生URL，而非檔案標題。 您可以啟用此選項，選擇根據檔案標題產生URL。
+在生成AEM Site输出时，生成URL的方式对内容的可发现性起着重要作用。 对于不基于UUID的文件系统，AEM Site输出将使用文件名而不是文件标题生成。 作为管理员或发布者，您可以控制如何为AEM Site输出生成URL。 AEM Guides为您提供了一种配置，通过该配置，您可以选择使用文件的标题而不是文件名生成AEM Site输出的URL。 默认情况下，此选项处于关闭状态。 这意味着在生成AEM Site输出时，使用文件名来生成URL，而不是文件的标题。 通过启用此选项，您可以选择根据文件标题生成URL。
 
 >[!NOTE]
 >
-> 您可以進一步設定規則，以僅允許AEM Site輸出的URL中的一組字元。 如需詳細資訊，請參閱 [設定檔案名稱清理規則，以建立主題和發佈AEM網站輸出](#id2164D0KD0XA).
+> 您可以进一步配置规则，以仅允许在AEM Site输出的URL中使用一组字符。 有关更多详细信息，请参阅 [配置用于创建主题和发布AEM站点输出的文件名清理规则](#id2164D0KD0XA).
 
-若要在AEM Site輸出中設定URL產生，請執行下列步驟：
+要在AEM Site输出中配置URL生成，请执行以下步骤：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
 
-1. 選取 **使用AEM網站頁面名稱的標題** 選項。
+1. 选择 **对AEM站点页面名称使用标题** 选项。
 
    >[!NOTE]
    >
-   > 如果您要使用檔案名稱產生輸出，請取消選取此選項。
+   > 如果要使用文件名生成输出，请取消选择此选项。
 
 1. 单击“**保存**”。
 
 
-### 設定檔案名稱清理規則，以建立主題和發佈AEM網站輸出 {#id2164D0KD0XA}
+### 配置用于创建主题和发布AEM站点输出的文件名清理规则 {#id2164D0KD0XA}
 
-作為管理員，您可以定義檔案名稱中允許的有效特殊字元清單，這些字元最終形成AEM Site輸出的URL。 在舊版中，使用者可定義包含特殊字元的檔案名稱，例如 `@`， `$`， `>`、等等。 這些特殊字元會在產生AEM網站頁面上產生編碼URL。
+作为管理员，您可以定义文件名中允许的有效特殊字符列表，这些字符最终形成AEM Site输出的URL。 在早期版本中，允许用户定义包含特殊字符的文件名，例如 `@`， `$`， `>`，等等。 这些特殊字符在生成AEM网站页面时导致编码的URL。
 
-從3.8版開始，已新增設定，以定義檔案名稱中允許的特殊字元清單。 依預設，有效的檔案名稱設定包含&quot;`a-z A-Z 0-9 - _`「。 這表示在建立檔案時，檔案標題中可以有任何特殊字元，但在內部會以連字型大小取代\(`-`\)的檔案名稱。 例如，您可以將檔案的標題設為Introduction 1或Introduction@1，針對這兩種情況產生的對應檔案名稱將是Introduction-1。
+从3.8版本开始，添加了配置以定义允许文件名中使用的特殊字符列表。 默认情况下，有效的文件名配置包含&#39;&#39;`a-z A-Z 0-9 - _`“。 这意味着在创建文件时，文件的标题中可以包含任何特殊字符，但在内部，它将被替换为连字符\(`-`\)的文件名中。 例如，文件的标题可以是Introduction 1或Introduction@1 ，针对这两种情况生成的相应文件名是Introduction-1。
 
-定義有效字元清單時，請記住這些字元»`*/:[\]|#%{}?&<>"/+`」和 `a space` 將一律以連字型大小取代\(`-`\)。
+定义有效字符列表时，请记住这些字符»`*/:[\]|#%{}?&<>"/+`”和 `a space` 将始终替换为连字符\(`-`\)。
 
 >[!NOTE]
 >
-> 如果您未設定有效的特殊字元清單，檔案建立程式可能會為您帶來一些未預期的結果。
+> 如果未配置有效的特殊字符列表，文件创建过程可能会给您一些意外的结果。
 
-若要在檔案名稱和AEM Site輸出中設定有效的特殊字元，請執行下列步驟：
+要在文件名和AEM Site输出中配置有效的特殊字符，请执行以下步骤：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.common.SanitizeNodeNameImpl* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.common.SanitizeNodeNameImpl* 捆绑。
 
-1. 在 **發佈至AEM Sites時不允許使用的字元集** 屬性，確認屬性已設為 ```'<>`@$```. 您可以在此清單中新增更多特殊字元，但清單中必須包含這些必要的特殊字元。
-
-   >[!NOTE]
-   >
-   > 您也可以設定其他屬性，例如 **使用小寫** 在檔案名稱中， **分隔符號** 處理無效字元，以及 **字元數上限** 在檔案名稱中允許。
-
-1. 单击“**保存**”。
-
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
-
-1. 在 **有效字元的Regex** 屬性，確認屬性已設為 `[-a-zA-Z0-9_]`. 您可以新增更多字元至此清單，但清單必須包含這些基本字元，且清單的開頭必須為連字型大小\(`-`\)。
+1. 在 **不允许将字符集发布到AEM Sites** 属性，确保将属性设置为 ```'<>`@$```. 您可以向此列表添加更多特殊字符，但是，它必须具有这些必需的特殊字符。
 
    >[!NOTE]
    >
-   > 此屬性會定義用來建立新檔案的有效字元清單。
+   > 您还可以配置其他属性，例如 **使用小写** 在文件名中， **分隔符** 处理无效字符，以及 **最大字符数** 在文件名中允许。
+
+1. 单击“**保存**”。
+
+1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
+
+1. 在 **有效字符的正则表达式** 属性，确保将属性设置为 `[-a-zA-Z0-9_]`. 您可以向此列表添加更多字符，但是，它必须包含这些基本字符，并且列表必须以连字符\(`-`\)。
+
+   >[!NOTE]
+   >
+   > 此属性定义用于创建新文件的有效字符列表。
 
 1. 单击“**保存**”。
 
 
-### 設定AEM網站節點結構的平面化
+### 配置AEM站点节点结构的扁平化
 
-產生AEM Site輸出時，會在內部建立主題中每個元素的節點。 對於包含數千個主題的DITA map，此節點結構可能會變得太深。 對於較大的網站，這種深度巢狀節點結構可能會出現效能問題。 下列快照會顯示AEM Site輸出的深度巢狀節點結構：
+在生成AEM Site输出时，将在内部创建主题中每个元素的节点。 对于包含数千个主题的DITA映射，此节点结构可能会变得太深。 对于较大的站点，这种深度嵌套的节点结构可能会出现性能问题。 以下快照显示AEM Site输出的深度嵌套节点结构：
 
 ![](assets/deep-nested-aem-site-node-structure.png){width="300" align="left"}
 
-在上述快照中，請注意會為每個建立節點 `p` 元素及其後續子元素和類似結構會針對主題中使用的其他所有元素而建立。
+在上面的快照中，请注意为每个 `p` 元素及其后续子元素和类似结构会为主题中使用的其他每个元素创建。
 
-AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式。 您可以在指定的元素處平面化節點結構，這表示您可以定義一個元素，將其視為主要元素，其內的所有子元素將與主要元素合併。 例如，如果您決定將 `p` 元素，然後顯示在 `p` 元素將會與主要專案合併 `p` 元素。 系統不會為中的任何子元素建立單獨的附註。 `p` 元素。 下列快照顯示平面化的節點結構： `p` 元素：
+AEM Guides允许您配置如何在内部创建AEM Site输出的节点结构。 可以在指定的元素处拼合节点结构，这意味着您可以定义一个元素，该元素将被视为主元素，其中的所有子元素将与主元素合并。 例如，如果您决定拼合 `p` 元素，则出现在 `p` 元素将与 `p` 元素。 不会为中的任何子元素创建单独的注释 `p` 元素。 以下快照显示扁平化的节点结构： `p` 元素：
 
 ![](assets/flattened-aem-site-node-structure.png){width="300" align="left"}
 
-若要平面化AEM Site節點結構，請執行下列步驟：
+要拼合AEM Site节点结构，请执行以下步骤：
 
-1. 指定您要平面化節點結構的元素。
+1. 指定要在其中拼合节点结构的元素。
 
-   1. 覆蓋 `libs` 中的節點 `apps` 節點並開啟elementmapping.xml檔案。
+   1. 叠加 `libs` 中的节点 `apps` 节点并打开elementmapping.xml文件。
 
-   1. 新增 `<flatten>true</flatten>` 屬性（在您要平面化節點結構的元素定義中）。 例如，如果您想將節點結構平面化於 `p` 元素，然後在的定義中新增flatten屬性 `p` 元素，如下所示：
+   1. 添加 `<flatten>true</flatten>` 属性。 例如，如果要将节点结构扁平化在 `p` 元素，然后在的定义中添加flatten属性 `p` 元素如下所示：
 
       ```XML
       <ditaelement>
@@ -291,176 +291,176 @@ AEM Guides可讓您設定AEM Site輸出的節點結構在內部建立的方式�
 
       >[!NOTE]
       >
-      > 根據預設，flatten node屬性設定於 `p` 元素。
+      > 默认情况下，flatten node属性配置于 `p` 元素。
 
-1. 在configMgr中啟用網站節點平面化設定。
+1. 在configMgr中启用站点节点拼合配置。
 
-   1. 開啟Adobe Experience Manager Web主控台設定頁面。
+   1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-      存取設定頁面的預設URL為：
+      用于访问配置页面的默认URL是：
 
       ```http
       http://<server name>:<port>/system/console/configMgr
       ```
 
-   1. 搜尋並按一下 *com.adobe.dxml.flattening.FlatteningConfigurationService* 套件組合。
+   1. 搜索并单击 *com.adobe.dxml.flattening.FlatteningConfigurationService* 捆绑。
 
-   1. 選取 **屬性flattening.enabled** 選項。
+   1. 选择 **属性拼合.enabled** 选项。
 
    1. 单击“**保存**”。
 
 
 >[!IMPORTANT]
 >
-> 如果您在elementmapping.xml檔案中進行任何變更，請確定您開啟configMgr並儲存任何組合，以使變更生效。
+> 如果您在elementmapping.xml文件中进行了任何更改，请确保打开configMgr并保存任何包以使更改生效。
 
-現在，當您產生AEM Site輸出時， `p` 元素會平面化並儲存在 `p` 元素本身。 您可以找到新的平面化屬性 `p` CRXDE中的元素。
+现在，当您生成AEM Site输出时， `p` 元素平面化并存储在 `p` 元素本身。 您可以找到的新拼合属性 `p` 元素。
 
 ![](assets/flatten-aem-site-note-props-crxde.png){width="650" align="left"}
 
-**防止AEM Site附註結構平面化**
+**防止AEM站点注释结构扁平化**
 
-與在AEM Site輸出中指定要平面化的節點類似，您也可以指定要從此設定中排除的元素。 例如，如果您想將節點平面化於 `body` 元素，但您不想要任何 `table` 元素範圍 `body` 若要平面化，則可以在內新增exclude屬性， `table` 元素的定義。
+与在AEM Site输出中指定要扁平化的节点类似，您还可以指定要从此配置中排除的元素。 例如，如果要扁平化节点 `body` 元素，但您不需要 `table` 元素范围 `body` 要扁平化，则可以在其中添加exclude属性， `table` 元素的定义。
 
-若要排除 `table` 元素，將下列屬性新增至 `table` 元素的定義：
+要排除 `table` 元素进行拼合，将以下属性添加到 `table` 元素的定义：
 
 `<preventancestorflattening>true|false</preventancestorflattening>`
 
-### 在AEM網站輸出中設定已刪除頁面的版本設定
+### 在AEM站点输出中为已删除的页面配置版本控制
 
-當您使用產生AEM網站輸出時 **刪除和**&#x200B;建立&#x200B;****為「現有輸出頁面」設定選取的選項，會為要刪除的頁面建立版本。 您可以設定系統在刪除前停止建立版本。
+当您使用以下方式生成AEM站点输出时 **删除和**&#x200B;创建&#x200B;****为现有输出页面设置选择的选项，将为要删除的页面创建版本。 您可以将系统配置为删除前停止创建版本。
 
-執行以下步驟，停止建立要刪除之頁面的版本：
+执行以下步骤可停止为要删除的页面创建版本：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.config.ConfigManager* 捆绑。
 
-1. 選取&#x200B;**不要建立已刪除頁面的版本** 選項。
+1. 选择&#x200B;**不为已删除的页面创建版本** 选项。
 
    >[!NOTE]
    >
-   > 選取此選項後，使用者可直接刪除任何頁面，而不需為其建立任何版本。 如果未選取選項，則會在刪除頁面之前建立版本。
+   > 选中此选项后，用户可直接删除任何页面，而无需为其创建任何版本。 如果未选择该选项，则在删除页面之前会创建一个版本。
 
 1. 单击“**保存**”。
 
-## 透過DITA-OT發佈輸出時使用中繼資料 {#id191LF0U0TY4}
+## 通过DITA-OT发布输出时使用元数据 {#id191LF0U0TY4}
 
-AEM Guides提供一種在使用DITA-OT發佈輸出時傳遞自訂中繼資料的方式。 作為管理員和發佈者，您需要執行下列工作，才能在發佈的輸出中設定和使用自訂中繼資料：
+AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据的方式。 作为管理员和发布者，您需要执行以下任务，以便在发布的输出中配置和使用自定义元数据：
 
-- 作為管理員，在系統中新增必要的中繼資料，以便在DITA map的「屬性」頁面上提供它。
+- 作为管理员，在系统中添加所需的元数据，以便该元数据在DITA映射的“属性”页面上可用。
 
-- 作為管理員，在中繼資料清單中新增自訂中繼資料，使其顯示在DITA map主控台中。
+- 作为管理员，将自定义元数据添加到元数据列表中，以便该元数据显示在DITA映射控制台中。
 
-- 以Publisher身分，使用DITA map設定並新增自訂中繼資料，並產生所需的輸出。
+- 作为发布者，使用DITA映射配置和添加自定义元数据并生成所需的输出。
 
 
-若要在系統中新增必要的中繼資料，請執行下列步驟：
+要在系统中添加所需的元数据，请执行以下步骤：
 
-1. 以管理員身分登入Adobe Experience Manager。
+1. 以管理员身份登录Adobe Experience Manager。
 
-1. 按一下頂端的Adobe Experience Manager連結，然後選擇 **工具**.
+1. 单击顶部的Adobe Experience Manager链接，然后选择 **工具**.
 
-1. 選取 **資產** 工具清單中的。
+1. 选择 **资产** 从工具列表中。
 
-1. 按一下 **中繼資料結構** 圖磚。
+1. 单击 **元数据架构** 图块。
 
    此时会显示元数据架构表单页面。
 
-1. 選取 **預設** 從清單中移除表格。
+1. 选择 **默认** 表单中。
 
    >[!NOTE]
    >
-   > DITA map的「屬性」頁面上顯示的屬性會取自此表單。
+   > DITA映射的“属性”页面上显示的属性取自此表单。
 
-1. 按一下 **編輯**.
+1. 单击 **编辑**.
 
-1. 新增您要在已發佈輸出中使用的自訂中繼資料。 例如，我們將使用下列步驟新增對象中繼資料：
+1. 添加要在发布的输出中使用的自定义元数据。 例如，我们将使用以下步骤添加受众元数据：
 
-   1. 從 **建置表單** 元件清單，拖放 **單行文字** 元件貼到表單上。
+   1. 从 **构建表单** 组件列表，拖放 **单行文本** 组件放在窗体上。
 
-   1. 選取新欄位以開啟 **設定** 欄位的。
+   1. 选择新字段以打开 **设置** 字段的。
 
-   1. 在 **欄位標籤**，輸入中繼資料名稱 — Audience。
+   1. 在 **字段标签**，输入元数据名称 — Audience。
 
-   1. 在 **對應至屬性** 設定，指定。/jcr：content/metadata/&lt;name of=&quot;&quot; the=&quot;&quot; metadata=&quot;&quot;>. 以為例，我們會將其設為。/jcr：content/metadata/audience。
+   1. 在 **映射到属性** 设置，指定。/jcr：content/metadata/&lt;name of=&quot;&quot; the=&quot;&quot; metadata=&quot;&quot;>. 例如，我们将其设置为。/jcr：content/metadata/audience.
 
-   使用這些步驟，新增所有必要的中繼資料引數。
+   使用这些步骤，添加所有必需的元数据参数。
 
 1. 单击“**保存**”。
 
 
-現在，所有DITA map的「屬性」頁面上都會顯示新引數。
+现在，所有DITA映射的“属性”页面中都会显示新参数。
 
 ![](assets/properties-page-custom-metadata.PNG){width="650" align="left"}
 
-接下來，您需要在DITA map主控台中提供自訂中繼資料。 執行下列步驟，讓自訂中繼資料可在DITA map虛線板上使用：
+接下来，您需要使自定义元数据在DITA映射控制台中可用。 执行以下步骤，使自定义元数据在DITA map虚板上可用：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 存取以下位置可用的metadataList檔案：
+1. 访问以下位置提供的metadataList文件：
 
    /libs/fmdita/config/metadataList
 
    >[!NOTE]
    >
-   > metadataList檔案包含屬性清單，這些屬性顯示在 **屬性** 地圖儀表板中DITA map的下拉式清單。 依預設，此檔案中列出四個屬性：docstate、dc：language、dc：description和dc：title。
+   > metadataList文件包含属性列表，这些属性显示在 **属性** 映射仪表板中DITA映射的下拉列表。 默认情况下，此文件列出了四个属性 — docstate、dc：language、dc：description和dc：title。
 
-1. 新增您在中繼資料結構Forms頁面中新增的自訂中繼資料。 例如，將對象引數新增至預設清單的結尾。
+1. 添加您在“元数据架构Forms”页面中添加的自定义元数据。 例如，在默认列表的末尾添加受众参数。
 
-1. 按一下 **全部儲存**.
+1. 单击 **全部保存**.
 
 
-現在，自訂中繼資料會顯示在DITA map主控台的 **屬性** 下拉式清單。
+现在，自定义元数据将显示在DITA映射控制台的 **属性** 下拉列表。
 
-最後，身為Publisher，您需要在發佈的輸出中包含自訂中繼資料。 若要在產生輸出時處理自訂中繼資料，請執行下列步驟：
+最后，作为发布者，您需要在发布的输出中包含自定义元数据。 要在生成输出时处理自定义元数据，请执行以下步骤：
 
-1. 在Assets UI中，導覽至您要發佈的DITA map。
+1. 在Assets UI中，导航到要发布的DITA映射。
 
-1. 選取DITA map檔案並開啟其屬性頁面。
+1. 选择DITA映射文件并打开其属性页。
 
-1. 在「屬性」頁面中，指定自訂中繼資料的值。 例如，我們為對象引數指定了External值。
+1. 在属性页面上，指定自定义元数据的值。 例如，我们为受众参数指定了External值。
 
    ![](assets/properties-page-custom-metadata-value.png){width="650" align="left"}
 
 1. 单击“**保存并关闭**”。
 
-1. 按一下DITA map檔案以開啟DITA map主控台。
+1. 单击DITA映射文件以打开DITA映射控制台。
 
-1. 在 **輸出預設集** 索引標籤上，選取您要用來產生輸出的輸出預設集。
+1. 在 **输出预设** 选项卡，选择要用于生成输出的输出预设。
 
-1. 按一下 **編輯**.
+1. 单击 **编辑**.
 
-1. 從 **屬性** 下拉式清單，選取您要傳遞給發佈程式的屬性。
+1. 从 **属性** 从下拉列表中，选择要传递给发布过程的属性。
 
    ![](assets/props-in-publish-output.PNG){width="650" align="left"}
 
 
-選取的屬性/中繼資料會傳遞至發佈程式，並可在最終輸出中使用。
+选定的属性/元数据将传递到发布流程，并可在最终输出中使用。
 
-## 使用AEM元件自訂DITA元素對應 {#id1679J600HEL}
+## 使用AEM组件自定义DITA元素映射 {#id1679J600HEL}
 
-AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工作流程（例如發佈和稽核）中使用此對應，將DITA元素轉換為對應的AEM元件。 此對應是在 `elementmapping.xml` 檔案，可從CRXDE Lite模式存取。 在CRXDE Lite模式中存取下列URL：
+AEM Guides中的DITA元素映射到其对应的AEM组件。 AEM Guides在发布和审阅等工作流中使用此映射，将DITA元素转换为相应的AEM组件。 映射在中定义 `elementmapping.xml` 文件，可从CRXDE Lite模式访问。 在CRXDE Lite模式下访问以下URL：
 
 `/libs/fmdita/config/elementmapping.xml`
 
 >[!NOTE]
 >
-> 請勿讓預設組態檔案中的任何自訂都可在 ``libs`` 節點。 您必須建立 ``libs`` 中的節點 ``apps`` 節點並更新 ``apps`` 僅限節點。
+> 请勿使默认配置文件中的任何自定义设置在 ``libs`` 节点。 您必须创建一个叠加 ``libs`` 中的节点 ``apps`` 节点并更新以下文件中的所需文件： ``apps`` 仅节点。
 
-您可以使用預先定義的DITA元素對映，也可以將DITA元素對映至自訂AEM元件。 若要使用自訂AEM元件，您需要瞭解 `elementmapping.xml` 檔案。
+您可以使用预定义的DITA元素映射，也可以将DITA元素映射到自定义AEM组件。 要使用自定义AEM组件，您需要了解 `elementmapping.xml` 文件。
 
-### elementmapping.xml結構
+### elementmapping.xml结构
 
-概略說明 `elementmapping.xml` 結構說明如下：
+简要概述 `elementmapping.xml` 架构说明如下：
 
-1. 系統會根據元素名稱，先搜尋每個DITA元素以尋找對應的元件對應。 例如：
+1. 首先基于元素名称搜索每个DITA元素以查找对应的组件映射。 例如：
 
    ```XML
    <ditaelement>     
@@ -472,9 +472,9 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </ditaelement>
    ```
 
-   在上述範例中，所有 `substeps` DITA元素會使用 `dita/components/ditaolist` 元件。
+   在上例中，所有 `substeps` DITA元素使用 `dita/components/ditaolist` 组件。
 
-1. 如果DITA元素找不到以名稱為基礎的相符專案，則以名稱為基礎的相符專案 `class` 已完成。 例如：
+1. 如果DITA元素未根据名称找到匹配项，则根据 `class` 已完成。 例如：
 
    ```XML
    <ditaelement>  
@@ -489,9 +489,9 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </ditaelement>
    ```
 
-   在上述範例中，如果沒有為 `task` 元素，然後 `task` 元素會對應至上述元件，因為 `task` 繼承自 `topic` 元件。
+   在上例中，如果没有为 `task` 元素，然后 `task` 元素被映射到上述组件，因为 `task` 继承自 `topic` 组件。
 
-1. 當元素具有對應的元件對應時，其子元素的進一步處理會由決定 `type`. 例如：
+1. 当元素具有相应的组件映射时，其子元素的进一步处理由决定 `type`. 例如：
 
    ```XML
    <ditaelement>  
@@ -504,23 +504,23 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </ditaelement>
    ```
 
-   `type` 會採用下列值：
+   `type` 采用以下值：
 
-   - COMPOSITE：元素至元件 *子元素的對應會繼續* 以及。
+   - 组合：元素到组件 *子元素的映射继续* 也是。
 
-   - STANDALONE：目前元素的子元素為 *未進一步對應*.
+   - STANDALONE：当前元素的子元素为 *未进一步映射*.
 
-   在上述範例中，如果 `<title>` 元素具有任何子元素，不會對應至任何其他元件。 的元件 `<title>` 元素負責轉譯內的所有子元素 `<title>` 元素。
+   在上例中，如果 `<title>` 元素具有任何子元素，它们将不会映射到任何其他组件。 的组件 `<title>` 元素负责呈现 `<title>` 元素。
 
-1. 如果有多個元件對應至單一DITA元素，則會選取該元素的最佳相符專案。 若要選取最佳比對元件，會考慮DITA元素的領域和結構專門化。
+1. 如果有多个组件映射到单个DITA元素，则会选择该元素的最佳匹配项。 要选择最佳匹配元件，需要考虑DITA元素的域和结构专业化。
 
-   如果有具有領域專門化的DITA元素，且元件已對應領域專門化，則該元件會獲得高優先順序。
+   如果存在具有域专门化的DITA元素，并且为域专门化映射了组件，则该组件被赋予高优先级。
 
-   同樣地，如果存在具有結構專門化的DITA元素，且元件已對應結構專門化，則該元件會獲得高優先順序。
+   同样，如果存在具有结构专门化的DITA元素，并且为结构专门化映射了组件，则该组件被赋予高优先级。
 
-1. 您可以使用 `<attributemap>` 元素對應，將屬性值對應至對應的節點屬性。
+1. 您可以使用 `<attributemap>` 在元素映射中，将属性值映射到对应的节点属性。
 
-1. `textprop` 可用來將DITA元素的文字內容序列化為node屬性。 此外，它可以在元素標籤中多次使用，以將已發佈階層中多個位置的文字內容序列化。 您也可以自訂目標屬性的位置和名稱。 例如：
+1. `textprop` 可用于将DITA元素的文本内容序列化为节点属性。 此外，它可以在元素标记中多次使用，以将已发布层次结构中多个位置的文本内容序列化。 您还可以自定义目标属性的位置和名称。 例如：
 
    ```XML
    <ditaelement> 
@@ -533,9 +533,9 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </ditaelement>
    ```
 
-   上述元素對應會指定文字內容 `<title>` 元素將儲存為名為之屬性的值 `jcr:title` 在輸出節點上。
+   上述元素映射指定 `<title>` 元素将另存为名为的属性的值 `jcr:title` 在输出节点上。
 
-1. `xmlprop` 可用來將指定元素的整個XML序列化為node屬性。 然後，元件可以讀取此節點屬性並執行自訂轉譯。 例如：
+1. `xmlprop` 可用于将给定元素的整个XML序列化为节点属性。 然后，组件可以读取此节点属性并执行自定义渲染。 例如：
 
    ```XML
    <ditaelement> 
@@ -548,9 +548,9 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </ditaelement>
    ```
 
-   上述元素對應會指定元素的整個XML標籤 `<svg-container>` 將會儲存為下列屬性的值： `data` 在輸出節點上。
+   上述元素映射指定元素的整个XML标记 `<svg-container>` 将另存为名为的属性的值 `data` 在输出节点上。
 
-1. 有一個特殊的屬性對應，可在輸出產生程式中處理路徑解析。 例如：
+1. 在输出生成过程中，有一个特殊的属性映射来处理路径解析。 例如：
 
    ```XML
    <attributemap> 
@@ -560,20 +560,20 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
    </attributemap>
    ```
 
-   對於上述專案 `attributemap`，則 `href` DITA元素中的屬性將對應至名為的節點屬性 `fileReference`. 現在開始於 `ispath` 設為 `true`，輸出產生程式會解析此路徑，然後將其設定在 `fileReference` 節點屬性。
+   对于上述 `attributemap`，则 `href` dita元素中的属性将映射到名为的节点属性 `fileReference`. 现在，自 `ispath` 设置为 `true`，输出生成过程会解析此路径，然后将其设置为 `fileReference` 节点属性。
 
-   此解析度的發生方式是根據 `rel` 屬性對應中的屬性。
+   此决议之进行方式乃根据 `rel` 属性映射中的属性。
 
-   - 若 `rel=source`，然後為的值 `href` 相對於目前處理中的DITA來源檔案來解析。 的值 `href` 解析後放置在 `fileReference` 屬性。
+   - 如果 `rel=source`，然后值 `href` 相对于当前正在处理的DITA源文件解析。 的值 `href` 将被解析并放置在 `fileReference` 属性。
 
-   - 若 `rel=target`，然後為的值 `href` 相對於根發佈位置來解析。 的值 `href` 解析後放置在 `fileReference` 屬性。
+   - 如果 `rel=target`，然后值 `href` 相对于根发布位置解析。 的值 `href` 将被解析并放置在 `fileReference` 属性。
 
-   如果您不想對路徑屬性執行任何預先處理或解析，則無需指定 `ispath` 屬性。 值會依原樣複製，而元件可執行所需的解析度。
+   如果您不希望对路径属性进行任何预处理或解析，则无需指定 `ispath` 属性。 值按原样复制，组件可执行所需的分辨率。
 
 
-### DITA元素結構描述
+### DITA元素架构
 
-以下為中的DITA元素結構描述範例 `elementmapping.xml` 檔案：
+以下是中的DITA元素架构示例 `elementmapping.xml` 文件：
 
 ```XML
 <ditaelement>         
@@ -595,60 +595,60 @@ AEM Guides中的DITA元素會對應至其對應的AEM元件。 AEM Guides在工�
 </ditaelement>
 ```
 
-下表說明DITA元素結構描述中的元素：
+下表介绍了DITA元素架构中的元素：
 
 | 元素 | 描述 |
 |-------|-----------|
-| `<ditaelement>` | 每個對應元素的頂層節點。 |
-| `<class>` | 您要寫入元件的目標DITA元素的類別屬性。 <br>例如，DITA主題的class屬性是： <br>`topic/topic` |
-| `<componentpath>` | 對應AEM元件的CRXDE路徑。 |
-| `<type>` | 可能的值： <br>- **複合**：也處理子元素 <br>- **獨立**：略過子元素的處理 |
-| `<attributeprop>` | 用於將序列化DITA屬性和值作為屬性對應到AEM節點。 例如，如果您擁有 `<note type="Caution">` 元素和為此元素對應的元件具有 `<attributeprop>attr_t</ attributeprop>`，則節點的屬性和值會序列化為 `attr_t` 對應AEM節點的屬性\( `attr_t->type="caution"`\)。 |
-| `<textprop>propname_t</textprop>` | 儲存 `getTextContent()` 輸出至由定義的屬性 `propname_t.` **注意：**  這是最佳化的屬性。 |
-| `<xmlprop>propname_x </xmlprop>` | 將此節點的序列化XML儲存至所定義的屬性 `propname_x.` **注意：** 這是最佳化的屬性。 |
-| `<xpath>` | 如果在元素對應中提供XPath元素，則除了元素名稱和類別外，也應滿足要使用的元件對應的XPath條件。 |
-| `<target>` | 將DITA元素放置在crx存放庫中的指定位置。 <br>可能的值：<br>- **head**：在head節點下 <br>- **文字**：在段落節點下 |
-| `<wrapelement>` | 包住內容的HTML元素。 |
-| `<wrapclass>` | 屬性的元素值 `wrapclass.` |
-| `<attributemap>` | 包含一或多個的容器節點 `<attribute>` 節點。 |
-| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 將DITA屬性對應至AEM屬性：<br>- **`from`**： DITA屬性名稱<br>- **`to`**：AEM元件屬性名稱 <br>- **`ispath`**：如果屬性是路徑值\(例如： *影像*\)<br>- **`rel`**：如果路徑是來源或目標 <br>**注意：** 若 `attrname` 開頭為 `%`，然後地圖 `attrname minus '%'` 至prop &#39; `propname`&#39;. |
+| `<ditaelement>` | 每个映射元素的顶级节点。 |
+| `<class>` | 要为其编写组件的目标DITA元素的类属性。 <br>例如，DITA主题的class属性是： <br>`topic/topic` |
+| `<componentpath>` | 映射的AEM组件的CRXDE路径。 |
+| `<type>` | 可能的值： <br>- **复合**：同时处理子元素 <br>- **独立**：跳过子元素的处理 |
+| `<attributeprop>` | 用于将序列化DITA属性和值作为属性映射到AEM节点。 例如，如果您拥有 `<note type="Caution">` 元素以及为此元素映射的组件具有 `<attributeprop>attr_t</ attributeprop>`，则节点的属性和值将序列化为 `attr_t` 对应AEM节点的属性\( `attr_t->type="caution"`\)。 |
+| `<textprop>propname_t</textprop>` | 保存 `getTextContent()` 输出到定义的属性 `propname_t.` **注意：**  这是一个优化属性。 |
+| `<xmlprop>propname_x </xmlprop>` | 将此节点的序列化XML保存到定义的属性 `propname_x.` **注意：** 这是一个优化属性。 |
+| `<xpath>` | 如果在元素映射中提供了XPath元素，则除了元素名称和类之外，还应该为要使用的组件映射满足XPath条件。 |
+| `<target>` | 将DITA元素放置在crx存储库中的指定位置。 <br>可能的值：<br>- **head**：在head节点下 <br>- **text**：在段落节点下 |
+| `<wrapelement>` | 用于包住内容的HTML元素。 |
+| `<wrapclass>` | 属性的元素值 `wrapclass.` |
+| `<attributemap>` | 包含一个或多个的容器节点 `<attribute>` 节点。 |
+| `<attribute from="attrname" to="propname" ispath="true|false" rel="source|target" />` | 将DITA属性映射到AEM属性：<br>- **`from`**：DITA属性名称<br>- **`to`**：AEM组件属性名称 <br>- **`ispath`**：如果属性是路径值\(例如： *图像*\)<br>- **`rel`**：如果路径是源或目标 <br>**注意：** 如果 `attrname` 开头为 `%`，然后映射 `attrname minus '%'` 到prop &#39; `propname`&#39;. |
 
-**其他附註**
+**其他说明**
 
-- 如果您計畫覆寫預設要素對映，建議您不要在預設值中進行變更 `elementmapping.xml` 檔案。 您應該建立新的對應XML檔案，並將檔案放在另一個位置，最好是在您建立的自訂應用程式資料夾內。
+- 如果计划改写默认要素映射，建议不要在默认要素映射中进行更改 `elementmapping.xml` 文件。 您应该创建一个新的映射XML文件，并将该文件放置在其他位置，最好是放置在您创建的自定义应用程序文件夹中。
 
-- 在 `elementmapping.xml` 檔案中，有許多對應專案會參照fmdita/components/dita/wrapper元件。 包裝函式是一種泛型元件，會使用其網站節點上的屬性來產生相關HTML，以呈現相對簡單的DITA建構。 它會使用 `wrapelement` 屬性以產生封閉標籤並將子轉譯委派給對應的元件。 當您只想要容器元件時，這個用法就十分實用。 不要建立可轉譯特定容器標籤的新元件，例如 `div` 或 `p`，您可以使用包裝函式元件搭配 `wrapelement` 和 `wrapclass` 屬性以獲得相同的效果。
+- 在 `elementmapping.xml` 文件，有许多映射条目引用fmdita/components/dita/wrapper组件。 包装器是一个通用组件，它使用站点节点上的属性生成相关HTML，来呈现相对简单的DITA结构。 它使用 `wrapelement` 属性，用于生成封闭标记并将子渲染委派给相应的组件。 当您只需要容器组件时，这项操作会很有用。 而不是创建一个呈现特定容器标记的新组件，如 `div` 或 `p`，您可以将包装组件与 `wrapelement` 和 `wrapclass` 属性以获得相同的效果。
 
-- 不建議在字串JCR屬性中儲存大量文字。 輸出產生中的最佳化屬性型別計算可確保大型文字內容不會儲存為字串型別。 反之，當需要儲存大於某個臨界值的內容時，屬性的型別會變更為二進位。 預設情況下，此臨界值設定為512位元組，但可以在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)變更 **另存為二進位臨界值** 設定。
+- 建议不要在字符串JCR属性中保存大量文本。 输出生成中的优化属性类型计算可确保大型文本内容不会另存为字符串类型。 相反，当需要保存大于某个阈值的内容时，属性的类型会更改为二进制。 默认情况下，此阈值配置为512字节，但可以在Configuration Manager \(*com.adobe.fmdita.config.ConfigManager*\)更改 **另存为二进制阈值** 设置。
 
-- 如果您計畫覆寫部分\（而非全部\）元素對應，則不必復寫整個 `elementmapping.xml` 檔案。 您需要建立新的XML對應檔案，並只定義要覆寫的元素。
+- 如果您计划覆盖某些\（而非全部\）元素映射，则不必复制整个 `elementmapping.xml` 文件。 您需要创建一个新的XML映射文件，并仅定义要覆盖的元素。
 
-- 在自訂位置中建立XML檔案後，請更新 `Override Element Mapping` 在中設定 `com.adobe.fmdita.config.ConfigManager` 套件組合。
+- 在自定义位置中创建XML文件后，更新 `Override Element Mapping` 在中设置 `com.adobe.fmdita.config.ConfigManager` 捆绑。
 
 
-## 自訂DITA map主控台 {#id188HC08M0CZ}
+## 自定义DITA映射控制台 {#id188HC08M0CZ}
 
-AEM Guides可讓您彈性擴充DITA map主控台的功能。 例如，如果您有一組與AEM Guides中可用報表不同的報表，可以將這類報表新增至地圖主控台。 若要自訂對應主控台，您需要建立AEM使用者端程式庫\（或ClientLib\），其中包含執行所需功能的程式碼。
-
->[!NOTE]
->
-> 不建議直接修改頁面元件，因為新版本的產品會加以覆寫。
-
-AEM指南提供 `apps.fmdita.dashboard-extn` 自訂地圖控制檯的類別。 每當載入地圖主控台時，在 `apps.fmdita.dashboard-extn` 類別會執行並載入。
+AEM Guides使您可以灵活地扩展DITA map控制台的功能。 例如，如果您有一组与AEM Guides中可用的报表不同的报表，可以将此类报表添加到映射控制台。 要自定义映射控制台，您需要创建一个AEM客户端库\（或ClientLib\），该库将包含用于执行所需功能的代码。
 
 >[!NOTE]
 >
-> 如需建立AEM使用者端資料庫的詳細資訊，請參閱 [使用使用者端資料庫](https://helpx.adobe.com/cn/experience-manager/6-4/sites/developing/using/clientlibs.html).
+> 不建议直接修改页面组件，因为新版本的产品将覆盖此设置。
 
-## 在輸出產生期間處理影像轉譯 {#id177BF0G0VY4}
-
-AEM隨附一組預設工作流程和媒體控制代碼以處理資產。 在AEM中，有預先定義的工作流程可處理最常見的MIME型別的資產處理。 通常，AEM會針對您上傳的每個影像，以二進位格式建立多個相同的轉譯。 這些轉譯可能大小不同、解析度不同、加上了浮水印，或是其他特徵有所變更。 如需AEM如何處理資產的詳細資訊，請參閱 [使用媒體處理常式和工作流程處理資產](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) 在AEM檔案中。
-
-AEM Guides可讓您設定在產生檔案的輸出時要使用的影像轉譯。 例如，您可以選擇其中一個預設影像轉譯，或建立並使用相同的影像轉譯來發佈檔案。 用於發佈檔案的影像轉譯對應會儲存在 `/libs/fmdita/config/ **renditionmap.xml**` 檔案。 的片段 `renditionmap.xml` 檔案如下：
+AEM Guides提供了 `apps.fmdita.dashboard-extn` 用于自定义映射控制台的类别。 无论何时加载映射控制台，都会在 `apps.fmdita.dashboard-extn` 类别被执行并加载。
 
 >[!NOTE]
 >
-> 建議您建立 `renditionmap.xml` 中的檔案 `apps` 所有自訂的資料夾。
+> 有关创建AEM客户端库的详细信息，请参阅 [使用客户端库](https://helpx.adobe.com/cn/experience-manager/6-4/sites/developing/using/clientlibs.html).
+
+## 在输出生成期间处理图像演绎版 {#id177BF0G0VY4}
+
+AEM提供了一组默认的工作流和媒体句柄来处理资产。 在AEM中，有预定义的工作流用于处理最常见的MIME类型的资源。 通常，AEM会为您上传的每个图像以二进制格式创建多个相同的演绎版。 这些演绎版可能具有不同的尺寸、不同的分辨率、添加的水印或某些其他变化的特征。 有关AEM如何处理资产的更多信息，请参阅 [使用媒体处理程序和工作流处理资源](https://helpx.adobe.com/experience-manager/6-5/assets/using/media-handlers.html) 在AEM文档中。
+
+AEM Guides允许您配置在为文档生成输出时使用的图像演绎版。 例如，您可以从默认图像演绎版中选择或创建图像演绎版，然后使用相同的图像演绎版发布文档。 用于发布文档的图像演绎版映射存储在中 `/libs/fmdita/config/ **renditionmap.xml**` 文件。 代码片段 `renditionmap.xml` 文件如下所示：
+
+>[!NOTE]
+>
+> 建议您创建 `renditionmap.xml` 中的文件 `apps` 所有自定义项的文件夹。
 
 ```XML
 <renditionmap>
@@ -664,66 +664,66 @@ AEM Guides可讓您設定在產生檔案的輸出時要使用的影像轉譯。 
 </renditionmap>
 ```
 
-此 `mimetype` element指定檔案格式的MIME型別。 此 `rendition output` element指定輸出格式的型別和轉譯的名稱\(例如， `cq5dam.web.1280.1280.jpeg`\)來發佈指定的輸出。 您可以指定要用於所有支援輸出格式的影像轉譯 — AEMSITE、PDF、HTML5、EPUB和CUSTOM。
+此 `mimetype` element指定文件格式的MIME类型。 此 `rendition output` element指定输出格式的类型和格式副本的名称\(例如， `cq5dam.web.1280.1280.jpeg`\)来发布指定的输出。 您可以指定用于所有支持的输出格式(AEMSITE、PDF、HTML5、EPUB和自定义)的图像演绎版。
 
-如果指定的轉譯不存在，則AEM Guides發佈程式會先尋找指定影像的網頁轉譯。 如果找不到網頁轉譯，則會使用影像的原始轉譯。
+如果指定的格式副本不存在，则AEM Guides发布过程将首先查找给定图像的Web格式副本。 如果找不到Web演绎版，则使用图像的原始演绎版。
 
 >[!NOTE]
 >
-> 這些影像轉譯只會控制輸出產生。 當您開啟檔案進行預覽或檢閱時，會使用影像的Web轉譯。
+> 这些图像演绎版仅控制输出生成。 打开文档进行预览或审阅时，会使用图像的Web演绎版。
 
-## 設定輸出歷史記錄的自動永久刪除期間 {#id19AAI070V8Q}
+## 为输出历史记录配置自动清除时段 {#id19AAI070V8Q}
 
-產生輸出時，會建立輸出與輸出記錄。 對於大型DITA map，這些記錄可能會佔用存放庫中的大量空間。 依預設，記錄檔會儲存在存放庫中的下列位置：
+生成输出时，将创建输出以及输出日志。 对于大型DITA映射，这些日志可能会在存储库中占用大量空间。 默认情况下，日志存储在存储库中的以下位置：
 
 /var/dxml/metadata/outputHistory/
 
-在一段時間內，所有記錄檔的集合大小可能會達到千兆位。 AEM Guides可讓您設定時段，讓這些記錄檔保留在存放庫中。 在指定的時段後，記錄以及輸出產生歷史記錄會從存放庫中刪除。
+在一段时间内，所有日志文件的集合大小可能会达到GB。 AEM Guides允许您配置一个时间段来将这些日志文件保留在存储库中。 在指定的时间段后，日志以及输出生成历史记录将从存储库中删除。
 
 >[!NOTE]
 >
-> 輸出產生歷程記錄是「輸出」標籤中「產生的輸出」清單中的記錄專案。
+> 输出生成历史记录是“输出”选项卡中“生成的输出”列表中的日志条目。
 
-設定歷史記錄清除功能會影響儲存庫中所有DITA map的輸出產生。 在DITA map的「輸出」標籤中，歷史記錄會在指定的天數之後、在設定中指定的時間清除。
+配置历史记录清除功能会影响存储库中所有DITA映射的输出生成。 在DITA map的输出选项卡中，历史记录将在指定的天数之后并在设置中指定的时间清除。
 
 >[!NOTE]
 >
-> 移除記錄檔和輸出產生歷程記錄並不會對產生的輸出造成任何影響。
+> 删除日志文件和输出生成历史记录不会对生成的输出产生任何影响。
 
-執行下列步驟，設定清除輸出歷史記錄和記錄檔的日期和時間：
+执行以下步骤来设置清除输出历史记录和日志的日期和时间：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.config.ConfigManager** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.config.ConfigManager** 捆绑。
 
-1. 在 **輸出歷史記錄永久刪除期間** 屬性，指定清除輸出歷史記錄及輸出記錄後的天數。 預設為5天。 若要停用此功能，請將此屬性設定為0。
+1. 在 **输出历史记录清除期间** 属性，指定清除输出历史记录以及输出日志的天数。 默认情况下，该时间设置为5天。 如果要禁用此功能，则将此属性设置为0。
 
-1. 在 **輸出歷史記錄清除時間** 屬性，指定開始永久刪除處理的時間。 預設會設為0:00 \（或12:00午夜\）。 每天這個時候，清除程式都會在指定的天數之前產生的輸出上執行 **輸出歷史記錄永久刪除期間** 屬性。
+1. 在 **输出历史记录清除时间** 属性，指定清除过程的启动时间。 默认情况下，该时间设置为0:00 \（或12:00午夜\）。 每天这个时候，清除过程都会在指定的天数之前生成的输出上执行 **输出历史记录清除期间** 属性。
 
    >[!NOTE]
    >
-   > 依預設，清除功能會在每午夜的5天之前的輸出上執行。
+   > 默认情况下，清除功能会在每午夜对5天以前的输出执行。
 
 1. 单击“**保存**”。
 
 
-## 變更最近產生的輸出清單限制 {#id1679JH0H0O2}
+## 更改最近生成的输出列表限制 {#id1679JH0H0O2}
 
-您可以變更在DITA map的「輸出」標籤中顯示的已產生輸出數目上限。 依預設，會顯示最後25個產生的輸出清單。 若要變更清單中顯示的輸出數量，請更新 **輸出清單限制** 在中設定 `com.adobe.fmdita.config.ConfigManager` 套件組合。
+您可以更改DITA映射的“输出”选项卡中显示的已生成输出的最大数量。 默认情况下，将显示最后25个生成的输出的列表。 要更改要在列表中显示的输出数量，请更新 **输出列表限制** 在中设置 `com.adobe.fmdita.config.ConfigManager` 捆绑。
 
 >[!TIP]
 >
-> 請參閱 *輸出歷程記錄* 最佳作法指南中的區段[附錄.md\#](appendix.md#) 以取得有關使用輸出歷史記錄的最佳實務。
+> 请参阅 *输出历史记录* 最佳实践指南中的部分[附录.md\#](appendix.md#) 以获取有关使用输出历史记录的最佳实践。
 
-## 輸出產生效能最佳化 {#id176LB050VUI}
+## 输出生成性能优化 {#id176LB050VUI}
 
-AEM Guides可讓您設定輸出產生程式集區大小，以控制同時執行的輸出產生程式數目。 依照預設，處理集區大小會設為系統中可用的處理核心數目，外加一個處理核心數目。 如果您想要循序發佈，可能想要將此值變更為1。 在這種情況下，會執行第一個發佈任務，而下一個發佈任務會儲存在發佈佇列中。
+AEM Guides允许您配置输出生成进程池大小，以控制同时运行的输出生成进程数。 默认情况下，进程池大小设置为系统中可用的处理内核数加一。 如果需要连续发布，则可能需要将此值更改为1。 在这种情况下，将执行第一个发布任务，并将下一个发布任务存储在发布队列中。
 
-若要變更輸出產生處理集區大小，請更新 **產生集區大小** 在中設定 `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` 套件組合。
+要更改输出生成处理池大小，请更新 **生成池大小** 在中设置 `com.adobe.fmdita.publish.manager.PublishThreadManagerImpl` 捆绑。
 

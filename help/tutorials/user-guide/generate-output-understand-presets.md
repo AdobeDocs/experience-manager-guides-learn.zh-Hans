@@ -1,6 +1,6 @@
 ---
-title: 瞭解輸出預設集
-description: 瞭解如何瞭解輸出預設集
+title: 了解输出预设
+description: 了解如何了解输出预设
 exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
 source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
@@ -9,20 +9,20 @@ ht-degree: 2%
 
 ---
 
-# 瞭解輸出預設集 {#understanding_output_settings}
+# 了解输出预设 {#understanding_output_settings}
 
-AEM Guides支援以最常用的格式建立輸出，例如AEM Site、PDF、HTML5、EPUB、JSON，以及透過DITA-OT、原生PDF和FMPS的自訂輸出。 使用這些輸出格式，您可以設定各種輸出預設集。 輸出預設集代表您想要發佈內容的自訂輸出格式。
+AEM Guides支持以最受欢迎的格式创建输出，如AEM Site、PDF、HTML5、EPUB、JSON，以及通过DITA-OT、本机PDF和FMPS的自定义输出。 使用这些输出格式，您可以配置各种输出预设。 输出预设表示您希望在其中发布内容的自定义输出格式。
 
-以下各節說明支援的輸出格式可用的選項。
+以下各节说明了适用于支持的输出格式的选项。
 
-您可以透過兩種方式建立預設集：
+可通过两种方式创建预设：
 
-- **從Web編輯器**：您可以建立AEM網站、PDF、HTML、知識庫、HTML5、自訂和JSON輸出預設集，並產生各自的輸出。
-- **從地圖儀表板**：您可以建立AEM網站、PDF、HTML5、EPUB和自訂輸出預設集，並產生各自的輸出。
+- **从Web编辑器**：您可以创建AEM站点、PDF、HTML、知识库、HTML5、自定义和JSON输出预设，并生成各自的输出。
+- **从地图仪表板**：您可以创建AEM站点、PDF、HTML5、EPUB和自定义输出预设，并生成各自的输出。
 
-以下各節說明支援的輸出格式可用的選項。
+以下各节说明了适用于支持的输出格式的选项。
 
-- **[AEM網站](generate-output-aem-site.md)**
+- **[AEM站点](generate-output-aem-site.md)**
 
 - **[PDF](generate-output-pdf.md)**
 
@@ -35,4 +35,4 @@ AEM Guides支援以最常用的格式建立輸出，例如AEM Site、PDF、HTML5
 - **[JSON](generate-output-json.md)**
 
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

@@ -1,6 +1,6 @@
 ---
-title: 建立及使用條件
-description: 瞭解如何建立條件，然後在中設定條件式內容產生 [!DNL AEM Guides]
+title: 创建和使用条件
+description: 了解如何创建条件，然后在中设置条件内容生成 [!DNL AEM Guides]
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
@@ -10,33 +10,33 @@ ht-degree: 0%
 
 ---
 
-# 建立和使用條件並產生條件輸出
+# 创建和使用条件并生成条件输出
 
-**使用案例**
+**用例**
 
-* 作者可以對內容片段設定條件，以便控制該內容是否顯示在輸出中。
+* 作者可以对一段内容设置条件，以便控制该内容是否显示在输出中。
 
-* 作者可以在發佈時選擇顯示/隱藏不同的條件。
+* 作者可以在发布时选择显示/隐藏不同的条件。
 
-* 例如，作者可以在內容中新增屬性為1.0版和2.0版，並使用條件來包括1.0版的1.0版和排除2.0版。
+* 例如，作者可以在内容中添加属性作为版本1.0和版本2.0，并使用条件包括版本1.0的版本1.0和排除版本2.0。
 
 **步骤 1**
 
-在中定義與檔案相關的條件 [!UICONTROL 資料夾設定檔]：請參閱區段 **設定全域或資料夾層級設定檔的條件屬性** 在 [安裝及設定指南的第64頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
+在中定义与文档相关的条件 [!UICONTROL 文件夹配置文件]：请参阅部分 **为全局或文件夹级别的配置文件配置条件属性** 在 [安装和配置指南第64页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_Installation-Configuration-Guide_EN.pdf)
 
-![在資料夾設定檔中設定條件](assets/conditions-in-profiles.png)
+![在文件夹配置文件中配置条件](assets/conditions-in-profiles.png)
 
-**步驟2**
+**步骤2**
 
-選取 **[!UICONTROL 資料夾設定檔]** 中的步驟1所定義 **使用者偏好設定** 在XML編輯器中：請參閱區段 **使用者偏好設定** 在 [使用手冊第39頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)
+选择 **[!UICONTROL 文件夹配置文件]** 中的步骤1中定义 **用户首选项** 在XML编辑器中：请参阅部分 **用户首选项** 在 [用户指南第39页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)
 
 
-**步驟3**
+**步骤3**
 
-使用條件來條件化內容的區段：請參閱區段 **條件** 在 [使用手冊第81頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)
+使用条件对内容的各个部分进行条件化：请参阅部分 **条件** 在 [用户指南第81页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)
 
-![在網頁編輯器中使用條件](assets/conditions-in-web-editor.png)
+![Web编辑器中的使用条件](assets/conditions-in-web-editor.png)
 
-**步驟4**
+**步骤4**
 
-在對應層級定義條件預設集，以選擇要在輸出中啟用哪些條件：請參閱區段 **使用條件預設集** 在 [使用手冊第184頁](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)
+在映射级别定义条件预设以选择要在输出中启用的条件：请参阅部分 **使用条件预设** 在 [用户指南第184页](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/3-8/XML-Documentation-for-Adobe-Experience-Manager_User-Guide_EN.pdf)

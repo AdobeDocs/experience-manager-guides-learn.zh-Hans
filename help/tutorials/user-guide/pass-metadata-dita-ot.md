@@ -1,6 +1,6 @@
 ---
-title: 使用DITA-OT將中繼資料傳遞至輸出
-description: 瞭解如何使用DITA-OT將中繼資料傳遞至輸出
+title: 使用DITA-OT将元数据传递到输出
+description: 了解如何使用DITA-OT将元数据传递到输出
 exl-id: 637895e5-aece-4827-a32e-f2ae3e3704ef
 source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
 workflow-type: tm+mt
@@ -9,37 +9,37 @@ ht-degree: 0%
 
 ---
 
-# 使用DITA-OT將中繼資料傳遞至輸出 {#id21BJ00QD0XA}
+# 使用DITA-OT将元数据传递到输出 {#id21BJ00QD0XA}
 
-中繼資料是關於輸出的其他資訊。 在AEM Guides中，您可以傳遞現有的中繼資料或建立自訂中繼資料標籤。 您可以使用DITA-OT發佈將中繼資料傳遞至AEM、PDF、HTML5、EPUB和自訂格式輸出。
+元数据是关于输出的其他信息。 在AEM Guides中，您可以传递现有元数据或创建自定义元数据标记。 您可以使用DITA-OT发布将元数据传递到AEM、PDF、HTML5、EPUB和自定义格式输出。
 
-執行以下步驟，使用DITA-OT發佈將中繼資料傳遞至輸出：
+执行以下步骤，使用DITA-OT发布将元数据传递到输出：
 
-1. 在 **Assets UI**，導覽至您要為其將中繼資料傳遞至DITA-OT的DITA map檔案，並按一下該檔案。
-1. 選取並編輯您要傳遞中繼資料欄位的輸出預設集。 例如，選取「PDF輸出預設集」。
-1. 選取 **DITA-OT** 在「產生」下 &lt;output> 使用所選輸出預設集中的選項。
+1. 在 **Assets UI**，导航到要为其将元数据传递到DITA-OT的DITA映射文件并单击该文件。
+1. 选择并编辑要将元数据字段传递到其中的输出预设。 例如，选择PDF输出预设。
+1. 选择 **DITA-OT** 在“生成”下 &lt;output> 使用所选输出预设中的选项。
 
    ![](images/custom-meta-data-output-preset.png){width="800" align="left"}
 
-1. 從屬性下拉式清單中選取您要傳遞至DITA-OT發佈的中繼資料。
+1. 从属性下拉列表中选择要传递到DITA-OT发布的元数据。
 
-   「屬性」下拉式清單會列出自訂和預設屬性。 例如，在上述熒幕擷圖作者中，是自訂屬性，而 `dc:description`， `dc:language`， `dc:title`、和 `docstate` 是預設屬性。
+   “属性”下拉列表同时列出了自定义属性和默认属性。 例如，在上面的屏幕快照中，作者是自定义属性，而 `dc:description`， `dc:language`， `dc:title`、和 `docstate` 是默认属性。
 
    >[!NOTE]
    >
-   > 這些屬性是從以下位置可用的metadataList檔案中挑選的：`/libs/fmdita/config/metadataList`. 依預設，此檔案中列出四個屬性 —  `dc:description`， `dc:language`， `dc:title`、和 `docstate`.
+   > 这些属性是从位于以下位置的metadataList文件中挑选的：`/libs/fmdita/config/metadataList`. 默认情况下，此文件中列出四个属性 —  `dc:description`， `dc:language`， `dc:title`、和 `docstate`.
 
-   此檔案可覆蓋於： `/apps/fmdita/config/metadataList`.
+   此文件可以覆盖在： `/apps/fmdita/config/metadataList`.
 
-   若要傳遞您已為其定義值的自訂屬性，請參閱 [在DITA-OTPDF輸出中使用AEM中繼資料](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
+   要传递已为其定义值的自定义属性，请参阅 [在DITA-OTPDF输出中使用AEM元数据](https://experienceleaguecommunities.adobe.com/t5/xml-documentation-discussions/use-aem-metadata-in-dita-ot-pdf-output/td-p/411880).
 
-1. 從 **屬性** 在下拉式清單中，選取所需的自訂和預設屬性。 例如，選取 `author`， `dc:title`、和 `dc:description`. 這些是標準 `metadata/properties` 建立檔案後便會建立該檔案。 選取的屬性會列在Dropbox下方。
+1. 从 **属性** 在下拉列表中，选择所需的自定义属性和默认属性。 例如，选择 `author`， `dc:title`、和 `dc:description`. 这些是标准 `metadata/properties` 创建文件后就会创建该文件。 选定的属性列在投放框的下方。
 
    ![](images/selected-metadata-properties.png){width="300" align="left"}
 
-1. 按一下 **完成** 以儲存變更。
-1. 產生輸出。
+1. 单击 **完成** 以保存更改。
+1. 生成输出。
 
-所選的中繼資料屬性將傳遞至使用DITA-OT產生的輸出。
+所选元数据属性将传递到使用DITA-OT生成的输出。
 
-**父級主題：**[&#x200B;輸出產生](generate-output.md)
+**父主题：**[&#x200B;输出生成](generate-output.md)

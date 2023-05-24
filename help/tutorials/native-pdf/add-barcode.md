@@ -1,6 +1,6 @@
 ---
-title: 原生PDF發佈功能 |新增條碼
-description: 瞭解如何新增條碼。
+title: 本机PDF发布功能 |添加条形码
+description: 了解如何添加条形码。
 source-git-commit: 6cea7a92eed8f7b1d4a0763baae65ccccd71790e
 workflow-type: tm+mt
 source-wordcount: '294'
@@ -8,19 +8,19 @@ ht-degree: 2%
 
 ---
 
-# 將條碼新增至PDF輸出
+# 向PDF输出添加条形码
 
-條碼可用來包含易於機器處理的資訊。 同樣地，QR碼也用於讀者可以用行動裝置開啟的連結。
+条形码可用于包含易于由机器处理的信息。 同样，二维码用于读者可以通过移动设备打开的链接。
 
-本教學課程可協助您在PDF輸出的每個頁面上方新增條碼。
+本教程可帮助您在PDF输出的每页上方添加条形码。
 
-## 產生條碼的步驟
+## 生成条形码的步骤
 
-若要產生條碼，請執行下列步驟：
+要生成条形码，请执行以下步骤：
 
-### 將資源ID新增至DITA map
+### 向DITA映射添加资源ID
 
-將資源ID元素新增至DITA map。 資源ID會作為產生條碼的主要輸入。
+向DITA映射中添加资源ID元素。 资源ID用作生成条形码的主输入。
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,14 +36,14 @@ ht-degree: 2%
 </map>  
 ```
 
-您也可以在編寫模式下編輯資源ID。
+您还可以在“创作”模式下编辑资源ID。
 
-<img src="./assets/barcode-map.png" alt="具條碼的範例輸出" width="700">
+<img src="./assets/barcode-map.png" alt="带条形码的示例输出" width="700">
 
 
-### 在範本標題中新增條碼預留位置
+### 在模板标题中添加条形码占位符
 
-修改 `Common.plt` 中的檔案 **基本** 範本以在專案標題後新增條碼。
+修改 `Common.plt` 中的文件 **基本** 用于在项目标题后添加条形码的模板。
 
 ```html
 ...
@@ -56,9 +56,9 @@ ht-degree: 2%
 ```
 
 
-### 更新範本的CSS以演算條碼值
+### 更新模板的CSS以渲染条形码值
 
-修改 `content.css` 在產生PDF期間呈現條碼的檔案。 支援各種條碼型別，例如「qrcode」和「pdf417」。  如需詳細資訊，請參閱 [條碼型別](#barcode-types).
+修改 `content.css` 文件以在PDF生成期间呈现条形码。 支持各种条形码类型，如“qrcode”和“pdf417”。  有关更多详细信息，请参阅 [条形码类型](#barcode-types).
 
 
 
@@ -71,41 +71,41 @@ ht-degree: 2%
 ...
 ```
 
-執行完上述步驟後，即可使用條碼產生PDF輸出。
+执行上述步骤后，可以使用条形码生成PDF输出。
 
-以下熒幕擷圖顯示PDF輸出中的範例條碼。
+以下屏幕快照在PDF输出中显示一个条形码示例。
 
-<img src="./assets/barcode-output-sample.png" alt="具條碼的範例輸出" width="700">
+<img src="./assets/barcode-output-sample.png" alt="带条形码的示例输出" width="700">
 
 
-## 條碼型別 {#barcode-types}
+## 条形码类型 {#barcode-types}
 
-| 类型 | CSS屬性 | 其他屬性 |
+| 类型 | CSS属性 | 其他属性 |
 | ------------------------------- | ----------------------- | -------------------------- |
-| QR碼 | qrcode |  |
+| QR代码 | qrcode |  |
 | PDF417 | pdf417 |  |
-| DataMatrix | data-matrix |  |
-| Aztec代碼 | aztec-code |  |
-| 格點矩陣 | 格點矩陣 |  |
+| DataMatrix | 数据矩阵 |  |
+| Aztec代码 | aztec-code |  |
+| 网格矩阵 | 网格矩阵 |  |
 | Maxicode | maxicode mode-4 |  |
 | Micro QR | microqr |  |
-| 程式碼1 | code-one |  |
-| 程式碼區塊F | codablockf |  |
-| GS1資料庫有限公司 | 資料庫限制 |  |
-| GS1資料庫全方向 | 資料庫全方向 |  |
+| 代码1 | code-one |  |
+| 代码块F | codablockf |  |
+| GS1数据库有限公司 | 数据库限制 |  |
+| GS1数据库全方向 | 数据库全方向 |  |
 | EAN-13 | ean-13 |  |
 | GS1-128 (EAN-128) | code128 | -ro-barcode-encoding： gs1； |
 | ITF-14 | itf14 |  |
 | UPC-A | upc-a |  |
-| 代碼128 | code128 |  |
-| 交錯式2/5 | code2of5交錯 |  |
+| 代码128 | code128 |  |
+| 交错的2个，共5个 | code2of5交错 |  |
 | POSTNET | postnet |  |
-| 荷蘭文Post Kixcode | kixcode |  |
-| 韓國郵政 | 韓國 — 郵政 |  |
-| 德國郵遞區號 | dp-leitcode |  |
-| 澳洲郵政 | auspost |  |
+| 荷兰语Post Kixcode | kixcode |  |
+| 《韩国邮报》 | 韩国 — 邮政 |  |
+| 德国邮政编码 | dp-leitcode |  |
+| 《澳大利亚邮报》 | 奥斯波特 |  |
 | Logmars | logmars |  |
 | Pharmacode | pharmacode |  |
-| USPS OneCode （智慧型郵件） | usps-onecode |  |
+| USPS OneCode（智能邮件） | usps-onecode |  |
 
 

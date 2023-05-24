@@ -1,6 +1,6 @@
 ---
-title: 設定AEM Assets UI的搜尋
-description: 瞭解如何設定AEM Assets UI的搜尋
+title: 配置AEM Assets UI搜索
+description: 了解如何配置AEM Assets UI的搜索
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '1697'
@@ -9,258 +9,258 @@ ht-degree: 1%
 ---
 
 
-# 設定AEM Assets UI的搜尋 {#id192SC800MY4}
+# 配置AEM Assets UI搜索 {#id192SC800MY4}
 
-依預設，AEM不會識別DITA內容，因此不會提供任何機制來搜尋其存放庫內的DITA內容。 AEM Guides可讓您在AEM存放庫中新增DITA內容搜尋功能。
+默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 AEM Guides允许您在AEM存储库中添加DITA内容搜索功能。
 
-依預設，AEM不會識別DITA內容，因此不會提供任何機制來搜尋其存放庫內的DITA內容。 此外，也沒有OOTB功能可根據其UUID搜尋內容。 AEM Guides可讓您在AEM存放庫中新增DITA內容搜尋和UUID型搜尋功能。
+默认情况下，AEM不识别DITA内容，因此，它不提供任何机制来搜索其存储库中的DITA内容。 此外，还没有OOTB功能可根据其UUID搜索内容。 AEM Guides允许您在AEM存储库中添加DITA内容搜索和基于UUID的搜索功能。
 
-設定DITA內容搜尋涉及下列工作：
+配置DITA内容搜索涉及以下任务：
 
-1. [在Assets UI中新增DITA元素搜尋元件](#id192SF0F50HS)
-1. [在Assets UI中新增UUID型搜尋元件](#id2034F04K05Z)
-1. [為使用者提供許可權](#id192SF0G0RUI)
-1. [在搜尋中新增自訂元素或屬性](#id192SF0G10YK)
-1. [從現有內容擷取中繼資料](#id192SF0GA0HT)
+1. [在Assets UI中添加DITA元素搜索组件](#id192SF0F50HS)
+1. [在Assets UI中添加基于UUID的搜索组件](#id2034F04K05Z)
+1. [向用户提供权限](#id192SF0G0RUI)
+1. [在搜索中添加自定义元素或属性](#id192SF0G10YK)
+1. [从现有内容提取元数据](#id192SF0GA0HT)
 
-除了新增搜尋功能外，您還可以設定不應包含在搜尋中的資料夾。 如需詳細資訊，請參閱 [從搜尋結果中排除暫存檔](#id197AHI0035Z).
+除了添加搜索功能外，您还可以配置不应包含在搜索中的文件夹。 有关更多详细信息，请参阅 [从搜索结果中排除临时文件](#id197AHI0035Z).
 
-## 在Assets UI中新增DITA元素搜尋元件 {#id192SF0F50HS}
+## 在Assets UI中添加DITA元素搜索组件 {#id192SF0F50HS}
 
-執行下列動作，在AEM Assets UI中新增DITA內容搜尋元件：
+执行以下操作以在AEM Assets UI中添加DITA内容搜索组件：
 
-1. 以管理員身分登入Adobe Experience Manager。
+1. 以管理员身份登录Adobe Experience Manager。
 
-1. 按一下 **Adobe Experience Manager** 在頂端連結，然後選擇 **工具**.
+1. 单击 **Adobe Experience Manager** 在顶部链接，然后选择 **工具**.
 
-1. 選取 **一般** 從工具清單中按一下 **搜尋Forms** 圖磚。
+1. 选择 **常规** 从工具列表中单击 **搜索Forms** 图块。
 
-1. 在 **搜尋Forms** 清單中，選取 **資產管理搜尋邊欄**.
+1. 在 **搜索Forms** 列表中，选择 **资产管理搜索边栏**.
 
-1. 按一下 **編輯**.
-1. 在 **選取述詞** 標籤，捲動至清單結尾。
+1. 单击 **编辑**.
+1. 在 **选择谓词** 选项卡，滚动到列表的结尾。
 
-1. 拖放 **DITA元素述詞** 在搜尋表單的所需位置。
+1. 拖放 **DITA元素谓词** 在搜索表单中的所需位置。
 
    ![](assets/drag-search-predicate.png){width="650" align="left"}
 
-1. 按一下 **完成** 以儲存變更。
+1. 单击 **完成** 以保存更改。
 
-   當您存取「資產」UI中的「篩選器」選項時，將會取得DITA元素搜尋篩選選項。
+   当您访问资产UI中的过滤器选项时，您将获得DITA元素搜索过滤选项。
 
    ![](assets/search-filter-asset-console.png){width="350" align="left"}
 
 
-## 在Assets UI中新增UUID型搜尋元件 {#id2034F04K05Z}
+## 在Assets UI中添加基于UUID的搜索组件 {#id2034F04K05Z}
 
-執行以下動作，在AEM Assets UI中新增UUID型搜尋元件：
+执行以下操作可在AEM Assets UI中添加基于UUID的搜索组件：
 
-1. 以管理員身分登入Adobe Experience Manager。
+1. 以管理员身份登录Adobe Experience Manager。
 
-1. 按一下 **Adobe Experience Manager** 在頂端連結，然後選擇 **工具**.
+1. 单击 **Adobe Experience Manager** 在顶部链接，然后选择 **工具**.
 
-1. 選取 **一般** 從工具清單中按一下 **搜尋Forms** 圖磚。
+1. 选择 **常规** 从工具列表中单击 **搜索Forms** 图块。
 
-1. 在 **搜尋Forms** 清單中，選取 **資產管理搜尋邊欄**.
+1. 在 **搜索Forms** 列表中，选择 **资产管理搜索边栏**.
 
-1. 按一下 **編輯**.
-1. 在 **選取述詞** 索引標籤，選擇 **屬性述詞** 並將它拖放至搜尋表單中的所需位置。
+1. 单击 **编辑**.
+1. 在 **选择谓词** 选项卡，选择 **属性谓词** 并将其拖放到搜索表单中的所需位置。
 
-1. 在 **設定** 索引標籤中，為新新增的提供下列詳細資訊 **屬性述詞** 元件：
+1. 在 **设置** 选项卡中，为新添加的用户提供以下详细信息 **属性谓词** 组件：
 
-   - **欄位標籤**： UUID
-   - **屬性名稱**： jcr：content/fmUuid
-1. 按一下 **完成** 以儲存變更。
+   - **字段标签**： UUID
+   - **属性名称**： jcr：content/fmUuid
+1. 单击 **完成** 以保存更改。
 
-   當您存取Assets UI中的「篩選器」選項時，您將會取得以UIS為基礎的搜尋篩選選項。
+   当您访问Assets UI中的过滤器选项时，您将获得基于UIS的搜索过滤选项。
 
 
-## 為使用者提供許可權 {#id192SF0G0RUI}
+## 向用户提供权限 {#id192SF0G0RUI}
 
-作者和發佈者需要獲得明確許可權，才能從Assets UI存取搜尋功能。 如果您不授予這些許可權，則您的使用者將無法根據其元素/屬性值或UUID搜尋DITA內容。
+作者和发布者需要获得明确权限，才能从Assets UI访问搜索功能。 如果不授予这些权限，则用户将无法根据其元素/属性值或UUID搜索DITA内容。
 
-執行下列步驟以提供對DITA搜尋功能的存取權：
+执行以下步骤以提供对DITA搜索功能的访问权限：
 
-1. 存取使用者和群組許可權頁面。 存取頁面的預設URL為：
+1. 访问用户和群组权限页面。 访问页面的默认URL为：
 
    `http://<server name>:<port>/useradmin.html`
 
-1. 搜尋您要授予存取權的使用者群組或個別使用者。 例如，若要授與作者群組中所有使用者的存取權，請在 **篩選查詢** 欄位並按 **輸入**.
+1. 搜索要向其授予访问权限的用户组或个人用户。 例如，要授予作者组中所有用户的访问权限，请在 **筛选查询** 字段并按 **输入**.
 
    ![](assets/authors-group-permission.png){width="350" align="left"}
 
-1. 選取 **作者** 群組。
+1. 选择 **作者** 组。
 
-1. 在右窗格中，選取 **許可權** 標籤。
+1. 在右窗格中，选择 **权限** 选项卡。
 
-1. 導覽至下列資料夾位置：
+1. 导航到以下文件夹位置：
 
    /conf/global/settings/dam/search
 
-1. 提供 **讀取** 搜尋資料夾的許可權。
+1. 授予 **读取** 对搜索文件夹的权限。
 
    ![](assets/read-permission-authors.png){width="650" align="left"}
 
 1. 单击“**保存**”。
 
 
-選取的使用者或使用者群組現在可以存取Assets UI中的搜尋DITA內容功能。
+现在，选定的用户或用户组将有权访问资产UI中的搜索DITA内容功能。
 
-## 在搜尋中新增自訂元素或屬性 {#id192SF0G10YK}
+## 在搜索中添加自定义元素或属性 {#id192SF0G10YK}
 
-為了讓DITA搜尋發揮作用，需要對DITA內容進行一些預先處理。 此預先處理步驟會從個別DITA map和主題中擷取選擇性內容，以便索引以加快搜尋。 在內部，此程式稱為 *序列化*. DITA檔案的序列化會在內容上傳期間發生，也可以隨選執行。 它使用組態檔案來決定每個DITA檔案中應該索引多少內容。 序列化檔案的預設位置為：
+要使DITA搜索正常工作，需要对DITA内容进行一些预处理。 此预处理步骤从各个DITA映射和主题中提取选择性内容，以便可以编制索引以便更快地搜索。 在内部，此过程称为 *序列化*. DITA文件的序列化在内容上传期间发生，也可以根据需要执行。 它使用配置文件来确定每个DITA文件中应该索引多少内容。 序列化文件的默认位置为：
 
 /libs/fmdita/config/serializationconfig.xml
 
-預設搜尋組態可讓您搜尋DITA內的所有元素和屬性 `prolog` 元素。 如果您要根據其他元素或屬性進行搜尋，則需要設定搜尋序列化檔案。
+默认搜索配置允许您搜索DITA中的所有元素和属性 `prolog` 元素。 如果要基于其他元素或属性进行搜索，则需要配置搜索序列化文件。
 
 >[!NOTE]
 >
-> 如果您想使用中的預設搜尋設定 `prolog` 元素，則您可以略過此程式。
+> 如果您希望使用 `prolog` 元素，则可以跳过此过程。
 
-此檔案包含兩個主要區段：屬性集和規則集。 規則集區段的程式碼片段如下所示：
+此文件包含两个主要部分 — 属性集和规则集。 下面给出了规则集部分的代码片段：
 
 ```XML
 <ruleset filetypes="xml dita"><!-- Element rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]//*[not(*)]" text="yes" attributeset="all-attrs" /><!-- Attribute rules --><rule xpath="//[contains(@class, 'topic/topic')]/[contains(@class, 'topic/prolog')]///@[local-name() != 'class']" /></ruleset>
 ```
 
-在規則集段落中，您可以指定：
+在规则集部分中，您可以指定：
 
-- 擷取元素的規則
+- 用于提取元素的规则
 
-- 擷取屬性的規則
+- 用于提取属性的规则
 
 
-規則包含下列專案：
+规则包含以下内容：
 
-xpath ：這是從DITA檔案中擷取元素或屬性的XPath查詢。 元素規則的預設設定會擷取全部 `prolog` 元素。 而且，屬性規則的預設設定會擷取所有屬性 `prolog` 元素。 您可以指定XPath查詢來序列化您要搜尋的元素或屬性。
+xpath ：这是从DITA文件中检索元素或属性的XPath查询。 元素规则的默认配置将检索所有 `prolog` 元素。 而且，属性规则的默认配置将检索 `prolog` 元素。 您可以指定XPath查询来序列化要搜索的元素或属性。
 
-    XPath查詢包含檔案型別的類別名稱。 「主題/主題」類別用於主題型別DITA檔案。 如果要為其他DITA檔案建立規則，則必須使用下列類別名稱：
+    XPath查询包含文档类型的类名。 “topic/topic”类用于主题类型DITA文档。 如果要为其他DITA文档创建规则，则必须使用以下类名：
     
-    |檔案型別|類別名稱|
+    文档类型|类名|
     -------------|----------|
-    |主題| — 主題/主題|
-    |任務| — 主題/主題任務/任務|
-    |概念| — 主題/主題概念/概念|
-    |參考| — 主題/主題參考/參考|
-    地圖|Map| — 地圖/地圖|
+    主题 — 主题/主题
+    任务| — 主题/主题任务/任务|
+    |概念| — 主题/主题概念/概念|
+    引用 — 主题/主题引用/引用
+    地图 — 地图
 
-文字：如果您想要搜尋指定元素內的文字，請指定yes值。 如果您指定no作為值，則只會序列化元素內的屬性。 您要在屬性集區段中搜尋的屬性需要指定。
+文本：如果要搜索指定元素中的文本，请指定是值。 如果指定no作为值，则只序列化元素中的属性。 需要在“属性集”部分指定您要搜索的属性。
 
-attributeset ：指定您要與此規則產生關聯的屬性集ID。 all-attrs值是特殊情況，表示此規則的所有屬性都必須序列化。
+属性集：指定要与此规则关联的属性集的ID。 all-attrs值是一个特殊的大小写，表示必须序列化此规则的所有属性。
 
-屬性集包含您要在DITA內容中搜尋的屬性清單。 屬性集包含下列內容：
+属性集包含要在DITA内容中搜索的属性列表。 属性集包含以下内容：
 
-id ：屬性集的唯一識別碼。 此ID是在規則集的屬性集引數中指定的。
+id ：属性集的唯一标识符。 此ID在规则集的属性集参数中指定。
 
-attribute ：您要搜尋的屬性清單。 對於每個屬性，您都需要在 `attribute` 元素。
+attribute ：要搜索的属性列表。 对于每个属性，您需要在每个属性的 `attribute` 元素。
 
-執行以下步驟，在搜尋序列化檔案中新增自訂DITA元素或屬性：
+执行以下步骤以在搜索序列化文件中添加自定义DITA元素或属性：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 導覽至序列化組態檔，可從下列位置取得：
+1. 导航到位于以下位置的序列化配置文件：
 
    /libs/fmdita/config/serializationconfig.xml
 
-1. 建立「 」的覆蓋節點 `config` 內的資料夾 `apps` 節點。
+1. 创建覆盖节点，用于 `config` 中的文件夹 `apps` 节点。
 
-1. 導覽至「 」中可用的設定檔 `apps` 節點：
+1. 导航到 `apps` 节点：
 
    `/apps/fmdita/config/serializationconfig.xml`
 
-1. 新增必要的元素或屬性規則集。
+1. 添加所需的元素或属性规则集。
 
 1. 保存文件。
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。 存取設定頁面的預設URL為：
+1. 打开“Adobe Experience Manager Web控制台配置”页面。 用于访问配置页面的默认URL是：
 
    http://&lt;server name=&quot;&quot;>：&lt;port>/system/console/configMgr
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.config.ConfigManager* 捆绑。
 
 1. 单击“**保存**”。
 
 
-儲存並啟動新的序列化資訊以進行搜尋。 不過，您必須從現有DITA內容擷取中繼資料，才能用於搜尋。
+存储并激活新的序列化信息以进行搜索。 但是，必须从现有DITA内容中提取元数据才能用于搜索。
 
-## 從現有內容擷取中繼資料 {#id192SF0GA0HT}
+## 从现有内容提取元数据 {#id192SF0GA0HT}
 
-在預設搜尋序列化檔案中進行任何變更後，您必須在以下位置啟用DITA中繼資料擷取選項： *com.adobe.fmdita.config.ConfigManager* 套件組合，然後執行工作流程以擷取中繼資料。 這會從現有DITA檔案中擷取所需的中繼資料，然後可搜尋相同的中繼資料。
+在默认搜索序列化文件中做出任何更改后，必须在中启用DITA元数据提取选项 *com.adobe.fmdita.config.ConfigManager* 捆绑，然后运行工作流以提取元数据。 这将从现有DITA文件中提取所需的元数据，然后可搜索该元数据。
 
-如果您在更新序列化檔案之後建立新檔案或編輯任何檔案，則會自動從此類檔案中擷取中繼資料。 只有AEM存放庫中已存在的檔案才需要擷取中繼資料的程式。
+如果在更新序列化文件后创建新文件或编辑任何文件，则会自动从此类文件中提取元数据。 只有AEM资料档案库中已存在的文件才需要提取元数据的过程。
 
-從現有DITA檔案擷取中繼資料涉及兩個工作：
+从现有DITA文件提取元数据涉及两个任务：
 
-1. 在configMgr中啟用中繼資料擷取選項
-1. 執行中繼資料擷取工作流程
+1. 在configMgr中启用元数据提取选项
+1. 运行元数据提取工作流
 
-執行以下步驟，在configMgr中啟用中繼資料擷取選項：
+执行以下步骤，在configMgr中启用元数据提取选项：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。 存取設定頁面的預設URL為：
+1. 打开“Adobe Experience Manager Web控制台配置”页面。 用于访问配置页面的默认URL是：
 
    http://&lt;server name=&quot;&quot;>：&lt;port>/system/console/configMgr
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.config.ConfigManager* 捆绑。
 
-1. 選取 **啟用DITA中繼資料擷取** 選項。
+1. 选择 **启用DITA元数据提取** 选项。
 
 1. 单击“**保存**”。
 
 
-執行以下步驟以執行中繼資料擷取工作流程：
+执行以下步骤以运行元数据提取工作流：
 
-1. 以管理員身分登入Adobe Experience Manager。
+1. 以管理员身份登录Adobe Experience Manager。
 
-1. 按一下 **Adobe Experience Manager** 在頂端連結，然後選擇 **工具**.
+1. 单击 **Adobe Experience Manager** 在顶部链接，然后选择 **工具**.
 
-1. 選取 **指南** 從工具清單中按一下 **DITA中繼資料擷取** 圖磚。
+1. 选择 **指南** 在工具列表中，单击 **DITA元数据提取** 图块。
 
-1. 如果您想要從單一檔案及其相依性擷取中繼資料，請按一下 **選取檔案** 連結並瀏覽檔案。
+1. 如果要从单个文件及其依赖项中提取元数据，请单击 **选择文件** 链接并浏览文件。
 
-1. 如果您想要從資料夾內的多個檔案擷取中繼資料，請按一下 **選取資料夾** 連結，瀏覽並選取所需的資料夾。 按一下 **新增** 按鈕以將資料夾新增至序列化工作清單。
+1. 如果要从文件夹中的多个文件中提取元数据，请单击 **选择文件夹** 链接，浏览并选择所需的文件夹。 单击 **添加** 按钮以将文件夹添加到序列化任务列表。
 
    >[!NOTE]
    >
-   > 您可以選取多個資料夾並將其新增至序列化任務。
+   > 您可以选择多个文件夹并将其添加到序列化任务。
 
-1. 按一下 **開始**.
+1. 单击 **开始**.
 
-1. 在確認中繼資料擷取對話方塊中，按一下 **確定**.
+1. 在确认元数据提取对话框中，单击 **确定**.
 
 
-## 從搜尋結果中排除暫存檔 {#id197AHI0035Z}
+## 从搜索结果中排除临时文件 {#id197AHI0035Z}
 
-依預設，會在整個AEM存放庫上執行搜尋。 可能有部分位置您想從搜尋中排除。 例如，當您啟動內容翻譯工作流程時，未核准的檔案會保留在暫存資料夾位置。 執行搜尋時，搜尋結果中也會傳回來自此暫存位置的檔案。
+默认情况下，将对整个AEM存储库执行搜索。 可能有一些位置要从搜索中排除。 例如，在启动内容翻译工作流时，未批准的文件将保留在临时文件夹位置。 执行搜索时，搜索结果中还会返回来自此临时位置的文件。
 
-為了防止AEM Guides搜尋暫存翻譯資料夾位置，您需要在排除清單中新增暫存資料夾位置。
+要阻止AEM Guides搜索临时翻译文件夹位置，您需要在排除列表中添加临时文件夹位置。
 
-執行以下步驟，從搜尋中排除暫存翻譯資料夾：
+执行以下步骤，从搜索中排除临时翻译文件夹：
 
 >[!NOTE]
 >
-> 您可以使用此程式將任何其他資料夾位置新增至排除清單。
+> 您可以使用此过程将任何其他文件夹位置添加到排除列表。
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 導覽至下列位置提供的damAssetLucene節點：
+1. 导航到位于以下位置的damAssetLucene节点：
 
    /oak:index/damAssetLucene
 
-1. 在damAssetLucene節點中新增以下屬性：
+1. 在damAssetLucene节点中添加以下属性：
 
    | 属性名称 | 类型 | 价值 |
    |-------------|----|-----|
-   | excludedPaths | 字符串\[\] | 將下列值新增至此屬性： <br>/content/dam/projects/translation\_output |
+   | excludedPaths | 字符串\[\] | 将以下值添加到此属性： <br>/content/dam/projects/translation\_output |
 
-1. 導覽至下列位置提供的lucene節點：
+1. 导航到在以下位置可用的lucene节点：
 
    /oak：index/lucene
 
-1. 在lucene節點中新增以下屬性：
+1. 在lucene节点中添加以下属性：
 
    | 属性名称 | 类型 | 价值 |
    |-------------|----|-----|
-   | excludedPaths | 字符串\[\] | 將下列值新增至此屬性： <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
+   | excludedPaths | 字符串\[\] | 将以下值添加到此属性： <br><ul><li>/var/dxml</li><li>/content/dam/projects/translation\_output</li></ul> |
 
 

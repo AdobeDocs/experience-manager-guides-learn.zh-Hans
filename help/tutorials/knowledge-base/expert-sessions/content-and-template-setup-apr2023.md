@@ -1,6 +1,6 @@
 ---
-title: 內容和範本設定
-description: 瞭解在AEM Guides中設定內容和範本時應考慮哪些事項。
+title: 内容和模板设置
+description: 了解在AEM Guides中设置内容和模板时应考虑哪些事项。
 source-git-commit: 87c92776f417aba49096b447baf81916dea5d57f
 workflow-type: tm+mt
 source-wordcount: '289'
@@ -8,20 +8,20 @@ ht-degree: 1%
 
 ---
 
-# AEM Guides中的內容與範本設定
+# AEM Guides中的内容和模板设置
 
-為了支援提供給使用者的各種檔案型別，您在系統中管理的內容量不僅要求作者將內容分類，以便在需要時輕鬆追蹤和變更，還要求作者能夠建立新/類似檔案，而無需從頭開始撰寫。
-
-
-## 工作階段概觀
-
-在本次研討會中，我們廣泛涵蓋下列內容：
-- 內容設定的不同層面（分類、分類、中繼資料）
-- 設定內容範本（主題範本、地圖範本、代碼片段）
+为了支持交付给最终用户的各种文档类型，您在系统中管理的内容量不仅要求作者对内容进行分类，以便在需要时轻松跟踪和更改，还要求作者能够创建新/类似文档，而无需从头开始编写。
 
 
+## 会话概述
 
-## 工作階段錄製
+在本届会议上，我们广泛讨论了以下问题：
+- 内容设置的不同方面（分类、分类、元数据）
+- 设置内容模板（主题模板、映射模板、代码片段）
+
+
+
+## 会话录制
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419004/guides-templates-author-templates?quality=12&learn=on)
 
@@ -29,45 +29,45 @@ ht-degree: 1%
 ## 高亮
 
 - **日期** - 2023年4月27日
-- **出席者人數** - 70
-- **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **与会者人数** - 70
+- **持续时间** - 60分钟
+- **Audience**  — 客户、合作伙伴和Adobe员工
 
 
 ## 要点
 
-在本次研討會中，您已瞭解下列內容：
-- 在匯入/建立內容之前花時間進行分析並思考
-- 為內容分類及分類以符合不同的使用者區段（一般使用者或作者）
-- 運用中繼資料功能提高使用者生產力
-- 儘可能建立預先建立的製作範本，為作者提供引導式體驗
-- 由於SME會鎖定使用者群組要使用的範本
-- 以最佳方式自訂撰寫體驗
+在本次研讨会中，您学习了以下内容：
+- 在导入/创建内容之前花费时间来分析和思考
+- 对内容进行分类和分类，以满足不同用户区段（最终用户或作者）的需求
+- 利用元数据功能提高用户生产效率
+- 尽可能创建预建的创作模板，为作者提供引导式体验
+- 由于SME定位用户组要使用的模板
+- 优化自定义创作体验
 
 
 
-## 相關資源
+## 相关资源
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
+- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **使用手冊** - [作者內容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
+- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
-- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪  [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
-> 下列版本的AEM Guides提供本工作階段中顯示的功能：
-> - 內部部署： 4.2或更新版本
-> - Cloud Services：2303或更新版本
+> 此会话中显示的功能在以下版本的AEM Guides中可用：
+> - 内部部署：4.2或更高版本
+> - Cloud Services：2303或更高版本
 
 
 
-## 下一次專家會議
+## 下一次专家会议
 
-- **主題**  — 原生PDF發佈 — 以範例學習（第1部分）
-- **排程日期** - 2023年6月01日
+- **主题**  — 本机PDF发布 — 按示例学习（第1部分）
+- **计划日期** - 2023年6月1日
 
 
-## 聯絡我們
+## 联系我们
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>

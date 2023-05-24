@@ -1,6 +1,6 @@
 ---
-title: 根據UUID設定自動檔案名稱
-description: 瞭解如何根據UUID設定自動檔案名稱
+title: 根据UUID配置自动文件名
+description: 了解如何根据UUID配置自动文件名
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '217'
@@ -9,30 +9,30 @@ ht-degree: 0%
 ---
 
 
-# 根據UUID設定自動檔案名稱 {#id205QG070D5Z}
+# 根据UUID配置自动文件名 {#id205QG070D5Z}
 
-根據預設，建立主題或地圖檔案時，作者也可以選擇指定檔案名稱。 作者可自由依需求指派檔案名稱。 但是，這可能會導致不一致，並且在大型檔案系統中可以看到各種檔案名稱。 身為管理員，您可以限製作者為他們在系統中建立的檔案指派檔案名稱。 對於每個新主題或對應檔案，您可以選擇自動指派以UUID為基礎的檔案名稱。
+默认情况下，在创建主题或映射文件时，作者也可以选择指定文件名。 作者可以根据自己的要求自由分配文件名。 但是，这可能会导致不一致，并且在大型文档系统中可以看到各种文件名。 作为管理员，您可以限制作者为他们在系统中创建的文件指定文件名。 对于每个新主题或映射文件，您可以选择自动指定基于UUID的文件名。
 
-執行以下步驟，自動為系統中建立的所有新檔案指派以UUID為基礎的檔案名稱：
+执行以下步骤，自动为系统中创建的所有新文件指定基于UUID的文件名：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.xmleditor.config.XmlEditorConfig* 捆绑。
 
-1. 選取 **使用以UUID為基礎的系統檔案名稱** 選項。
+1. 选择 **使用基于UUID的系统文件名** 选项。
 
 1. 单击“**保存**”。
 
 
 >[!NOTE]
 >
-> 此選項預設為OFF。 開啟此選項後，作者在建立新主題或對應檔案時，看不到指定檔案名稱的選項。 您可以從Assets UI和Web編輯器建立新的主題或地圖檔案。
+> 默认情况下，此选项处于关闭状态。 启用此选项后，作者在创建新主题或映射文件时，看不到指定文件名的选项。 可以从资产UI和Web编辑器创建新主题或映射文件。
 
-**父級主題：**[&#x200B;設定檔案名稱](conf-file-names.md)
+**父主题：**[&#x200B;配置文件名](conf-file-names.md)
 

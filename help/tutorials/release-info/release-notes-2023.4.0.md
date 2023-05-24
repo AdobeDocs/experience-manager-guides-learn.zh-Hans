@@ -1,6 +1,6 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月發行
-description: 最新版Adobe Experience Manager Guidesas a Cloud Service
+title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月版
+description: 最新版本的Adobe Experience Manager Guidesas a Cloud Service
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
 source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 2%
 
 ---
 
-# 4月版Adobe Experience Manager Guidesas a Cloud Service
+# Adobe Experience Manager Guidesas a Cloud Service版4月版
 
-## 升級至最新版本
+## 升级到最新版本
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
+as a Cloud Service升级您当前的Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)通过以下步骤进行设置：
 
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將Cloud Services Git程式碼的檔案設為2023.4.249。
-3. 提交變更並執行Cloud Services管道，以升級到最新版AEM Guidesas a Cloud Service。
+1. 查看Cloud Services的Git代码，然后切换到在Cloud Services管道中配置的与要升级的环境对应的分支。
+2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServicesGit代码的文件更改为2023.4.249。
+3. 提交更改并运行Cloud Services管道，以升级到最新版本的AEM Guidesas a Cloud Service。
 
-## 索引現有內容的步驟(僅限使用9月之前版本的AEM Guidesas a Cloud Service)
+## 索引现有内容的步骤(仅当使用的版本早于9月份的AEM Guidesas a Cloud Service版本时)
 
-執行以下步驟，為現有內容編制索引，並在地圖層級使用新的尋找和取代文字：
+执行以下步骤来索引现有内容并在映射级别使用新的查找和替换文本：
 
-* 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都會建立索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
+(可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(例如： http://&lt;
+* 该API将返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(例如：http://&lt;
 _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+* 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
-## 相容性矩陣
+## 兼容性矩阵
 
-本節列出AEM Guides 2023年4月as a Cloud Service發行版本支援之軟體應用程式的相容性矩陣。
+本部分列出了AEM Guides 2023年4月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | AEM Guides as a Cloud版本 | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.04.0 | 不相容 | 2022或更高 |
+| 2023.04.0 | 不兼容 | 2022或更高版本 |
 |  |  |  |
 
 
-### 氧氣聯結器
+### 氧气连接器
 
-| AEM Guides as a Cloud版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| AEM Guides as a Cloud版本 | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -54,54 +54,54 @@ _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在最新版本中提供增強功能和新功能：
+AEM Guidesas a Cloud Service在最新版本中提供增强功能和新功能：
 
-### PDF發佈中的進階中繼資料支援
+### PDF发布中的高级元数据支持
 
-AEM Guides現在為中繼資料提供進階支援，這些中繼資料會對應到PDF輸出中的中繼資料。 中繼資料選項包括有關檔案及其內容的資訊，例如作者姓名、檔案標題、關鍵字、版權資訊和其他資料欄位。
+AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，例如作者姓名、文档标题、关键字、版权信息和其他数据字段。
 
-<img src="assets/pdf-metadata.png" alt=" 原生pdf中繼資料">
+<img src="assets/pdf-metadata.png" alt=" 本机pdf元数据">
 
-您可以匯入XMP檔案，AEM Guides可以從檔案中挑選資訊。 您也可以選擇使用下拉式清單提供中繼資料名稱和值。 您也可以直接在名稱欄位中輸入，以新增自訂中繼資料。
-
-
-### 增強型大綱檢視面板
-
-AEM Guides提供改良的「大綱檢視」面板，您可以在其中取得檔案中使用之元素的階層檢視。
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf中繼資料">
-
-「大綱檢視」提供下列增強功能：
-
-* 「檢視選項」下拉式清單會顯示在「大綱檢視」面板上方。 如果元素有ID、屬性和文字，您可以從下拉式清單中選取它們，以便與元素一起顯示。 可以在「大綱檢視」面板中顯示的屬性由管理員在 **編輯器設定**.
-
-* 您可以使用搜尋功能，依名稱、ID、文字或屬性值來搜尋元素。
+您可以导入XMP文件，AEM Guides可以从文件中选取信息。 您还可以选择使用下拉菜单提供元数据名称和值。 您还可以通过直接在名称字段中键入来添加自定义元数据。
 
 
-### AEM Guidesas a Cloud Service的微服務型發佈
+### “增强的大纲视图”面板
 
-AEM Guidesas a Cloud Service提供以微服務式發佈同時執行大量發佈工作負荷的功能，並可運用業界領先的Adobe I/O Runtime無伺服器平台。
+AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中获得文档中所用元素的分层视图。
 
-現在在4月發行版本中，您可以同時執行多個發佈要求，並使用微服務型原生PDF發佈以非常有效率的方式產生大量PDF輸出。
-如需詳細資訊，請參閱 [為AEM Guidesas a Cloud Service設定新的微服務型發佈](../knowledge-base/publishing/configure-microservices.md).
+<img src="assets/select-element-content-outline-view_cs.png" alt=" 本机pdf元数据">
+
+“大纲视图”提供了以下增强功能：
+
+* “视图选项”下拉列表显示在“大纲视图”面板的顶部。 如果元素具有ID、属性和文本，则可以从下拉列表中选择它们，以与元素一起显示它们。 可以在“大纲视图”面板中显示的属性由管理员在 **编辑器设置**.
+
+* 使用搜索功能，您可以按元素的名称、ID、文本或属性值搜索元素。
+
+
+### AEM Guidesas a Cloud Service基于微服务的发布
+
+AEM Guidesas a Cloud Service提供了与基于微服务的发布同时运行大型发布工作负载的功能，并利用业界领先的Adobe I/O Runtime无服务器平台。
+
+现在，在4月版本中，您可以使用基于微服务的本机PDF发布来同时运行多个发布请求并非常高效地生成批量PDF输出。
+有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## 修复的问题
 
-修復了各種區域的錯誤如下所列：
+修复了多个区域的错误如下：
 
-* 原生PDF |如果發佈的內容具有包含brackets()的輸出類別，會導致發佈凍結。 (11596)
-* 在移動（拖放）至開啟追蹤變更的現有清單專案時發生問題。 (11570)
-* 當作為新清單專案移動（拖放）時會發生問題，且追蹤變更開啟。 (11569)
-* 「追蹤變更」開啟時，縮排或減少縮排清單專案無法如預期運作。 (11568)
-* 在開啟「追蹤變更」的行上新增內容，然後關閉「追蹤變更」並不會實際將其關閉。 (11567)
-* 難以拖放清單專案，文字會移動來取代清單專案。 (11566)
-* 完成的檢閱不會在唯讀模式下開啟。 (11387)
-* AEM網站搜尋中發生問題（在2-3層級節點以外無法運作）。 (11352)
-* 以綠色（追蹤變更）顯示的元素中進行製作時，即使追蹤變更已停用，新內容仍會顯示為追蹤變更。 (7021)
+* 本机PDF |发布具有带brackets()的输出类的内容会导致发布冻结。 (11596)
+* 在替换启用了跟踪更改的现有列表项时，移动（拖放）出现问题。 (11570)
+* 作为启用了跟踪更改的新列表项移动（拖放）时出现问题。 (11569)
+* 对于上的“跟踪更改”，缩进或减少缩进列表项无法按预期工作。 (11568)
+* 在启用了“跟踪更改”的行中添加内容，然后关闭“跟踪更改”实际上并不会将其关闭。 (11567)
+* 难以拖放列表项，文本将移动到列表项的位置。 (11566)
+* 已完成审阅不会在只读模式下打开。 (11387)
+* AEM站点搜索中出现问题（在2-3级节点之外不起作用）。 (11352)
+* 在创作以绿色显示的元素（跟踪更改）时，即使跟踪更改处于禁用状态，新内容也会显示为跟踪更改。 (7021)
 
-### 有因應措施的已知問題
+### 有变通方法的已知问题
 
-Adobe已確定2023年4月as a Cloud Service發行的AEM Guides的下列已知問題。
+Adobe已发现AEM Guides 2023年4月as a Cloud Service版的以下已知问题。
 
-* 原生PDF |在明確開啟輸出預設集之前，不會填入舊中繼資料。
+* 本机PDF |在显式打开输出预设之前，不会填充旧元数据。

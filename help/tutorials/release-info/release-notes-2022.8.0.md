@@ -1,6 +1,6 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2022年8月發行
-description: 8月版Adobe Experience Manager Guidesas a Cloud Service
+title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年8月版
+description: Adobe Experience Manager Guides的8月版as a Cloud Service
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,31 +9,31 @@ ht-degree: 2%
 
 ---
 
-# 8月版Adobe Experience Manager Guidesas a Cloud Service
+# Adobe Experience Manager Guides的8月版as a Cloud Service
 
-## 升級至8月版
+## 升级到8月版
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
-1. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Services Git程式碼檔案改成2022.8.167。
-1. 提交變更並執行Cloud Services管道，以升級至8月版的AEM Guidesas a Cloud Service。
+as a Cloud Service升级您当前的Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)通过以下步骤进行设置：
+1. 查看Cloud Services的Git代码，然后切换到在Cloud Services管道中配置的与要升级的环境对应的分支。
+1. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServicesGit代码的文件更改为2022.8.167。
+1. 提交更改并运行Cloud Services管道，以升级到AEM Guides的8月版as a Cloud Service。
 
-## 相容性矩陣
+## 兼容性矩阵
 
-本節列出AEM Guides 2022年8月as a Cloud Service版本支援之軟體應用程式的相容性矩陣。
+本部分列出了AEM Guides 2022年8月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| 不相容 | 2020 Update 4及更高版本 |
+| 不兼容 | 2020 Update 4及更高版本 |
 |  |  |
 
-*自2020.2開始的FMPS版本支援AEM中建立的基準和條件。
+*从2020.2开始的FMPS版本支持在AEM中创建的基线和条件。
 
-### 氧氣聯結器
+### 氧气连接器
 
-| AEM Guides as a Cloud版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac |
+| AEM Guides as a Cloud版本 | 氧气连接器窗口 | 氧气连接器Mac |
 | --- | --- | --- |
 | 2022.8.0 | 2.7.5 | 2.7.5 |
 |  |  |  |
@@ -41,91 +41,91 @@ as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱�
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在8月版本中提供許多增強功能和新功能：
+AEM Guidesas a Cloud Service在8月版本中提供了许多增强功能和新功能：
 
-### 地圖編輯器中的版面配置檢視
+### 映射编辑器中的布局视图
 
-現在您可以在Map編輯器中檢視DITA map的完整版面。 當您開啟地圖進行編輯時，它會開啟 **版面** 地圖編輯器的檢視。 在此檢視中，您可以在樹狀檢視中檢視地圖階層，也可以組織或建構地圖中的主題。
+现在，您可以在映射编辑器中查看DITA映射的完整布局。 当您打开地图进行编辑时，它会打开 **版面** 地图编辑器的视图。 在此视图中，您可以在树视图中查看映射层次结构，也可以在映射中组织或构建主题。
 
-![版面檢視](assets/layout-view-map.png)
+![布局视图](assets/layout-view-map.png)
 
-「版面」檢視包含個別的工具列，可協助您在地圖中的主題上執行許多工作。
-您可以在地圖中插入主題參照、主題群組、索引鍵定義。 您可以透過將主題上移、下移、左移或右移，重新組織地圖中顯示的主題。 您也可以拖放主題，在地圖中移動主題。 「地圖編輯器」也提供圖示，可鎖定或解鎖檔案、檢查版本歷史記錄和執行版本標籤管理。
+“布局”视图包含一个单独的工具栏，可帮助您对地图中的主题执行许多任务。
+可以在映射中插入主题引用、主题组和键定义。 您可以通过上移、下移、左移或右移来重新组织地图中的主题。 您还可以拖放主题以将其在地图中移动。 映射编辑器还提供了用于锁定或解锁文件、检查版本历史记录和执行版本标签管理的图标。
 
 
-「版面」檢視也提供 **檢視選項** 若要顯示或隱藏行號、顯示或隱藏核取方塊，或顯示地圖中主題的檔案名稱或標題。
+“布局”视图还提供 **查看选项** 要显示或隐藏行号、显示或隐藏复选框，或显示映射中主题的文件名或标题。
 
 
 ![view-options](assets/view-options.png)
 
-您也可以根據套用到的條件篩選器來檢視主題。
+您还可以根据应用于主题的条件过滤器查看主题。
 
-除了在地圖檔案中組織主題外，您還可以使用 **選項** 「版面」檢視中元素可用的功能表。 您也可以從存放庫面板拖放主題或地圖至地圖編輯器中開啟的地圖。
+除了在映射文件中组织主题外，您还可以使用 **选项** “布局”视图中某个元素可用的菜单。 您还可以将主题或映射从存储库面板拖放到在映射编辑器中打开的映射中。
 
-右側面板會顯示「地圖編輯器」的「版面」檢視中的「內容屬性」和「地圖屬性」。 針對所選主題定義的「內嵌屬性」會根據「版面」檢視中的主題顯示。 例如，您可以快速找到所有將平台屬性定義為 `IOS`.
+右侧面板在地图编辑器的布局视图中显示内容属性和地图属性。 为所选主题定义的内联属性将根据“布局”视图中的主题显示。 例如，您可以快速找到其平台属性定义为 `IOS`.
 
-現在您也可以設定主題或地圖的中繼資料資訊。 您可以為選取的主題或地圖定義導覽標題、連結文字、簡短說明和關鍵字。
+现在，您还可以设置主题或映射的元数据信息。 您可以为所选主题或映射定义导航标题、链接文本、简短说明和关键字。
 
-![版面配置檢視右側面板](assets/layout-inline-attributes.png)
+![布局视图右侧面板](assets/layout-inline-attributes.png)
 
-如需詳細資訊，請參閱 *版面檢視* 區段在「使用Adobe Experience Manager Guides」中的as a Cloud Service。
+有关更多详细信息，请参阅 *布局视图* 部分(在使用Adobe Experience Manager Guidesas a Cloud Service中)。
 
-### 編輯器設定中的內嵌屬性
+### 编辑器设置中的内联属性
 
-AEM Guides現在允許設定 **內嵌屬性** 由您的管理員從 **編輯器設定**. 您也可以新增內嵌屬性，或從以下專案刪除現有屬性： **內嵌屬性** 索引標籤內的索引標籤進行標籤。
-為主題定義的已設定內嵌屬性會根據「版面」檢視中的主題顯示。
+AEM Guides现在允许配置 **内联属性** 由您的管理员通过 **编辑器设置**. 您还可以添加新的内联属性或从中删除现有属性 **内联属性** 选项卡。
+为主题定义的已配置内联属性将根据“布局”视图中的主题显示。
 
-![編輯器設定](assets/editor-settings-inline-attributes.png)
+![编辑器设置](assets/editor-settings-inline-attributes.png)
 
 
-### 存放庫檢視中的其他篩選器
+### 存储库视图中的其他筛选器
 
-現在，存放庫檢視中的篩選器搜尋功能已變得更強大。 兩個新的搜尋條件， **上次修改時間** 和 **標籤** 已新增來篩選檔案，以及縮小AEM存放庫中的搜尋範圍：
-* **上次修改時間**：您可以尋找在選定日期之後但在選定日期之前上次修改的檔案。 您也可以選擇使用預先定義的條件，並尋找過去2小時、上週、上個月或去年上次修改的檔案。
-* **標籤**：您也可以尋找已套用特定標籤的檔案。 您可以輸入標籤或從下拉式清單中選取標籤。
+现在，存储库视图中的过滤器搜索功能已变得更加强大。 两个新的搜索条件， **上次修改时间** 和 **标记** 已添加以筛选文件并缩小AEM存储库中的搜索范围：
+* **上次修改时间**：您可以查找在选定日期之后但在选定日期之前上次修改的文件。 您还可以选择使用预定义标准，并查找过去2小时、上周、上个月或去年上次修改的文件。
+* **标记**：您还可以查找应用了特定标记的文件。 您可以键入标记或从下拉列表中选择标记。
 
-![存放庫檢視篩選器](assets/repo-filter-search.png)
+![存储库视图筛选器](assets/repo-filter-search.png)
 
 
 ## 修复的问题
 
-修復了各種區域的錯誤如下所列：
+修复了多个区域的错误如下：
 
-* /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java (9291)中使用過時的Lucene索引
-* 更新的Node.js不用於發佈。 (9835)
-* DITA主題不會隨著對完成的變更自動更新 **屬性** 頁面。 (8745)
-* Frontmatter元素新增至DITA bookmap時無法正常運作。 (9507)
-* 原生PDF |使用時產生空白PDF **快速產生** 適用於多個檔案。 (9822)
-* 原生PDF |附錄作為PDF輸出中的章節發佈。 (9829)
-* 原生PDF |編輯SVG影像時，頁面版面配置中未顯示其更新。 (9069)
-* 一般連字型大小字元會在 `Nonbreaking Hyphen` 字元插入時使用 **插入特殊字元** 對話方塊。 (8919)
-* 如果更新後的影像已編輯，則XML編輯器不會在主題中顯示這些影像。 (9500)
-* 透過編輯器發佈輸出時，預設集無法從 **輸出** 標籤。 (9100)
-* DITA map的子地圖不會使用 **全選** 選項。 (9814)
-* 無法從拖放地圖或主題範本 **範本** 選單至自訂地圖範本。 (9846)
-* 無法在地圖或主題範本的子資料夾中建立新主題或地圖範本。 (9888)
-* 沒有選項可瀏覽出現在地圖或主題範本的子資料夾中的主題或地圖。 (9889)
-* 當Schematron檔案與DITA檔案一起更新並儲存時，不顯示右側面板（如果DITA檔案破壞了Schematron檔案中存在的驗證）。 (9986)
-* 如果名稱與現有預設集相同，則可建立新的重複輸出預設集。 (9997)
-* SVG影像損毀，且在產生HTML輸出時無法正確發佈。 (9949)
+* /core/article-publish/src/main/java/com/adobe/dxml/article/publish/util/DoxUtils.java中使用了已弃用的Lucene索引(9291)
+* 更新后的Node.js不用于发布。 (9835)
+* DITA主题不会随着对所做的更改自动更新 **属性** 页面。 (8745)
+* 添加到DITA书签映射时，Frontmatter元素无法正常工作。 (9507)
+* 本机PDF |在使用时生成空白PDF **快速生成** 选择空元素时用于多个文件。 (9822)
+* 本机PDF |附录作为PDF输出中的一章发布。 (9829)
+* 本机PDF |编辑SVG图像时，未在版面中显示更新后的图像。 (9069)
+* 当出现以下情况时，插入常规连字符符： `Nonbreaking Hyphen` 使用插入字符 **插入特殊字符** 对话框。 (8919)
+* 如果更新后的图像已编辑，则XML编辑器不会在主题中显示这些图像。 (9500)
+* 通过编辑器发布输出时，无法从删除预设 **输出** 选项卡。 (9100)
+* DITA映射的子映射不会使用 **全选** 选项。 (9814)
+* 无法从拖放映射或主题模板 **模板** 菜单切换到Web编辑器中的自定义映射模板。 (9846)
+* 无法在映射或主题模板的子文件夹中创建新主题或映射模板。 (9888)
+* 没有用于浏览映射或主题模板的子文件夹内呈现的主题或映射的选项。 (9889)
+* 更新并保存Schematron文件和DITA文件时，不显示右侧面板（如果DITA文件破坏了Schematron文件中存在的验证）。 (9986)
+* 如果与现有预设名称相同，则可以创建新的重复输出预设。 (9997)
+* SVG图像已损坏，在生成HTML输出时无法正确发布。 (9949)
 
 
 ## 已知问题
 
-Adobe已在2022年8月as a Cloud Service發行的AEM Guides中找出下列已知問題。
+Adobe已发现AEM Guides 2022年8月as a Cloud Service版的以下已知问题。
 
-### 因應措施的已知問題
+### 解决方法的已知问题
 
-針對下列已知問題使用指定的因應措施：
+对以下已知问题使用给定的解决方法：
 
-* 「版面配置檢視」在「地圖編輯器」中不可見。
+* 布局视图在映射编辑器中不可见。
 
-   **因應措施**：更新資料夾設定檔中的ui_config.json。
+   **解决方法**：更新文件夹配置文件中的ui_config.json。
 
-* Symbols.json已覆寫，因此會出現8919問題。
+* Symbols.json被覆盖，因此出现8919问题。
 
-   **因應措施**：更新的symbols.json必須與覆寫的symbols.json合併。
+   **解决方法**：更新后的symbols.json必须与覆盖的symbols.json合并。
 
-### 其他已知問題
+### 其他已知问题
 
-* 如果在對存放庫執行搜尋時從顯示的結果區段中選取了多個檔案，然後在作者檢視中拖放，則只會新增一個檔案。
+* 如果在对存储库执行搜索时显示的结果部分中选择了多个文件，然后在作者视图中拖放这些文件，则只会添加一个文件。

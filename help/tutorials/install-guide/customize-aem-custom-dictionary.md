@@ -1,6 +1,6 @@
 ---
-title: 自訂AEM預設字典
-description: 瞭解如何自訂AEM預設字典
+title: 自定义AEM默认词典
+description: 了解如何自定义AEM默认词典
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '173'
@@ -9,30 +9,30 @@ ht-degree: 0%
 ---
 
 
-# 自訂AEM預設字典 {#id209SD8000WU}
+# 自定义AEM默认词典 {#id209SD8000WU}
 
-網頁編輯器可設定為使用AEM拼字檢查程式或瀏覽器的拼字檢查程式。 如果您選擇使用AEM拼字檢查程式，您就可以彈性定義自訂字詞清單。 這些自訂字詞接著會新增至AEM字典中，且這些字詞在網頁編輯器中不會標籤為不正確。
+可以将Web编辑器配置为使用AEM拼写检查器或浏览器的拼写检查器。 如果您选择使用AEM拼写检查器，则可以灵活地定义自定义单词列表。 这些自定义单词随后将添加到AEM词典中，并且不会在Web编辑器中将这些单词标记为\（不正确\）。
 
-執行以下步驟來建立新增到AEM字典中的自訂單字清單：
+执行以下步骤可创建添加到AEM词典中的自定义单词列表：
 
-1. 登入AEM並開啟CRXDE Lite模式。
+1. 登录AEM并打开CRXDE Lite模式。
 
-1. 導覽至下列節點：
+1. 导航到以下节点：
 
    /apps/fmdita/config
 
-1. 建立名為user\_dictionary.txt的新檔案。
+1. 创建一个名为user\_dictionary.txt的新文件。
 
-1. 開啟檔案並新增您要在自訂字典中定義的字詞清單。
+1. 打开文件，并添加要在自定义词典中定义的单词列表。
 
-   下列熒幕擷圖顯示新增至user\_dictionary.txt檔案中的自訂字詞清單：
+   以下屏幕截图显示了添加到user\_dictionary.txt文件中的自定义单词列表：
 
    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
 
-1. 儲存並關閉檔案。
+1. 保存并关闭文件。
 
 
-作者需要重新啟動網頁編輯器工作階段，才能在AEM字典中更新自訂字詞清單。
+作者需要重新启动其Web编辑器会话，才能在AEM词典中更新自定义单词列表。
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
 

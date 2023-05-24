@@ -1,6 +1,6 @@
 ---
-title: 瞭解中的AEM使用者介面 [!DNL AEM Guides]
-description: 瞭解中的AEM使用者介面 [!DNL Adobe Experience Manager Guides]
+title: 了解中的AEM用户界面 [!DNL AEM Guides]
+description: 了解中的AEM用户界面 [!DNL Adobe Experience Manager Guides]
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,85 +9,85 @@ ht-degree: 2%
 
 ---
 
-# 瞭解AEM使用者介面
+# 了解AEM用户界面
 
-瞭解如何在XML編輯器中管理資產、檔案和資料夾以進行Experience Manager。
+了解如何在XML编辑器中管理资源、文件和文件夹以进行Experience Manager。
 
 >[!VIDEO](https://video.tv.adobe.com/v/336659?quality=12&learn=on)
 
-## 存取XML編輯器
+## 访问XML编辑器
 
-1. 在登入畫面中，輸入您的使用者名稱和密碼，然後選取 **[!UICONTROL 登入]**.
-1. 選取 **[!UICONTROL XML編輯器]** 從AEM導覽頁面。
+1. 在登录屏幕中，输入用户名和密码，然后选择 **[!UICONTROL 登录]**.
+1. 选择 **[!UICONTROL XML编辑器]** 从“AEM导航”页面。
 
-## XML編輯器檢視
+## XML编辑器视图
 
-從側邊欄中，您可以從多個檢視中選擇最適合您組織需求的XML編輯器。 這些功能包括預設檢視和 [!UICONTROL 存放庫檢視].
+从侧栏中，您可以从多个视图中选择XML编辑器，以最符合您的组织需求。 其中包括默认视图和 [!UICONTROL 存储库视图].
 
-預設檢視會顯示 [!UICONTROL 我的最愛]. 您可以視需要使用捷徑進一步自訂它。 相反地， [!UICONTROL 存放庫檢視] 顯示較傳統的資料夾結構。
+默认视图显示您的 [!UICONTROL 收藏夹]. 您可以根据需要使用快捷键进一步对其进行自定义。 相反， [!UICONTROL 存储库视图] 显示更为传统的文件夹结构。
 
-### 切換至 [!UICONTROL 存放庫檢視] 從預設檢視
+### 切换到 [!UICONTROL 存储库视图] 从默认视图
 
-1. 在左側邊欄中，選取 **[!UICONTROL 存放庫檢視]**.
+1. 在左边栏中，选择 **[!UICONTROL 存储库视图]**.
 
-   ![存放庫圖示](images/common/repository-icon.png)
+   ![“存储库”图标](images/common/repository-icon.png)
 
-   此 [!UICONTROL 存放庫檢視] 顯示。
+   此 [!UICONTROL 存储库视图] 显示。
 
 ## Assets UI
 
-在 [!UICONTROL 資產] 介面，您可以檢視
+在 [!UICONTROL 资产] 界面，您可以查看
 
-### 在資產UI中檢視內容
+### 在Assets UI中查看内容
 
-您可以對內容執行其他動作。 其中一個選項是在Assets UI中檢視您的檔案。
+您可以对内容执行其他操作。 其中一个选项是在Assets UI中查看您的文件。
 
-1. 將滑鼠指標暫留在存放庫中的資料夾或主題上，並選取顯示的省略符號圖示。
+1. 将鼠标悬停在存储库中的文件夹或主题上，然后选择显示的省略号图标。
 
-   ![省略符號圖示](images/lesson-2/options-menu-with-markings.png)
+   ![省略号图标](images/lesson-2/options-menu-with-markings.png)
 
-   「選項」功能表隨即顯示。
+   将显示“选项”菜单。
 
-1. 從功能表中選取 **在「資產」UI中檢視。**
+1. 从菜单中，选择 **在Assets UI中查看。**
 
-   ![在資產UI中檢視](images/lesson-2/assets-ui.png)
+   ![在Assets UI中查看](images/lesson-2/assets-ui.png)
 
 
-### 選取檢視
+### 选择视图
 
-您可以從多個檢視中選擇Assets UI，以最符合您的組織需求。
+您可以从多个视图中选择Assets UI以最符合您的组织需求。
 
-1. 選取 **檢視切換器** 圖示填入。
+1. 选择 **视图切换器** 图标。
 
-   ![檢視切換器圖示](images/lesson-2/view-switcher.png)
+   ![视图切换器图标](images/lesson-2/view-switcher.png)
 
-   下拉式功能表隨即顯示。
+   此时将显示一个下拉菜单。
 
-1. 選取您要使用的檢視。
+1. 选择要使用的视图。
 
-### 資產UI檢視
+### 资产UI视图
 
 | 名称 | 描述 |
 | --- | --- |
-| 信息卡视图 | 以圖示顯示每個資產 |
-| 列视图 | 以壓縮且可展開的資料夾結構顯示資產 |
-| 列表视图 | 在清單中顯示資產及其詳細資訊 |
+| 信息卡视图 | 将每个资源显示为图标 |
+| 列视图 | 以压缩的可展开文件夹结构显示资产 |
+| 列表视图 | 在列表中显示资源及其详细信息 |
 
-## 返回XML編輯器
+## 返回到XML编辑器
 
-您可以從資產UI的任何檢視返回XML編輯器。
+您可以从资产UI的任意视图返回到XML编辑器。
 
-### 從清單和欄檢視返回
+### 从列表和列视图返回
 
-1. 從清單中選取要編輯的主題。
-主題會顯示在Assets UI中。
-1. 選取 **編輯** 從頂端工具列。
-您會返回XML編輯器。
+1. 从列表中选择要编辑的主题。
+该主题将显示在Assets UI中。
+1. 选择 **编辑** 从顶部工具栏中。
+您将返回到XML编辑器。
 
-### 從卡片檢視返回
+### 从卡片视图返回
 
-1. 選取中主題上的鉛筆圖示 [!UICONTROL 資產] UI。
+1. 选择中主题上的铅笔图标 [!UICONTROL 资产] UI。
 
-   ![鉛筆圖示](images/lesson-2/return-card-view.png)
+   ![铅笔图标](images/lesson-2/return-card-view.png)
 
-   您會返回XML編輯器。
+   您将返回到XML编辑器。

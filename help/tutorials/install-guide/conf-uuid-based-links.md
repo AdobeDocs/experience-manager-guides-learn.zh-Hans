@@ -1,6 +1,6 @@
 ---
-title: 設定UUID型連結的顯示
-description: 瞭解如何設定顯示UUID型連結
+title: 配置基于UUID的链接的显示
+description: 了解如何配置基于UUID的链接的显示
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '209'
@@ -9,28 +9,28 @@ ht-degree: 0%
 ---
 
 
-# 設定UUID型連結的顯示 {#id2035G20M0QN}
+# 配置基于UUID的链接的显示 {#id2035G20M0QN}
 
-根據預設，當您在Web編輯器中使用「插入參照」或「插入重複使用內容」選項建立連結時，會使用參照內容的UUID來建立連結。 此 **連結** 參照內容的屬性\（在「屬性」面板中\）可設定為顯示參照內容的相對檔案路徑或UUID。 此顯示由 **啟用UUID** configMgr中的選項。 預設會開啟，這表示參考內容的UUID會顯示在「屬性」面板中。
+默认情况下，当您使用Web编辑器中的插入引用或插入重用内容选项创建链接时，将使用引用内容的UUID创建链接。 此 **链接** 可以将引用内容的属性\（在“属性”面板中\）配置为显示引用内容的相对文件路径或UUID。 此显示由 **启用UUID** 选项。 默认情况下，此功能处于打开状态，这意味着引用内容的UUID显示在“属性”面板中。
 
-執行以下步驟，在網頁編輯器中顯示參照內容的相對路徑或UUID：
+执行以下步骤，在Web编辑器中显示引用内容的相对路径或UUID：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
 
-1. 在 *XmlEditorConfig* 設定， **啟用UUID** 選項預設為啟用。 這表示參考內容的UUID會顯示在 **連結** 屬性。
+1. 在 *XmlEditorConfig* 设置， **启用UUID** 选项默认处于启用状态。 这意味着引用的内容的UUID显示在 **链接** 属性。
 
-   如果要顯示連結內容的相對路徑，請取消選取 **啟用UUID** 選項。
+   如果要显示链接内容的相对路径，请取消选择 **启用UUID** 选项。
 
 1. 单击“**保存**”。
 
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
 

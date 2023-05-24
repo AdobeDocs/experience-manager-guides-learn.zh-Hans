@@ -1,6 +1,6 @@
 ---
-title: 設定自訂DITA主題範本
-description: 瞭解如何設定自訂DITA主題範本
+title: 配置自定义DITA主题模板
+description: 了解如何配置自定义DITA主题模板
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '365'
@@ -9,9 +9,9 @@ ht-degree: 2%
 ---
 
 
-# 設定自訂DITA主題範本 {#id16A7G0O02TD}
+# 配置自定义DITA主题模板 {#id16A7G0O02TD}
 
-AEM Guides隨附下列DITA主題範本：
+AEM Guides附带以下DITA主题模板：
 
 - 主题
 
@@ -28,51 +28,51 @@ AEM Guides隨附下列DITA主題範本：
 - 空白
 
 
-您可以根據編寫需求，使用任何這些範本來建立主題範本。 空白DITA範本不包含其他範本的任何結構或元素。 如果您的範本是高度自訂的，且不是以任何一般DITA主題範本為基礎，則可以使用「空白」範本作為基礎。
+可根据创作要求使用任意这些模板来创建主题模板。 空白DITA模板不包含与其它模板类似的任何结构或元素。 如果您的模板是高度自定义的并且不基于任何常规DITA主题模板，则可以使用“空白”模板作为基础。
 
-若要自訂DITA主題範本並將其用於編寫，您需要執行下列三個主要工作：
+要自定义DITA主题模板并将其用于创作，您需要执行以下三个主要任务：
 
-1. *\（可選\）* [設定自訂DITA範本資料夾路徑](#id191LCF0095Z)
+1. *\（可选\）* [配置自定义DITA模板文件夹路径](#id191LCF0095Z)
 
-1. [建立自訂編寫範本](conf-folder-level.md#id1917D0EG0HJ)
+1. [创建自定义创作模板](conf-folder-level.md#id1917D0EG0HJ)
 
-1. 將自訂範本新增至全域或資料夾層級設定檔，如 [設定製作範本](conf-folder-level.md#id1889D0IL0Y4) 區段
+1. 将自定义模板添加到全局或文件夹级别的配置文件中，如 [配置创作模板](conf-folder-level.md#id1889D0IL0Y4) 部分
 
 
-## 設定自訂DITA範本資料夾路徑 {#id191LCF0095Z}
+## 配置自定义DITA模板文件夹路径 {#id191LCF0095Z}
 
-AEM Guides可讓您設定資料夾以儲存自訂的DITA map和範本。 根據預設，範本檔案儲存在DAM的以下資料夾中：
+AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 默认情况下，模板文件存储在DAM的以下文件夹中：
 
 `/content/dam/dita-templates/`
 
-為了管理主題和對應範本檔案，有專用的資料夾來儲存主題和對應範本。 依預設，所有主題範本都儲存在 `/content/dam/dita-templates/topics`
+要管理主题和映射模板文件，有专用文件夹用于存储主题和映射模板。 默认情况下，所有主题模板都存储在 `/content/dam/dita-templates/topics`
 
-資料夾。 所有地圖範本都儲存在 `/content/dam/dita-templates/maps` 資料夾。
+文件夹。 所有映射模板都存储在 `/content/dam/dita-templates/maps` 文件夹。
 
-作為管理員，您可以選擇在預設資料夾中建立自訂地圖或主題範本，或建立您自己的資料夾來儲存自訂範本。 如果您計畫使用預設資料夾，則可以跳過此程式。
+作为管理员，您可以选择在默认文件夹中创建自定义映射或主题模板，也可以创建自己的文件夹来存储自定义模板。 如果您计划使用默认文件夹，则可以跳过此过程。
 
-若要為自訂DITA主題範本設定資料夾，請執行下列步驟：
+要为自定义DITA主题模板配置文件夹，请执行以下步骤：
 
 >[!IMPORTANT]
 >
-> 如果您想要使用預設資料夾來儲存自訂範本，可以跳過此程式。
+> 如果要使用默认文件夹存储自定义模板，则可以跳过此过程。
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 *com.adobe.fmdita.config.ConfigManager* 套件組合。
+1. 搜索并单击 *com.adobe.fmdita.config.ConfigManager* 捆绑。
 
-1. 在 **範本位置** 屬性，指定儲存自訂範本的位置。
+1. 在 **模板位置** 属性，指定存储自定义模板的位置。
 
 1. 单击“**保存**”。
 
 
-如果DAM中存在指定的位置，則所有預設地圖和主題範本都會複製到該資料夾中。 如果該位置不存在，則會使用所有預設地圖和主題範本建立該資料夾。
+如果DAM中存在指定的位置，则所有默认映射和主题模板都将复制到该文件夹中。 如果该位置不存在，则使用所有默认映射和主题模板创建文件夹。
 
-**父級主題：**[&#x200B;設定主題和對應範本](conf-template-tags.md)
+**父主题：**[&#x200B;配置主题和映射模板](conf-template-tags.md)
 

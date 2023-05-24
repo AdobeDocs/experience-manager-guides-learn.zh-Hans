@@ -1,6 +1,6 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月發行
-description: Adobe Experience Manager Guidesas a Cloud Service版2月版
+title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月版
+description: Adobe Experience Manager Guides的2月版as a Cloud Service
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
 source-git-commit: ee520ab86ea41df7556a1f40d7bfc5e3617b34ae
 workflow-type: tm+mt
@@ -9,44 +9,44 @@ ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service版2月版
+# Adobe Experience Manager Guides的2月版as a Cloud Service
 
-## 升級至2月版
+## 升级到2月版
 
-as a Cloud Service升級您目前的Adobe Experience Manager Guides (稍後稱為 *AEM指南as a Cloud Service*)進行設定：
-1. 檢視Cloud Services的Git程式碼，並切換到在Cloud Services管道中設定的分支，該分支與您要升級的環境相對應。
-2. 更新 `<dox.version>` 中的屬性 `/dox/dox.installer/pom.xml` 將您的Cloud Services Git程式碼檔案改成2023.2.235。
-3. 提交變更並執行Cloud Services管道，以升級至AEM Guidesas a Cloud Service的2月版本。
+as a Cloud Service升级您当前的Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)通过以下步骤进行设置：
+1. 查看Cloud Services的Git代码，然后切换到在Cloud Services管道中配置的与要升级的环境对应的分支。
+2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServicesGit代码的文件更改为2023.2.235。
+3. 提交更改并运行Cloud Services管道，以升级到AEM Guides的2月版as a Cloud Service。
 
-## 索引現有內容的步驟(僅限使用9月之前版本的AEM Guidesas a Cloud Service)
+## 索引现有内容的步骤(仅当使用的版本早于9月份的AEM Guidesas a Cloud Service版本时)
 
-執行以下步驟來索引現有內容，並在地圖層級使用新的尋找和取代文字：
+执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-* 對伺服器執行POST要求（使用正確的驗證） - `http://<server:port>/bin/guides/map-find/indexing`.
-(可選：您可以傳遞地圖的特定路徑來為其建立索引，預設情況下，所有地圖都會建立索引 ||範例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+* 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
+(可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-* 此API將傳回jobId。 若要檢查作業的狀態，您可以將具有作業ID的GET要求傳送至相同的端點 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
-(例如： http://&lt;
+* 该API将返回jobId。 要检查作业的状态，您可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
+(例如：http://&lt;
 _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
 
-* 工作完成後，上述GET要求將回應為成功，並提及是否有任何地圖失敗。 可以從伺服器記錄檔確認已成功建立索引的對應。
+* 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
-## 相容性矩陣
+## 兼容性矩阵
 
-本節列出AEM Guides 2023年2月as a Cloud Service發行版本支援之軟體應用程式的相容性矩陣。
+本部分列出了AEM Guides 2023年2月as a Cloud Service版本支持的软件应用程序的兼容性矩阵。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | AEM Guides as a Cloud版本 | FMPS | FrameMaker |
 | --- | --- | --- |
-| 2023.02.0 | 不相容 | 2022或更高 |
+| 2023.02.0 | 不兼容 | 2022或更高版本 |
 |  |  |  |
 
-*自2020.2開始的FMPS版本支援AEM中建立的基準和條件。
+*从2020.2开始的FMPS版本支持在AEM中创建的基线和条件。
 
-### 氧氣聯結器
+### 氧气连接器
 
-| AEM Guides as a Cloud版本 | 氧氣聯結器視窗 | 氧氣聯結器Mac | 在氧氣視窗中編輯 | 在氧氣Mac中編輯 |
+| AEM Guides as a Cloud版本 | 氧气连接器窗口 | 氧气连接器Mac | 在氧气窗口中编辑 | 在氧气Mac中编辑 |
 | --- | --- | --- | --- | --- |
 | 2023.02.0 | 2.8-uuid-8 | 2.8-uuid-8 | 2.3 | 2.3 |
 |  |  |  |  |
@@ -54,175 +54,175 @@ _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271
 
 ## 新增功能和增强功能
 
-AEM Guidesas a Cloud Service在2月版本中提供增強功能和新功能：
+AEM Guidesas a Cloud Service在2月版本中提供了增强功能和新增功能：
 
-### 從網頁編輯器產生報表
+### 从Web编辑器生成报告
 
-AEM Guides的網頁編輯器提供了一項功能，可讓您檢查技術檔案的整體完整性，並為其產生報告。
-您可以從以下位置檢視主題清單、管理中繼資料，以及檢視目前地圖的所有參照中所使用的多媒體：
-**報表** 索引標籤進行編輯。
+AEM Guides在Web编辑器中提供的一项功能使您能够检查技术文档的整体完整性并为其生成报告。
+您可以从以下位置查看主题列表、管理元数据以及查看当前映射的所有引用中使用的多媒体：
+**报告** 选项卡。
 
-**產生主題清單檢視**
+**生成主题列表视图**
 
-您可以產生「主題清單」，提供主題的相關詳細資訊，例如參照型別、檔案狀態和作者。 您也可以產生CSV來下載DITA map中主題的目前快照。
+可生成主题列表，其中提供有关主题的详细信息，如引用类型、文档状态和作者。 您还可以生成CSV以下载DITA映射中主题的当前快照。
 
-**管理中繼資料並變更檔案狀態**
+**管理元数据和更改文档状态**
 
-您可以在個別主題上套用標籤，或使用大量標籤功能，在多個主題、DITA map或子對映上套用多個標籤。 您也可以將所有選取主題的檔案狀態變更為下一個可能的通用檔案狀態。
+可以在单个主题中应用标记，也可以使用批量标记功能在多个主题、DITA映射或子映射中应用多个标记。 您也可以将所有选定主题的文档状态更改为下一个可能的公用文档状态。
 
-<img src="assets/web-editor-metadata-panel.png" alt="管理中繼資料" width="600">
+<img src="assets/web-editor-metadata-panel.png" alt="管理元数据" width="600">
 
-**產生多媒體報告**
+**生成多媒体报告**
 
-您可以產生多媒體報告，其中包含有關目前地圖中參照使用的多媒體的詳細資訊。 您可以彈性地篩選和排序報表中列出的多媒體檔案。
-您也可以產生CSV來下載DITA map中使用之多媒體的目前快照。
+您可以生成多媒体报告，该报告包含有关当前映射中引用所使用的多媒体的详细信息。 您可以灵活地筛选和排序报告中列出的多媒体文件。
+您还可以生成CSV来下载DITA映射中使用的多媒体的当前快照。
 
-<img src="assets/web-editor-reports-multimedia.png" alt="多媒體報告" width="600">
+<img src="assets/web-editor-reports-multimedia.png" alt="多媒体报告" width="600">
 
-### 針對稽核功能改版的UX
+### 针对审阅功能对UX进行了改版
 
-現在AEM Guides提供改良的UX，可幫助您檢閱共用供檢閱的主題。 在最新的體驗中，稽核功能有下列增強功能：
+现在，AEM Guides提供了一个经过改进的UX，可帮助您查看共享供查看的主题。 在最新的体验中，审阅功能具有以下增强功能：
 
-* 重新整理的使用者介面
-* 條件面板，可讓您根據主題中的可用條件反白顯示內容
-* 註解面板中的每個註解都會連結到目前主題中的對應文字。 它有助於您識別註解的文字。
-* 註解會以檔案中註解文字的順序顯示。
-* 稽核工作流程上會顯示稽核任務的名稱。
-* 選取審閱工作的根目錄對映，用於解析審閱內容中使用的所有關鍵參考和字彙表術語。
-* 可協助您快速反白或刪除線文字的內容工具列
-* 「選項」選單可編輯或刪除您自己的註解
-* 對於過時的註解，您可以存取並排檢視，這有助於將主題的前一版本與目前的稽核版本進行比較。
-* 使用篩選器時，右側面板上的註解會根據選取範圍進行篩選，而左側面板中的註解數量也會據此更新。
-
-
-   <img alt="評論任務" src="assets/comment-pop-up-panel.png" width="600">
+* 已刷新用户界面
+* 条件面板，允许您根据主题中的可用条件突出显示内容
+* 评论面板中的每个评论都链接到当前主题中的相应文本。 它有助于您识别注释的文本。
+* 注释按文档中注释文本的顺序显示。
+* 审核任务的名称显示在审核工作流中。
+* 选择审阅任务的根图，该根图用于解析审阅内容中使用的所有关键引用和术语表。
+* 上下文工具栏可帮助您快速高亮显示或删除文本
+* 用于编辑或删除您自己的评论的“选项”菜单
+* 对于过时的注释，您可以访问并排视图，这有助于将主题的以前版本与当前审阅版本进行比较。
+* 在使用过滤器时，右侧面板上的注释将根据所选内容进行过滤，左侧面板中的注释数量将相应地更新。
 
 
-
-### 翻譯增強功能
-
-現在，翻譯儀表板中提供了更方便使用的增強功能，可幫助您從網頁編輯器輕鬆翻譯檔案。
-
-**將版本標籤傳遞至目標版本**
-
-AEM Guides可讓您將來源檔案的標籤傳遞至目標檔案。 這可協助您輕鬆識別翻譯檔案的來源版本。
-
-<img alt="翻譯標籤" src="assets/translation-pass-source-label.png" width="600">
-
-例如，如果您有一些來源檔案套用了版本標籤1.0版，那麼您也可以將來源標籤（1.0版）傳遞給翻譯的檔案。
-
-**強制同步處理不同步的資產**
-
-如果您對部分資產進行變更，AEM Guides會將其標籤為不同步。 您可以重新翻譯修改的資產，或選擇關閉「不同步」狀態。 例如，如果您進行了一些確實不需要翻譯的次要變更，您可以將其狀態標示為「同步」。
-
-<img src="assets/translation-version-diff.png" alt="翻譯面板" width="600">
-
-**檢視主題或地圖的進行中翻譯專案**
-
-翻譯控制面板上的某些參考可能正在進行中。 現在AEM Guides提供的功能可幫助您檢視包含所選參考的所有進行中翻譯專案的清單（以及目標語言）。
+   <img alt="审核任务" src="assets/comment-pop-up-panel.png" width="600">
 
 
-### 從網頁編輯器產生多種格式的輸出
 
-現在您可以從網頁編輯器輕鬆產生主題或DITA map的輸出。 您可以設定各種輸出預設集，例如AEM Site、PDF、HTML5、JSON （Headless輸出格式）和自訂輸出。 然後，您可以使用這些來產生個別輸出。
+### 翻译增强功能
 
-您可以在DITA主題中定義屬性，然後使用條件預設集在發佈輸出時套用條件。 您也可以使用基準線發佈功能，選擇性地發佈DITA map或主題的特定版本。
+现在，翻译仪表板中提供了更加用户友好的增强功能，可帮助您从Web编辑器轻松翻译文档。
 
+**将版本标签传递到目标版本**
 
-### 在地圖層級尋找和取代文字
+AEM Guides允许您将源文件的标签传递到目标文件。 这有助于您轻松识别已翻译文件的源版本。
 
-AEM Guides可讓您在地圖中搜尋包含特定文字的檔案。 搜尋的文字會在檔案中反白顯示。 現在，您也可以在所有檔案中，將搜尋到的字詞或片語取代為其他字詞或片語。 您可以選取 **全部取代** 圖示取代所有檔案中搜尋字詞的所有出現位置。
+<img alt="翻译标签" src="assets/translation-pass-source-label.png" width="600">
 
-<img src="assets/map-find-replace.png" alt="地圖尋找取代" width="600">
+例如，如果您有一些源文件应用了版本标签1.0版，那么您还可以将源标签（1.0版）传递到已翻译的文件。
 
-### 從存放庫面板刪除和複製檔案
+**强制同步不同步的资产**
 
-現在，您可以輕鬆地從建立檔案的重複或復本 **選項** 儲存庫面板中選取檔案的功能表。 依預設，檔案會以字尾建立(例如 `filename_1.extension`)。
+如果您对某些资源进行了更改，AEM Guides会将这些资源标记为不同步。 您可以重新翻译修改的资产，也可以选择取消不同步状态。 例如，如果您进行了一些确实不需要翻译的次要更改，则可以将其状态标记为同步。
 
-<img src="assets/options-menu-repo-view-file-level.png" alt="檔案選項功能表 " width="500">
+<img src="assets/translation-version-diff.png" alt="翻译板" width="600">
 
+**查看主题或映射的正在进行中的翻译项目**
 
-### 其他Web Editor增強功能
-
-* 在AEM Guides中，您可以使用快顯選單對影像和媒體檔案執行一些常見操作。 現在您也可以在存放庫中找出選取的影像或媒體，或在Assets UI中檢視檔案預覽。
-
-* 目前資料夾描述檔的名稱會在主工具列中顯示為「使用者偏好設定」圖示的標籤。 這有助於您識別正在處理的資料夾設定檔。
-
-* 在地圖檢視中開啟地圖時，目前地圖的標題會顯示在主工具列的中心。 這有助於讓使用者知道目前開啟的地圖。
+翻译仪表板上的某些引用可能正在进行中。 现在，AEM Guides提供了一项功能，可帮助您查看包含所选引用的所有正在进行的翻译项目的列表（以及目标语言）。
 
 
-### 在氧氣編輯器中檢視標題取代UUID
+### 从Web编辑器生成各种格式的输出
 
-現在AEM Guides可讓您選擇 **在編輯器和地圖管理員中使用標題** 選項。 如果選取此選項，當在「編輯器」或「DITA地圖管理員」中開啟時，檔案的標題會顯示在檔案的標籤上。 如果您未選取此選項，則檔案的UUID會顯示在檔案的索引標籤上。
+现在，您可以轻松地从Web编辑器生成主题或DITA映射的输出。 您可以配置各种输出预设，如AEM Site、PDF、HTML5、JSON（一种Headless输出格式）和自定义输出。 然后，您可以使用这些组件生成相应的输出。
 
-### AEM Guidesas a Cloud Service的微服務型發佈
-
-新的發佈微服務可讓您在AEM Guidesas a Cloud Service上同時執行大量發佈工作負載，並利用業界領先的Adobe I/O Runtime無伺服器平台。
-
-對於每個發佈請求，AEM Guidesas a Cloud Service會執行單獨的容器，它會根據使用者請求水平縮放。 這可讓您執行多個發佈請求，並獲得改進的效能。
-
-如需詳細資訊，請參閱 [為AEM Guidesas a Cloud Service設定新的微服務型發佈](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
-
-### 原生PDF |在PDF輸出中新增自訂書籤
-
-現在，您可以在最終PDF輸出中的特定內容上新增自訂書籤，以便輕鬆導覽。 這將會新增到從DITA map中的主題或區段標題建立的目錄。
-
-### 原生PDF |在目錄專案和主題內容上套用自訂樣式
-
-AEM Guides提供在目錄專案或PDF輸出中的特定主題上套用自訂樣式的功能。 例如，您可以變更目錄中的文字顏色和主題標題。 您也可以在主題內的整個內容上套用樣式。
+您可以在DITA主题中定义属性，然后使用条件预设在发布输出时应用条件。 还可使用基线发布功能有选择地发布DITA map或主题的特定版本。
 
 
-### 原生PDF |在註腳元件中設定頁面標籤的樣式
+### 在映射级别查找和替换文本
 
-現在，您可以在註腳中設定頁面標籤的樣式。 例如，您可以新增括弧或變更其顏色。 這些樣式可協助使用者輕鬆識別檔案中的頁面標籤。
+AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的文本在文件中突出显示。 现在，您还可以用所有文件中的其他单词或短语替换搜索的单词或短语。 您可以选择 **全部替换** 图标，以替换所有文件中搜索词的所有匹配项。
 
-### 原生PDF |變更列表示目錄中已變更的主題
+<img src="assets/map-find-replace.png" alt="映射查找替换" width="600">
 
-AEM Guides現在可讓您快速識別PDF輸出目錄。  它會在目錄中已變更的主題左側顯示變更列。 您可以按一下目錄中的主題並檢視詳細變更。
+### 从存储库面板中删除和复制文件
 
-<img src="assets/change-marker-toc.png" alt="在目錄中變更標籤 " width="500">
+现在，您可以轻松地从创建文件的副本或副本 **选项** 存储库面板中选定文件的菜单。 默认情况下，创建该文件时带有后缀(例如 `filename_1.extension`)。
+
+<img src="assets/options-menu-repo-view-file-level.png" alt="文件选项菜单 " width="500">
+
+
+### 其他Web编辑器增强功能
+
+* 在AEM Guides中，您可以使用上下文菜单对图像和媒体文件执行一些常见操作。 现在，您还可以在存储库中找到选定的图像或媒体，或者在Assets UI中查看文件预览。
+
+* 当前文件夹配置文件的名称在主工具栏中显示为“用户首选项”图标的标签。 这有助于您识别正在处理的文件夹配置文件。
+
+* 在地图视图中打开地图时，当前地图的标题显示在主工具栏的中央。 这有助于让用户知道当前打开了哪个映射。
+
+
+### 在氧气编辑器中查看标题代替UUID
+
+现在，AEM Guides允许您选择 **在编辑器和映射管理器中使用标题** 选项。 如果选择此选项，则在编辑器或DITA映射管理器中打开文件时，文件的标题将显示在文件的选项卡上。 如果不选择此选项，则文件的UUID将显示在文件的选项卡上。
+
+### AEM Guidesas a Cloud Service基于微服务的发布
+
+新的发布微服务使您能够同时在AEM Guidesas a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
+
+对于每个发布请求，AEM Guidesas a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使您能够运行多个发布请求并获得改进的性能。
+
+有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
+
+### 本机PDF |在PDF输出中添加自定义书签
+
+现在，您可以在最终PDF输出中为特定内容添加自定义书签以便轻松导航。 这将添加到从DITA map中的主题或节标题创建的目录。
+
+### 本机PDF |对目录条目和主题内容应用自定义样式
+
+AEM Guides提供了对目录条目或PDF输出中的特定主题应用自定义样式的功能。 例如，您可以更改目录和主题标题中文本的颜色。 您还可以在主题内的整个内容上应用样式。
+
+
+### 本机PDF |在脚注组件中设置页面标记的样式
+
+现在，您可以在脚注中为页面标记设置样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
+
+### 本机PDF |更改栏以指示目录中已更改的主题
+
+AEM Guides现在允许您快速识别PDF输出目录中已更改的主题。  它会在目录中已更改的主题的左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
+
+<img src="assets/change-marker-toc.png" alt="更改目录中的标记 " width="500">
 
 ## 修复的问题
 
-修復了各種區域的錯誤如下所列：
+修复了多个区域的错误如下：
 
 ### 创作
 
-* 網頁編輯器html中的變更導致下列專案發生問題： `<dl>` 和 `<dlentry>`. (11024)
-* 有些屬性不會被視為有條件屬性而造成問題。 (10895)
-* 三個層級或更多巢狀 `<indexterm>` 未巢狀化至原生PDF匯出中。 (10799)
-* 從「作者」切換到「來源」檢視時，內容會消失在任務的內文中。 (10735)
-* 評論在評論任務中被錯誤放置。 (10625)
-* **還原** 或 **取消復原** 某些檔案無法正常運作。 (10373)
-* 複製和貼上動作未保留自訂中繼資料。 (10367)
-* XML編輯器中的還原選項會將使用者帶至頁面頂端。 (10091)
-* 在資產的複製和貼上操作後，節點屬性會被移除。 (10053)
-* mimeType是為DITA資產建立和更新而以硬式編碼。 (8979)
-* 對於透過Assets UI上傳的檔案，版本歷史記錄中的版本建立者名稱是&quot;fmdita-serviceuser&quot;。 (8910)
-* 雲端上安裝AEM Guides時，無法複製和貼上內容片段。 (11315)
-* 使用自訂結構描述載入內容時，瀏覽器（網頁編輯器）會凍結。 (11211)
+* Web编辑器html中的更改导致出现问题 `<dl>` 和 `<dlentry>`. (11024)
+* 某些属性不会被视为有条件属性，从而导致出现问题。 (10895)
+* 三个级别或更多嵌套 `<indexterm>` 未嵌套在本机PDF导出中。 (10799)
+* 从“创作”视图切换到“源”视图时，内容在任务正文中消失。 (10735)
+* 审阅评论在审阅任务中被错误放置。 (10625)
+* **撤消** 或 **重做** 在某些文件上无法正常工作。 (10373)
+* 在复制和粘贴操作中，自定义元数据未保留。 (10367)
+* XML编辑器中的“撤消”选项可将用户转到页面顶部。 (10091)
+* 对资产执行复制和粘贴操作后，将删除节点属性。 (10053)
+* mimeType已为DITA资产创建和更新进行硬编码。 (8979)
+* 对于通过Assets UI上传的文件，版本历史记录中的版本创建者名称是“fmdita-serviceuser”。 (8910)
+* 在云上安装AEM Guides时，无法复制和粘贴内容片段。 (11315)
+* 使用自定义架构加载内容时，浏览器（Web编辑器）冻结。 (11211)
 
 ### 管理
 
-* 複製DITA map資產（從資產UI ）會導致複製的資產中出現錯誤的基準線。 (11218)
-* 上傳大於AEM所允許限制（預設為2 GB）的檔案時，不會顯示警告訊息。 (10817)
-* 網頁編輯器 — 基準線 |在網頁編輯器內的新基準線控制面板中，「最新」欄的行為不同。 (10808)
-* 翻譯 |由於/libs/fmdita/i18n/ja.json無效，翻譯工作未開始。 (10543)
-* 翻譯 |從翻譯控制面板（人工翻譯）建立的範圍設定翻譯專案中發生錯誤。 (10526)
-* 翻譯 |資產存在於使用中翻譯專案的整個語言資料夾都會封鎖後續處理。 (10332)
-* 如果版本變更並儲存在「基準線」編輯器上，則任何資產都會出現多個快顯視窗。 (10399)
-* 工作階段洩漏發生於 `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
+* 复制DITA映射资产（从资产UI ）会导致所复制的资产中出现错误的基线。 (11218)
+* 上传大于AEM中允许的限制（默认为2 GB）的文件时不会显示警告消息。 (10817)
+* Web编辑器 — 基线 | Latest列的行为在Web编辑器的新基线仪表板中有所不同。 (10808)
+* 翻译 |由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
+* 翻译 |从翻译仪表板（人工翻译）创建的范围设定翻译项目出错。 (10526)
+* 翻译 |对于资产位于活动翻译项目中的整个语言文件夹，后处理被阻止。 (10332)
+* 如果在基线编辑器中更改并保存了版本，则会为任何资源显示多个弹出窗口。 (10399)
+* 会话泄露发生于 `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
 ### 发布
 
-* 主題重新產生不適用於某些情況。 (10635)
-* Publishlistener不會在資訊記錄中顯示要求的資料，而且其中也包含一些垃圾記錄檔。( 10567)
-* 原生PDF |使用「新增至資料夾設定檔」選項建立輸出預設集時，PDF產生失敗並出現Null指標例外狀況。 (10950)
-* 原生PDF |旋轉表格標題時發生問題。 (10555)
-* 原生PDF |巢狀 `<indexterm>` 未巢狀化至原生PDF匯出中。 (10521)
-* 原生PDF |附錄中的巢狀topicref全部轉換為臨時HTML中的h1。 (10454)
-* 使用FrameMaker Publishing Server 2020產生的PDF基準線發佈失敗。 (10551)
-* 原生PDF |新增 `xref` 「 to a Image 」不會轉譯產生PDF上的影像。 (11346)
-* 原生PDF |影像標籤會將display-inline屬性新增至所有影像。 (10653)
-* 原生PDF |預設會在產生的輸出中隱藏草稿註解。 (10560)
-* 原生PDF | navtitle不適用於topichead。 (10509)
+* 主题重新生成不适用于某些场景。 (10635)
+* Publishlistener未在info日志中显示请求的数据，并且还包含一些垃圾日志。( 10567)
+* 本机PDF |使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败并出现空指针异常。 (10950)
+* 本机PDF |旋转表标题时出现问题。 (10555)
+* 本机PDF |嵌套 `<indexterm>` 未嵌套在本机PDF导出中。 (10521)
+* 本机PDF |在附录中嵌套的topicref全部转换为临时HTML中的h1。 (10454)
+* 对于使用FrameMaker Publishing Server 2020生成的PDF，基线发布失败。 (10551)
+* 本机PDF |添加 `xref` 到图像不会在生成的PDF上渲染图像。 (11346)
+* 本机PDF |图像标记向所有图像添加display-inline属性。 (10653)
+* 本机PDF |默认情况下，在生成的输出中隐藏草稿注释。 (10560)
+* 本机PDF |不对topichead授予navtitle。 (10509)

@@ -1,6 +1,6 @@
 ---
-title: 瞭解如何翻譯內容
-description: 瞭解如何翻譯內容
+title: 了解如何翻译内容
+description: 了解如何翻译内容
 exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
 source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
 workflow-type: tm+mt
@@ -11,19 +11,19 @@ ht-degree: 1%
 
 # 翻译内容 {#id1645H700L67}
 
-AEM Guides隨附強大的功能，可讓您將內容翻譯成多種語言。 AEM Guides支援人工翻譯和機器翻譯工作流程。
+AEM Guides附带了强大的功能，可让您将内容翻译成多种语言。 AEM Guides支持人工翻译工作流和机器翻译工作流。
 
-- **人工翻譯**  — 資產會傳送給您的翻譯提供者，並由專業翻譯人員進行翻譯。 完成後，系統會傳回翻譯後的資產，並將其匯回AEM。
+- **人工翻译**  — 资产将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回已翻译的资产，然后将其导入回AEM。
 
-- **機器翻譯**  — 這是AEM中的預設服務，其中會使用機器翻譯即時即時翻譯內容。 現成的AEM提供連線至Microsoft Translator的功能。
+- **机器翻译**  — 这是AEM中的默认服务，其中使用机器翻译实时立即翻译内容。 开箱即用的AEM提供连接到Microsoft Translator的功能。
 
    >[!NOTE]
    >
-   > Microsoft Translator僅可作為試用版授權使用。
+   > Microsoft Translator仅作为试用许可证提供。
 
 
-- **[內容翻譯的最佳實務](translation-first-time.md)**
+- **[内容翻译的最佳实践](translation-first-time.md)**
 
-- **[檢視翻譯狀態](translation-view-trans-state-6234.md)**
+- **[查看翻译状态](translation-view-trans-state-6234.md)**
 
-- **[翻譯修改的主題](translation-modified-topics-6234.md)**
+- **[翻译修改的主题](translation-modified-topics-6234.md)**

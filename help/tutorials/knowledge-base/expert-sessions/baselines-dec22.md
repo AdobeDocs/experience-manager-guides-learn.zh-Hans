@@ -1,6 +1,6 @@
 ---
-title: 使用基準管理內容
-description: 瞭解如何使用基線來有效管理您的內容。
+title: 使用基线管理内容
+description: 了解如何使用基线有效地管理您的内容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
 source-git-commit: 3d12389dbd7458a74bb9b9ec488e83bf39c8c9bf
 workflow-type: tm+mt
@@ -9,48 +9,48 @@ ht-degree: 1%
 
 ---
 
-# 使用基準管理內容
+# 使用基线管理内容
 
-AEM Guides中的發行管理是使用基準線完成，可讓您選擇主題和資產的版本，然後將其用於發佈或翻譯。
+AEM Guides中的版本管理使用基线完成，该基线允许您选择主题和资源的版本，然后将其用于发布或翻译。
 
-## 工作階段概觀
+## 会话概述
 
-在本次研討會中，您會瞭解如何使用基準來有效管理內容。
+在此会话中，您将了解如何使用基线有效地管理内容。
 
-## 工作階段錄製
+## 会话录制
 
 >[!VIDEO](https://video.tv.adobe.com/v/3414172/version-management-release-management-baseline?quality=12&learn=on)
 
 ## 高亮
 
 - **日期** - 2022年12月8日
-- **出席者人數** - 64
-- **持續時間** - 60分鐘
-- **對象**  — 客戶、合作夥伴和Adobe員工
+- **与会者人数** - 64
+- **持续时间** - 60分钟
+- **Audience**  — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
-在這場會議中，您將瞭解以下內容：
-- AEM Guides中的不同基準線作業
-- 使用基線下載、發佈和翻譯
-- 使用基線的最佳實務
-- 偷窺即將推出的新功能， **建立動態基準線**
+在本课程中，您将了解以下内容：
+- AEM Guides中的各种基线操作
+- 使用基线下载、发布和翻译
+- 使用基线的最佳实践
+- 偷看即将推出的新功能， **创建动态基线**
 
-## 相關資源
+## 相关资源
 
-- **功能影片** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
+- **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **使用手冊** - [使用基準線](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
+- **用户指南** - [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
-- **社群論壇**  — 若為Experience League上特定工作階段的社群互動，請造訪 [AEM Guides論壇](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问 [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
->下列版本的AEM Guides提供本工作階段中顯示的功能：
-> - 內部部署4.1和更新版本
-> - Cloud Services 2211和更新版本
+>此会话中显示的功能在以下版本的AEM Guides中可用：
+> - 内部部署4.1及更高版本
+> - Cloud Services2211及更高版本
 
 
-## 聯絡我們
+## 联系我们
 
-如有任何疑問，請傳送電子郵件至 <techcomm@adobe.com>
+如有任何疑问，请向我们发送电子邮件： <techcomm@adobe.com>

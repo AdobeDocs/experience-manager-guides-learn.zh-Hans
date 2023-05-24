@@ -1,6 +1,6 @@
 ---
-title: 新增自訂樣式至「參考線」編輯器
-description: 瞭解如何新增自訂樣式以變更Guides編輯器的外觀。
+title: 向“参考线”编辑器添加自定义样式
+description: 了解如何添加自定义样式以更改Guides编辑器的外观。
 exl-id: 3a9dd701-9d9d-4d7f-bc0c-855904404fd1
 source-git-commit: ed3adf0cf8006c76461de34c6a2a4ba38d8b3406
 workflow-type: tm+mt
@@ -9,34 +9,34 @@ ht-degree: 0%
 
 ---
 
-# 新增自訂樣式至「參考線」編輯器
+# 向“参考线”编辑器添加自定义样式
 
-在本文中，我們將瞭解如何新增自訂樣式以變更webeditor預設外觀。
+在本文中，我们将了解如何添加自定义样式以更改网站浏览器的默认外观。
 
-這將涉及以下步驟：
-- 透過資料夾設定檔XML編輯器設定新增自訂樣式
-- 在Webeditor中選擇個別資料夾設定檔並測試變更
-
-
-## 以範例來實作
-
-以一個範例來瞭解此內容，我們想要將簡短說明和標題顯示為單獨的區塊，並在編輯器中加入一些樣式方面。
-
-![使用自訂樣式預覽Webeditor](../../../assets/authoring/webeditor-customstyles-preview.png)
+这将涉及以下步骤：
+- 通过文件夹配置文件XML编辑器配置添加自定义样式
+- 在Webeditor中选择相应的文件夹配置文件并测试更改
 
 
-## 實作此專案
+## 以实施为例
+
+让我们通过一个示例来了解这一点，我们希望将简短描述和标题显示为单独的块，并在编辑器中显示一些样式方面。
+
+![使用自定义样式预览Webeditor](../../../assets/authoring/webeditor-customstyles-preview.png)
 
 
-### 將自訂CSS新增至資料夾設定檔
+## 实施此功能
 
-使用資料夾設定檔來檢查 *css_layout.css* 在「XML編輯器設定」標籤下方，並新增具有自訂樣式的CSS
 
-[使用此連結來進一步瞭解資料夾設定檔和設定CSS範本版面](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+### 将自定义CSS添加到文件夹配置文件
 
-使用下列專案在網路編輯器中設定上述樣式：
-- 使用 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 並將其上傳至您選擇的資料夾設定檔
-- 安裝附加的套件 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) 使用AEM套件管理器安裝上述CSS檔案中使用的資源
+使用文件夹配置文件检查 *css_layout.css* 在“XML编辑器配置”选项卡下，添加具有自定义样式的CSS
+
+[使用此链接了解有关文件夹配置文件和配置CSS模板布局的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
+
+使用以下内容在编辑器中设置上述样式：
+- 使用 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 并将其上传到您选择的文件夹配置文件
+- 安装附加的包 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) 使用AEM包管理器安装上述CSS文件中使用的资源
 
 ```
 This will install the resources at path "/content/dam/resources" which will include sub-folders "fonts" and "images"
@@ -45,9 +45,9 @@ This will install the resources at path "/content/dam/resources" which will incl
 
 ### 测试
 
-- 開啟Web編輯器
-- 從使用者偏好設定中選擇您新增自訂樣式的資料夾設定檔。 如果您將其新增至全域設定檔，表示您可能已經在使用它。
-- 開啟主題時，您會注意到編輯區域應具有自訂UI
+- 打开Web编辑器
+- 从“用户首选项”中选择在其中添加自定义样式的文件夹配置文件。 如果您将其添加到全局配置文件，则您可能已经在使用它。
+- 打开一个主题，您会注意到编辑区域应具有自定义UI
 
 ```
 Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud version 2303 (March)
@@ -56,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 引用
 
-您可能也會對Webeditor設定和自訂中的專家座談會感興趣 [Webeditor專家講座](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)
+您还可能对中介绍的有关WebDitor配置和自定义的专家讲座感兴趣 [Webeditor专家会议](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

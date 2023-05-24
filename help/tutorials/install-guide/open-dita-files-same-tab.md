@@ -1,6 +1,6 @@
 ---
-title: 在同一個索引標籤中開啟DITA主題或對應檔案
-description: 瞭解如何在相同索引標籤中開啟DITA主題或對應檔案
+title: 在同一选项卡中打开DITA主题或映射文件
+description: 了解如何在同一选项卡中打开DITA主题或映射文件
 source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
 workflow-type: tm+mt
 source-wordcount: '212'
@@ -9,37 +9,37 @@ ht-degree: 0%
 ---
 
 
-# 在同一個索引標籤中開啟DITA主題或對應檔案 {#id223HI0P202H}
+# 在同一选项卡中打开DITA主题或映射文件 {#id223HI0P202H}
 
-在某些工作流程中，當您按一下主題或地圖檔案的連結時，它會在新標籤中開啟。 這可能會導致瀏覽器中開啟許多標籤，進而影響您的生產力。 您可以變更在新標籤中開啟主題或地圖檔案的行為，並在目前標籤中強制將其開啟。 要執行此操作，請執行以下組態變更：
+在某些工作流中，当您单击主题或映射文件的链接时，它将在新选项卡中打开。 这可能会导致在浏览器中打开许多选项卡，从而影响您的工作效率。 您可以更改在新选项卡中打开主题或映射文件的这种行为，并在当前选项卡中强制打开它。 为此，请执行以下配置更改：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
 
-1. 選取 **在同一個標籤中開啟DITA主題/對應** 選項。
+1. 选择 **在同一选项卡中打开DITA主题/映射** 选项。
 
 1. 单击“**保存**”。
 
 
-此設定會影響您存取主題或對應檔案的下列位置：
+此设置会影响以下您可以访问主题或映射文件的位置：
 
-- 建立DITA主題\(在工作流程結束時，當您按一下 **開啟主題** button\)
+- 创建DITA主题\(在工作流结束时，当您单击 **打开主题** button\)
 
-- 建立DITA Map \(在工作流程結束時，當您按一下 **開啟地圖** button\)
+- 创建DITA映射\(在工作流结束时，当您单击 **打开映射** button\)
 
-- DITA map主控台中的主題標籤
+- DITA map控制台中的“主题”选项卡
 
-- DITA map主控台中的「基準線」索引標籤
+- DITA map控制台中的“基线”选项卡
 
-- DITA map主控台中的「報表」標籤
+- DITA映射控制台中的“报表”选项卡
 
 
-**父級主題：**[&#x200B;自訂Web編輯器](conf-web-editor.md)
+**父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
 

@@ -1,6 +1,6 @@
 ---
-title: 發行說明 | Adobe Experience Manager Guides 4.2.1版的新增功能
-description: 瞭解Adobe Experience Manager Guides 4.2.1版中的新功能和增強功能
+title: 发行说明 | Adobe Experience Manager Guides 4.2.1版的新增功能
+description: 了解Adobe Experience Manager Guides 4.2.1版本中的新增功能和增强功能
 source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
 workflow-type: tm+mt
 source-wordcount: '701'
@@ -10,76 +10,76 @@ ht-degree: 0%
 
 # Adobe Experience Manager Guides 4.2.1版的新增功能（2023年5月）
 
-本文介紹4.2.1版Adobe Experience Manager Guides (以下稱 *AEM指南*)。
+本文介绍Adobe Experience Manager Guides版本4.2.1中的新增功能和增强功能(后称为 *AEM指南*)。
 
-如需有關升級指示、相容性矩陣，以及此版本中修正問題的詳細資訊，請參閱 [發行說明](release-notes-4.2.1.md) 文章。
+有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-4.2.1.md) 文章。
 
-## 從網頁編輯器導覽至AEM首頁
+## 从Web编辑器导航到AEM主页
 
-現在您可以輕鬆從網頁編輯器導覽至AEM導覽頁面。
+现在，您可以轻松地从Web编辑器导航到AEM导航页面。
 
 ![](assets/web-editor-launch-page.png){width="800" align="left"}
 
-* 按一下 **指南** 圖示(![](assets/aem-guides-icon.png) )，返回AEM導覽頁面。
+* 单击 **指南** 图标(![](assets/aem-guides-icon.png) )，以返回到“AEM导航”页面。
 
 
-如需詳細資訊，請參閱 [AEM導覽頁面](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
+有关更多详细信息，请参阅 [AEM导航页面](../user-guide/web-editor-launch-editor.md#id2056BG00RZJ).
 
-## PDF發佈中的進階中繼資料支援
+## PDF发布中的高级元数据支持
 
-AEM Guides現在為中繼資料提供進階支援，這些中繼資料會對應到PDF輸出中的中繼資料。 中繼資料選項包括有關檔案及其內容的資訊，例如作者姓名、檔案標題、關鍵字、版權資訊和其他資料欄位。
+AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，例如作者姓名、文档标题、关键字、版权信息和其他数据字段。
 
-<img src="assets/pdf-metadata.png" alt=" 原生pdf中繼資料">
+<img src="assets/pdf-metadata.png" alt=" 本机pdf元数据">
 
-您可以匯入XMP檔案，AEM Guides可以從檔案中挑選資訊。 您也可以選擇使用下拉式清單提供中繼資料名稱和值。 您也可以直接在名稱欄位中輸入，以新增自訂中繼資料。
+您可以导入XMP文件，AEM Guides可以从文件中选取信息。 您还可以选择使用下拉菜单提供元数据名称和值。 您还可以通过直接在名称字段中键入来添加自定义元数据。
 
-如需詳細資訊，請參閱 **中繼資料** 中的功能說明 [建立PDF輸出預設集](../web-editor/native-pdf-web-editor.md).
+有关更多详细信息，请参阅 **元数据** 中的功能描述 [创建PDF输出预设](../web-editor/native-pdf-web-editor.md).
 
-### 增強型大綱檢視面板
+### “增强的大纲视图”面板
 
-AEM Guides提供改良的「大綱檢視」面板，您可以在其中取得檔案中使用之元素的階層檢視。
+AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中获得文档中所用元素的分层视图。
 
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf中繼資料">
+<img src="assets/select-element-content-outline-view_cs.png" alt=" 本机pdf元数据">
 
-「大綱檢視」提供下列增強功能：
+“大纲视图”提供了以下增强功能：
 
-* 「檢視選項」下拉式清單會顯示在「大綱檢視」面板上方。 如果元素有ID、屬性和文字，您可以從下拉式清單中選取它們，以便與元素一起顯示。 可以在「大綱檢視」面板中顯示的屬性由管理員在 **編輯器設定**.
+* “视图选项”下拉列表显示在“大纲视图”面板的顶部。 如果元素具有ID、属性和文本，则可以从下拉列表中选择它们，以与元素一起显示它们。 可以在“大纲视图”面板中显示的属性由管理员在 **编辑器设置**.
 
-* 您可以使用搜尋功能，依名稱、ID、文字或屬性值來搜尋元素。
+* 使用搜索功能，您可以按元素的名称、ID、文本或属性值搜索元素。
 
-如需更多詳細資訊，請參閱 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
+有关更多详细信息，请参阅 [左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 部分。
 
-## 從網頁編輯器產生多媒體報告
+## 从Web编辑器生成多媒体报告
 
-AEM Guides提供為您的技術檔案產生報表的功能。  您可以使用此功能來檢視主題清單和管理檔案的中繼資料。 您現在也可以從以下連結檢視目前地圖的所有參照中所使用的多媒體： **報表** 索引標籤進行編輯。
+AEM Guides提供了为技术文档生成报表的功能。  您可以使用此功能查看主题列表和管理文档的元数据。 现在，您还可以从以下位置查看当前地图的所有引用中使用的多媒体： **报告** 选项卡。
 
-您可以產生多媒體報告，其中包含有關目前地圖中參照使用的多媒體的詳細資訊。 您可以彈性地篩選和排序報表中列出的多媒體檔案。
-您也可以產生CSV來下載DITA map中使用之多媒體的目前快照。
+您可以生成多媒体报告，该报告包含有关当前映射中引用所使用的多媒体的详细信息。 您可以灵活地筛选和排序报告中列出的多媒体文件。
+您还可以生成CSV来下载DITA映射中使用的多媒体的当前快照。
 
-<img src="assets/web-editor-reports-multimedia.png" alt="多媒體報告" width="600">
+<img src="assets/web-editor-reports-multimedia.png" alt="多媒体报告" width="600">
 
-如需更多詳細資訊，請參閱 [來自網頁編輯器的DITA map報表](../user-guide/reports-web-editor.md) 區段。
+有关更多详细信息，请参阅 [Web编辑器中的DITA映射报表](../user-guide/reports-web-editor.md) 部分。
 
-## 原生PDF |變更列表示目錄中已變更的主題
+## 本机PDF |更改栏以指示目录中已更改的主题
 
-AEM Guides現在可讓您快速識別PDF輸出目錄。  它會在目錄中已變更的主題左側顯示變更列。 您可以按一下目錄中的主題並檢視詳細變更。
+AEM Guides现在允许您快速识别PDF输出目录中已更改的主题。  它会在目录中已更改的主题的左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
 
-<img src="assets/change-marker-toc.png" alt="在目錄中變更標籤 " width="500">
+<img src="assets/change-marker-toc.png" alt="更改目录中的标记 " width="500">
 
-如需詳細資訊，請參閱 [使用自訂變更列樣式](../native-pdf/change-bar-style.md).
+有关更多详细信息，请参阅 [使用自定义更改条样式](../native-pdf/change-bar-style.md).
 
 
 
-## 原生PDF |在註腳元件中設定頁面標籤的樣式
+## 本机PDF |在脚注组件中设置页面标记的样式
 
-現在，您可以在註腳中設定頁面標籤的樣式。 例如，您可以新增括弧或變更其顏色。 這些樣式可協助使用者輕鬆識別檔案中的頁面標籤。
+现在，您可以在脚注中为页面标记设置样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
 
-如需詳細資訊，請參閱 [在註腳中使用自訂樣式](../native-pdf/footnote-number-style.md).
+有关更多详细信息，请参阅 [在脚注中使用自定义样式](../native-pdf/footnote-number-style.md).
 
-## 在網頁編輯器中開啟並播放視訊或音訊檔案
+## 在Web编辑器中打开并播放视频或音频文件
 
-AEM Guides現在提供在網頁編輯器中開啟和播放音訊或視訊檔案的功能。 您可以變更音量或視訊檢視。 在快捷選單中，您也有 **下載**，變更 **播放速度**，或檢視 **子母畫面**.
+AEM Guides现在提供在Web编辑器中打开和播放音频或视频文件的功能。 您可以更改视频的音量或视图。 在快捷菜单中，您还可以选择 **下载**，更改 **回放速度**，或视图 **画中画**.
 
-<img src="assets/video-web-editor.png" alt="播放視訊" width="600">
+<img src="assets/video-web-editor.png" alt="播放视频" width="600">
 
-如需詳細資訊，請參閱「 」中的「存放庫檢視」功能說明。 [左側面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 區段。
+有关更多详细信息，请参阅 [左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 部分。

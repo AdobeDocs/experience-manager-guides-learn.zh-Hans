@@ -1,6 +1,6 @@
 ---
-title: 移轉現有內容
-description: 瞭解如何移轉現有內容
+title: 迁移现有内容
+description: 了解如何迁移现有内容
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '79'
@@ -9,16 +9,16 @@ ht-degree: 0%
 ---
 
 
-# 移轉現有內容 {#id181AGB000Y4}
+# 迁移现有内容 {#id181AGB000Y4}
 
-AEM Guides可讓您將各種結構化和非結構化檔案轉換為DITA格式。 本主題涵蓋有關在AEM存放庫中上傳DITA內容以及將非DITA內容轉換為DITA格式的資訊。
+AEM Guides允许您将各种结构化和非结构化文档转换为DITA格式。 本主题介绍有关在AEM存储库中上传DITA内容以及将非DITA内容转换为DITA格式的信息。
 
 >[!TIP]
 >
-> 請參閱 *內容移轉和上傳* 區段 [Appendix.md](appendix.md) 最佳作法指南中，取得使用移轉及上傳現有內容的最佳作法。
+> 请参阅 *内容迁移和上传* 部分 [Appendix.md](appendix.md) 最佳实践指南中，了解有关使用迁移和上传现有内容的最佳实践。
 
-- **[上傳現有DITA內容](migrate-content-upload-existing-dita-content.md)**
+- **[上载现有DITA内容](migrate-content-upload-existing-dita-content.md)**
 
-- **[移轉非DITA內容](migrate-content-non-dita.md)**
+- **[迁移非DITA内容](migrate-content-non-dita.md)**
 
 

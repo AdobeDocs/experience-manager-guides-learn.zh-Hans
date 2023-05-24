@@ -1,6 +1,6 @@
 ---
-title: 金鑰
-description: 在AEM Guides中使用DITA時，索引鍵可讓您加入變數資訊
+title: 键
+description: 在AEM Guides中使用DITA时，可通过键向包含变量信息
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
 source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
 workflow-type: tm+mt
@@ -9,138 +9,138 @@ ht-degree: 0%
 
 ---
 
-# 金鑰
+# 键
 
-不同的材料集可能包含類似的資訊，需要在選取的位置自訂。 鍵可讓您在使用DITA時包含變數資訊。
+不同的材料集可能包含类似的信息，需要在选定的位置对其进行定制。 键允许您在使用DITA时包含变量信息。
 
-檔案中提供您可選擇用於本課程的範例檔案 [keys.zip](assets/keys.zip).
+文件中提供了您可选择在本课程中使用的示例文件 [keys.zip](assets/keys.zip).
 
 >[!VIDEO](https://video.tv.adobe.com/v/342756?quality=12&learn=on)
 
-## 啟用金鑰
+## 启用键
 
-1. 上傳提供的範例檔案集。
+1. 上传提供的示例文件集。
 
-   a.載入zip檔案。
+   a.加载压缩文件。
 
-   b.重新整理AEM環境。
+   b.刷新AEM环境。
 
-   c.選取要擷取的檔案。
+   c.选择要提取的文件。
 
-   ![選取Zip](images/lesson-9/select-zip.png)
+   ![选择Zip](images/lesson-9/select-zip.png)
 
-   d.按一下 [!UICONTROL **擷取封存**] 在頂端工具列上。
+   d.单击 [!UICONTROL **提取存档**] 工具栏中。
 
    ![工具栏](images/lesson-9/extract-archive.png)
 
-   e.在對話方塊中，選擇要擷取檔案的特定位置，例如名為「金鑰」的資料夾。
+   e.在对话框中，选择要提取的文件的特定位置，如名为“密钥”的文件夹。
 
-   f.按一下 [!UICONTROL **下一個**].
+   f.单击 [!UICONTROL **下一个**].
 
-   g.略過任何衝突，因為它們對於以前從未上傳過的內容不存在。
+   g.跳过任何冲突，因为以前从未上传过的内容不存在这些冲突。
 
-   h.選取 [!UICONTROL **Extract**] 在熒幕右上方。
+   h.选择 [!UICONTROL **Extract**] 屏幕右上角。
 
-1. 擷取完成後，按一下 [!UICONTROL **前往目標資料夾**].
+1. 提取完成后，单击 [!UICONTROL **转到目标文件夹**].
 
    ![确认](images/lesson-9/go-to-target.png)
 
-## 將索引鍵解析為參照的值
+## 将键解析为引用的值
 
-若要正確使用索引鍵，「使用者偏好設定」必須參照特定對應作為「根對應」。 此地圖內部是索引鍵集合，分組在主題群組內。 開啟地圖和主題會將鍵解析為此地圖參照的值。
+要正确使用密钥，用户首选项必须将特定映射引用为根映射。 此映射内部是键的集合，这些键在主题组内分组在一起。 打开映射和主题会将键解析为此映射引用的值。
 
-1. 指定根對應。
+1. 指定根映射。
 
-   a.在「按鍵」畫面中，開啟地圖。
+   a.在“键”屏幕中，打开一个映射。
 
-   b.設定使用者偏好設定。
+   b.配置用户首选项。
 
-   c.按一下 [!UICONTROL **使用者偏好設定**] 圖示加以檢視。
+   c.单击 [!UICONTROL **用户首选项**] 图标。
 
-   ![頂端工具列](images/lesson-9/author-view.png)
+   ![顶部工具栏](images/lesson-9/author-view.png)
 
-   d.按一下鍵圖示以指定 **根對應** 將用於解析金鑰。
+   d.单击键图标以指定 **根映射** 将用于解析密钥。
 
-   e.選取任何所需資產的核取方塊。
+   e.选中任何所需资产的复选框。
 
-   ![資產下拉式清單](images/lesson-9/select-assets.png)
+   ![资产下拉列表](images/lesson-9/select-assets.png)
 
-   f.按一下 [!UICONTROL **選取**].
+   f.单击 [!UICONTROL **选择**].
 
-   g. **儲存** 使用者偏好設定。
+   g. **保存** 用户首选项。
 
-1. 導覽至 **地圖檢視**.
+1. 导航到 **映射视图**.
 
-1. 開啟指定的對應。
+1. 打开指定的映射。
 
-鍵值已解析。
+键值已解析。
 
-## 手動新增索引鍵
+## 手动添加新键盘
 
-1. 開啟具有指定根對映的對映。
+1. 打开具有指定根映射的映射。
 
-1. 選取金鑰。
+1. 选择一个键。
 
-   ![索引鍵下拉式清單](images/lesson-9/hybrid-key.png)
+   ![键下拉列表](images/lesson-9/hybrid-key.png)
 
-1. 插入新的索引鍵。
+1. 插入新键盘。
 
-   a.在地圖中的有效位置按一下。
+   a.在地图中的有效位置单击。
 
-   b.選取 **Keydef** 圖示加以檢視。
+   b.选择 **Keydef** 图标。
 
-   ![按鍵工具列](images/lesson-9/key-icon.png)
+   ![Keydef工具栏](images/lesson-9/key-icon.png)
 
-   c.在「插入Keydef」對話方塊中，輸入唯一的「金鑰」值，該值符合您正在建立的定義。
+   c.在“插入Keydef”对话框中，为键输入一个唯一值，该值对于您创建的定义有意义。
 
-   d.按一下 [!UICONTROL **插入**].
+   d.单击 [!UICONTROL **插入**].
 
-1. 在keydef中新增topicmeta。
+1. 在keydef中添加topicmeta。
 
-   a.按一下 [!UICONTROL **插入元素**] 圖示加以檢視。
+   a.单击 [!UICONTROL **插入元素**] 图标。
 
-   ![按鍵工具列](images/lesson-9/add-icon.png)
+   ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在「插入元素」對話方塊中，搜尋並選取「topicmeta」。
+   b.在“插入元素”对话框中，搜索并选择“topicmeta”。
 
-1. 在topicmeta中新增關鍵字。
+1. 在topicmeta中添加关键字。
 
-   a.按一下 [!UICONTROL **插入元素**] 圖示加以檢視。
+   a.单击 [!UICONTROL **插入元素**] 图标。
 
-   ![按鍵工具列](images/lesson-9/add-icon.png)
+   ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在「插入元素」對話方塊中，搜尋並選取「關鍵字」。
+   b.在“插入元素”对话框中，搜索并选择“关键字”。
 
-1. 在topicmeta中新增關鍵字。
+1. 在topicmeta中添加关键字。
 
-   a.按一下 [!UICONTROL **插入元素**] 圖示加以檢視。
+   a.单击 [!UICONTROL **插入元素**] 图标。
 
-   ![按鍵工具列](images/lesson-9/add-icon.png)
+   ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在 **插入元素** 對話方塊，搜尋並選取「關鍵字」
+   b.在 **插入元素** 对话框，搜索并选择“关键字”
 
-1. 在關鍵字中輸入keydef的值。
+1. 在关键字中键入keydef的值。
 
-在地圖中，您的keydef現在看起來應該像這樣：
+在地图中，您的keydef现在应如下所示：
 
 ![Keydef已完成](images/lesson-9/keydef.png)
 
-## 將keydef設定為程式碼片段
+## 将keydef配置为代码片段
 
-片段是小型內容片段，可在說明檔案專案的各種主題中重複使用。 您可以將單一金鑰定義設定為程式碼片段，而不需手動產生每個金鑰定義。
+片段是小型内容片段，可在文档项目中的各个主题中重复使用。 您可以将单个密钥定义配置为代码段，而不是手动生成每个密钥定义。
 
-1. 在地圖中選取keydef元素。
+1. 在映射中选择一个keydef元素。
 
-1. 在內容功能表中，按一下 [!UICONTROL **建立代碼片段**].
+1. 在上下文菜单中，单击 [!UICONTROL **创建代码片段**].
 
-1. 在新程式碼片段對話方塊中，新增標題和說明。
-您也可以從內容中移除現有的索引鍵或關鍵字定義。
+1. 在新代码片段对话框中，添加标题和描述。
+您可能还希望从内容中删除现有键或关键字定义。
 
 1. 单击&#x200B;[!UICONTROL **创建**]。
 
-1. 在左側面板上，選取 **代碼片段**.
+1. 在左侧面板上，选择 **代码片段**.
 
-1. 從「代碼片段」面板將您剛建立的代碼片段拖放至對映。
+1. 将您刚刚创建的代码片段从“代码片段”面板拖放到地图上。
 
-1. 視需要使用「內容屬性」更新Keydef。
-儲存並重新整理後，此組金鑰將可供已定義包含相同根對映之對映的任何使用者使用。
+1. 根据需要使用内容属性更新keydef。
+保存并刷新后，此组密钥将可供已定义包含相同根映射的映射的任何用户使用。

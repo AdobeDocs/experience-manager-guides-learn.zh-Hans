@@ -1,6 +1,6 @@
 ---
-title: 關於本指南
-description: 瞭解如何瞭解本指南
+title: 关于本指南
+description: 了解如何阅读本指南
 source-git-commit: cf1b9812cb6bb00319eb8fe23162d3830c82b1b1
 workflow-type: tm+mt
 source-wordcount: '586'
@@ -9,66 +9,66 @@ ht-degree: 0%
 ---
 
 
-# 關於本指南 {#id175MC0P0S5Z}
+# 关于本指南 {#id175MC0P0S5Z}
 
-Adobe Experience Manager Guides \(後稱為 *AEM指南*\)是功能強大、企業級元件內容管理解決方案\(CCMS\)。 它啟用Adobe Experience Manager中的原生DITA支援，使AEM能夠處理以DITA為主的內容建立和傳遞。 它可讓作者使用任何離線DITA編寫工具(例如Adobe FrameMaker或易於使用的內建Web編輯器)來建立內容。
+Adobe Experience Manager Guides \(以后称为 *AEM指南*\)是一个功能强大、企业级组件内容管理解决方案\(CCMS\)。 它在Adobe Experience Manager中启用了本机DITA支持，使AEM能够处理基于DITA的内容创建和交付。 它使作者能够使用任何离线DITA创作工具(如Adobe FrameMaker或易于使用的内置Web编辑器)创建内容。
 
-本指南提供下載、安裝和設定AEM Guides的說明。 在本指南中，您將找到根據組織編寫和發佈需求設定AEM Guides的詳細說明。
+本指南提供了下载、安装和配置AEM Guides的说明。 在本指南中，您将找到有关如何根据组织创作和发布需求设置AEM Guides的详细说明。
 
-本指南適用於下列型別的對象：
+本指南面向以下类型的受众：
 
-- 在Adobe Experience Manager上安裝和管理AEM Guides的管理員。
+- 管理员，负责在Adobe Experience Manager上安装和管理AEM Guides。
 
-- 執行發佈工作以產生多種格式輸出的發佈者。
+- 发布者，负责运行发布任务以生成各种格式的输出。
 
 
 ## 内容结构
 
-本指南中的資訊的組織方式如下：
+本指南中的信息按如下方式组织：
 
-- [關於本指南](#id175MC0P0S5Z)：本主題介紹本指南、目標對象，以及本指南中的資訊組織方式。
+- [关于本指南](#id175MC0P0S5Z)：本主题介绍了本指南、目标受众以及本指南中信息的组织方式。
 
-- [下載並安裝](download-install.md#)：本主題說明如何下載、安裝或升級AEM Guides。
+- [下载并安装](download-install.md#)：本主题介绍如何下载、安装或升级AEM Guides。
 
-- [使用者管理與安全性](user-admin-sec.md#)：本主題說明AEM中使用者和驗證的核心概念，以及AEM Guides建立的預設使用者群組。
+- [用户管理和安全性](user-admin-sec.md#)：本主题介绍AEM中用户和身份验证的核心概念以及AEM Guides创建的默认用户组。
 
-- [使用自訂DITA-OT和DITA專業化](dita-ot-specialization.md#)：本主題說明如何設定自訂DITA-OT外掛程式及使用DITA專門化。
+- [使用自定义DITA-OT和DITA专业化](dita-ot-specialization.md#)：本主题介绍如何配置自定义DITA-OT插件和使用DITA专业化。
 
-- [設定檔案狀態](customize-doc-state.md#)：本主題說明如何設定DITA檔案的自訂狀態。
+- [配置文档状态](customize-doc-state.md#)：本主题介绍如何为DITA文档配置自定义状态。
 
-- [移轉現有內容](migrate-content.md#)：本主題說明如何在AEM存放庫中內建現有內容。
+- [迁移现有内容](migrate-content.md#)：本主题介绍如何在AEM存储库中载入现有内容。
 
-- [設定檔案名稱](conf-file-names.md#)：本主題說明如何設定自動指派檔案名稱的設定，以及定義有效檔案名稱字元的regex。
+- [配置文件名](conf-file-names.md#)：本主题介绍如何配置设置以自动分配文件名并为有效文件名字符定义正则表达式。
 
-- [設定主題和對應範本](conf-template-tags.md#)：本主題說明如何設定主題和對應範本，以符合您的編寫需求。 瞭解AEM中的標籤系統，以及如何設定標籤以搭配AEM Guides使用。
+- [配置主题和映射模板](conf-template-tags.md#)：本主题介绍如何配置主题和映射模板以满足您的创作需求。 了解AEM中的标记系统以及如何配置标记以使其与AEM Guides配合使用。
 
-- [自訂Web編輯器](conf-web-editor.md#)：本主題說明您可以在Web編輯器中進行的各種自訂，以增強其功能。
+- [自定义Web编辑器](conf-web-editor.md#)：本主题介绍您可以在Web编辑器中进行的各种自定义设置，以增强其功能。
 
-- [將「進階地圖編輯器」設定為預設值](conf-map-editor.md#id194GHE0I0CW)：本主題說明如何設定「進階對應編輯器」為對應檔案的預設編輯器。
+- [将高级映射编辑器设置为默认值](conf-map-editor.md#id194GHE0I0CW)：本主题介绍如何配置高级映射编辑器作为映射文件的默认编辑器。
 
-- [預設包含@navtitle屬性](auto-add-navtitle.md#)：本主題說明如何新增 `@navtitle` 預設為參照檔案的屬性。
+- [默认包含@navtitle属性](auto-add-navtitle.md#)：本主题介绍如何添加 `@navtitle` 默认情况下，属性为映射中的引用文件。
 
-- [設定全域或資料夾層級設定檔](conf-folder-level.md#)：本主題說明建立檔案夾設定檔及授予特定使用者許可權的程式。
+- [配置全局或文件夹级别的配置文件](conf-folder-level.md#)：本主题介绍创建文件夹配置文件和向特定用户授予权限的过程。
 
-- [版本管理](version-management.md#)：本主題說明如何為開啟以在網頁編輯器中編輯的檔案設定自動檔案簽出。
+- [版本管理](version-management.md#)：本主题介绍如何为在Web编辑器中打开进行编辑的文件配置自动文件签出。
 
-- [整合案頭式XML編輯器](integrate-desktop-editors.md#)：本主題說明在外部XML編輯器中啟用編輯檔案所需的設定。
+- [集成基于桌面的XML编辑器](integrate-desktop-editors.md#)：本主题介绍在外部XML编辑器中启用编辑文档所需的设置。
 
-- [設定輸出產生設定](conf-output-generation.md#)：本主題說明您可以進行的各種設定，以自訂預設輸出產生程式。
+- [配置输出生成设置](conf-output-generation.md#)：本主题介绍可以进行的各种配置，用于自定义默认输出生成过程。
 
-- [設定和自訂工作流程](customize-workflows.md#)：本主題說明各種設定，以便自訂AEM Guides中隨附的預設工作流程。
+- [配置和自定义工作流](customize-workflows.md#)：本主题介绍用于自定义AEM Guides中提供的默认工作流的各种配置。
 
-- [翻譯內容](translation.md#)：本主題提供AEM檔案中相關說明文章的連結，以協助您瞭解及設定翻譯架構。 此外，瞭解如何啟用元件式翻譯工作流程。
+- [翻译内容](translation.md#)：本主题提供指向AEM文档中相关帮助文章的链接，以帮助您了解和配置翻译框架。 此外，了解如何启用基于组件的翻译工作流。
 
-- [設定AEM Assets UI的搜尋](conf-dita-search.md#)：本主題說明如何在Assets UI中設定DITA內容搜尋，以及在搜尋中新增自訂屬性。
+- [配置AEM Assets UI搜索](conf-dita-search.md#)：本主题介绍如何在Assets UI中配置DITA内容搜索并在搜索中添加自定义属性。
 
 
-## 其他資源
+## 其他资源
 
-以下為AEM Guides的其他實用資源清單，這些資源可在 [學習與支援](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 頁面：
+以下是AEM Guides的其他有用资源的列表，这些资源位于 [学习和支持](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html) 页面：
 
 - 用户指南
-- API參考指南
-- 快速入門手冊
-- [說明封存頁面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（存取舊版發行檔案\）
+- API参考指南
+- 快速入门指南
+- [帮助存档页面](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版发行文档\）
 

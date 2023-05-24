@@ -1,6 +1,6 @@
 ---
-title: 在中設定自訂DITA-OT [!DNL AEM Guides]
-description: 瞭解如何在中設定自訂DITA-OT [!DNL Adobe Experience Manager Guides]
+title: 在中设置自定义DITA-OT [!DNL AEM Guides]
+description: 了解如何在中设置自定义DITA-OT [!DNL Adobe Experience Manager Guides]
 role: Admin
 exl-id: f479c2cf-5b8b-4517-be97-81303468007a
 source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
@@ -10,21 +10,21 @@ ht-degree: 0%
 
 ---
 
-# 在中設定自訂DITA-OT [!DNL AEM Guides] 適用於AEM
+# 在中设置自定义DITA-OT [!DNL AEM Guides] 对于AEM
 
-新增自訂DITA-OT的步驟記錄於區段中 _使用自訂DITA-OT外掛程式_ 的 _安裝及設定指南_.
+有关添加自定义DITA-OT的步骤，请参阅一节 _使用自定义DITA-OT插件_ 的 _安装和配置指南_.
 
-整體而言，步驟如下：
+从较高层面来看，这些步骤包括：
 
-+ 取得基本DITA-OT
-   + 如果要從取得現成DITA-OT的副本 [!DNL AEM Guides]，從路徑下載 `/etc/fmdita/dita_resources/DITA-OT.zip`
-   + 如果您想要取得不同的版本，可以從下載 [dita-ot repo](https://www.dita-ot.org/download)
-+ 變更為DITA-OT相似 [新增外掛程式](https://www.dita-ot.org/dev/topics/plugins-installing.html)，或自訂現有外掛程式（請參閱下文相關連結一節中的範例）
-+ 上傳 `DITA-OT.zip` 接收至 `/apps/<project-folder>/dita_resources` （建議使用建立自訂專案資料夾的方法）
-+ 透過新增DITA設定檔 **[!UICONTROL 工具]** > **[!UICONTROL 指南]** > **[!UICONTROL DITA設定檔]** （使用上傳自訂DITA-OT的DITA-OT路徑，請參閱下面的熒幕擷圖）
-   ![DITA設定檔](assets/dita-profile.png)
++ 获取基本DITA-OT
+   + 如果要从获取现成DITA-OT的副本 [!DNL AEM Guides]，从路径下载 `/etc/fmdita/dita_resources/DITA-OT.zip`
+   + 如果要获取其他版本，则可以从 [dita-ot repo](https://www.dita-ot.org/download)
++ 对DITA-OT like进行更改 [添加新插件](https://www.dita-ot.org/dev/topics/plugins-installing.html)，或自定义现有插件（请参阅下面相关链接部分中的示例）
++ 上传 `DITA-OT.zip` 接收到 `/apps/<project-folder>/dita_resources` （建议创建自定义项目文件夹）
++ 通过添加DITA配置文件 **[!UICONTROL 工具]** > **[!UICONTROL 指南]** > **[!UICONTROL DITA配置文件]** （使用上载自定义DITA-OT的DITA-OT路径，请参见下面的屏幕快照）
+   ![DITA配置文件](assets/dita-profile.png)
 
 >[!MORELIKETHIS]
 >
->+ [自訂DITA-OT外掛程式範例](https://www.dita-ot.org/dev/topics/pdf-customization.html)
+>+ [自定义DITA-OT插件示例](https://www.dita-ot.org/dev/topics/pdf-customization.html)
 

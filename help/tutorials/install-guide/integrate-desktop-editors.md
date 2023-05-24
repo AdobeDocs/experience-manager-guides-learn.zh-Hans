@@ -1,6 +1,6 @@
 ---
-title: 整合案頭式XML編輯器
-description: 瞭解如何整合桌上型XML編輯器
+title: 集成基于桌面的XML编辑器
+description: 了解如何集成基于桌面的XML编辑器
 source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
 workflow-type: tm+mt
 source-wordcount: '272'
@@ -9,32 +9,32 @@ ht-degree: 0%
 ---
 
 
-# 整合案頭式XML編輯器 {#id181GB01G0HS}
+# 集成基于桌面的XML编辑器 {#id181GB01G0HS}
 
-市面上有許多XML編輯器，而且您可能已經使用了一個。 Adobe FrameMaker是最強大的XML編輯器之一，它附帶AEM聯結器。 使用FrameMaker中的AEM聯結器，您可以輕鬆連線到AEM存放庫、取出和入庫檔案，以及直接在FrameMaker中編輯檔案。 您也可以設定AEM Guides以從網頁編輯器啟動FrameMaker。 在FrameMaker中開啟檔案後，您可以編輯該檔案，並將其簽回AEM存放庫。
+市场上有许多XML编辑器，而且您已经可以使用了一个。 Adobe FrameMaker是AEM连接器中最强大的XML编辑器之一。 使用FrameMaker中的AEM连接器，您可以轻松地与AEM存储库连接、签出和签入文件，以及直接在FrameMaker中编辑文件。 您还可以将AEM Guides配置为从Web编辑器启动FrameMaker。 在FrameMaker中打开文件后，您可以编辑该文件并将其签回AEM存储库。
 
-## 從Web編輯器在FrameMaker中啟用檔案編輯
+## 从Web编辑器在FrameMaker中启用文件编辑
 
-您可以使用FrameMaker或任何其他DITA編輯器來建立和更新DITA內容。 不過，如果您的組織使用FrameMaker作為DITA編輯器，則您可以讓使用者選擇直接在AEM的FrameMaker中開啟DITA檔案。
+可以使用FrameMaker或任何其他DITA编辑器创建和更新DITA内容。 但是，如果贵组织使用FrameMaker作为DITA编辑器，则可以为用户提供直接在FrameMaker中从AEM打开DITA文档的选项。
 
-依預設，您的使用者看不到 **在FrameMaker中開啟** AEM按鈕。 執行以下步驟，在AEM工具列上新增此按鈕：
+默认情况下，您的用户不会看到 **在FrameMaker中打开** AEM按钮。 执行以下步骤以在AEM工具栏中添加此按钮：
 
-1. 開啟Adobe Experience Manager Web主控台設定頁面。
+1. 打开“Adobe Experience Manager Web控制台配置”页面。
 
-   存取設定頁面的預設URL為：
+   用于访问配置页面的默认URL是：
 
    ```http
    http://<server name>:<port>/system/console/configMgr
    ```
 
-1. 搜尋並按一下 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 套件組合。
+1. 搜索并单击 **com.adobe.fmdita.xmleditor.config.XmlEditorConfig** 捆绑。
 
    ![](assets/open-in-fm-toolbar.png){width="550" align="left"}
 
-1. 選取 **在FrameMaker中顯示開啟按鈕** 選項。
+1. 选择 **显示“在FrameMaker中打开”按钮** 选项。
 
 1. 单击“**保存**”。
 
 
-當您啟用 **在FrameMaker中顯示開啟按鈕** 選項，然後 **在FrameMaker中開啟** 在AEM存放庫中選取任何DITA檔案時，按鈕就會顯示。 當此選項為 *未啟用*，則 **在FrameMaker中開啟** 按鈕只有在您選取存放庫中的.fm或.book檔案時才會顯示。
+当您启用 **显示“在FrameMaker中打开”按钮** 选项，然后 **在FrameMaker中打开** 选择AEM存储库中的任意DITA文件时将显示按钮。 当此选项为 *未启用*，则 **在FrameMaker中打开** 按钮仅在您选择存储库中的.fm或.book文件时显示。
 
