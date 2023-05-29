@@ -1,7 +1,7 @@
 ---
 title: 升级Adobe Experience Manager指南
 description: 了解如何升级Adobe Experience Manager Guides
-source-git-commit: 629a3714e7b75af609238a506688da2674bf31cc
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
@@ -68,16 +68,22 @@ ht-degree: 1%
 
 此API旨在评估当前系统状态，并报告是否可以进行升级。 要运行此脚本，请触发以下给定的端点：
 
-|终结点|/bin/dxml/upgrade/3xto4x/report| |请求类型|**GET** 您可以使用Web浏览器，在该浏览器中，您以管理员身份登录到AEM实例。| |预期响应| — 如果可以移动所有需要的节点，您将获得一个通过检查。 <br> — 如果目标位置存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：** 这不是常见的错误，因为3.x AEM Guides之前未使用目标位置。 <br>  — 如果此脚本不成功，请不要继续，并报告给您的客户成功团队。|
+| 终点 | /bin/dxml/upgrade/3xto4x/report |
+| --- | --- |
+| 请求类型 | **GET** 您可以使用Web浏览器，在该浏览器中，您以管理员身份登录到AEM实例。 |
+| 预期响应 |  — 如果可以移动所有需要的节点，您将获得一个通过的检查。 <br> — 如果目标位置存在节点，您将收到相关错误。 清理存储库\（删除节点/var/dxml\）并重新安装升级包，然后再次触发此端点。 <br>**注意：** 这不是常见的错误，因为3.x AEM Guides之前未使用目标位置。 <br>  — 如果此脚本不成功，请不要继续，并报告给您的客户成功团队。 |
 
 **系统数据迁移API**
 
-此API用于迁移 [迁移映射](#id2244LE040XA) 部分。
+此API用于迁移 **迁移映射** 部分。
 
 1. 如果Check upgrade compatibility API失败，请勿执行此脚本\（不继续\）。
 1. 检查升级兼容性API返回成功后，您可以运行升级脚本。
 
-|终结点|/bin/dxml/upgrade/3xto4x| |请求类型|**POST** 此脚本是一个POST请求，因此应通过Postman等代理执行。| |预期响应| — 迁移成功后，您可以安装XML Documentation解决方案版本4.0。<br> — 如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。|
+| 终点 | /bin/dxml/upgrade/3xto4x |
+| --- | --- |
+| 请求类型 | **POST** 此脚本是一个POST请求，因此应通过Postman等代理执行。 |
+| 预期响应 |  — 迁移成功后，您可以安装XML Documentation解决方案版本4.0。<br> — 如果出现错误，请还原到最后一个检查点，并与您的客户成功团队共享错误日志以及API输出。 |
 
 **迁移映射**：上述API将源位置下的所有数据迁移到目标位置。
 

@@ -2,7 +2,7 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
+source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 6%
@@ -184,7 +184,7 @@ ht-degree: 6%
          + [迁移现有内容](./install-guide/migrate-content.md)
          + [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
-      + 配置UUID和非UUID文件名 {#conf-non-uuid-filename}
+      + 配置基于UUID和非UUID的文件名 {#conf-non-uuid-filename}
          + [配置文件名](./install-guide/conf-file-names.md)
          + [根据UUID配置自动文件名](./install-guide/conf-auto-uuid-filenames.md)
          + [为有效的文件名字符配置Regx](./install-guide/conf-file-names-valid-regx.md)
