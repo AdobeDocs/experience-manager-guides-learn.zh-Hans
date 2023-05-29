@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 6982737881d7dcf314d28a69060db7031e156c76
+source-git-commit: c8feab55ed3b8e7b36ec46b21f63155766627e40
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1009'
 ht-degree: 6%
 
 ---
@@ -220,9 +220,6 @@ ht-degree: 6%
       + [翻译内容](./install-guide/translation.md)
       + [配置AEM Assets UI搜索](./install-guide/conf-dita-search.md)
       + [附录](./install-guide/appendix.md)
-+ 内容体系结构和用例 {#content-arch}
-   + [使用条件输出](./content-architecture/create-and-use-conditions.md)
-   + [创建全局键](./content-architecture/create-global-keys.md)
 + 配置 {#configuring}
    + 本机PDF发布 {#config-native-pdf-publish}
       + [PDF模板](./native-pdf/pdf-template.md)
@@ -235,9 +232,6 @@ ht-degree: 6%
          + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
          + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
          + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
-   + [设置自定义DITA-OT](./configuring/setup-a-custom-dita-ot.md)
-+ 翻译 {#translation}
-   + [从翻译中排除段落](./translation/exclude-paragraphs-from-translation.md)
 + 版本控制 {#versioning}
 + 知识库 {#knowledge-base}
    + 专家讲座 {#expert-session}
@@ -261,5 +255,11 @@ ht-degree: 6%
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          + [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
          + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
+         + [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       + 工作流 {#workflows}
          + [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
+      + 翻译 {#translation}
+         + [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
+      + 用例 {#use-cases}
+         + [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
+         + [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
