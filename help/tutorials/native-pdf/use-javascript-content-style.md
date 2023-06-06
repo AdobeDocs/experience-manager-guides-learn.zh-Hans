@@ -2,9 +2,9 @@
 title: 本机PDF发布功能 |使用JavaScript处理内容或样式
 description: 了解如何为内容创建使用样式表和样式。
 exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: e2349fc14143e5e49f8672ef1bfa48984df3b1c7
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -69,3 +69,35 @@ window.addEventListener('DOMContentLoaded', function () {
 使用此代码生成的输出，模板在图像下方显示图标题：
 
 <img src="./assets/fig-title-below-image.png" width="500">
+
+## 为草稿文档的PDF输出添加水印 {#watermark-draft-document}
+
+您还可以使用JavaScript添加条件水印。 当满足定义的条件时，这些水印将添加到文档中。\
+例如，您可以创建一个包含以下代码的JavaScript文件，以便为尚未批准的文档的PDF输出创建水印。 如果您为处于“已批准”文档状态的文档生成PDF，则不会显示此水印。
+
+```css
+...
+/*
+* This file can be used to add a watermark to the PDF output
+* */
+
+window.addEventListener('DOMContentLoaded', function () {
+    var watermark = 'Draft'
+    var metaTag = document.getElementsByTagName('meta')
+    css = "@page {\n  @left-middle {\n    content: \"".concat(watermark, "\";\n    z-index: 100;\n    font-family: sans-serif;\n    font-size: 80pt;\n    font-weight: bold;\n    color: gray(0, 0.3);\n    text-align: center;\n    transform: rotate(-54.7deg);\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n  }\n}")
+    head = document.head || document.getElementsByTagName('head')[0], style = document.createElement('style');
+    style.appendChild(document.createTextNode(css));
+    window.pdfLayout.onBeforePagination(function () {
+        for (let i = 0; i < metaTag.length; i++) {
+            if (metaTag[i].getAttribute('name') === 'docstate' && metaTag[i].getAttribute('value') !== 'Approved') {
+                head.appendChild(style);
+            }
+        }
+    })
+});
+...
+```
+
+使用此代码生成的PDF输出显示水印 *草稿* 在文档的封面页上：
+
+<img src="./assets/draft-watermark.png" width="500">

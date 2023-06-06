@@ -1,23 +1,27 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月版
-description: 最新版本的Adobe Experience Manager Guidesas a Cloud Service
+description: Adobe Experience Manager Guidesas a Cloud Service版2023年4月版
 exl-id: 3b09f0b3-cfa4-422d-91b7-733ab1c1896c
-source-git-commit: cf612da41f79b0bf9da4c4d7454a0e3c86af7a4c
+source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service版4月版
+# Adobe Experience Manager Guidesas a Cloud Service版2023年4月版
 
-## 升级到最新版本
+本发行说明涵盖了升级说明、兼容性矩阵，以及2023年4月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
 
-as a Cloud Service升级您当前的Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)通过以下步骤进行设置：
+有关新增功能和增强功能的更多信息，请参阅 [AEM Guidesas a Cloud Service版2023年4月版的新增功能](whats-new-2023.4.0.md).
+
+## 升级到2023年4月版
+
+通过执行以下步骤升级当前的AEM Guidesas a Cloud Service设置：
 
 1. 查看Cloud Services的Git代码，然后切换到在Cloud Services管道中配置的与要升级的环境对应的分支。
 2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServicesGit代码的文件更改为2023.4.249。
-3. 提交更改并运行Cloud Services管道，以升级到最新版本的AEM Guidesas a Cloud Service。
+3. 提交更改并运行Cloud Services管道，以升级到2023年4月版的AEM Guidesas a Cloud Service。
 
 ## 索引现有内容的步骤(仅当使用的版本早于9月份的AEM Guidesas a Cloud Service版本时)
 
@@ -51,39 +55,6 @@ _localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271
 | 2023.04.0 | 2.9-uuid-2 | 2.9-uuid-2 | 2.3 | 2.3 |
 |  |  |  |  |
 
-
-## 新增功能和增强功能
-
-AEM Guidesas a Cloud Service在最新版本中提供增强功能和新功能：
-
-### PDF发布中的高级元数据支持
-
-AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，例如作者姓名、文档标题、关键字、版权信息和其他数据字段。
-
-<img src="assets/pdf-metadata.png" alt=" 本机pdf元数据">
-
-您可以导入XMP文件，AEM Guides可以从文件中选取信息。 您还可以选择使用下拉菜单提供元数据名称和值。 您还可以通过直接在名称字段中键入来添加自定义元数据。
-
-
-### “增强的大纲视图”面板
-
-AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中获得文档中所用元素的分层视图。
-
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 本机pdf元数据">
-
-“大纲视图”提供了以下增强功能：
-
-* “视图选项”下拉列表显示在“大纲视图”面板的顶部。 如果元素具有ID、属性和文本，则可以从下拉列表中选择它们，以与元素一起显示它们。 可以在“大纲视图”面板中显示的属性由管理员在 **编辑器设置**.
-
-* 使用搜索功能，您可以按元素的名称、ID、文本或属性值搜索元素。
-
-
-### AEM Guidesas a Cloud Service基于微服务的发布
-
-AEM Guidesas a Cloud Service提供了与基于微服务的发布同时运行大型发布工作负载的功能，并利用业界领先的Adobe I/O Runtime无服务器平台。
-
-现在，在4月版本中，您可以使用基于微服务的本机PDF发布来同时运行多个发布请求并非常高效地生成批量PDF输出。
-有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](../knowledge-base/publishing/configure-microservices.md).
 
 
 ## 修复的问题

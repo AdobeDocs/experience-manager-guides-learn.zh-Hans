@@ -2,7 +2,7 @@
 title: 发行说明 | Adobe Experience Manager Guides 4.2版本
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides 4.2版
 exl-id: 8a7fef77-63af-462f-89c5-054ab31e079b
-source-git-commit: a54ada55dad4ff8da8eee3dccb5ad9028b4cdc9e
+source-git-commit: b7a6cb6086e94e2c0cbed8e35ca8d194a4fa36d4
 workflow-type: tm+mt
 source-wordcount: '1338'
 ht-degree: 6%
@@ -11,7 +11,7 @@ ht-degree: 6%
 
 # 4.2版本的Adobe Experience Manager Guides（2023年2月）
 
-本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2(更高版本称为 *AEM指南*)。
+本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides版本4.2中修复的问题(后称为 *AEM指南*)。
 
 有关新增功能和增强功能的更多信息，请参阅 [Adobe Experience Manager Guides 4.2版的新增功能](whats-new-4.2-release.md).
 

@@ -2,9 +2,9 @@
 title: 了解Web编辑器功能
 description: 了解如何了解Web编辑器的功能
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: f7eea65f58927527dbd90138a653f75ee181d141
+source-git-commit: e7a34908b0e61d33469ef83683507f16ab12f0bd
 workflow-type: tm+mt
-source-wordcount: '14387'
+source-wordcount: '14919'
 ht-degree: 0%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 0%
 
 ![](images/user_preference_editor.PNG){width="550" align="left"}
 
+- **使用设备主题**：选中此复选框可允许AEM Guides根据设备的主题在浅色和深色主题之间自动切换。
 - **主题**：您可以从编辑器的浅色、最亮、深色或最深色主题中进行选择。 对于最浅的主题，工具栏和面板使用更浅的灰色背景。 对于浅色主题，工具栏和面板使用浅灰色背景。 对于最深的主题，工具栏和面板使用更深的黑色颜色背景。 对于深色主题，工具栏和面板使用黑色颜色背景。 在所有主题中，内容编辑区域都以白色背景显示。
 
 - **文件夹配置文件**：文件夹配置文件控制与条件属性、创作模板、输出预设和Web编辑器配置相关的各种配置。 默认情况下，将显示“全局配置文件”。 此外，如果您的管理员在系统中配置了文件夹配置文件，则这些文件夹配置文件也会显示在文件夹配置文件列表中。
@@ -671,9 +672,20 @@ AEM Guides允许您以自由格式文本格式指定标签或使用一组预定�
    ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
 
+**用Favroties集合的“选项”菜单**\
+您还可以使用收藏夹集合的“选项”菜单执行许多操作：
+
+![](images/favorites-options.png){width="400" align="left"}
+- **重命名**：重命名选定的收藏集。
+- **删除**：删除选定的文件。
+- **刷新**：从存储库中获取文件和文件夹的新列表。
+- **在Assets UI中查看**：在Assets UI中显示文件或文件夹内容。
+
+
 >[!NOTE]
 >
-> 要从收藏夹列表中删除项目，请在“收藏夹”列表中单击文件或文件夹旁的“选项”图标，然后选择 **从收藏夹中移除**.
+> 您还可以使用顶部的“刷新”图标刷新列表。
+
 
 **存储库视图** - ![](images/Repository_icon.svg)
 
@@ -687,7 +699,7 @@ AEM Guides允许您以自由格式文本格式指定标签或使用一组预定�
 
 
 
-双击映射文件会在 **映射视图**. 欲知更多详情，请参见 **映射视图** 中的功能描述 [左侧面板](web-editor-features.md#id2051EA0M0HS) 部分。 双击主题文件会在 [内容编辑区域](#id2051EB000UI). 能够直接从Web编辑器中导航和打开文件可节省时间并提高生产效率。
+双击某个映射文件会在 **映射视图**. 欲知更多详情，请参见 **映射视图** 中的功能描述 [左侧面板](web-editor-features.md#id2051EA0M0HS) 部分。 双击主题文件会在 [内容编辑区域](#id2051EB000UI). 能够直接从Web编辑器中导航和打开文件可节省时间并提高生产效率。
 
 **筛选条件搜索**
 
@@ -761,6 +773,8 @@ Web编辑器为搜索文本提供了增强的过滤器。 单击过滤器搜索\
 - 复制
 - 签出/签入
 - 预览
+- 移到
+- 重命名
 - 删除
 - 复制
 - 全部折叠
@@ -784,6 +798,41 @@ Web编辑器为搜索文本提供了增强的过滤器。 单击过滤器搜索\
 - **预览**：获取文件\(.dita/.xml\)的快速预览而不打开它。
 
    ![](images/quick-preview_cs.png){width="800" align="left"}
+
+- **重命名**：使用此选项重命名选定的文件。 在新文件中输入新文件的名称 **重命名资源** 对话框。
+   - 您可以重命名任何类型的文件。
+   - 无法更改文件的扩展名。
+   - 两个文件的名称不能相同。 因此，不能将文件重命名为已存在的名称。 显示错误。
+
+- **移动到**：使用此选项可将所选文件移动到其他文件夹。
+   - 您可以键入目标文件夹的名称，也可以选择 **选择路径** 以选择目标文件夹。
+   - 您可以将任何类型的文件移动到Content文件夹中的任何目标。
+   - 两个文件的名称不能相同。 因此，您不能将文件移动到已存在同名文件的文件夹中。
+
+   如果您尝试将文件移动到某个文件夹，而该文件夹中存在具有相同名称但标题不同的文件，则会显示“重命名和移动文件”对话框，并且您需要在移动文件之前重命名该文件。 目标文件夹中移动的文件具有新文件名。
+
+   ![](images/rename-move-asset.png){width="550" align="left"}
+
+   >[!NOTE]
+   > 您还可以将文件拖放到另一个目标文件夹中。
+
+   **排除方案**
+
+   在以下情况下，AEM Guides不允许重命名或移动文件：
+
+   - 如果文件是审阅或翻译工作流的一部分，则无法移动或重命名文件。
+
+   - 如果任何其他用户签出该文件，则无法重命名或移动该文件，您将看不到该文件的“重命名”或“移至”选项。
+   >[!NOTE]
+   > 如果管理员授予了您文件夹权限，则只有这样 **重命名** 或 **移动到** 将显示选项。
+
+   <details>
+    <summary> Cloud Service </summary>
+
+   重命名或移动任何文件都不会中断对该文件的所有现有引用，因为每个文件都有一个唯一的UUID。
+   </details>
+
+
 
 - **删除**：使用此选项可删除选定的文件。 删除文件之前会显示确认提示。
 
@@ -1202,32 +1251,86 @@ AEM Guides还支持嵌套级别主题方案映射，您可以在根主题方案�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
+   **处理主题定义和枚举的分层定义**
 
-**“属性”下拉列表**
+   除了处理同一映射中存在的枚举和主题定义外， AEM Guides还提供了在两个单独的映射中定义枚举和主题定义的功能。 您可以在映射中定义主题定义，在另一个映射中定义枚举定义，然后添加映射引用。 例如，以下XML代码在两个单独的映射中创建主题定义和枚举定义。
 
-您还可以使用“作者”视图中“内容属性”面板中的“属性”下拉菜单更改主题方案的值。 要更改值，请从“属性”下拉列表中选择一个值。
+   主题定义定义见 `subject_scheme_map_1.ditamap`
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-您还可以通过从下拉菜单中选择多个值来应用属性的值。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
 
-**源视图**
+   枚举定义存在于subject_scheme_map_2.ditamap中
 
-您还可以从源视图中的属性下拉列表中更改值。 源视图还可以防止您添加任何不正确的值。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
+   此处主题定义定义见 `subject_scheme_map_1.ditamap`  当枚举定义存在于 `subject_scheme_map_2.ditamap`. 参考 `subject_scheme_map_1.ditamap` 中还添加了 `subject_scheme_map_2.ditamap`.
 
-**从“条件”面板查看并应用主题方案**
+   >[!NOTE]
+   >
+   > 作为 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互引用，从而解决了主题方案的问题。
 
-您还可以从“条件”面板查看和应用主题方案。
+   主题枚举引用按照以下优先级顺序进行解析：
 
-要从“条件”面板查看主题方案，您的系统管理员必须选择选项 **在“条件”面板中显示“主题方案”** 在“编辑器设置”的“条件”选项卡下。 有关详细信息，请参阅， [“条件”选项卡](#id21BMNE0602V).
+   1. 相同映射
+   1. 引用的映射
 
-“条件”面板显示主题方案中主题定义的平面垂直结构。
+   如果在同一映射和引用的映射中未找到枚举，则不会解析引用。
 
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-您可以将所需的条件拖放到内容上，从而向内容添加条件。 使用为条件定义的颜色突出显示条件内容。
+   **“属性”下拉列表**
+
+   您还可以使用“作者”视图中“内容属性”面板中的“属性”下拉菜单更改主题方案的值。 要更改值，请从“属性”下拉列表中选择一个值。
+
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+
+   您还可以通过从下拉菜单中选择多个值来应用属性的值。
+
+   **源视图**
+
+   您还可以从源视图中的属性下拉列表中更改值。 源视图还可以防止您添加任何不正确的值。
+
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
+
+   **从“条件”面板查看并应用主题方案**
+
+   您还可以从“条件”面板查看和应用主题方案。
+
+   要从“条件”面板查看主题方案，您的系统管理员必须选择选项 **在“条件”面板中显示“主题方案”** 在“编辑器设置”的“条件”选项卡下。 有关详细信息，请参阅， [“条件”选项卡](#id21BMNE0602V).
+
+   “条件”面板显示主题方案中主题定义的平面垂直结构。
+
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
+
+   您可以将所需的条件拖放到内容上，从而向内容添加条件。 使用为条件定义的颜色突出显示条件内容。
 
 **代码片段** -  ![](images/insert-snippet-icon.svg)
 

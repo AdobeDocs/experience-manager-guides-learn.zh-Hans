@@ -2,9 +2,9 @@
 title: 本机PDF发布功能 |设计页面布局
 description: 了解如何设计页面布局以在PDF输出的各个部分中显示信息。
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: a1367a6915e760e533bb984705f4be37596b5477
+source-git-commit: 6182455850fb14cc24ce6229f6e4cb2b547901b7
 workflow-type: tm+mt
-source-wordcount: '4649'
+source-wordcount: '4712'
 ht-degree: 0%
 
 ---
@@ -359,7 +359,16 @@ PDF文档通常包含以下部分：
 
 这些字段类别中的每一个都包含不同的变化，可在其中插入字段信息。 例如，日期字段可以具有不同的变量，例如 `YYYY-MM-DD`， `MM/DD/YY`， `MM/DD/YYYY` 等等。 同样，页码可以有罗马字、小数格式或甚至特定于区域设置的格式(例如 _阿拉伯语_， _天成文书_， _希伯来语_，等等。
 
-除了预定义字段外，您还可以将元数据信息作为变量或字段添加到页面布局中。 此元数据存储在源DITA map内容中，可轻松地插入到页面布局中。 <!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
+除了预定义字段外，您还可以将元数据信息作为变量或字段添加到页面布局中。 此元数据存储在源DITA map内容中，可轻松地插入到页面布局中。
+
+您还可以从资源中选择元数据属性并将其添加到页面布局。 然后，将发布资源元数据以供PDF输出。 资源的这些元数据属性是从以下位置设置的 **属性** DITA映射或书签映射文件的页面。
+
+>[!NOTE]
+>
+> 元数据字段根据您在中选择的资源或映射显示 **起始日期** 下拉菜单。
+
+
+<!--For more information, see [Add fields and metadata](design-page-layout.md#add-fields-and-metadata).-->
 
 在以下示例中，我们将在页面布局的页脚区域中插入页码和章节标题。
 

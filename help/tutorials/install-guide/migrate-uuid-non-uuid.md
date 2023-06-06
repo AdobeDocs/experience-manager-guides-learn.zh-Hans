@@ -1,13 +1,13 @@
 ---
 title: 从Non-UUID迁移到UUID内容
-description: 了解如何将非UUID内容迁移到UUID
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+description: 了解如何将非UUID迁移到UUID内容
+exl-id: 093b380e-9a8b-4e60-aeaa-3458e8c257f2
+source-git-commit: 21edbb2f8a49213ea95fac8a957056711219e7e4
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
 
 ---
-
 
 # 从Non-UUID迁移到UUID内容 {#id226TI0U20XA}
 
@@ -57,6 +57,7 @@ ht-degree: 0%
     - &#39;doBaselines&#39;： true/false \(是否必须升级基线。 默认值为true。\)
     - &#39;processLevel&#39;： -1\（失败但不还原\）、0\（失败但还原\）、1\（失败但出现错误\）、2\（已成功升级\） \(在失败后重试脚本时，将仅再次处理具有“fmUpgradeStatus”&lt;= processLevel的文件，否则将忽略该文件。 默认值为 1。\)
     - &#39;ignoreImageVersions&#39;： true/false \(忽略图像版本的处理。 默认值为false。\)
+    
     >[！注意]
     >
     >我们可以在文件夹级别或完整内容/dam或同一文件夹上运行内容迁移\（重新运行迁移\）。
@@ -69,4 +70,3 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 如果某些文件在迁移前未处理或损坏，则即使在迁移后，它们仍会保持损坏状态。
-
