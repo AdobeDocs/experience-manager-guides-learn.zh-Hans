@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: ce65f05c61b81115d9032e429419265e4b4574fd
+source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1079'
 ht-degree: 6%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 6%
          + [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + FrameMaker单据的输出生成 {#generate-fm-output}
+   + FrameMaker文档的输出生成 {#generate-fm-output}
       + [生成FrameMaker文档的输出](./user-guide/fm-output-generatation.md)
       + 支持的预设 {#fm-docs-generating-presets}
          + [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
@@ -261,6 +261,8 @@ ht-degree: 6%
       + [学习本机PDF发布 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
+         + 报表 {#reports}
+            + [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Webeditor {#webeditor}
             + 自定义 {#customizing}
                + [将自定义按钮添加到工具栏](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
