@@ -1,13 +1,13 @@
 ---
 title: 配置自定义DITA映射模板
 description: 了解如何配置自定义DITA映射模板
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+exl-id: 2ad0fc50-97fd-437e-94cc-db5f51f3bc3f
+source-git-commit: 0dea2f1d17e7d9b12d07b459a10a00c1dd7460a5
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 配置自定义DITA映射模板 {#id1774F04F05Z}
 
@@ -50,7 +50,6 @@ AEM Guides附带两个现成的映射模板 — DITA map和Bookmap。 您可以�
 
 >[!TIP]
 >
-> 参见 [附录.md\#](appendix.md#)此 *自定义模板* 部分，以了解有关使用自定义映射模板的最佳实践。
+> 请参阅 *自定义模板* 部分，以了解有关使用自定义映射模板的最佳实践。
 
-**父主题：**[&#x200B;配置主题和映射模板](conf-template-tags.md)
-
+**父主题：** [配置主题和映射模板](conf-template-tags.md)
