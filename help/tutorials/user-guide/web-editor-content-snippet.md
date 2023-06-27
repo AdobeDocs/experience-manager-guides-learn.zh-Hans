@@ -1,7 +1,7 @@
 ---
 title: 插入数据源中的内容片段
 description: 了解如何从数据源插入内容片段
-source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
+source-git-commit: e4fcf6c7b7e69d83edb91e25081dae6e7cf1ae89
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -31,6 +31,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >[!NOTE]
    >  
    > 如果您的管理员配置了自定义模板，则您还会在下拉列表中看到这些模板（基于管理员完成的模板路径配置）。
+
 1. 单击 **Fetch** 从数据源获取数据，并将模板应用于从SQL查询生成的数据。
 1. 您可以在预览或DITA源视图中查看数据。
 
