@@ -1,24 +1,21 @@
 ---
 source-git-commit: e3b2fc8c96ce535bb91e7bce935720aa389a917a
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '230'
 ht-degree: 2%
 
 ---
-# 安装和配置Adobe Experience Manager Guides 4.2
+# as a Cloud Service安装和配置Adobe Experience Manager Guides
 
 - [免责声明](rebranding-disclaimer.md)
 - [关于本指南](introduction.md)
 - [下载并安装](download-install.md)
-   - [技术要求](download-install-technical-requirements.md)
-   - [安装Adobe Experience Manager](download-install-AEM.md)
-   - [首次下载并安装AEM Guides](download-install-aemg-first-time.md)
+   - [部署AEM Guides模块](download-install-dxml-first-time.md)
    - [配置 Dispatcher](download-install-configure-dispatcher.md)
-   - [验证AEM Guides的安装](download-install-verify-aemg-installation.md)
-   - [升级Adobe Experience Manager指南](upgrade-xml-documentation.md)
-   - [卸载AEM Guides](download-install-unistall-aemg.md)
+   - [验证AEM Guides的安装](download-install-verify-dxml-installation.md)
+   - [升级AEM指南](download-install-upgrade-dxml.md)
+   - [配置覆盖](download-install-additional-config-override.md)
    - [用于性能优化的Recommendations](download-install-recommend-perf-optimiz.md)
-- [从Non-UUID迁移到UUID内容](migrate-uuid-non-uuid.md)
 - [用户管理和安全性](user-admin-sec.md)
 - [使用自定义DITA-OT和DITA专业化](dita-ot-specialization.md)
 - [配置文档状态](customize-doc-state.md)
@@ -45,13 +42,14 @@ ht-degree: 2%
    - [自动生成元素ID](auto-generate-ids.md)
    - [自定义AEM默认词典](customize-aem-custom-dictionary.md)
    - [配置文本过滤器](config-text-filters.md)
-   - [配置查询的LimitReads数](conf-query-limitreads.md)
+   - [为文件浏览对话框配置过滤器](conf-custom-file-filters.md)
    - [安装用于基于文章的发布的包](configure-article-based-publishing.md)
-- [将高级映射编辑器设置为默认值](conf-map-editor.md)
-- [默认包含@navtitle属性](auto-add-navtitle.md)
+   - [配置单主题PDF生成](conf-pdf-generation-dita-ot.md)
+   - [在Web编辑器中配置翻译功能](conf-translation-web-editor.md)
+   - [将高级映射编辑器设置为默认值](conf-map-editor.md)
+   - [默认包含@navtitle属性](auto-add-navtitle.md)
 - [配置全局或文件夹级别的配置文件](conf-folder-level.md)
 - [版本管理](version-management.md)
-- [集成基于桌面的XML编辑器](integrate-desktop-editors.md)
 - [配置输出生成设置](conf-output-generation.md)
 - [配置和自定义工作流](customize-workflows.md)
 - [翻译内容](translation.md)

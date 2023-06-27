@@ -1,13 +1,13 @@
 ---
 title: 支持Schematron文件
 description: 了解如何使用模式验证主题
-source-git-commit: 5ad78d32cbfa1c913866fae5dafe97dc8f01139c
+exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
 
 ---
-
 
 # 支持Schematron文件
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 Web编辑器中的架构支持可帮助您根据一组规则验证文件并维护主题的一致性和正确性。
 
-## 使用Assert和Report语句检查规则{#schematron-assert-report}
+## 使用assert和report语句检查规则{#schematron-assert-report}
 
 AEM Guides还支持Schematron中的声明和报告语句。 这些语句可帮助您验证DITA主题。
 
@@ -146,10 +146,3 @@ You have <sch:value-of select="$words"/> letters. This should be greater than <s
 
 </sch:pattern> 
 ```
-
-
-
-
-
-
-

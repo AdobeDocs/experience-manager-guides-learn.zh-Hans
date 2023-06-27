@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Experience Manager Guides的氧气插件创
 hide: true
 hidefromtoc: true
 exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: ee4722ed92d1b1a59e8baea583517a4470f558c9
 workflow-type: tm+mt
-source-wordcount: '5762'
+source-wordcount: '5885'
 ht-degree: 0%
 
 ---
@@ -212,19 +212,19 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 1. 指定以下详细信息：
    - **服务器URL**：AEM服务器的URL，例如：
 
-      ```http
-      http[s]://<host>:<port>
-      ```
+     ```http
+     http[s]://<host>:<port>
+     ```
 
-      在上述URL中，指定部署AEM服务器的服务器的主机名和端口。
+     在上述URL中，指定部署AEM服务器的服务器的主机名和端口。
 
-      >[!IMPORTANT]
-      >
-      >如果您的AEM服务器部署在端口80或443上，则不需要在URL中指定它。
+     >[!IMPORTANT]
+     >
+     >如果您的AEM服务器部署在端口80或443上，则不需要在URL中指定它。
 
    - **身份验证：** 选择自 **基本\（用户名/密码\）** 或 **Web身份验证**. 如果您选择 **基本** 身份验证，您需要输入 **用户名** 和 **密码** 在“首选项”对话框中。
 
-      如果选择Web验证，则会显示AEM登录屏幕。 输入您的登录凭据并单击 **登录** 按钮。 成功登录后，“AEM登录”屏幕关闭，“AEM Guides”面板将显示AEM服务器中的文件列表。
+     如果选择Web验证，则会显示AEM登录屏幕。 输入您的登录凭据并单击 **登录** 按钮。 成功登录后，“AEM登录”屏幕关闭，“AEM Guides”面板将显示AEM服务器中的文件列表。
 
    - **连接超时**：指定客户端将等待来自AEM服务器的响应的时间（以秒为单位）。 如果在指定的时间内未收到来自服务器的响应，则请求被终止。 默认值为20秒。
 
@@ -255,7 +255,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
    - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
 - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。以下屏幕截图显示了配置的 **扩展** DITA主题的选项卡：
 
-   ![](images/dita-topic-extension-tab.png)
+  ![](images/dita-topic-extension-tab.png)
 
 1. 单击 **确定** ，以保存更改。
 
@@ -274,11 +274,11 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
 - *\（可选\）* 如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
 
-   单击 **选择** 旁边的 **引用解析程序**&#x200B;下 **单个扩展** 并选择CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
+  单击 **选择** 旁边的 **引用解析程序**&#x200B;下 **单个扩展** 并选择CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
 
-   以下屏幕截图显示了配置的 **扩展** 选项卡：
+  以下屏幕截图显示了配置的 **扩展** 选项卡：
 
-   ![](images/dita-map-extension-tab.png)
+  ![](images/dita-map-extension-tab.png)
 
 1. 单击 **确定** ，以保存更改。
 
@@ -301,9 +301,9 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
 - **Connect**：选择此选项可连接到AEM服务器。 将Oxygon XML Author连接到AEM Server时，将禁用该选项。
 - **刷新**：选择此选项可从AEM存储库中获取文件和文件夹的最新状态。
 
-   >[!NOTE]
-   >
-   >确保在刷新文件之前保存文件。 当您选择时 **刷新** 选项，您会收到一则警告，要求在刷新文件之前先保存文件。 如果尚未保存文件，可以单击 **取消** 并保存它们。
+  >[!NOTE]
+  >
+  >确保在刷新文件之前保存文件。 当您选择时 **刷新** 选项，您会收到一则警告，要求在刷新文件之前先保存文件。 如果尚未保存文件，可以单击 **取消** 并保存它们。
 
 - **设置**：您可以使用此选项打开插件的常规“首选项”对话框。
 - **注销**：选择此选项可关闭AEM服务器连接。 此选项仅在使用Web身份验证模式时可用。
@@ -417,6 +417,16 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获得。 在“E
    >[!NOTE]
    >
    >此注释显示在文件的AEM版本历史记录中。
+1. 在中添加标签 **标签** 文本框。 输入标签，然后按Enter。 例如， *2307版本*.
+如果您的管理员预定义了一个标签列表并将它们上传到 `label.json` 文件，则这些标签将显示为下拉列表。 您可以从下拉菜单中选择一个或多个标签。
+   ![](images/checkin-dropdown-labels.png){width="300" align="left"}
+您可以将多个标签（以逗号分隔）添加到主题的同一版本。  例如， *Adobe*， *AEM*，*指南*
+但是，不能将同一标签添加到主题的不同版本。 如果添加已添加到早期版本的标签，则会将其添加到最新版本并从早期版本中删除。
+
+   >[!NOTE]
+   > 
+   > 这些标签显示在文件的AEM版本历史记录中。
+
 
 1. 单击&#x200B;**确定**。
 
@@ -650,7 +660,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 1. 浏览到\(user&#39;s\)主目录。
 1. 创建名为aem\_connector\_proxy的文件。
 1. 在任意文本编辑器中打开文件，并在文件第一行中添加一个可用的端口号。
-1. 保存并关闭文件。
+1. 保存并关闭该文件。
 1. 重新启动Oxygon XML Author并运行DITA-OT转换。
 
 
@@ -680,7 +690,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
    -Djava.util.logging.config.file=./log.properties
    ```
 
-1. 保存并关闭文件。
+1. 保存并关闭该文件。
 
 1. 在同一位置，创建一个名为log.properties的文件，该文件包含以下内容：
 
@@ -694,7 +704,7 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
    java.util.logging.FileHandler.format=[%1$tF %1$tT] [%4$s] %5$s %n
    ```
 
-1. 保存并关闭文件。
+1. 保存并关闭该文件。
 1. 启动Oxygon XML Author。
 
 

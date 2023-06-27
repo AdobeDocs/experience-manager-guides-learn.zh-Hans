@@ -2,9 +2,9 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager Guides中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: b9cf70ac957bfacbf9a6bf4c3b32d4f73c2b1287
+source-git-commit: 65a35f1c7530ed479e3bc584852fabc30ceecabb
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2904'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 * **FrameMaker Publishing Server (FMPS)**
 
-使用此方法可生成DITAPDF以及AEM存储库中可用的FrameMaker文档(.book和.fm)的内容输出。 PDF可通过配置输出预设来创建，并使用FrameMaker Publishing Server (FMPS)发布。 您可以针对PDF和其他格式设计和配置输出的外观，并将其存储在设置文件(.sts)中。 然后，FMPS使用此设置文件来生成DITA映射或.book文件的输出。 要创建或编辑输出预设，请参阅  *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+使用此方法可生成DITAPDF输出以及AEM存储库中可用的FrameMaker文档(.book和.fm)的输出。 PDF可通过配置输出预设来创建，并使用FrameMaker Publishing Server (FMPS)发布。 您可以针对PDF和其他格式设计和配置输出的外观，并将其存储在设置文件(.sts)中。 然后，FMPS使用此设置文件来生成DITA映射或.book文件的输出。 要创建或编辑输出预设，请参阅  *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
 有关配置FMPS的更多信息，请参阅 [从FrameMaker文档生成输出](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
@@ -56,7 +56,6 @@ ht-degree: 0%
 
 1. 在“输出”选项卡中，单击 **预设** 在左侧边栏中。
 “预设”面板打开。 <br>
-
 <img src="assets/preset-panel.png" alt="预设面板" width="600">
 
 1. 在输出中 **预设** 执行下面操作之一：
@@ -95,17 +94,17 @@ ht-degree: 0%
 在输出预设中， **选择PDF** > **元数据** 以添加和自定义元数据选项。
 * **提供XMP文件**
 
-   可以通过导入直接填充元数据字段 [XMP](https://www.adobe.com/products/xmp.html) （可扩展元数据平台）文件。 您可以从此处下载示例XMP文件。
+  可以通过导入直接填充元数据字段 [XMP](https://www.adobe.com/products/xmp.html) （可扩展元数据平台）文件。 您可以从此处下载示例XMP文件。
 
 [下载](assets/SampleXMP.xmp)
 
-   或者，您可以使用Adobe Acrobat生成XMP文件。
+  或者，您可以使用Adobe Acrobat生成XMP文件。
    1. 单击 **文件** > **属性** 在Acrobat中。
    1. 下 **描述**，单击 **其他元数据**.
    1. 从左侧面板中，选择 **高级**.
    1. 单击 **保存**.
 
-   XMP文件将保存在设备上。
+  XMP文件将保存在设备上。
 
 * **提供元数据名称和值**
 
@@ -152,6 +151,7 @@ ht-degree: 0%
 | **显示水印** | 选择此选项以渲染内容中存在的MathML公式。 否则公式将被忽略。 |
 | **启用MathML公式** | 选择此选项以渲染内容中存在的MathML公式。 否则缺省情况下将忽略公式。 |
 | **PDF符合性** | 它是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
 
 ## 生成PDF输出 {#generate-pdf-output}
 
@@ -173,3 +173,12 @@ ht-degree: 0%
 <img src="assets/error-log.png" alt="错误日志" width="250">
 
 要查看错误日志，请单击 **解除**，将鼠标悬停在选定的预设选项卡上，然后单击 ![options](assets/options.svg) **选项** > **查看日志**.
+
+### 生成本机PDF输出后下载临时文件
+
+如果您选择 **下载临时文件** 选项，您还可以下载在生成本机HTML输出时创建的临时PDF文件。 生成输出后，您可以使用 **下载临时文件** ![下载临时文件](assets/native-pdf-download-temporary-files-icon.svg)图标。 此功能可帮助您查看临时HTML样式和布局，并帮助您根据自己的要求更正或更改CSS样式。
+
+
+>注意
+>
+> 此 **下载临时文件**  ![下载临时文件](assets/native-pdf-download-temporary-files-icon.svg) 图标仅当您使用预设生成最后一个PDF输出时显示，您已在预设中选择 **高级** 选项卡。

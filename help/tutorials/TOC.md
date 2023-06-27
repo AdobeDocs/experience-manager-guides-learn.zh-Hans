@@ -2,10 +2,10 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: fb746eb58a53cf175f7af9a7aabd495f2e017d9b
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 6%
+source-wordcount: '1390'
+ht-degree: 5%
 
 ---
 
@@ -13,12 +13,16 @@ ht-degree: 6%
 # 的Tutorials [!DNL Adobe Experience Manager Guides] {#tutorials}
 
 + [的Tutorials [!DNL AEM Guides]](overview.md)
++ [免责声明](./user-guide/rebranding-disclaimer.md)
 + 发行信息 {#release-info}
    + [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    + 发行说明 {#release-notes}
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版 {#2023-releases}
+            + 7月版 {#2307-release}
+               + [新增功能](./release-info/whats-new-2023.7.0.md)
+               + [发行说明](./release-info/release-notes-2023.7.0.md)
             + 6月版 {#2306-release}
                + [新增功能](./release-info/whats-new-2023.6.0.md)
                + [发行说明](./release-info/release-notes-2023.6.0.md)
@@ -53,7 +57,6 @@ ht-degree: 6%
          + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
          + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 用户指南 {#user-guide}
-   + [免责声明](./user-guide/rebranding-disclaimer.md)
    + 简介 {#about-aem-guide}
       + [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)
       + [!DNL AEM Guides] 工作和主要功能 {#aemg-works-features}
@@ -82,6 +85,7 @@ ht-degree: 6%
                + [Web编辑器视图](./user-guide/web-editor-views.md)
                + [支持Schematron文件](./user-guide/support-schematron-file.md)
                + [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
+               + [插入数据源中的内容片段](./user-guide/web-editor-content-snippet.md)
                + [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
                + 文章发布 {#article-based-pub}
                   + [从Web编辑器发布基于文章](./user-guide/web-editor-article-publishing.md)
@@ -154,7 +158,7 @@ ht-degree: 6%
          + [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + FrameMaker文档的输出生成 {#generate-fm-output}
+   + 生成FrameMaker文档的输出 {#generate-fm-output}
       + [生成FrameMaker文档的输出](./user-guide/fm-output-generatation.md)
       + 支持的预设 {#fm-docs-generating-presets}
          + [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
@@ -172,7 +176,6 @@ ht-degree: 6%
       + [还原文件版本历史记录报告](./user-guide/reports-reverted-file-version-history.md)
 + 安装和配置指南 {#install-guide}
    + 内部部署 {#on-prem-ig}
-      + [免责声明](./install-guide/rebranding-disclaimer.md)
       + [关于本指南](./install-guide/introduction.md)
       + 下载、安装和升级 {#download-install-upgrade-aemg}
          + [概述](./install-guide/download-install.md)
@@ -249,6 +252,69 @@ ht-degree: 6%
       + 使用AEM Assets搜索 {#aem-asset-search}
          + [配置AEM Assets UI搜索](./install-guide/conf-dita-search.md)
       + [附录](./install-guide/appendix.md)
+   + 云服务 {#cs-ig}
+      + [关于本指南](./cs-install-guide/introduction.md)
+      + Cloud Service部署和配置AEM Guides {#deploy-conf-aemg-cs}
+         + [下载并安装](./cs-install-guide/download-install.md)
+         + [部署AEM Guides模块](./cs-install-guide/download-install-dxml-first-time.md)
+         + [配置 Dispatcher](./cs-install-guide/download-install-configure-dispatcher.md)
+         + [验证AEM Guides的安装](./cs-install-guide/download-install-verify-dxml-installation.md)
+         + [升级AEM指南](./cs-install-guide/download-install-upgrade-dxml.md)
+         + [配置覆盖](./cs-install-guide/download-install-additional-config-override.md)
+         + [用于性能优化的Recommendations](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+      + 使用用户组和安全性 {#user-group-sec-cs}
+         + [用户管理和安全性](./cs-install-guide/user-admin-sec.md)
+      + 内容迁移 {#migrate-con-cs}
+         + [迁移现有内容](./cs-install-guide/migrate-content.md)
+         + [上载现有DITA内容](./cs-install-guide/migrate-content-upload-existing-dita-content.md)
+         + [迁移非DITA内容](./cs-install-guide/migrate-content-non-dita.md)
+      + 使用自定义DITA-OT和专业化 {#custom-dita-ot-spec-cs}
+         + [使用自定义DITA-OT和DITA专业化](./cs-install-guide/dita-ot-specialization.md)
+      + 配置基于UUID和非UUID的文件名 {#conf-non-uuid-filename-cs}
+         + [配置文件名](./cs-install-guide/conf-file-names.md)
+         + [根据UUID配置自动文件名](./cs-install-guide/conf-auto-uuid-filenames.md)
+         + [为有效的文件名字符配置Regx](./cs-install-guide/conf-file-names-valid-regx.md)
+         + [为AEM站点输出配置有效文件名](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      + 使用主题和映射模板 {#topic-map-template-cs}
+         + [配置主题和映射模板](./cs-install-guide/conf-template-tags.md)
+         + [配置自定义DITA主题模板](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
+         + [配置自定义DITA映射模板](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
+      + 使用文档状态 {#doc-state-cs}
+         + [配置文档状态](./cs-install-guide/customize-doc-state.md)
+      + 使用Web编辑器配置 {#web-editor-configs-cs}
+         + [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
+         + [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         + [为“标记”视图配置默认值](./cs-install-guide/configure-default-value-tags-view.md)
+         + [配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
+         + [在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)
+         + [在左侧面板中配置自定义面板](./cs-install-guide/configure-custom-panel.md)
+         + [在Web编辑器中自动保存配置文件](./cs-install-guide/auto-save-in-editor.md)
+         + [配置关闭时另存为新版本的提示](./cs-install-guide/conf-save-as-new-version-close.md)
+         + [配置关闭时签入文件的提示](./cs-install-guide/conf-checkin-file-close.md)
+         + [配置允许的特殊字符](./cs-install-guide/conf-special-chars.md)
+         + [自动生成元素ID](./cs-install-guide/auto-generate-ids.md)
+         + [自定义AEM默认词典](./cs-install-guide/customize-aem-custom-dictionary.md)
+         + [配置文本过滤器](./cs-install-guide/config-text-filters.md)
+         + [为文件浏览对话框配置过滤器](./cs-install-guide/conf-custom-file-filters.md)
+         + [安装用于基于文章的发布的包](./cs-install-guide/configure-article-based-publishing.md)
+         + [配置单主题PDF生成](./cs-install-guide/conf-pdf-generation-dita-ot.md)
+         + [在Web编辑器中配置翻译功能](./cs-install-guide/conf-translation-web-editor.md)
+         + [配置数据源连接器](./cs-install-guide/conf-data-source-connector.md)
+         + [将高级映射编辑器设置为默认值](./cs-install-guide/conf-map-editor.md)
+         + [默认包含@navtitle属性](./cs-install-guide/auto-add-navtitle.md)
+      + 使用全局和文件夹级别的配置文件 {#global-folder-profiles-cs}
+         + [配置全局或文件夹级别的配置文件](./cs-install-guide/conf-folder-level.md)
+      + 配置版本 {#version-mgt-cs}
+         + [版本管理](./cs-install-guide/version-management.md)
+      + 使用输出生成设置 {#output-gen-config-cs}
+         + [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
+      + 使用自定义工作流 {#custom-workflow-cs}
+         + [配置和自定义工作流](./cs-install-guide/customize-workflows.md)
+      + 使用翻译配置 {#translate-config-cs}
+         + [翻译内容](./cs-install-guide/translation.md)
+      + 使用AEM Assets搜索 {#aem-asset-search-cs}
+         + [配置AEM Assets UI搜索](./cs-install-guide/conf-dita-search.md)
+      + [附录](./cs-install-guide/appendix.md)
 + 知识库 {#knowledge-base}
    + 专家讲座 {#expert-session}
       + [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
@@ -263,10 +329,10 @@ ht-degree: 6%
       + 创作 {#authoring}
          + 报表 {#reports}
             + [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
-         + Webeditor {#webeditor}
+         + Web编辑器 {#webeditor}
             + 自定义 {#customizing}
                + [将自定义按钮添加到工具栏](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
-               + [将自定义样式添加到编辑器](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
+               + [向Web编辑器添加自定义样式](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
             + 模式 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 发布 {#publishing}

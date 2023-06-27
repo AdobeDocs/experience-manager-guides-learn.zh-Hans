@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年6月版）的新增功能
 description: 了解Adobe Experience Manager Guidesas a Cloud Service版2023年6月版的新增功能和增强功能
-source-git-commit: 5670b4a8f34916c7ff415680c5ddcfab6e9618e6
+exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
+source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
@@ -41,7 +42,13 @@ AEM Guides允许您检查技术文档的整体完整性并从Web编辑器生成�
 
 ### 支持DITA元素中的语言变量
 
-AEM Guides提供对语言变量的支持。 这些变量在生成注释、提示、警告、警告等元素的本地化字符串时非常有用。 例如，可以使用以下方法在PDF输出中显示NOTE：德语：Notiz西班牙语：Nota
+AEM Guides提供对语言变量的支持。 这些变量在生成注释、提示、警告、警告等元素的本地化字符串时非常有用。
+例如，可通过以下方式在PDF输出中显示NOTE：
+
+德语：Notiz
+
+西班牙语：Nota
+
 
 ### 支持页脚中的语言变量
 
@@ -51,10 +58,13 @@ AEM Guides提供对语言变量的支持。 这些变量在生成注释、提示
 ### 您的目录的本地化前缀
 
 此外，您还可以在标题中显示用于表示前缀的本地化术语。
-例如，您可以通过以下方式在PDF输出中显示“Chapter”前缀：德语：Kapitel西班牙语：Capítulo
+例如，您可以通过以下方式在PDF输出中显示“Chapter”前缀：
+
+德语：Kapitel
+
+西班牙语：卡皮图洛
 
 ### 能够在PDF布局中使用AEM元数据
-
 
 元数据是内容的描述或定义。 此元数据存储在源DITA映射内容中。
 
@@ -72,11 +82,11 @@ AEM Guides提供对语言变量的支持。 这些变量在生成注释、提示
 
 ## 模式增强功能
 
-### 使用Report语句检查Schematron中的规则
+### 使用报表语句检查Schematron中的规则
 
 AEM Guides现在还支持带有Schematron的报告语句。 当测试语句的计算结果为true时，报告语句会生成消息。 例如，如果希望简短描述少于或等于150个字符，则可以定义一个报告语句以检查简短描述多于150个字符的主题。
 
-有关更多详细信息，请参阅 [使用Assert和Report语句检查规则](../user-guide/support-schematron-file.md#schematron-assert-report).
+有关更多详细信息，请参阅 [使用assert和report语句检查规则](../user-guide/support-schematron-file.md#schematron-assert-report).
 
 ### 使用正则表达式
 
