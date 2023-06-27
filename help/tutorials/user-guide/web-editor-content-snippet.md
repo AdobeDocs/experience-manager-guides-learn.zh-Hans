@@ -1,7 +1,7 @@
 ---
 title: 插入数据源中的内容片段
 description: 了解如何从数据源插入内容片段
-source-git-commit: 3571b8acfa51dc91f9ed0366715357af7b2f1ecb
+source-git-commit: 84dbcd80d8b41ae52ec7389dd0d0a750ea8d6c65
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -41,7 +41,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
    1. 源视图在DITA源视图中显示数据。
       ![](images/add-content-snippet-generator.png){width="800" align="left"}
-   1. 要保存查询结果，请输入生成器的名称，然后单击 **添加**.   新的内容代码片段生成器将添加到列表中。
+1. 要保存查询结果，请输入生成器的名称，然后单击 **添加**.   新的内容代码片段生成器将添加到列表中。
 
    >[!NOTE]
    >
