@@ -1,13 +1,13 @@
 ---
 title: 云发布微服务架构和性能
 description: 了解新的微服务如何在AEMaaCS上实现可扩展的发布。
-source-git-commit: 2e45f132ced5ac29118a7301f104bedc03c93253
+exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
+source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # 云发布微服务架构和性能分析
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 目前，AEM Guides中基于微服务的发布仅支持使用本机PDF发布或通过DITA-OT的PDF输出。 AEM Guides将在未来版本中为更多输出类型添加基于微服务的发布支持。
+> AEM Guides中基于微服务的发布支持PDF（基于Native和DITA-OT）、HTML5和CUSTOM输出预设类型。
 
 ## 云上现有发布工作流存在问题
 
@@ -50,29 +50,29 @@ DITA发布是一个主要依赖于可用系统内存和CPU的资源密集型过�
 
 * 云
 
-   如果您使用新服务在云上执行单个发布，那么与单个本地发布相比，发布可能需要更多一些时间。 这一略微增加的时间是由于新云架构的分布式性质造成的。
+  如果您使用新服务在云上执行单个发布，那么与单个本地发布相比，发布可能需要更多一些时间。 这一略微增加的时间是由于新云架构的分布式性质造成的。
 
-   <img src="assets/cloud_single_publish.png" alt="“项目”选项卡" width="600">
+  <img src="assets/cloud_single_publish.png" alt="“项目”选项卡" width="600">
 
 * 内部部署
 
-   单个发布的结果在旧云架构或内部部署上更好，因为完整发布在运行AEM的同一个Pod/计算机上进行。
+  单个发布的结果在旧云架构或内部部署上更好，因为完整发布在运行AEM的同一个Pod/计算机上进行。
 
-   <img src="assets/onprem_single_publish.png" alt="“项目”选项卡" width="600">
+  <img src="assets/onprem_single_publish.png" alt="“项目”选项卡" width="600">
 
 ### 在云端和本地运行多个发布
 
 * 云
 
-   新的发布微服务在此场景中大放异彩。 正如您从下图中所看到的，随着多个并发发布作业的增加，Cloud能够发布这些作业而不会显着增加发布时间。
+  新的发布微服务在此场景中大放异彩。 正如您从下图中所看到的，随着多个并发发布作业的增加，Cloud能够发布这些作业而不会显着增加发布时间。
 
-   <img src="assets/cloud_bulk_publish.png" alt="“项目”选项卡" width="600">
+  <img src="assets/cloud_bulk_publish.png" alt="“项目”选项卡" width="600">
 
 * 内部部署
 
-   在内部部署服务器上运行并发发布会导致性能严重下降。 如果发布者同时发布更多地图，则性能下降更为严重。
+  在内部部署服务器上运行并发发布会导致性能严重下降。 如果发布者同时发布更多地图，则性能下降更为严重。
 
-   <img src="assets/onprem_bulk_publish.png" alt="“项目”选项卡" width="600">
+  <img src="assets/onprem_bulk_publish.png" alt="“项目”选项卡" width="600">
 
 ## 其他优势
 

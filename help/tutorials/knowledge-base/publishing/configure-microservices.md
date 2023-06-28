@@ -2,9 +2,9 @@
 title: 为AEM Guidesas a Cloud Service配置新的基于微服务的发布
 description: 了解如何为AEM Guides配置新的基于微服务的发布。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: 95c89acd02b798d42c817b52f6f8e0710a0abb76
+source-git-commit: 92b087c4cb115f0966d20b6b1d9d26839c6e39b7
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 目前，AEM Guides中基于微服务的发布仅支持使用本机PDF发布或通过DITA-OT的PDF输出。 我们将为未来版本中的更多输出类型添加基于微服务的发布支持。
+> AEM Guides中基于微服务的发布支持PDF（基于Native和DITA-OT）、HTML5和CUSTOM类型的输出预设。
 
 由于新的云发布服务受基于Adobe IMS JWT的身份验证保护，因此客户应遵循以下给定步骤，将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的基于云的可扩展发布解决方案。
 
@@ -90,6 +90,16 @@ ht-degree: 0%
 
 完成此操作后，您应该能够使用新的基于微服务的云发布。
 
+## 常见问题解答
+
+1. 单个密钥是否可以在多个云环境中使用？
+   * 可以，您可以生成一个私钥并将其用于所有环境，但您必须为所有环境配置环境变量并使用同一密钥。
+1. 如果启用了使用微服务的OSGi配置，则发布过程能否在本地AEM服务器上使用相同的代码库？
+   * 否，如果标志 `dxml.use.publish.microservice` 设置为 `true` 然后它始终查找微服务配置。 设置 `dxml.use.publish.microservice` 到 `false` 以便在您的本地进行发布。
+1. 使用基于微服务的发布时，为DITA进程分配了多少内存？ 这是通过DITA配置文件ant参数驱动吗？
+   * 对于基于微服务的发布，内存分配不是通过DITA配置文件ant参数驱动的。 服务容器上可用的总内存为8 GB，其中6 GB分配给DITA-OT进程。
+
+
 ## 附录 {#appendix}
 
 **文件**：
@@ -107,7 +117,7 @@ ht-degree: 0%
 **文件**： `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
 **内容**:
-* `dxml.use.publish.microservice`：切换到使用DITA-OT启用基于微服务的PDF发布
+* `dxml.use.publish.microservice`：切换到使用DITA-OT启用基于微服务的发布
 * `dxml.use.publish.microservice.native.pdf`：切换到启用基于微服务的本机PDF发布
 
 ```

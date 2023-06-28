@@ -1,21 +1,22 @@
 ---
 title: 在AEMaaCS上发布基准的指南
 description: 了解AEM Cloud上发布的系统限制。
-source-git-commit: e64430bb968b18090c3981cc2d21ebe6593ba933
+exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
+source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 7%
+source-wordcount: '233'
+ht-degree: 8%
 
 ---
-
 
 # AEM Guides在AEMaaCS上发布基准
 
 目前，AEM Guides云服务在发布指南团队正在积极努力解决的地图大小方面存在某些限制。
 
-指南团队已引入可扩展的 [发布微服务](publish-microservice-architecture-and-performance.md) 支持大型地图和多个并发发布。 目前，此微服务支持输出类型的子集，对其他类型的支持正在开发中。
+指南团队引入了一项可扩展的发布微服务，以支持大型地图和多个并发发布。 要了解有关新发布微服务的更多信息，请参阅 [发布微服务架构](publish-microservice-architecture-and-performance.md)
 
 要为任何AEM云环境配置新的发布服务，请参阅 [配置新的基于微服务的发布](configure-microservices.md)
+
 
 ## 执行环境
 
