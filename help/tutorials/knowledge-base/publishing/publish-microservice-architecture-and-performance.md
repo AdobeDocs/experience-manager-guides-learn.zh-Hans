@@ -2,9 +2,9 @@
 title: 云发布微服务架构和性能
 description: 了解新的微服务如何在AEMaaCS上实现可扩展的发布。
 exl-id: 963d8912-be10-4d79-8ddd-12481c0ae682
-source-git-commit: 862f086c4682e3efed06d142ddd099fecc9ca00e
+source-git-commit: 4185c31ae45c7b6fd0d394a15fbca0753d5e0463
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> AEM Guides中基于微服务的发布支持PDF（基于Native和DITA-OT）、HTML5和CUSTOM输出预设类型。
+> AEM Guides中基于微服务的发布支持PDF（基于Native和DITA-OT）、HTML5和CUSTOM类型的输出预设。
 
 ## 云上现有发布工作流存在问题
 
@@ -76,6 +76,6 @@ DITA发布是一个主要依赖于可用系统内存和CPU的资源密集型过�
 
 ## 其他优势
 
-每个发布请求的某些部分必须在AEM实例上运行，才能获取发送到微服务的正确发布内容。 新的云架构使用AEM作业来取代AEM工作流，就像旧架构中的情况一样。 此更改使AEM Guides管理员能够单独配置云发布队列设置，而不会影响其他AEM作业或工作流配置。
+每个发布请求的某些部分必须在AEM实例上运行，才能获取发送到微服务的正确发布内容。 新的云架构使用AEM作业来取代AEM工作流，就像旧架构中的情况一样。 此更改使AEM Guides管理员能够单独配置云发布队列设置，而不影响其他AEM作业或工作流配置。
 
 有关如何配置新发布微服务的详细信息，请参阅此处： [配置微服务](configure-microservices.md)
