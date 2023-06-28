@@ -1,14 +1,14 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides（2023年6月版）中的升级说明和修复的问题
+title: 发行说明 | Adobe Experience Manager Guides（2023年7月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到2023年7月版的Adobe Experience Manager Guidesas a Cloud Service
-source-git-commit: 4ba47a803eec7bcbb106c34a1ad6a7fbed9934be
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
 
 ---
 
-# Adobe Experience Manager Guidesas a Cloud Service版2023年6月版
+# Adobe Experience Manager Guidesas a Cloud Service版2023年7月版
 
 本发行说明涵盖了升级说明、兼容性矩阵，以及2023年7月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
 

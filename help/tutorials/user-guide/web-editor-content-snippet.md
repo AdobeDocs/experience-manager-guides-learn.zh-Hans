@@ -1,7 +1,7 @@
 ---
 title: 插入数据源中的内容片段
 description: 了解如何从数据源插入内容片段
-source-git-commit: f01903fe9ae3d60a8b818e881fd3b1d626fcd2bc
+source-git-commit: 6061d35b86790e24c6f55e4ccac5dbb40c43aae8
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,6 +16,7 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 执行以下步骤，使用内容片段生成器创建内容片段并将其插入到主题中：
 
 1. 选择 **数据源** ![](images/data-source-icon.svg)   ，以查看连接的数据源。 “数据源”面板随即打开并显示所有连接的数据源。 有关更多详细信息，请参阅 [配置数据源连接器](../cs-install-guide/conf-data-source-connector.md).
+
    >[!NOTE]
    >
    > 您将看到管理员为其配置了连接器的数据源。
@@ -31,7 +32,9 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >[!NOTE]
    >  
    > 如果您的管理员配置了自定义模板，则您还会在下拉列表中看到这些模板（基于管理员完成的模板路径配置）。
+
 1. 单击 **Fetch** 从数据源获取数据，并将模板应用于从SQL查询生成的数据。
+
 1. 您可以在预览或DITA源视图中查看数据。
 
    1. 预览显示插入内容时数据的显示方式。 预览以所选模板的格式显示一小部分数据。
