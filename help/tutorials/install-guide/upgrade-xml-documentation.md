@@ -1,13 +1,13 @@
 ---
 title: 升级Adobe Experience Manager指南
 description: 了解如何升级Adobe Experience Manager Guides
-source-git-commit: 414ee8ae3b12bb40054ddbe9e1a008ebc6058f89
+exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
+source-git-commit: a00484a6e0a900a568ae1f651e96dca31add1bd8
 workflow-type: tm+mt
 source-wordcount: '2750'
 ht-degree: 1%
 
 ---
-
 
 # 升级Adobe Experience Manager指南 {#id224MBE0M0XA}
 
@@ -214,11 +214,10 @@ ht-degree: 1%
 
    - “excludeList”应具有 `"event-user-data:changedByWorkflowProcess"`.
    - “ ”的启动器&#x200B;*节点已修改*“，表示 **DAM更新资产工作流 —** 条件&quot;`jcr:content/jcr:mimeType!=video`“，
-   - 
-      - “通配”值应为：
+   - “通配”值应为：
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - “excludeList”应具有 `"event-user-data:changedByWorkflowProcess"`.
@@ -388,11 +387,10 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    - “ ”的启动器&#x200B;*节点已修改*“，表示 **DAM更新资产工作流 —** 条件&quot;`jcr:content/jcr:mimeType!=video`“”，“通配”值应为：
 
    ```json
-   `"/content/dam(/((?!/subassets|/translation_output).)*/)renditions/original"`
+   /content/dam(/((?!/subassets|/translation_output).)*/)renditions/original
    ```
 
    - `excludeList` 应该具有 `"event-user-data:changedByWorkflowProcess"`.
-
 
 1. 升级完成后，请确保验证并更新任何自定义项/叠加图，以匹配新的应用程序代码。 下面给出了一些示例：
    - 从/libs/fmditor/libsis叠加的任何组件都应与新的产品代码进行比较，并且更新应在/apps下的叠加文件中完成。
@@ -408,7 +406,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 - 确保 `damAssetLucene` 索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查重新索引字段在中是否设置为false来确认重新索引已完成
-   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下位置添加了任何自定义项： `damAssetLucene`，您可能需要再次应用它们。
+  `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下位置添加了任何自定义项： `damAssetLucene`，您可能需要再次应用它们。
 
 - 对服务器运行POST请求\（使用正确的身份验证\） —  `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
@@ -420,4 +418,3 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 作业完成后，上述GET请求将做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。
 
 **父主题：**[&#x200B;下载并安装](download-install.md)
-
