@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides（2023年6月版）的新增功能
 description: 了解Adobe Experience Manager Guidesas a Cloud Service版2023年6月版的新增功能和增强功能
 exl-id: ff6ac4a4-76a3-4b41-9da7-6a888de0eca5
-source-git-commit: f6794078e760565f5934faf63a7cbfb919acce90
+source-git-commit: f1292c94d77b724467d9eede59687bf0041cbce5
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 本文介绍2023年6月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
 
-有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.6.0.md) 文章。
+有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.6.0.md).
 
 ## Web编辑器中的“断开链接”报表
 
-AEM Guides允许您检查技术文档的整体完整性并从Web编辑器生成报告。 现在，在2023年6月版AEM Guides中，您能够查看并修复断开的链接。 这是一个非常有用的报表，可帮助您管理断开的链接。 您可以轻松地查看DITA map中存在的断开链接并对其进行修复。
+AEM Guides允许您检查技术文档的整体完整性并从Web编辑器生成报告。 现在，在2023年6月版AEM Guides中，您能够查看并修复断开的链接。 这是一个有用的报表，可帮助您管理断开的链接。 您可以轻松地查看DITA map中存在的断开链接并对其进行修复。
 ![](assets/broken-link-report.png){width="800" align="left"}
 
 修复链接后，该链接不会显示在断开链接列表下。
@@ -40,29 +40,26 @@ AEM Guides允许您检查技术文档的整体完整性并从Web编辑器生成�
 
 有关更多详细信息，请参阅 [为草稿文档的PDF输出添加水印](../native-pdf/use-javascript-content-style.md#watermark-draft-document).
 
-### 支持DITA元素中的语言变量
+### 支持语言变量
 
-AEM Guides提供对语言变量的支持。 这些变量在生成注释、提示、警告、警告等元素的本地化字符串时非常有用。
-例如，可通过以下方式在PDF输出中显示NOTE：
+AEM Guides提供对语言变量的支持。 您可以使用语言变量来定义开箱即用标签的本地化版本，如PDF输出中的“注释”、“警告”和“警告”或静态文本。
+您可以将语言变量或本地化的标签版本添加到PDF输出和输出模板中的相应部分。
 
-德语：Notiz
+#### PDF输出中的语言变量
 
-西班牙语：Nota
+您可以使用语言变量为“注释”、“警告”和“警告”等元素定义本地化标签。 您可以用一种或多种语言更新这些变量的值，然后在PDF输出中自动选取本地化的值。
+例如，您可以通过以下方式在PDF输出中显示“注释”标签：
 
+* 英文：注释
+* 法语：雷马尔克
+* 德语：欣韦
 
-### 支持页脚中的语言变量
+#### 输出模板中的语言变量
 
-您可以将语言变量添加到文档主控页上的运行页眉或页脚。 变量显示在应用了此主控页面的文档的所有正文页面中。 例如，第1页，共1页。
-您还可以使用它以各种语言呈现数字。
+如果要创建各种语言的PDF输出，则必须创建包含每种语言的本地化文本的各种PDF模板。 现在，使用语言变量功能，您只需创建模板一次。 然后，对于需要本地化的任何静态文本，您可以创建相应的语言变量并在模板中使用它们。
+您可以为较长的文本创建语言变量，例如整个句子甚至段落。 您还可以应用样式并使用HTML标记来设置这些语言变量的格式。
 
-### 您的目录的本地化前缀
-
-此外，您还可以在标题中显示用于表示前缀的本地化术语。
-例如，您可以通过以下方式在PDF输出中显示“Chapter”前缀：
-
-德语：Kapitel
-
-西班牙语：卡皮图洛
+有关更多详细信息，请参阅 [支持语言变量](../native-pdf/native-pdf-language-variables.md).
 
 ### 能够在PDF布局中使用AEM元数据
 

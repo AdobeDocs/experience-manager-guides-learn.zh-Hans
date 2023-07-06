@@ -2,9 +2,9 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager Guides中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: d8bc9e2673ce08fe5f71154e9d009d1847b0274d
+source-git-commit: 3ae7a2a5954b68da29d4268012be47cd2ac8df3e
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2951'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 有关使用DITA-OT方法生成PDF的更多信息，请参见 [使用DITA-OT生成PDF](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
-* **FrameMaker Publishing Server (FMPS)**
+* **FrameMaker Publishing Server(FMP)**
 
-使用此方法可生成DITAPDF输出以及AEM存储库中可用的FrameMaker文档(.book和.fm)的输出。 PDF可通过配置输出预设来创建，并使用FrameMaker Publishing Server(FMPS)发布。 您可以针对PDF和其他格式设计和配置输出的外观，并将其存储在设置文件(.sts)中。 然后，FMPS使用此设置文件来生成DITA映射或.book文件的输出。 要创建或编辑输出预设，请参阅  *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
+使用此方法可生成DITAPDF以及AEM存储库中可用的FrameMaker文档(.book和.fm)的内容输出。 PDF可通过配置输出预设来创建，并使用FrameMaker Publishing Server (FMPS)发布。 您可以针对PDF和其他格式设计和配置输出的外观，并将其存储在设置文件(.sts)中。 然后，FMPS使用此设置文件来生成DITA映射或.book文件的输出。 要创建或编辑输出预设，请参阅  *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
 有关配置FMPS的更多信息，请参阅 [从FrameMaker文档生成输出](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
@@ -182,3 +182,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 此 **下载临时文件**  ![下载临时文件](assets/native-pdf-download-temporary-files-icon.svg) 图标仅当您使用预设生成最后一个PDF输出时显示，您已在预设中选择 **高级** 选项卡。
+
+
+
+### 使用语言变量
+
+AEM Guides还提供了对语言变量的支持。 选择 **语言变量** <img src="./assets/language-variables.svg" width="25">  ，以定义PDF输出中现成标签（如注释、警告和警告或静态文本）的本地化版本。 有关更多详细信息，请参阅 [支持语言变量](../native-pdf/native-pdf-language-variables.md).
+
