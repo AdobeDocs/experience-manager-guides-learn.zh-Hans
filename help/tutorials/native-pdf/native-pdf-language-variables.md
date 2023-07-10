@@ -1,7 +1,7 @@
 ---
 title: 本机PDF |支持语言变量
 description: 在PDF输出和输出模板中使用语言变量
-source-git-commit: 7c7381d2d5a218de9c4ca1fbc0363eacd43947cd
+source-git-commit: 3e922ef7ed9af200aa8fcfb0cbe4489cf059e335
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 0%
@@ -105,18 +105,18 @@ AEM Guides提供了一组预定义的或现成的应用程序变量。 您可以
 
 1. 打开所需的页面布局进行编辑。
 
->[!NOTE]
->
-> 视图 [自定义页面布局](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 用于打开页面布局进行自定义或编辑的节。：
+   >[!NOTE]
+   >
+   > 视图 [自定义页面布局](../native-pdf/components-pdf-template.md#customize-a-page-layout-customize-page-layout) 部分，用于打开页面布局进行自定义或编辑。
 
 1. 选择标头以激活它以插入变量。
 1. 选择 **插入变量**  <img src="./assets/insert-language-variable.svg" width="25"> 工具栏中。
 1. 在 **插入变量** 弹出窗口，选择要插入的语言变量的名称，然后单击 **插入** 以将其插入页眉区域。
 
->[!NOTE]
->
-> 您还可以在文本框中输入搜索字符串。 将筛选包含给定字符串的变量名称并将其显示在列表中。
-> 选定的语言变量会插入到标题区域中。
+   >[!NOTE]
+   >
+   > 您还可以在文本框中输入搜索字符串。 将筛选包含给定字符串的变量名称并将其显示在列表中。
+   > 选定的语言变量会插入到标题区域中。
 
 以下屏幕截图显示了 `copyright-label` 在标题区域中添加。
 
