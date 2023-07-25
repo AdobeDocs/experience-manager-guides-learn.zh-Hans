@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: cabb567088e8f118db5af614b64948f56dc1e25e
+source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1392'
 ht-degree: 5%
 
 ---
@@ -350,5 +350,4 @@ ht-degree: 5%
       + 用例 {#use-cases}
          + [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
-+ 隐藏的文章 {#hidden}
    + [使用氧气连接器](./oxygen-connector/use-aem-connector.md)
