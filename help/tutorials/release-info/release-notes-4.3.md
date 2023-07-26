@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.0版本
-source-git-commit: 756ba69360e1796e36f6cc1ef410443ef8cb4acb
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '998'
 ht-degree: 5%
 
 ---
@@ -81,7 +81,6 @@ ht-degree: 5%
 - 打开一个搜索的文件后，会在“查找和替换”面板中禁用搜索结果。 (12142)
 - 侧键盘上的“8”数字键在AEM Guides编辑器中不起作用。 (12106)
 - 内联/显示属性不会显示在Web编辑器的“布局”视图中。 (12498)
-- 如果存在，则在用于AEM Guides的氧气插件中上传文件在Cloud Service中将不起作用！ 文件名中的。 (12207)
 - 全局配置文件UI配置与文件夹配置文件不匹配。 (11970)
 - 复制和粘贴DITA文件时会破坏内容引用。 (11959)
 - 安装AEM Guides后无法在列视图中编辑内容片段。 (7342)
@@ -93,7 +92,7 @@ ht-degree: 5%
 - `conref` 在ph标记中 |显示的浏览对话框不正确。 (9481)
 - 在Web编辑器中不会解析指向其他元素的本地链接。 (8790)
 - Matches()函数在架构功能中不起作用。 (11224)
-- 在AEM Guides的氧气插件中，在Web DITA映射编辑器中打开DITA映射的选项会转到旧UI。 (12633)
+
 
 
 ### 管理

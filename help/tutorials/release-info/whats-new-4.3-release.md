@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版的新增功能
 description: 了解Adobe Experience Manager Guides 4.3.0版本中的新增功能和增强功能
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
 workflow-type: tm+mt
-source-wordcount: '2638'
+source-wordcount: '2639'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 本文介绍4.3.0版本的Adobe Experience Manager Guides(以后称为 *AEM指南*)。
 
-有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，  [发行说明](./release-notes-4.3.md).
+有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](./release-notes-4.3.md).
 
 
 ## 连接到数据源并将数据插入主题
