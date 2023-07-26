@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 6adc8544c7ad64bc264465a56944d49949605414
+source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1429'
 ht-degree: 5%
 
 ---
@@ -46,7 +46,12 @@ ht-degree: 5%
             + [2月发行说明](./release-info/release-notes-2022.2.0.md)
             + [1月发行说明](./release-info/release-notes-2022.1.0.md)
       + 内部部署/Managed Services {#on-prem-release-notes}
-         + 4.2版 {#42-release}
+         + 4.3.0发行版 {#43-release}
+            + 新增功能 {#43-whats-new}
+               + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
+            + 发行说明 {#43-release-notes}
+               + [4.3.0发行说明](./release-info/release-notes-4.3.md)
+         + 4.2版本 {#42-release}
             + 新增功能 {#42-whats-new}
                + [4.2.1新增功能](./release-info/whats-new-4.2.1-release.md)
                + [4.2新增功能](./release-info/whats-new-4.2-release.md)
@@ -64,7 +69,7 @@ ht-degree: 5%
          + [键 [!DNL AEM Guides] 功能](./user-guide/intro-dxml-features.md)
    + 管理内容 {#manage-content}
       + [关键概念、角色和权限以及先决条件](./user-guide/authoring.md)
-      + [上传文件](./user-guide/authoring-upload-existing-files.md)
+      + [上载文件](./user-guide/authoring-upload-existing-files.md)
       + [管理文件和文件夹](./user-guide/authoring-file-management.md)
       + [下载文件](./user-guide/authoring-download-assets.md)
    + 创作内容 {#author-content}
@@ -85,10 +90,11 @@ ht-degree: 5%
                + [Web编辑器视图](./user-guide/web-editor-views.md)
                + [支持Schematron文件](./user-guide/support-schematron-file.md)
                + [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
-               + [插入数据源中的内容片段](./user-guide/web-editor-content-snippet.md)
+               + [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
+               + [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
                + [管理全局和文件夹配置文件输出预设](./user-guide/web-editor-manage-output-presets.md)
-               + 文章发布 {#article-based-pub}
-                  + [从Web编辑器发布基于文章](./user-guide/web-editor-article-publishing.md)
+               + 基于文章的发布 {#article-based-pub}
+                  + [从Web编辑器中基于文章的发布](./user-guide/web-editor-article-publishing.md)
                   + [从Web编辑器创建输出预设](./user-guide/web-editor-article-publishing-presets.md)
                   + [从“存储库”面板或“映射视图”面板生成输出](./user-guide/web-editor-article-publishing-output.md)
                   + [使用“快速生成”面板生成和查看输出](./user-guide/web-editor-quick-generate-panel.md)
@@ -110,14 +116,14 @@ ht-degree: 5%
             + [使用FrameMaker](./user-guide/author-desktop-framemaker.md)
             + [使用氧气](./user-guide/author-desktop-oxygen.md)
    + 审核内容 {#review-topic-maps}
-      + [查看主题或地图](./user-guide/review.md)
+      + [查看主题或映射](./user-guide/review.md)
       + [创建DITA项目](./user-guide/authoring-create-dita-project.md)
       + [发送主题以供审阅](./user-guide/review-send-topics-for-review.md)
       + [使用通知重新分配审核任务](./user-guide/reassign-review-using-notification.md)
-      + 主题审查 {#review-topics}
+      + 主题审阅 {#review-topics}
          + [查看主题](./user-guide/review-topics.md)
          + [地址审核注释](./user-guide/review-address-review-comments.md)
-      + [使用审阅仪表板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
+      + [使用审阅功能板管理审阅任务](./user-guide/review-manage-tasks-review-dashboard.md)
       + [查看已完成的审核任务](./user-guide/review-view-completed-task.md)
    + AEM Guides中的元数据 {#manaege-metadata}
       + [管理元数据](./user-guide/manage-metadata.md)
@@ -151,15 +157,15 @@ ht-degree: 5%
          + [发布PDF输出](./web-editor/native-pdf-web-editor.md)
          + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
       + [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
-      + [基本故障排除](./user-guide/generate-output-basic-troubleshooting.md)
+      + [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
       + 批量激活内容 {#bulk-activation}
          + [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
          + [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
          + [激活输出](./user-guide/conf-bulk-activation-publish-map-collection.md)
          + [编辑批量激活映射集合](./user-guide/conf-bulk-activation-edit-map-collection.md)
          + [删除批量激活映射集合](./user-guide/conf-bulk-activation-delete-map-collection.md)
-   + 生成FrameMaker文档的输出 {#generate-fm-output}
-      + [生成FrameMaker文档的输出](./user-guide/fm-output-generatation.md)
+   + 生成FrameMaker单据的输出 {#generate-fm-output}
+      + [生成FrameMaker单据的输出](./user-guide/fm-output-generatation.md)
       + 支持的预设 {#fm-docs-generating-presets}
          + [用于生成FrameMaker文档的预设](./user-guide/fm-output-understand-presets.md)
          + [PDF](./user-guide/fm-output-pdf-preset.md)
@@ -186,11 +192,11 @@ ht-degree: 5%
          + [验证AEM Guides的安装](./install-guide/download-install-verify-aemg-installation.md)
          + [升级AEM指南](./install-guide/upgrade-xml-documentation.md)
          + [卸载AEM Guides](./install-guide/download-install-unistall-aemg.md)
-         + [用于性能优化的Recommendations](./install-guide/download-install-recommend-perf-optimiz.md)
+         + [Recommendations优化性能](./install-guide/download-install-recommend-perf-optimiz.md)
       + 使用用户组和安全性 {#user-group-sec}
          + [用户管理和安全性](./install-guide/user-admin-sec.md)
       + 内容迁移 {#content-migration}
-         + [从Non-UUID迁移到UUID内容](./install-guide/migrate-uuid-non-uuid.md)
+         + [非UUID到UUID内容迁移](./install-guide/migrate-uuid-non-uuid.md)
          + [迁移现有内容](./install-guide/migrate-content.md)
          + [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          + [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
@@ -201,7 +207,7 @@ ht-degree: 5%
          + [根据UUID配置自动文件名](./install-guide/conf-auto-uuid-filenames.md)
          + [为有效的文件名字符配置Regx](./install-guide/conf-file-names-valid-regx.md)
          + [为AEM站点输出配置有效文件名](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      + 使用主题和映射模板 {#topic-map-template}
+      + 使用主题和地图模板 {#topic-map-template}
          + [配置主题和映射模板](./install-guide/conf-template-tags.md)
          + [配置自定义DITA主题模板](./install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [配置自定义DITA映射模板](./install-guide/conf-template-tags-custom-dita-map-templates.md)
@@ -210,12 +216,13 @@ ht-degree: 5%
       + 使用Web编辑器配置 {#web-editor-configs}
          + [自定义Web编辑器](./install-guide/conf-web-editor.md)
          + [自定义工具栏](./install-guide/conf-web-editor-customize-toolbar.md)
-         + [为“标记”视图配置默认值](./install-guide/configure-default-value-tags-view.md)
+         + [配置标记视图的默认值](./install-guide/configure-default-value-tags-view.md)
+         + [配置签入和签出图标的标题](./install-guide/conf-checkin-checkout-title.md)
          + [配置基于UUID的链接的显示](./install-guide/conf-uuid-based-links.md)
          + [在同一选项卡中打开DITA主题或映射文件](./install-guide/open-dita-files-same-tab.md)
          + [在左侧面板中配置自定义面板](./install-guide/configure-custom-panel.md)
-         + [在Web编辑器中自动保存配置文件](./install-guide/auto-save-in-editor.md)
-         + [为文件浏览对话框配置过滤器](./install-guide/conf-custom-file-filters.md)
+         + [在Web编辑器中配置文件自动保存](./install-guide/auto-save-in-editor.md)
+         + [为文件浏览对话框配置筛选器](./install-guide/conf-custom-file-filters.md)
          + [配置关闭时另存为新版本的提示](./install-guide/conf-save-as-new-version-close.md)
          + [配置关闭时签入文件的提示](./install-guide/conf-checkin-file-close.md)
          + [配置允许的特殊字符](./install-guide/conf-special-chars.md)
@@ -224,9 +231,10 @@ ht-degree: 5%
          + [配置文本过滤器](./install-guide/config-text-filters.md)
          + [配置查询的LimitReads数](./install-guide/conf-query-limitreads.md)
          + [安装用于基于文章的发布的包](./install-guide/configure-article-based-publishing.md)
+         + [配置数据源连接器](./install-guide/conf-data-source-connector.md)
          + [将高级映射编辑器设置为默认值](./install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./install-guide/auto-add-navtitle.md)
-      + 使用全局和文件夹级别的配置文件 {#global-folder-profiles}
+      + 使用全局和文件夹级别的用户档案 {#global-folder-profiles}
          + [配置全局或文件夹级别的配置文件](./install-guide/conf-folder-level.md)
       + 配置版本 {#version-mgt}
          + [版本管理](./install-guide/version-management.md)
@@ -246,6 +254,7 @@ ht-degree: 5%
                + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
                + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
+            + [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
       + 使用自定义工作流 {#custom-workflow}
          + [配置和自定义工作流](./install-guide/customize-workflows.md)
       + 使用翻译配置 {#translate-config}
@@ -262,7 +271,7 @@ ht-degree: 5%
          + [验证AEM Guides的安装](./cs-install-guide/download-install-verify-dxml-installation.md)
          + [升级AEM指南](./cs-install-guide/download-install-upgrade-dxml.md)
          + [配置覆盖](./cs-install-guide/download-install-additional-config-override.md)
-         + [用于性能优化的Recommendations](./cs-install-guide/download-install-recommend-perf-optimiz.md)
+         + [Recommendations优化性能](./cs-install-guide/download-install-recommend-perf-optimiz.md)
       + 使用用户组和安全性 {#user-group-sec-cs}
          + [用户管理和安全性](./cs-install-guide/user-admin-sec.md)
       + 内容迁移 {#migrate-con-cs}
@@ -276,7 +285,7 @@ ht-degree: 5%
          + [根据UUID配置自动文件名](./cs-install-guide/conf-auto-uuid-filenames.md)
          + [为有效的文件名字符配置Regx](./cs-install-guide/conf-file-names-valid-regx.md)
          + [为AEM站点输出配置有效文件名](./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md)
-      + 使用主题和映射模板 {#topic-map-template-cs}
+      + 使用主题和地图模板 {#topic-map-template-cs}
          + [配置主题和映射模板](./cs-install-guide/conf-template-tags.md)
          + [配置自定义DITA主题模板](./cs-install-guide/conf-template-tags-custom-dita-topic-template.md)
          + [配置自定义DITA映射模板](./cs-install-guide/conf-template-tags-custom-dita-map-templates.md)
@@ -285,30 +294,31 @@ ht-degree: 5%
       + 使用Web编辑器配置 {#web-editor-configs-cs}
          + [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
          + [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
-         + [为“标记”视图配置默认值](./cs-install-guide/configure-default-value-tags-view.md)
+         + [配置标记视图的默认值](./cs-install-guide/configure-default-value-tags-view.md)
          + [配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
          + [在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)
          + [在左侧面板中配置自定义面板](./cs-install-guide/configure-custom-panel.md)
-         + [在Web编辑器中自动保存配置文件](./cs-install-guide/auto-save-in-editor.md)
+         + [在Web编辑器中配置文件自动保存](./cs-install-guide/auto-save-in-editor.md)
          + [配置关闭时另存为新版本的提示](./cs-install-guide/conf-save-as-new-version-close.md)
          + [配置关闭时签入文件的提示](./cs-install-guide/conf-checkin-file-close.md)
          + [配置允许的特殊字符](./cs-install-guide/conf-special-chars.md)
          + [自动生成元素ID](./cs-install-guide/auto-generate-ids.md)
          + [自定义AEM默认词典](./cs-install-guide/customize-aem-custom-dictionary.md)
          + [配置文本过滤器](./cs-install-guide/config-text-filters.md)
-         + [为文件浏览对话框配置过滤器](./cs-install-guide/conf-custom-file-filters.md)
+         + [为文件浏览对话框配置筛选器](./cs-install-guide/conf-custom-file-filters.md)
          + [安装用于基于文章的发布的包](./cs-install-guide/configure-article-based-publishing.md)
          + [配置单主题PDF生成](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [在Web编辑器中配置翻译功能](./cs-install-guide/conf-translation-web-editor.md)
          + [配置数据源连接器](./cs-install-guide/conf-data-source-connector.md)
          + [将高级映射编辑器设置为默认值](./cs-install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./cs-install-guide/auto-add-navtitle.md)
-      + 使用全局和文件夹级别的配置文件 {#global-folder-profiles-cs}
+      + 使用全局和文件夹级别的用户档案 {#global-folder-profiles-cs}
          + [配置全局或文件夹级别的配置文件](./cs-install-guide/conf-folder-level.md)
       + 配置版本 {#version-mgt-cs}
          + [版本管理](./cs-install-guide/version-management.md)
       + 使用输出生成设置 {#output-gen-config-cs}
          + [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
+         + [本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
       + 使用自定义工作流 {#custom-workflow-cs}
          + [配置和自定义工作流](./cs-install-guide/customize-workflows.md)
       + 使用翻译配置 {#translate-config-cs}
@@ -332,9 +342,9 @@ ht-degree: 5%
             + [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Web编辑器 {#webeditor}
             + 自定义 {#customizing}
-               + [将自定义按钮添加到工具栏](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
+               + [向工具栏添加自定义按钮](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md)
                + [向Web编辑器添加自定义样式](./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md)
-            + 模式 {#schematron}
+            + 模式管 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 发布 {#publishing}
          + [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
@@ -351,3 +361,4 @@ ht-degree: 5%
          + [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [使用氧气连接器](./oxygen-connector/use-aem-connector.md)
+

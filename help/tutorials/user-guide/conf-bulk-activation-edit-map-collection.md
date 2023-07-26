@@ -2,9 +2,9 @@
 title: 编辑批量激活映射集合
 description: 了解如何编辑批量激活图收藏集
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: c74badebbcb4733fb9caa79c646b1d1e5c8bfe8e
+source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 您可以通过添加或删除集合中的映射文件或预设来编辑批量激活映射集合。 要编辑批量激活映射集合，请执行以下步骤：
 
-1. 选择 **指南** 从工具列表中。
+1. 选择 **指南** 工具列表中。
 
 1. 单击顶部的Adobe Experience Manager链接，然后选择 **工具**.
 
-1. 单击 **批量发布功能板** 图块。
+1. 单击 **批量发布功能板** 磁贴。
 
    此时将显示批量激活映射集合列表。
 
@@ -25,7 +25,13 @@ ht-degree: 1%
 
 1. 单击 **编辑**.
 
-   此时会显示批量激活映射集合页面，其中显示了映射及其为每个可用区域设置的预配置预设。
+   此时会显示批量激活映射收集页面，其中显示了映射以及每个可用区域设置的预配置预设。
+您可以查看各种类型的输出预设及其图标，例如AEM站点、PDF、本机PDF、HTML5、自定义和JSON输出。
+
+   >[!NOTE]
+   >
+   > 小 ![](images/global-preset-icon.svg) 图标表示文件夹配置文件级别预设。
+
 
 1. 使用滑块可打开或关闭要激活或取消激活的所需输出预设。
 
@@ -33,11 +39,11 @@ ht-degree: 1%
 
 1. 单击&#x200B;**删除**。
 
-   ![](images/bulk-activation-delete-map.png){width="800" align="left"}
+   ![](images/bulk-activation-delete-map.png){width="600" align="left"}
 
    所选映射将从批量激活映射集合中删除。
 
-1. 单击 **完成**.
+1. 单击&#x200B;**完成**。
 
 
 **父主题：**[&#x200B;批量激活已发布的内容](conf-bulk-activation.md)
