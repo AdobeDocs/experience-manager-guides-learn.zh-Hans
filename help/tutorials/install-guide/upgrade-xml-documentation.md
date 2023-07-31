@@ -2,9 +2,9 @@
 title: 升级Adobe Experience Manager指南
 description: 了解如何升级Adobe Experience Manager Guides
 exl-id: fdc395cf-a54f-4eca-b69f-52ef08d84a6e
-source-git-commit: ec67a3b959f9ee5b90a53134c1fe9aff8760cb6f
+source-git-commit: bb7e9ae6f02021354285aa4ca6b435bbea2e4cc0
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3270'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,9 @@ ht-degree: 1%
 > 按照特定于您的产品的许可版本的升级说明进行操作。
 
 您可以将当前版本的AEM Guides升级到4.3.0版
+
 - 如果您使用的是版本4.2或4.2.x，则可以直接升级到版本4.3.0。
-- 如果您使用的是版本4.1、4.1.x或4.2，则需要在升级到版本4.3.0之前升级到版本4.2.1。
+- 如果您使用的是版本4.1或4.1.x ，则需要先升级到版本4.2或4.2.x ，然后再升级到版本4.3.0。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.0。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
 - 如果您使用的版本低于3.8.5，请参阅特定于产品的安装指南中的升级AEM Guides部分。
@@ -455,7 +456,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 - 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
-- 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如：`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+- 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
 
@@ -503,12 +504,19 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    |---|---|---|
    | org.apache.jackrabbit.oak.query.QueryEngineSettingsService | queryLimitRead | 值： 200000 <br> 默认值： 100000 |
 
-1. 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>//bin/guides/reports/upgrade`.
+1. 执行以下API以对所有文件运行后处理：
 
-1. 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/reports/upgrade?jobId= {jobId}`
-(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678`)
+   | 终点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 请求类型 | **POST**  此脚本是一个POST请求，因此应通过Postman等代理执行。 |
+   | 预期响应 | 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点。<br> 示例URL： `http://<server:port>/bin/guides/reports/upgrade` |
 
-1. 作业完成后，先前的GET请求将做出成功响应。 如果作业由于某个原因失败，则可以从服务器日志中看到失败。
+   | 终点 | /bin/guides/reports/upgrade |
+   |---|---|
+   | 请求类型 | **GET** |
+   | 参数 | jobId：传递从上一个post请求收到的jobId。 |
+   | 预期响应 |  — 作业完成后，GET请求将做出成功响应。 <br>  — 如果出现错误，请与客户成功团队共享错误日志以及API输出。  <br>示例URL： `http://<server:port>/bin/guides/reports/upgrade?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678` |
+
 
 1. 恢复为默认或以前的现有值 `queryLimitReads` 如果您在步骤1中更改了它。
 

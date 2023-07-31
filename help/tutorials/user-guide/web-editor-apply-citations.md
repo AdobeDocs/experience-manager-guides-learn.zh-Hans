@@ -1,7 +1,7 @@
 ---
 title: 在内容中添加和管理引文
 description: 了解如何通过添加引用并将其应用于内容来实施引用。
-source-git-commit: f59ed1ffe8567bef48c6772a68361eacb1c7c15f
+source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 0%
@@ -45,7 +45,7 @@ AEM Guides支持多种类型的引用，例如现代语言协会(MLA)、美国�
 
 1. 填写 **添加引用** 对话框。
 
-   >
+   >[!NOTE]
    >
    >您还可以添加ISBN、DOI或PubMed ID。 AEM Guides会自动填充其他字段。
 
