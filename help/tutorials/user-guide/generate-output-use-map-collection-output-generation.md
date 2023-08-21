@@ -2,7 +2,7 @@
 title: 使用映射集合生成输出
 description: 了解如何使用映射收藏集生成输出
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 2e39580aa8417641d8b2ac7eab4ba4805cb68f0f
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
@@ -27,7 +27,7 @@ AEM Guides使您能够使用称为“地图收集”的功能板来组织内容�
 
    ![](images/access-map-collection-left-rail.png){width="350" align="left"}
 
-1. 输入地图集合的标题。
+1. 输入地图收藏集的标题。
 1. 单击&#x200B;**创建**。
 
    创建地图收藏集时会显示一条成功消息。

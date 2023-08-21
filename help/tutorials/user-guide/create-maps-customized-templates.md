@@ -2,7 +2,7 @@
 title: 根据自定义模板创建映射
 description: 了解如何基于自定义模板创建地图
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: ca96cafa214d2dd03a9933024a195ec4995ee4dc
+source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -61,7 +61,7 @@ AEM Guides允许您从dita-templates文件夹创建自定义映射和主题。 �
 
 1. 在 **资产UI**，导航到dita-templates文件夹。
 1. 单击 **映射** 文件夹以将其打开。
-1. 单击 **创建\> DITA模板。**
+1. 单击 **创建** > **DITA模板。**
 
    ![](images/create-dita-template.png){width="300" align="left"}
 
