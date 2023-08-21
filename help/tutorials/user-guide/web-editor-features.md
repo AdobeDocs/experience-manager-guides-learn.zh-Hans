@@ -2,9 +2,9 @@
 title: 了解Web编辑器功能
 description: 了解如何了解Web编辑器的功能
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
 workflow-type: tm+mt
-source-wordcount: '15745'
+source-wordcount: '15744'
 ht-degree: 0%
 
 ---
@@ -805,7 +805,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 单击过滤器搜索\
 
 “选项”菜单中的各种选项说明如下：
 
-- **编辑**：打开文件以进行编辑。 如果是.ditamap/.bookmap文件，它将在 [高级映射编辑器](map-editor-advanced-map-editor.md#) 进行编辑。
+- **编辑**：打开文件以进行编辑。 如果是.ditamap/.bookmap文件，则会在中打开 [高级映射编辑器](map-editor-advanced-map-editor.md#) 进行编辑。
 
 - **复制**：使用此选项创建所选文件的副本或副本。 您还可以选择在重复资产提示符下重命名重复的文件。 默认情况下，创建文件时使用的后缀\（如filename\_1.extension\）。 文件的标题与源文件相同，新文件从版本1.0开始。复制所有引用、标记和元数据，但基线不会复制到重复文件中。
 - **签出**：获取选定文件的锁定以进行编辑。 对于锁定的文件，此选项将更改为 **签入**.
