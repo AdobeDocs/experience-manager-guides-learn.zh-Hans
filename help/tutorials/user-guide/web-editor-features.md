@@ -2,9 +2,9 @@
 title: 了解Web编辑器功能
 description: 了解如何了解Web编辑器的功能
 exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: d6e7046e8885191270620d634bda0a5284f76fa2
+source-git-commit: 0a01752122d012cff9fb583ae527842714e8f154
 workflow-type: tm+mt
-source-wordcount: '15744'
+source-wordcount: '15461'
 ht-degree: 0%
 
 ---
@@ -681,25 +681,20 @@ AEM Guides允许您以自由格式文本格式指定标签或使用一组预定�
 
   ![](images/favorite-add-file-folder.png){width="300" align="left"}
 
-- 在编辑器中右键单击文件的选项卡以打开上下文菜单。 选择 **添加至** > **收藏夹** 将文件添加到收藏夹列表。
+- 在编辑器中右键单击文件的选项卡以打开上下文菜单。 选择 **添加到\>收藏夹** 将文件添加到收藏夹列表。
 
   ![](images/favorite-add-from-file-context-menu_cs.png){width="400" align="left"}
 
->[!NOTE]
->
-> - 要从收藏夹列表中移除项目，请选择收藏夹收藏集中该项目旁边的选项图标，然后选择 **从收藏夹中移除**.
-> - 要预览文件而不打开它，请选择文件，然后选择 **预览** 从“Options（选项）”菜单中。
 
-
-
-**收藏夹集合的“选项”菜单**\
+**用Favroties集合的“选项”菜单**\
 您还可以使用收藏夹集合的“选项”菜单执行许多操作：
 
 ![](images/favorites-options.png){width="400" align="left"}
 - **重命名**：重命名选定的收藏集。
-- **删除**：删除选定的收藏集。
+- **删除**：删除选定的文件。
 - **刷新**：从存储库中获取新的文件和文件夹列表。
 - **在Assets UI中查看**：在Assets UI中显示文件或文件夹内容。
+
 
 >[!NOTE]
 >
@@ -815,7 +810,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 单击过滤器搜索\
   > - 如果文件被用户锁定或签出，将鼠标指针悬停在锁定图标上会显示已锁定文件的用户\(name\)。
   > - 签入具有任何未保存更改的文件时，会提示您保存更改。 如果不保存更改，则它仅签入文件。
 
-- **预览**：获取文件（.dita、.xml、音频、视频或图像）的快速预览而不打开它。 您可以调整预览窗格的大小。 如果内容包含任意 `<xref>` 或 `<conref>`中，您可以选择它以在新选项卡中将其打开。 文件的标题将显示在窗口中。 如果不存在标题，则会显示文件名。 要关闭 **预览** 选择关闭图标，或单击窗格之外的任意位置。
+- **预览**：获取文件(.dita/.xml\)的快速预览而不打开它。
 
   ![](images/quick-preview_cs.png){width="800" align="left"}
 
@@ -1016,7 +1011,7 @@ Web编辑器为搜索文本提供了增强的筛选器。 单击过滤器搜索\
   > - 如果文件被用户锁定或签出，将鼠标指针悬停在锁定图标上会显示已锁定文件的用户\(name\)。
   > - 签入文件时，会提示您保存更改。 如果不保存更改，则它仅签入文件。
 
-- **预览**：获取文件（.dita、.xml、音频、视频或图像）的快速预览而不打开它。 您可以调整预览窗格的大小。 如果内容包含任意 `<xref>` 或 `<conref>`中，您可以选择它以在新选项卡中将其打开。  文件的标题将显示在窗口中。 如果不存在标题，则会显示文件名。 要关闭 **预览** 选择关闭图标，或单击窗格之外的任意位置。
+- **预览**：获取文件\(.dita/.xml\)的快速预览而不打开它。
 - **复制**：您可以从以下选项中进行选择：
    - **复制UUID**：将所选文件的UUID复制到剪贴板。
    - **复制路径**：将所选文件的完整路径复制到剪贴板。
@@ -1139,12 +1134,9 @@ DITA的主要功能之一是能够重用内容。 可重用内容面板可以存
 
   >[!NOTE]
   >
-  > 选择一个文件，然后选择 **预览** 从 **选项** 菜单来预览文件，而不打开它。 也可以预览主题中显示的引用。 参照ID会显示在窗口中。
-  >
-  > 此 **预览** 选项也适用于 **选项** 元素的菜单，可在插入元素之前快速预览该元素。
+  > 注意： **预览** 选项在上下文菜单中也可用，这可在插入元素之前为您提供元素的快速预览。
 
 - 从面板中将可重用内容项拖放到文档中的所需位置。
-
 
 
 **术语表** -  ![](images/glossary.svg)
@@ -1280,138 +1272,86 @@ AEM Guides还支持嵌套级别主题方案映射，您可以在根主题方案�
 
    ![](images/subject-scheme-apply.png){width="650" align="left"}
 
-**处理主题定义和枚举的分层定义**
+   **处理主题定义和枚举的分层定义**
 
-除了处理同一映射中存在的枚举和主题定义外，AEM Guides还提供了在两个单独的映射中定义枚举和主题定义的功能。 您可以在映射中定义一个或多个主题定义，在另一个映射中定义枚举定义，然后添加映射引用。 例如，以下XML代码在两个单独的映射中创建主题定义和枚举定义。
+   除了处理同一映射中存在的枚举和主题定义外，AEM Guides还提供了在两个单独的映射中定义枚举和主题定义的功能。 您可以在映射中定义主题定义，在另一个映射中定义枚举定义，然后添加映射引用。 例如，以下XML代码在两个单独的映射中创建主题定义和枚举定义。
 
-主题定义定义请参见 `subject_scheme_map_1.ditamap`
-
-
-```XML
-  <?xml version="1.0" encoding="UTF-8"?> 
-    <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-    <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
-
-    <title>subject_scheme_map_1</title> 
-    
-    <subjectdef keys="os" navtitle="Operating system">
-        <subjectdef keys="linux" navtitle="Linux">
-        <subjectdef keys="redhat" navtitle="RedHat Linux">
-        </subjectdef>
-        <subjectdef keys="suse" navtitle="SuSE Linux">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="windows" navtitle="Windows">
-        </subjectdef>
-        <subjectdef keys="zos" navtitle="z/OS">
-        </subjectdef>
-        </subjectdef>
-        <subjectdef keys="deliveryTargetValues">
-        <subjectdef keys="print">
-        </subjectdef>
-        <subjectdef keys="online">
-        </subjectdef>
-    </subjectdef>
-    <subjectdef keys="mobile" navtitle="Mobile">
-        <subjectdef keys="android" navtitle="Android">
-        </subjectdef>
-        <subjectdef keys="ios" navtitle="iOS">
-    </subjectdef>
-    </subjectdef>
-    <subjectdef keys="cloud" navtitle="Cloud">
-        <subjectdef keys="aws" navtitle="Amazon Web Services">
-        </subjectdef>
-        <subjectdef keys="azure" navtitle="Microsoft Azure">
-        </subjectdef>
-        <subjectdef keys="gcp" navtitle="Google Cloud Platform">
-        </subjectdef>
-    </subjectdef>
-    </subjectScheme>
-```
-
-枚举定义存在于subject_scheme_map_2.ditamap中。
-
-```XML
-    ?xml version="1.0" encoding="UTF-8"?> 
-        <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
-        <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
-        <title>subject_scheme_map_2</title> 
-        <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
-        </mapref> 
-        <enumerationdef>
-        <attributedef name="platform">
-        </attributedef>
-        <subjectdef keyref="mobile">
-        </subjectdef>
-        <subjectdef keyref="cloud">
-        </subjectdef>
-        </enumerationdef>
-        </subjectScheme>
-```
-
-此处主题定义的定义请参见 `subject_scheme_map_1.ditamap`  当枚举定义存在于 `subject_scheme_map_2.ditamap`. 参考 `subject_scheme_map_1.ditamap` 在中也添加了 `subject_scheme_map_2.ditamap`.
-
->[!NOTE]
->
-> 作为 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互引用，从而解决了主题方案的问题。
-
-主题枚举引用按以下优先级顺序解析：
-
-1. 相同映射
-1. 引用的映射
+   主题定义定义请参见 `subject_scheme_map_1.ditamap`
 
 
-如果在同一映射和引用的映射中未找到枚举，则不会解析引用。
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_f0bfda58-377b-446f-bf49-e31bc87792b3"> 
+   <title>subject_scheme_map_1</title> 
+   <subjectdef keys="os" navtitle="Operating system"> 
+   <subjectdef keys="linux" navtitle="Linux"> 
+   <subjectdef keys="redhat" navtitle="RedHat Linux"/> 
+   <subjectdef keys="suse" navtitle="SuSE Linux"/> 
+   </subjectdef> 
+   <subjectdef keys="windows" navtitle="Windows"/> 
+   <subjectdef keys="zos" navtitle="z/OS"/> 
+   </subjectdef> 
+   </subjectScheme>  
+   ```
+
+   枚举定义存在于subject_scheme_map_2.ditamap中
+
+   ```XML
+   <?xml version="1.0" encoding="UTF-8"?> 
+   <!DOCTYPE subjectScheme PUBLIC "-//OASIS//DTD DITA Subject Scheme Map//EN" "../dtd/libs/fmdita/dita_resources/DITA-1.3/dtd/subjectScheme/dtd/subjectScheme.dtd"> 
+   <subjectScheme id="subject-scheme.ditamap_17c433d9-0558-44d4-826e-3a3373a4c5ae"> 
+   <title>subject_scheme_map_2</title> 
+   <mapref format="ditamap" href="subject_scheme_map_1.ditamap" type="subjectScheme"> 
+   </mapref> 
+   <enumerationdef> 
+   <attributedef name="platform"> 
+   </attributedef> 
+   <subjectdef keyref="os"> 
+   </subjectdef> 
+   </enumerationdef> 
+   </subjectScheme>  
+   ```
+
+   此处主题定义的定义请参见 `subject_scheme_map_1.ditamap`  当枚举定义存在于 `subject_scheme_map_2.ditamap`. 参考 `subject_scheme_map_1.ditamap` 在中也添加了 `subject_scheme_map_2.ditamap`.
+
+   >[!NOTE]
+   >
+   > 作为 `subject_scheme_map_1.ditamap` 和 `subject_scheme_map_2.ditamap` 相互引用，从而解决了主题方案的问题。
+
+   主题枚举引用按以下优先级顺序解析：
+
+   1. 相同映射
+   1. 引用的映射
 
 
+   如果在同一映射和引用的映射中未找到枚举，则不会解析引用。
 
+   **“属性”下拉列表**
 
-**将值限制为特定元素**
+   您还可以使用作者视图中“内容属性”面板中的“属性”下拉菜单更改主题方案的值。 要更改值，请从“属性”下拉列表中选择一个值。
 
-您也可以将条件限制为主题中的某些元素。 使用 `<elementdef>` 标记来定义元素和 `<attributedef>` 标记定义可应用于元素的条件。  如果您不添加 `<elementdef>` 标记之后，您可以将条件应用到所有元素。
-例如，使用以下枚举来限制 `@platform` 归因于 `<shortdesc>` 元素。  其他条件对于所有元素均可见。
+   ![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
 
-```XML
-<enumerationdef>
-    <elementdef name="shortdesc">
-    </elementdef>
-    <attributedef name="platform">
-    </attributedef>
-    <subjectdef keyref="deliveryTargetValues">
-    </subjectdef>
-    <subjectdef keyref="os">
-    </subjectdef>
-  </enumerationdef>
-```
+   您还可以通过从下拉列表中选择多个值来应用属性的值。
 
-</details>
+   **源视图**
 
+   您还可以从源视图中的属性下拉列表中更改值。 源视图还可以防止您添加任何不正确的值。
 
-**“属性”下拉列表**
+   ![](images/subject-scheme-code-error.png){width="550" align="left"}
 
-您还可以使用作者视图中“内容属性”面板中的“属性”下拉菜单更改主题方案的值。 要更改值，请从“属性”下拉列表中选择一个值。
+   **从“条件”面板查看并应用主题方案**
 
-![](images/subject-scheme-attribute-dropdown.png){width="300" align="left"}
+   您还可以从“条件”面板查看和应用主题方案。
 
-您还可以通过从下拉列表中选择多个值来应用属性的值。
+   要从“条件”面板查看主题方案，您的系统管理员必须选择选项 **在“条件”面板中显示“主题方案”** 在编辑器设置的条件选项卡下。 有关详细信息，请参阅， [“条件”选项卡](#id21BMNE0602V).
 
-**源视图**
+   “条件”面板显示主题方案中的主题定义的扁平垂直结构。
 
-您还可以从源视图中的属性下拉列表中更改值。 源视图还可以防止您添加任何不正确的值。
+   ![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
 
-![](images/subject-scheme-code-error.png){width="550" align="left"}
-
-**从“条件”面板查看并应用主题方案**
-
-您还可以从“条件”面板查看和应用主题方案。
-
-要从“条件”面板查看主题方案，您的系统管理员必须选择选项 **在“条件”面板中显示“主题方案”** 在编辑器设置的条件选项卡下。 有关详细信息，请参阅， [“条件”选项卡](#id21BMNE0602V).
-
-“条件”面板显示主题方案中的主题定义的扁平垂直结构。
-
-![](images/subject-scheme-condtions-panel.png){width="300" align="left"}
-
-通过将所需条件拖放到内容中，可以向内容添加条件。 使用为条件定义的颜色突出显示条件内容。
+   通过将所需条件拖放到内容中，可以向内容添加条件。 使用为条件定义的颜色突出显示条件内容。
 
 **代码片段** -  ![](images/insert-snippet-icon.svg)
 

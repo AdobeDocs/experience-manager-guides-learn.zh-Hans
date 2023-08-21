@@ -2,10 +2,10 @@
 title: 使用映射集合生成输出
 description: 了解如何使用映射收藏集生成输出
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 1%
 
 ---
 
@@ -79,13 +79,7 @@ AEM Guides使您能够使用称为“地图收集”的功能板来组织内容�
      >  
      > 默认情况下，将禁用任何新预设。
 
-1. 您可以通过以下方式为DITA映射启用预设：
-
-   - 启用任何单个预设。
-   - 启用 **所有预设** 用于DITA映射，以便一次性选择所有预设。 此选项默认处于禁用状态。
-   - 启用 **文件夹配置文件预设** 用于DITA映射，以为其选择所有文件夹配置文件预设。 此选项默认处于禁用状态。
-     ![在云服务上编辑地图收藏集](images/edit-map-collection-cs.png){width="800" align="left"}
-
+   - 您可以选择 **启用/禁用所有文件夹配置文件预设** 用于DITA映射，以便一次性为其选择所有文件夹配置文件。
 
 
 1. 执行下列操作之一：

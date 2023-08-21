@@ -2,10 +2,10 @@
 title: 根据自定义模板创建映射
 description: 了解如何基于自定义模板创建地图
 exl-id: 02513148-3876-4549-962a-9984f619030f
-source-git-commit: 3ae28dc4266d418e5730e2036c8eee2a804dc847
+source-git-commit: be1a61d9475185da594b382c1daf361d3fe60b08
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '870'
+ht-degree: 0%
 
 ---
 
@@ -26,14 +26,6 @@ AEM Guides允许您从dita-templates文件夹创建自定义映射和主题。 �
 >[!NOTE]
 >
 > 任何仅在中引用和维护的资源都必须保留在templates文件夹之外。
-
-
-可通过以下方式创建映射和主题模板：
-1. 的“模板”窗格 [左侧面板](./web-editor-features.md#left-panel-id2051ea0m0hs)
-1. [Assets UI中的模板](#templates-assets-ui)
-1. [“选项”菜单](#templates-in-assets-ui)
-
-### Assets UI中的模板 {#templates-assets-ui}
 
 **主题模板**
 
@@ -74,35 +66,6 @@ AEM Guides允许您从dita-templates文件夹创建自定义映射和主题。 �
    > 文件名必须具有.ditamap扩展名。
 
 1. （可选\）添加说明。单击 **创建**. 出现“map template created（已创建映射模板）”消息。 然后，您可以打开映射模板并对其进行编辑。 您可以在映射模板中添加对主题模板、映射模板以及其他资源的引用。
-
-### “选项”菜单 {#options-menu}
-
-要创建映射或主题模板，请执行以下步骤：
-
-1. 选择 **地图** 或 **主题** 个文件夹（位于当前模板文件夹中）。 例如，`dita-templates` 文件夹。
-1. 从 **选项** 菜单，选择 **创建映射模板** 或 **创建主题模板**.
-
-   此 **创建新映射模板** 或 **创建新主题模板** 对话框打开。
-1. 输入新模板的标题和名称。
-1. 从中选择要创建的模板类型 **模板** 下拉列表。
-
-出现“map template created（已创建映射模板）”消息。 您可以将模板添加到全局或文件夹级别的配置文件中。 然后，新模板会出现在主题或映射创建过程中，您可以使用它来创建映射或主题。
-
-
-管理员还可以创建一个文件夹，并将其配置为可在其中创建和保存模板的文件夹。
-
-根据您的设置，了解如何配置自定义DITA模板文件夹路径：
-<details>
-    <summary> Cloud Service </summary>
-
-了解如何 [配置自定义DITA模板文件夹路径](../install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) 《Cloud Service安装和配置指南》中的。
-</details>
-
-<details>
-    <summary> 内部部署软件</summary>
-
-了解如何 [配置自定义DITA模板文件夹路径](../cs-install-guide/conf-template-tags-custom-dita-topic-template.md#configure-custom-dita-template-folder-path-id191lcf0095z) ，请参见On-premise Installation and Configuration Guide。
-</details>
 
 ## 传递模板中定义的标题
 
@@ -147,9 +110,6 @@ The resultant DITA map with title "Rootmap1" will look like as follows:
     </sub>
 </title>
 ```
-
-
-
 
 ## 使用映射模板创建新映射
 

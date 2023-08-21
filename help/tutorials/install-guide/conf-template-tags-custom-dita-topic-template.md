@@ -2,7 +2,7 @@
 title: 配置自定义DITA主题模板
 description: 了解如何配置自定义DITA主题模板
 exl-id: f79165ef-5118-4574-815d-c4ecb2f7d58b
-source-git-commit: 20980cd289a306fc73146ec3550ae31f15e91591
+source-git-commit: ecd5c315da5d450f29ee5d44cb19bc3546a19d1c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 2%
@@ -45,7 +45,9 @@ AEM Guides允许您配置文件夹以存储自定义的DITA映射和模板。 �
 
 `/content/dam/dita-templates/`
 
-要管理主题和映射模板文件，有专用的文件夹用于存储主题和映射模板。 默认情况下，所有主题模板都存储在 `/content/dam/dita-templates/topics` 文件夹。 所有映射模板都存储在 `/content/dam/dita-templates/maps` 文件夹。
+要管理主题和映射模板文件，有专用的文件夹用于存储主题和映射模板。 默认情况下，所有主题模板都存储在 `/content/dam/dita-templates/topics`
+
+文件夹。 所有映射模板都存储在 `/content/dam/dita-templates/maps` 文件夹。
 
 作为管理员，您可以选择在默认文件夹中创建自定义映射或主题模板，或者创建自己的文件夹来存储自定义模板。 如果您计划使用默认文件夹，则可以跳过此过程。
 
