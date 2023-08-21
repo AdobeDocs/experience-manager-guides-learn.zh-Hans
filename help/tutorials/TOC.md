@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 33c4a7b452049ab130f7bcdf9e8a90ecead32170
+source-git-commit: 49b1876f2e9ac653ced74bddb03a585c5154b8b6
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1444'
 ht-degree: 5%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 5%
          + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
       + [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
       + [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
+      + [发布到内容片段](./user-guide/publish-content-fragment.md)
       + 批量激活内容 {#bulk-activation}
          + [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
          + [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -255,6 +256,7 @@ ht-degree: 5%
                + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
             + [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
+         + [创建主题和内容片段之间的映射](./install-guide/conf-content-fragment-mapping.md)
       + 使用自定义工作流 {#custom-workflow}
          + [配置和自定义工作流](./install-guide/customize-workflows.md)
       + 使用翻译配置 {#translate-config}
@@ -353,7 +355,7 @@ ht-degree: 5%
          + [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
          + [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          + [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
-      + 工作流 {#workflows}
+      + 工作流程 {#workflows}
          + [后期生成工作流](./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md)
       + 翻译 {#translation}
          + [从翻译中排除段落](./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md)
