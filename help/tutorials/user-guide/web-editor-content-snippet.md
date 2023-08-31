@@ -1,9 +1,9 @@
 ---
 title: 插入数据源中的内容片段
 description: 了解如何从数据源插入内容片段
-source-git-commit: af5ec027ea093a28ba2a2ffd0ca3895546ed6e76
+source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,22 @@ A **数据源** 是一个用于存储和管理组织数据的系统。 这些是
 
 ## “数据源”面板
 
-选择 **数据源** ![](images/data-source-icon.svg) ，以查看连接的数据源。 “数据源”面板将打开，并显示所有连接的数据源。 有关详细信息，请查看 [配置数据源连接器](../install-guide/conf-data-source-connector.md).
+选择 **数据源** ![](images/data-source-icon.svg) ，以查看连接的数据源。 “数据源”面板将打开，并显示所有连接的数据源。
+
+根据您的设置，管理员可以配置数据源连接器：
+
+<details>
+<summary> Cloud Service </summary>
+
+了解如何 [配置数据源连接器](../cs-install-guide/conf-data-source-connector.md) 《Cloud Service安装和配置指南》中的。
+</details>
+
+<details>    
+<summary>  内部部署软件 </summary>
+
+了解如何 [配置数据源连接器](../install-guide/conf-data-source-connector.md)  ，请参见On-premise Installation and Configuration Guide。
+</details>
+
 
 >[!NOTE]
 >

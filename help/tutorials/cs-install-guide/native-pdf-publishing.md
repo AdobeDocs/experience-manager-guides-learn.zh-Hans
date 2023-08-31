@@ -1,7 +1,7 @@
 ---
 title: 自定义和配置本机PDF发布功能
 description: 了解如何自定义和配置本机PDF功能的各种组件。
-source-git-commit: 1757b29820cb45970657b46b54ae99d6099fbc84
+source-git-commit: 7bee42be8975ee25254e185edee67778ff3e1294
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 0%
@@ -30,3 +30,4 @@ ht-degree: 0%
    * [在PDF输出中添加自定义书签](../native-pdf/add-custom-bookmark.md)
    * [使用JavaScript处理内容或样式](../native-pdf/use-javascript-content-style.md)
    * [在脚注中使用自定义样式](../native-pdf/footnote-number-style.md)
+

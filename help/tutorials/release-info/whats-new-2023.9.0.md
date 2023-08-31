@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年9月版）的新增功能
 description: 在2023年9月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能
-source-git-commit: c01c3500b55f3579633ad1a954f9010783365add
+source-git-commit: 9d59fbbc88c3effe0b1c8438d9f3af55ffb8da27
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -12,22 +12,21 @@ ht-degree: 0%
 
 本文介绍2023年9月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
 
-有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.7.0.md).
+有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.9.0.md).
 
-## 连接到数据源并将数据插入主题
+## 连接到数据源并插入主题
 
-现在，您可以使用AEM Guides中的现成连接器快速连接到数据源。 连接到数据源使您能够保持与源同步的信息，并且任何数据更新都会自动反映出来，从而使AEM Guides成为真正的内容中心。 此功能可帮助您节省手动添加或复制数据的时间和精力。
+AEM Guides提供了现成的连接器，可帮助您连接数据源，从而使AEM Guides成为真正的内容中心。 这为您提供了省时省力的优势，否则您将需要花在手动数据添加或复制上。
 
-AEM Guides允许管理员为JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite)数据库配置现成的连接器。 它们还可以通过扩展缺省接口来添加其它连接器。
-添加后，您可以在Web编辑器的数据源面板下查看列出的已配置连接器。
+除了现有的现成连接器（如JIRA和SQL）(MySQL、PostgreSQL、SQL Server、SQLite)之外，管理员还可以为MariaDB、H2DB、AdobeCommerce和Elasticsearch数据库配置连接器。 它们还可以通过扩展缺省接口来添加其它连接器。
+
+您可以在下面查看已配置的连接器 **数据源** 面板。
 
 <img src="assets/data-sources.png" alt="面板中的数据源列表" width="300">
 
 *查看连接的数据源。*
 
-创建内容片段，以从连接的数据源获取数据。 然后，您可以将数据插入主题并进行编辑。 创建内容片段生成器后，您可以重复使用它来将数据插入任何主题。
-
-现在，您还可以从连接的数据源创建一个主题。 主题可以包含各种格式的数据，如表、列表和段落。 它还允许您为所有主题创建DITA映射。 从数据源提取时，您可以将元数据与主题相关联。
+您现在还可以从连接的数据源创建主题。 主题可以包含各种格式的数据，如表、列表和段落。 它还允许您为所有主题创建DITA映射。 从数据源提取时，您可以将元数据与主题相关联。
 
 有关详细信息，请查看 [使用来自数据源的数据](../user-guide/web-editor-content-snippet.md).
 
@@ -40,6 +39,7 @@ AEM Guides允许管理员为JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite
 将引文插入主题后，您可以在Web编辑器中预览它们。 您还可以使用本机PDF发布包含引文的内容。
 
 ![面板中列出的引文](assets/citation-panel.png){width="300" align="left"}
+
 *在“引文”面板中查看引文列表。*
 
 有关详细信息，请查看 [在内容中添加和管理引文](../user-guide/web-editor-apply-citations.md).
@@ -54,7 +54,10 @@ AEM Guides允许管理员为JIRA和SQL (MySQL、PostgreSQL、SQL Server、SQLite
 利用AEM Guides和内容片段的强大功能，并在任何AEM站点中使用内容片段。 您还可以通过内容片段支持的API提取详细信息。
 
 ![发布内容片段的选项](assets/content-fragment-publish.png){width="550" align="left"}
+
 *将主题发布到内容片段。*
+
+有关详细信息，请查看 [发布到内容片段](../user-guide//publish-content-fragment.md).
 
 ## 审核增强功能
 
@@ -66,6 +69,7 @@ AEM Guides现在提供了改进的审阅功能，具有以下功能：
 现在，通过在审阅面板的主题视图的搜索栏中输入标题或文件路径的文本的一部分来搜索主题。 您还可以选择查看所有主题或查看包含注释的主题。 默认情况下，可以查看审阅任务中存在的所有主题。 有关详细信息，请查看 [查看主题](../user-guide/review-topics.md).
 
 ![在审核主题面板中搜索](assets/review-search-topic.png){width="800" align="left"}
+
 *在审阅面板中搜索审阅主题。*
 
 
@@ -78,7 +82,7 @@ AEM Guides现在提供了改进的审阅功能，具有以下功能：
 
 ## 本机PDF增强功能
 
-在4.3.0版本中完成了以下本机PDF增强，使AEM Guides成为一个更强大的产品：
+2023年9月版中完成了以下本机PDF增强，使AEM Guides成为一个更强大的产品：
 
 
 
@@ -101,15 +105,23 @@ AEM Guides现在提供了改进的审阅功能，具有以下功能：
 
 ### 合并页面
 
-默认情况下，在本机PDF输出中，所有部分都从新页面开始。 现在，您可以将部分合并到其上一页或下一页。 此操作将发布与PDF输出中选择的页面连续的部分，并且中间没有分页符。
+默认情况下，在本机PDF输出中，所有部分都从新页面开始。 现在，您可以将部分合并到其上一页或下一页。 此操作将发布与PDF输出中选择的页面一致的部分，并且中间没有分页符。
 
-有关更多详细信息，请参阅中的合并页面功能说明 [页面顺序](../native-pdf/components-pdf-template.md#page-order) 部分。
+有关更多详细信息，请查看 **合并页面** 中的功能描述 [页面顺序](../native-pdf/components-pdf-template.md#page-order) 部分。
+
+### 从当前页面开始任何章节
+
+可以设置从奇数页或偶数页开始章节的基本配置设置、目录结构，并定义目录条目的引线格式。
+
+现在，您还可以从当前页面开始一个章节。 如果选择这样做，则所有章节将继续发布，而不带任何分页符。 例如，如果章节在页面15的中间结束，则下一章节也会从第15页本身开始。
+
+有关更多详细信息，请查看 **常规** 中的选项卡说明  [高级PDF设置](../native-pdf/components-pdf-template.md#advanced-pdf-settings-advanced-pdf-settings).
 
 ### 静态页面
 
 您还可以创建自定义页面布局，并将其发布为PDF输出中的静态页面。 这有助于您添加任何静态内容，如注释或空白页面。
 
-有关更多详细信息，请参阅中的静态页面功能说明 [页面顺序](../native-pdf/components-pdf-template.md#page-order) 部分。
+有关更多详细信息，请查看 **静态页面** 中的功能描述 [页面顺序](../native-pdf/components-pdf-template.md#page-order) 部分。
 
 
 ### 交叉引用中的变量
@@ -135,16 +147,29 @@ AEM Guides现在提供了改进的审阅功能，具有以下功能：
 
 ![在本机pdf模板中添加样式](assets/add-styles-native-pdf.png){width="300" align="left"}
 
+*添加新样式的详细信息。*
+
 #### 自定义样式的属性
 
 现在，AEM Guides将向您介绍样式预览部分下的新属性面板。 您可以在“属性”面板中更有效、更快速地编辑样式的属性。
 
 
+## 在单个枚举定义中支持多个主题定义
+
+现在，您可以在一个映射中定义一个或多个主题定义，在另一个映射中定义枚举定义，然后添加映射引用。 主题枚举引用在同一映射或引用的映射中进行解析。
+
+您现在还可以定义条件并将其应用于主题中的某些特定元素。  条件仅对这些特定元素可见，对于所有其他元素则不可见。
+
+有关处理主题定义和枚举的分层定义的更多详细信息，请参阅 [左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 部分。
+
+
+
+
 
 ## 选择地图收藏集中的所有预设
 
-您不仅可以选择单个预设，还可以一次性启用DITA映射的所有预设。
-![编辑地图收藏集](assets/edit-map-collection.png){width="800" align="left"}\
+您不仅可以启用单个预设和所有文件夹配置文件预设，还可以一次性启用DITA映射的所有预设。
+![编辑地图收藏集](assets/edit-map-collection-cs.png){width="800" align="left"}\
 *选择映射集合中的所有预设。*
 
 有关详细信息，请查看 [使用映射集合生成输出](../user-guide/generate-output-use-map-collection-output-generation.md).
@@ -164,3 +189,19 @@ AEM Guides现在提供了改进的审阅功能，具有以下功能：
 有关详细信息，请查看 [批量移动文件](../user-guide/authoring-file-management.md#move-files-bulk).
 
 
+## 上下文菜单中的增强预览体验
+
+使用上下文菜单快速预览文件（.dita、.xml、audio、video或image），而无需将其打开。 您现在可以调整预览窗格的大小，如果内容包含任何引用链接，则可以选择它，以在新选项卡中打开它。
+
+![预览窗格 ](assets/quick-preview_cs.png){width="800" align="left"}
+
+*在窗格中预览文件。*
+
+有关上下文菜单的更多详细信息，请参阅 **文件选项** 中的功能描述 [左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 部分。
+
+
+## 在目标路径、站点名称或文件名选项中为当前日期和时间使用变量
+
+在AEM网站或PDF中生成输出时，您可以使用变量来设置 **目标路径**， **站点名称**，或 **文件名** 选项。 您现在还可以使用 `${system_date}`和 `${system_time}` 变量。 这些变量可帮助您将当前日期和时间附加到这些选项。
+
+了解如何 [使用变量设置“目标路径”、“站点名称”或“文件名”选项](../user-guide/generate-output-use-variables.md).

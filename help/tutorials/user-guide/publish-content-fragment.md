@@ -1,9 +1,9 @@
 ---
 title: 将主题发布到内容片段
 description: 了解如何将主题发布到内容片段。
-source-git-commit: 6cd7d2ec76f90a192dbcd0ef552789d42c23a4fb
+source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,22 @@ AEM Guides允许您将主题或主题中的元素发布到内容片段。 您可
    * **模型**：选择要用于创建内容片段的内容片段模型。 将从您在云服务中配置的文件夹中选取模型。
    * **映射**：从下拉列表中选择映射。 它会从 *contentFragmentMapping.json* 文件。
 
-     >[!NOTE]
-     >
-     >您的管理员可以将映射添加到 *contentFragmentMapping.json* 文件。  详细了解如何 [创建主题和内容片段之间的映射](../install-guide/conf-content-fragment-mapping.md) 在 *On-premise安装和配置指南*.
 
 
+     根据您的设置，管理员可以在以下位置添加映射 *contentFragmentMapping.json* 文件。
+
+     <details>
+        <summary>Cloud Service</summary>
+
+     详细了解如何 [创建主题和内容片段之间的映射](../cs-install-guide/conf-content-fragment-mapping-cs.md) 《Cloud Service安装和配置指南》中的。
+     </details>
+
+     <details>
+        <summary> 内部部署软件</summary>
+
+     详细了解如何 [创建主题和内容片段之间的映射](../install-guide/conf-content-fragment-mapping.md) ，请参见On-premise Installation and Configuration Guide。
+
+     </details>
    * 选择 **覆盖** 复选框（如果内容片段已存在且您希望覆盖它）。 如果未选中此复选框，并且您的内容片段已存在，则AEM Guides会显示错误。
 1. 单击 **创建** 以发布内容片段。
 1. 您可以在下查看主题的内容片段 **片段** 中的部分 **文件属性**.

@@ -2,9 +2,9 @@
 title: 管理文件和文件夹
 description: 了解如何管理文件和文件夹
 exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: d0b3ccb87901c54b86aa7d0dba14dc7201c072e9
+source-git-commit: 8154cfe11f2f032d457671ebca60c1ab3f090385
 workflow-type: tm+mt
-source-wordcount: '3079'
+source-wordcount: '3082'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ AEM Guides附带批量移动工具，可帮助管理员将具有大量文件的�
 
    <details>
 
-   <summary> 基于UUID的内部部署文件系统 </summary>
+   <summary> Cloud Service和基于UUID的内部部署文件系统 </summary>
 
    ![](images/bulk-move-tool-uuid.png){width="650" align="center"}
 

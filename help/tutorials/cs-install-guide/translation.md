@@ -1,7 +1,7 @@
 ---
 title: 翻译内容
 description: 了解如何翻译内容
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 14%
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 1. 将语言母版页面关联到翻译服务和框架配置。
 
-1. 确定以下项的类型 [要翻译的内容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
+1. 识别类型 [要翻译的内容](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/rules.html?lang=en).
 
 1. 通过创作语言母版并创建语言副本的根页面来[准备内容以进行翻译](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=en)。
 
@@ -37,33 +37,33 @@ ht-degree: 14%
 
 >[!TIP]
 >
-> 请参阅 *翻译* 部分，以了解有关翻译内容的最佳实践。
+> 请参阅 *翻译* 部分，了解翻译内容的最佳实践。
 
-## 在DITA map仪表板中配置翻译选项卡
+## 在DITA映射仪表板上配置翻译选项卡
 
 要在DITA map操控板上隐藏翻译选项卡，请执行以下步骤：
 
 1. 请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。
-1. 在配置文件中，提供以下\（属性\）详细信息以在映射仪表板上配置翻译选项卡：
+1. 在配置文件中，提供以下\（属性\）详细信息以在映射功能板上配置翻译选项卡：
 
    | PID | 属性键 | 属性值 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.translation` | 布尔值\( true/ false\)。<br> **默认值**： `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 布尔值\( true/ false\)。<br> **默认值**: `true` |
 
    >[!NOTE]
    >
-   > 默认情况下，此配置处于启用状态，并且翻译选项卡在映射仪表板上不可用。
+   > 默认情况下，此配置处于启用状态，并且翻译选项卡在映射功能板上不可用。
 
 
 ## 配置基于组件的翻译工作流
 
-如果翻译供应商的连接器不支持DITA内容，则需要启用基于组件的翻译工作流。 启用后，可翻译内容将作为资源元数据发送。 但是，连接器需要支持此工作流的资产元数据翻译，才能正常工作。
+如果翻译供应商的连接器不支持DITA内容，则需要启用基于组件的翻译工作流。 启用后，可翻译内容将作为资产元数据发送。 但是，连接器需要支持此工作流的资产元数据翻译才能正常工作。
 
 根据设置中使用的翻译工作流，应配置基于组件的翻译工作流选项。 请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\（属性\）详细信息以配置基于组件的翻译工作流：
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔值： <br>  — 如果您使用人工翻译，则 *禁用* \( `false`\) **基于组件的翻译工作流** 选项。 <br>  — 如果您使用的是机器翻译，则 *启用\( `true`\)* 此 **基于组件的翻译工作流** 选项。 |
+| `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔型： <br>  — 如果您使用人工翻译，则 *禁用* \( `false`\) **基于组件的翻译工作流** 选项。 <br>  — 如果您使用的是机器翻译，则 *启用\( `true`\)* 该 **基于组件的翻译工作流** 选项。 |
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ ht-degree: 14%
 
 启动翻译工作流时，系统会创建源内容的临时语言副本。 您可以选择对这些临时文件启用或禁用后处理操作。 在后处理操作中，解析来自文件的传入和传出引用，设置文档状态以及其他操作。 如果对这些临时文件启用后处理，则翻译过程可能需要更长的时间才能完成。 因此，建议禁用后处理选项。
 
-请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\（属性\）详细信息以配置临时语言副本的后处理：
+请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下\(property\)详细信息以配置临时语言副本的后处理：
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔值： <br>  — 如果不想对临时文件运行后处理操作，则 *禁用* \( false\) **后处理语言副本** 选项。<br>  — 如果要对临时文件运行后处理操作，则 *启用* \( true\) **后处理语言副本** 选项。<br> **默认值**： false |
+| `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔型： <br>  — 如果不想对临时文件运行后处理操作，则 *禁用* \( false\) **后处理语言副本** 选项。<br>  — 如果要对临时文件运行后处理操作，则 *启用* \( true\) **后处理语言副本** 选项。<br> **默认值**： false |
 

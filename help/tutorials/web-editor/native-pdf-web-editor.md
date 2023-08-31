@@ -2,9 +2,9 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager Guides中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: c11a9d2153dd2971a133ecd40325266b1d6e236c
+source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3083'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 | **使用全压缩优化PDF大小** | 如果要压缩/减小大型PDF的大小，请选择此选项。 请记住，压缩PDF可能会降低文件质量。 |
 | **使用图像压缩优化PDF大小** | 如果要在PDF中压缩/减小使用的图像大小，请选择此选项。 请记住，压缩图像可能会降低图像质量。 |
 | **使用自定义分辨率（每英寸像素）** | 它是以像素/英寸为单位的页面显示分辨率。 在选中此选项时显示的字段中输入首选值。 默认值为每英寸96像素。 设置较高的值以在一英寸内容纳更多内容，如果设置较低的值，则反之亦然。 |
-| **显示水印** | 选择此选项以呈现内容中存在的MathML公式。 否则，将忽略这些公式。 |
+| **显示水印** | 选择此选项可在输出中叠加水印。 您可以在文本框中输入新的文本字符串，其字符大小写符合您的要求。 |
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
 | **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |

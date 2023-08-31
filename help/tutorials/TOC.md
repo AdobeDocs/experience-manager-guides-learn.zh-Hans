@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 7ec353bcb943e70e0c40a2c494eaa4729f31880e
+source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1479'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版 {#2023-releases}
+            + 9月版 {#2309-release}
+               + [新增功能](./release-info/whats-new-2023.9.0.md)
+               + [发行说明](./release-info/release-notes-2023.9.0.md)
             + 7月版 {#2307-release}
                + [新增功能](./release-info/whats-new-2023.7.0.md)
                + [发行说明](./release-info/release-notes-2023.7.0.md)
@@ -155,7 +158,7 @@ ht-degree: 5%
       + [使用映射集合生成输出](./user-guide/generate-output-use-map-collection-output-generation.md)
       + 使用本机PDF发布功能 {#web-editor}
          + [发布PDF输出](./web-editor/native-pdf-web-editor.md)
-         + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
+      + [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
       + [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
       + [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
       + [发布到内容片段](./user-guide/publish-content-fragment.md)
@@ -258,7 +261,7 @@ ht-degree: 5%
                + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
                + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
-            + [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
+         + [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
          + [创建主题和内容片段之间的映射](./install-guide/conf-content-fragment-mapping.md)
       + 使用自定义工作流 {#custom-workflow}
          + [配置和自定义工作流](./install-guide/customize-workflows.md)
@@ -324,6 +327,8 @@ ht-degree: 5%
       + 使用输出生成设置 {#output-gen-config-cs}
          + [配置输出生成设置](./cs-install-guide/conf-output-generation.md)
          + [本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
+         + [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
+         + [创建主题和内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
       + 使用自定义工作流 {#custom-workflow-cs}
          + [配置和自定义工作流](./cs-install-guide/customize-workflows.md)
       + 使用翻译配置 {#translate-config-cs}

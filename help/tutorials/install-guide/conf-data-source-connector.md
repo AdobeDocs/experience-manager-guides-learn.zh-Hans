@@ -1,7 +1,7 @@
 ---
 title: 配置数据源连接器
 description: 了解如何配置数据源连接器
-source-git-commit: f13b052b1cba88d946bdc498bc40d7a211ed3830
+source-git-commit: bb04590ccb08cde0826dcb60c664f47d7305c9d1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Jira使用用户名和密码进行基本身份验证的示例设置文件：
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthUserNamePasswordRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"username": "jirausername",
 			"password": "jirapassword",
@@ -47,7 +47,7 @@ Jira带令牌的基本身份验证的示例设置文件：
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
@@ -66,7 +66,7 @@ Jira基本身份验证的示例设置文件，其中包含具有“Basic”关�
 	"configName": "Jira",
 	"templateFolders": ["/content/dam/dita-templates/konnect/jira"],
 	"connectionConfig": {
-		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthTokenRestConfig",
+		"configClazz": "com.adobe.guides.konnect.definitions.ootb.config.rest.BasicAuthRestConfig",
 		"configData": {
 			"token": "Basic jiraauthtoken",
 			"url": "https://jira.corp.adobe.com/rest/api/latest/search"
