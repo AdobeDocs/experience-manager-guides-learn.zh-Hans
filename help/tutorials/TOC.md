@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: ca40b77f58b57599353d91cd7ce3002670729322
+source-git-commit: 0a1e03989ff75146c88eb10569e57954bdedbee5
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1569'
 ht-degree: 5%
 
 ---
@@ -336,6 +336,22 @@ ht-degree: 5%
       + 使用AEM Assets搜索 {#aem-asset-search-cs}
          + [配置AEM Assets UI搜索](./cs-install-guide/conf-dita-search.md)
       + [附录](./cs-install-guide/appendix.md)
++ API 引用 {#api-reference}
+   + [简介](./api-reference/introduction.md)
+   + [用于输出管理的REST API](./api-reference/output-management.md)
+   + [使用DITA映射的REST API](./api-reference/dita-map-management.md)
+   + [用于注册数据源连接器的REST API](./api-reference/data-source-connector.md)
+   + [用于条件属性的REST API](./api-reference/conditional-attribute.md)
+   + [用于转换工作流的REST API](./api-reference/convert-to-dita.md)
+   + [用于创建和激活包的REST API](./api-reference/create-activate-package.md)
+   + [用于生成输出的基于Java的API](./api-reference/generate-output.md)
+   + [用于处理DITA映射的基于Java的API](./api-reference/dita-map-management-java.md)
+   + [用于转化工作流的基于Java的API](./api-reference/convert-to-dita-java.md)
+   + [用于基线和标签的基于Java的API](./api-reference/create-baseline-label-java.md)
+   + [用于处理文件夹配置文件的基于Java的API](./api-reference/folder-profile-java.md)
+   + [用于创建和激活包的基于Java的API](./api-reference/create-activate-package-java.md)
+   + [后处理事件处理程序](./api-reference/post-process-event.md)
+   + [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
 + 知识库 {#knowledge-base}
    + 专家讲座 {#expert-session}
       + [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)

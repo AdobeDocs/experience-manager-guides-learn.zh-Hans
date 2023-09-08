@@ -2,9 +2,9 @@
 title: 本机PDF发布功能 |PDF模板的组件
 description: 了解PDF模板的各种组件以及如何自定义和配置它们。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 18ec7e1b19cd6404b86f965be96caa88a0a067fe
+source-git-commit: 90cd3c53fd8da0b987c99950dd37d405bea12c6e
 workflow-type: tm+mt
-source-wordcount: '3934'
+source-wordcount: '4160'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,14 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
   >
   >如果您是CSS开发人员，则也可以直接在CSS文件中定义引线格式。
 
-* **使用表续集标记**：选择此选项可以为跨多个页面的长表格定义标记。 <!--For more information on using table continuation markers, see Use table continuation markers.-->
+* **使用表续集标记**：选择此选项可以为跨多个页面的长表格定义标记。
+您可以定义要在断点前后显示的文本。 例如，一个表在页面5上断开，并且您定义 `<Continued on page %page-num%>` 对象 **分隔之前的文本**.  文本在第5页的底部显示“第6页继续”。
+
+  使用语言变量定义断点前后连续标记文本。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以发布 `Continued on page %page-num%` 作为英语和文本使用 `Fortsetzung auf Seite %page-num%` 德语。
+
+  将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25"> 靠近该选项，以查看有关该报表的更多详细信息。
+
+<!--For more information on using table continuation markers, see Use table continuation markers.-->
 
 ### 页面布局 {#page-layouts}
 
@@ -356,11 +363,11 @@ PDF模板包含四个组件：页面布局、样式表、资源和设置。 可�
 
 ### 交叉引用 {#cross-references}
 
-使用“交叉引用”选项卡定义交叉引用在PDF中的发布方式。 您可以设置主题标题、表格、插图等的交叉引用的格式。
+使用 **交叉引用** 选项卡定义交叉引用在PDF中的发布方式。 您可以设置主题标题、表格、插图等的交叉引用的格式。
 
 还可使用变量来定义交叉引用。  使用变量时，将从属性中提取其值。 您可以使用单个变量或变量组合来定义交叉引用。 您还可以使用字符串和变量的组合。
 
-例如，您可以在以下位置使用查看详细信息 {chapter}. 如果章节名称为“常规设置”，则输出中的交叉引用为“查看有关常规设置的详细信息”。
+例如，您可以使用 `View details on {chapter}`. 如果章节名称为“常规设置”，则输出中的交叉引用为“查看有关常规设置的详细信息”。
 
 AEM Guides提供了以下开箱即用的变量：
 
@@ -371,7 +378,7 @@ AEM Guides提供了以下开箱即用的变量：
 * {bookmarkText}：创建对标为书签的文本的交叉引用。 例如，请参见第5页上的stop_words。
 * {captionText}：创建对主题中图形或表标题的交叉引用。 例如，请参阅第2页上的气流。
 * {figure}：添加对数字的交叉引用。 从您为数字定义的自动编号样式中选取数字编号。  例如，您可以使用 {figure} 在页面 {page}“。 输出中的交叉引用包含自动生成的图号及其页码“请参见第5页的图1”。
-* {table}：添加对表编号的交叉引用。 从您为标题定义的自动编号样式中选取表格编号。 例如，您可以使用 {table} 在页面 {page}“。 输出中的交叉引用包含自动生成的表编号及其页码“请参见第5页上的表1”。
+* {table}：添加对表编号的交叉引用。 从您为标题定义的自动编号样式中选取表格编号。 例如，您可以使用 {table} 在页面 {page}“。 输出中的交叉引用包含自动生成的表编号及其页码，“请参见第5页上的表1”。
 
 
 
@@ -380,8 +387,25 @@ AEM Guides提供了以下开箱即用的变量：
   >可以为字幕和图形标记创建自动编号样式。
 
 
+#### 交叉引用中的语言变量
+
+您还可以使用语言变量来定义本地化的交叉引用。 根据您选择的语言，将在PDF输出中自动选取本地化的值。
+
+例如，您可以添加语言变量“reference-label”并以英语和德语定义值。
+
+* 英语 — “在页面上查看” {page}&quot;
+* 德语 — “Einzelheiten finden Sie auf der Seite {page}&quot;
 
 
+添加时 `${lng:<variable name>}` 对于“段落”部分，输出段落中的交叉引用包含本地化文本和页码。\
+例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800">
+
+*以英语发布时，段落中的交叉引用。*
+
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800">
+
+*以德语发布的段落中的交叉引用。*
 
 <!--For more information, see *Format cross-references*.-->

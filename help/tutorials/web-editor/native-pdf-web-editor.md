@@ -2,9 +2,9 @@
 title: 本机PDF |PDF输出生成
 description: 在Adobe Experience Manager Guides中生成PDF输出as a Cloud Service
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 70801ab0e9465cea7568c7d8e67fcc7f41bae8ab
+source-git-commit: 85075a51d141afa451c22f7a29d21fc7ae391d49
 workflow-type: tm+mt
-source-wordcount: '3083'
+source-wordcount: '3211'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,13 @@ ht-degree: 0%
 例如，在/中定义的其中一个元数据属性`jcr:content/metadata` 节点为
 `dc:title`. 您可以指定 `${dc:title}`，并在最终输出中使用标题值。
 
-您可以使用单个变量或变量组合来定义元数据。 例如：`${dc:title} ${dc:docstate}`。
+您可以使用单个变量或变量组合来定义元数据。 例如，`${dc:title} ${dc:docstate}`。您还可以使用变量和字符串的组合。  例如：`View ${dc:title} in ${dc:language}`。
 
-您还可以使用变量和字符串的组合。  例如：`View ${dc:title} in ${dc:language}`。
+使用语言变量定义元数据属性的本地化值。 根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将“Author”作为元数据值打印在英语中，将“Autorin”作为元数据值打印在德语中。
+
+格式: `${lng:<variable name>}`. 例如， `${lng:author-label}` 位置 `author-label` 是语言变量。
+
+将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25"> 靠近该选项，以查看有关该报表的更多详细信息。
 
 
 **布局**
@@ -159,7 +163,7 @@ ht-degree: 0%
 | **使用全压缩优化PDF大小** | 如果要压缩/减小大型PDF的大小，请选择此选项。 请记住，压缩PDF可能会降低文件质量。 |
 | **使用图像压缩优化PDF大小** | 如果要在PDF中压缩/减小使用的图像大小，请选择此选项。 请记住，压缩图像可能会降低图像质量。 |
 | **使用自定义分辨率（每英寸像素）** | 它是以像素/英寸为单位的页面显示分辨率。 在选中此选项时显示的字段中输入首选值。 默认值为每英寸96像素。 设置较高的值以在一英寸内容纳更多内容，如果设置较低的值，则反之亦然。 |
-| **显示水印** | 选择此选项可在输出中叠加水印。 您可以在文本框中输入新的文本字符串，其字符大小写符合您的要求。 |
+| **显示水印** | 选择此选项可在输出中叠加水印。 您可以在文本框中输入新的文本字符串，其字符大小写符合您的要求。 <br><br>使用静态文本或语言变量发布水印的本地化版本。  根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将“Publisher”作为水印以英语打印，将“Auteure”作为水印以法语打印。  <br> 格式: `${lng:<variable name>}`. 例如， `$ {lng:publisher-label}` 位置 `publisher-label` 是语言变量。 <br> 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25"> 靠近该选项，以查看有关该报表的更多详细信息。 |
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
 | **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
