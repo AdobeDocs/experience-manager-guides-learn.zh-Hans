@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.0版本
-source-git-commit: 7581085859785c5b8b597ecfeb7dbe58c7c9e2bc
+source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 5%
@@ -40,10 +40,10 @@ ht-degree: 5%
 ### Adobe Experience Manager
 
 **4.3.0非UUID**
-版本6.5 Service Pack 17、16、15或14
+版本6.5 Service Pack 18、17、16、15或14
 
 **4.3.0 UUID**
-版本6.5 Service Pack 17、16、15或14
+版本6.5 Service Pack 18、17、16、15或14
 
 欲知更多详情，请参见 *技术要求* 安装和配置Adobe Experience Manager Guides指南中的部分。
 
