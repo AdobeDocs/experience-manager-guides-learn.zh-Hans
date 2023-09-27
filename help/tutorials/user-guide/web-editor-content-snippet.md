@@ -1,9 +1,9 @@
 ---
 title: 插入数据源中的内容片段
-description: 了解如何从数据源插入内容片段
-source-git-commit: 71a64a35d065da10783d8e1a035ea1c4728e35f4
+description: 在AEM Guides中使用来自数据源的数据。 了解如何从数据源插入内容片段。 使用主题生成器创建主题。
+source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '2028'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,11 @@ A **数据源** 是一个用于存储和管理组织数据的系统。 这些是
 <details>
 <summary> Cloud Service </summary>
 
-了解如何 [配置数据源连接器](../cs-install-guide/conf-data-source-connector.md) 《Cloud Service安装和配置指南》中的。
+
+- 如果您使用的是2023年10月版本或更高版本，请了解如何 [使用工具配置数据源连接器](../cs-install-guide/conf-data-source-connector-tools.md) 《Cloud Service安装和配置指南》中的。
+
+- 如果您使用的是2023年7月或2023年9月版本，请了解如何 [配置数据源连接器](../cs-install-guide/conf-data-source-connector.md) 《Cloud Service安装和配置指南》中的。
+
 </details>
 
 <details>    
@@ -83,6 +87,8 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
    >[!NOTE]
    >  
    > 如果管理员配置了自定义模板，则您也会在下拉列表中看到这些模板（基于管理员完成的模板路径配置）。
+   >   
+   >您还可以在模板中使用Velocity工具。 详细了解如何 [使用Velocity工具](#use-velocity-tools).
 
 1. 单击 **Fetch** 从数据源提取数据，并将模板应用于从SQL查询生成的数据。
 
@@ -215,21 +221,58 @@ AEM Guides提供了与数据源连接的功能。 您可以获取数据，将其
 
 右键单击主题生成器以打开 **选项**. 使用这些选项，您可以执行以下操作：
 
-- **预览**：使用此选项可打开窗格，并查看数据在输出中显示的少量方式。
-- **生成内容**：此选项为所选主题生成器生成主题。 您还可以使用此选项更新现有主题。 它会连接到数据源并获取更新的数据。
-
+- **生成**：此选项为所选主题生成器生成主题。 您还可以使用此选项更新现有主题。 它会连接到数据源并获取更新的数据。 在生成内容时，此选项处于禁用状态，您可以查看加载器。
   >[!NOTE]
   >
   >如果您的主题已存在，则可以覆盖主题中的数据，或将其另存为新版本。
 
   ![](images/generate-topic-options.png)
 
-  *生成一个主题，如果文件已存在，请将其另存为新版本或覆盖它。*
+  *生成主题，如果文件已存在，请将其另存为新版本或覆盖该主题。*
+- **查看日志**：选择此选项可查看内容生成日志文件。 日志文件将在新选项卡中打开。 您可以在日志文件中查看错误、警告、信息消息和异常。 如果您已经为所选主题生成器生成了内容，则会启用此选项。
 
-- **编辑**：使用此选项更改和保存主题生成器。
-- **删除**：使用此选项可删除所选主题生成器。
+- **预览**：使用此选项可打开窗格，并查看数据在输出中显示的少量方式。
+
+
+
+- **编辑**：使用此选项更改和保存主题生成器。 在生成内容时，此选项处于禁用状态。
+- **删除**：使用此选项可删除所选主题生成器。 在生成内容时，此选项处于禁用状态。
 - **复制**：此选项创建所选主题生成器的重复或副本。 副本创建时带有后缀(如 `topic-sample_1`)。
 
+
+
+## 在数据源模板中使用Velocity工具 {#use-velocity-tools}
+
+Experience Manager模板还支持Velocity工具（版本2.0）。 这些工具可帮助您将各种功能应用于从数据源获取的数据。 了解关于使用的更多信息 [Velocity工具](https://velocity.apache.org/tools/2.0/generic.html) 以及可以应用的功能。
+
+执行以下步骤以在模板中使用Velocity工具：
+1. 在网页编辑器中编辑Velocity模板。
+1. 在中添加工具及其功能 `<tool.function>` 格式。 例如：
+   - 要使用数学工具生成随机数，请使用 `$mathTool.random`.
+   - 要使用数学工具生成数字总和，请使用 `$mathTool.add(num1, num2)`.
+1. 使用模板创建内容片段或主题。
+1. 将模板应用于数据后，可在预览或DITA源视图中查看数据。
+
+
+
+
+您可以在Velocity模板中使用以下工具，将各种功能应用到您从连接器获取的数据： -`$alternatorTool`
+- `$classTool`
+- `$contextTool`
+- `$conversionTool`
+- `$dateTool`
+- `$comparisonDateTool`
+- `$displayTool`
+- `$escapeTool`
+- `$fieldTool`
+- `$loopTool`
+- `$linkTool`
+- `$listTool`
+- `$mathTool`
+- `$numberTool`
+- `$renderTool`
+- `$resourceTool`
+- `$sortTool`
 
 
 
