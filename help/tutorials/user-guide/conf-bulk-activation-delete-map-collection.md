@@ -1,23 +1,23 @@
 ---
 title: 删除批量激活映射集合
-description: 了解如何删除批量激活映射集合
+description: 了解如何在AEM Guides中删除批量激活图收藏集。
 exl-id: f857d60b-bde2-4d71-9243-f71d7ee2f0e9
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
 # 删除批量激活映射集合 {#id214GI40B0XA}
 
-您可以删除不再需要的批量激活映射集合。 要删除批量激活映射集合，请执行以下步骤：
+您可以删除不再需要的批量激活映射收藏集。 要删除批量激活映射集合，请执行以下步骤：
 
-1. 选择 **指南** 从工具列表中。
+1. 选择 **指南** 工具列表中。
 
 1. 单击顶部的Adobe Experience Manager链接，然后选择 **工具**.
 
-1. 单击 **批量发布功能板** 图块。
+1. 单击 **批量发布功能板** 磁贴。
 
    此时将显示批量激活映射集合列表。
 

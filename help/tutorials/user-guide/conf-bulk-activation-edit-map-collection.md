@@ -1,10 +1,10 @@
 ---
 title: 编辑批量激活映射集合
-description: 了解如何编辑批量激活图收藏集
+description: 在AEM Guides中使用批量发布功能板。 了解如何通过添加或删除映射文件来编辑批量激活映射集合。
 exl-id: 110eba52-c886-4148-aff9-9c4e1d3d85bd
-source-git-commit: 25641f5c3207d98228d406e3b553c06d2bad1e10
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---

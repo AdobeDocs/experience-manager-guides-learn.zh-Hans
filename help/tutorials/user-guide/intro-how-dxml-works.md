@@ -1,10 +1,10 @@
 ---
 title: AEM Guides的工作原理
-description: 了解AEM Guides的工作原理
+description: 了解AEM Guides如何与AEM及其他DITA编辑器配合使用，以增强企业场景中的内容管理、重用、翻译和审阅。
 exl-id: d7383997-451e-4f01-a0a3-3061f151a57c
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '68'
 ht-degree: 0%
 
 ---

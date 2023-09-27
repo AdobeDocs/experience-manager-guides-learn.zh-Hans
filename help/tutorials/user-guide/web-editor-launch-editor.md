@@ -1,10 +1,10 @@
 ---
 title: 启动Web编辑器
-description: 了解如何启动Web编辑器
+description: 了解如何从AEM Guides中的AEM导航页面、AEM Assets UI和DITA映射控制台启动Web编辑器。
 exl-id: f02f9612-7aaa-42ea-bad3-c44d23b5d034
-source-git-commit: dce7b1c97f8f7f79b313b08ca0489e8e50b633ec
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,24 @@ ht-degree: 0%
 
 - 单击 **指南** 图标(![](images/aem-guides-icon.png) )，以返回到“AEM导航”页面。
 
-- 此 **关闭** 按钮根据您的设置将您带到目标：
+- 此 **关闭** 按钮会根据您的设置引导您转到目标：
 
 
 
-   <details>
+  <details>
 
-   <summary> Cloud Service </summary>
+  <summary> Cloud Service </summary>
 
-   如果您使用的是Cloud Services，请单击 **关闭** 按钮以返回到“AEM导航”页。
-   </details>
+  如果您使用的是Cloud Service，请单击 **关闭** 按钮以返回“AEM导航”页面。
+  </details>
 
-   <details>
+  <details>
 
-   <summary> 内部部署软件</summary>
+  <summary> 内部部署软件</summary>
 
-   如果您使用的是AEM Guides On-premise Software（4.2.1及更高版本），请单击 **关闭** 按钮以返回到Assets UI中的当前文件路径。
+  如果您使用的是AEM Guides On-premise Software（4.2.1及更高版本），请单击 **关闭** 按钮返回资产UI中的当前文件路径。
 
-   </details>
+  </details>
 
 ## AEM ASSETS UI {#id2056BG0307U}
 
@@ -70,11 +70,11 @@ ht-degree: 0%
    >
    > 确保您对包含要编辑的主题的文件夹具有读写权限。
 
-1. 要获得该主题的独占锁定，请选择该主题并单击 **签出**.
+1. 要获得对主题的独占锁定，请选择该主题并单击 **签出**.
 
    >[!IMPORTANT]
    >
-   > 如果您的管理员已配置 **禁用编辑而不签出** 选项，则必须在编辑之前签出文件。 如果不签出文件，您将看不到编辑选项。
+   > 如果您的管理员已配置 **禁用“编辑而不签出”** 选项，则在编辑之前必须签出文件。 如果不签出文件，您将看不到编辑选项。
 
 1. 关闭资源选择模式，然后单击要编辑的主题。
 
@@ -84,11 +84,11 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果要打开多个主题进行编辑，请从资产UI中选择所需的主题，然后单击编辑。 确保浏览器未启用弹出窗口阻止程序，否则将仅打开选定列表中的第一个主题进行编辑。
+   > 如果要打开多个主题进行编辑，请从资产UI中选择所需的主题，然后单击编辑。 请确保您的浏览器未启用弹出窗口阻止程序，否则将仅打开选定列表中的第一个主题进行编辑。
 
    ![](images/edit-from-preview_cs.png){width="800" align="left"}
 
-   如果您不想预览主题并希望直接在Web编辑器中打开该主题，请从卡片视图单击快速操作菜单中的“编辑”图标：
+   如果您不想预览某个主题并希望直接在Web编辑器中打开该主题，请从卡片视图单击快速操作菜单中的“编辑”图标：
 
    ![](images/edit-topic-from-quick-action_cs.png){width="800" align="left"}
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
 要从DITA映射控制台中打开Web编辑器，请执行以下步骤：
 
-1. 在Assets UI中，导航到包含要编辑的主题的DITA映射文件并单击该文件。
+1. 在资产UI中，导航到包含要编辑的主题的DITA映射文件并单击该文件。
 
    将显示DITA映射控制台。
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   > 如果您的管理员已配置 **禁用编辑而不签出** 选项，则必须在编辑之前签出文件。 如果不签出文件，则文档将在编辑器中以只读模式打开。
+   > 如果您的管理员已配置 **禁用“编辑而不签出”** 选项，则在编辑之前必须签出文件。 如果未签出文件，则文档将在编辑器中以只读模式打开。
 
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)

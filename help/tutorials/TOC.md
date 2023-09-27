@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 8ee493dbcdf68b83a55a65945febfa52c56ef09e
+source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1597'
 ht-degree: 5%
 
 ---
@@ -20,6 +20,9 @@ ht-degree: 5%
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版 {#2023-releases}
+            + 10月版 {#2310-release}
+               + [新增功能](./release-info/whats-new-2023.10.0.md)
+               + [发行说明](./release-info/release-notes-2023.10.0.md)
             + 9月版 {#2309-release}
                + [新增功能](./release-info/whats-new-2023.9.0.md)
                + [发行说明](./release-info/release-notes-2023.9.0.md)
@@ -241,6 +244,7 @@ ht-degree: 5%
          + [配置数据源连接器](./install-guide/conf-data-source-connector.md)
          + [将高级映射编辑器设置为默认值](./install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./install-guide/auto-add-navtitle.md)
+         + [配置选项以在氧气中进行编辑](./cs-install-guide/conf-edit-in-oxygen.md)
       + 使用全局和文件夹级别的用户档案 {#global-folder-profiles}
          + [配置全局或文件夹级别的配置文件](./install-guide/conf-folder-level.md)
       + 配置版本 {#version-mgt}
@@ -318,6 +322,7 @@ ht-degree: 5%
          + [配置单主题PDF生成](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [在Web编辑器中配置翻译功能](./cs-install-guide/conf-translation-web-editor.md)
          + [配置数据源连接器](./cs-install-guide/conf-data-source-connector.md)
+         + [使用工具配置数据源连接器](./cs-install-guide/conf-data-source-connector-tools.md)
          + [将高级映射编辑器设置为默认值](./cs-install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./cs-install-guide/auto-add-navtitle.md)
       + 使用全局和文件夹级别的用户档案 {#global-folder-profiles-cs}

@@ -1,19 +1,19 @@
 ---
 title: 使用Web编辑器
-description: 了解如何使用Web编辑器
+description: 使用Web编辑器创建和编辑结构化文档。 了解如何按照AEM Guides中的DITA标准使用Web编辑器。
 exl-id: 77d5daa7-4c19-448f-b10e-b52a055467ae
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
 
 # 使用Web编辑器 {#id181OD0QE05Z}
 
-AEM Guides附带易于使用的基于Web的Web编辑器，可用于创建和编辑结构化文档。 编辑者向编写者隐藏了DITA结构的所有复杂性。 编辑器提供了用户通常需要在文档中使用的DITA元素列表。
+AEM Guides附带一个易于使用的基于Web的Web编辑器，用于创建和编辑结构化文档。 该编辑器对作者隐藏了DITA结构的所有复杂内容。 编辑器提供了用户通常需要在文档中工作的DITA元素列表。
 
-此外，Web编辑器具有DITA感知功能，并支持DITA 1.3、1.2标准、轻量DITA以及专门的DITA。 这意味着不允许将元素放置在不符合DITA标准的位置。 Web编辑器还允许您使用最常用的块和内嵌元素。
+此外，Web编辑器具有DITA感知功能，它支持DITA 1.3、1.2标准、轻量DITA以及专门的DITA。 这意味着不允许将元素放置在不符合DITA标准的位置。 Web编辑器还允许您使用最常用的块和内嵌元素。
 
 - **[启动Web编辑器](web-editor-launch-editor.md)**
 
@@ -31,7 +31,7 @@ AEM Guides附带易于使用的基于Web的Web编辑器，可用于创建和编�
 
 - **[管理全局和文件夹配置文件输出预设](web-editor-manage-output-presets.md)**
 
-- **[从Web编辑器发布基于文章](web-editor-article-publishing.md)**
+- **[从Web编辑器中基于文章的发布](web-editor-article-publishing.md)**
 
 - **[使用“快速生成”面板生成和查看输出](web-editor-quick-generate-panel.md)**
 

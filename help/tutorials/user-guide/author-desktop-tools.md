@@ -1,17 +1,17 @@
 ---
 title: 使用桌面工具创作内容
-description: 了解如何使用桌面工具创作内容
+description: 使用AEM Guides中的桌面工具创作内容。 了解如何使用Adobe FrameMaker和Oxygon XML编辑器创作和发布DITA内容。
 exl-id: 43ffb7a6-9740-4e39-bb03-4f8a124f26d3
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
 
 # 使用桌面工具创作内容 {#id221EB0Z80KS}
 
-AEM Guides还支持使用桌面工具进行创作，如Adobe FrameMaker和氧气XML编辑器。 您可以使用这些工具来创作DITA内容、以各种格式发布文档以及维护文档的版本。
+AEM Guides还支持使用Adobe FrameMaker和氧XML编辑器等桌面工具进行创作。 您可以使用这些工具来创作DITA内容、以各种格式发布文档以及维护文档的版本。
 
 - **[使用FrameMaker](author-desktop-framemaker.md)**
 

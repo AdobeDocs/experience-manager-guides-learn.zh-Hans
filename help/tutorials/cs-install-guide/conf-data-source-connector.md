@@ -1,7 +1,7 @@
 ---
 title: 配置数据源连接器
 description: 了解如何配置数据源连接器
-source-git-commit: 2e7f9fb0a5932cc6fa5852ba8d9b9bf13ab12aed
+source-git-commit: fc142d8a6e907fac1321dfd5c2cb9615d523709d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 1%
@@ -274,7 +274,7 @@ AEM Guides允许您自定义配置文件中的某些值以满足用户的需求�
 
 将文件上传到AEM Assets中的某个位置。
 
-例如，`/var/dxml/konnect/jira.json`
+例如，`/content/dam/jira.json`
 
 ## 使用REST API创建配置
 

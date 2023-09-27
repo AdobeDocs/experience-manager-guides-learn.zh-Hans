@@ -1,10 +1,10 @@
 ---
 title: 智能标记
-description: 了解如何智能标记
+description: 了解如何在AEM Guides中添加智能标记。 使用XML关键字提取工具提取相关关键字。
 exl-id: 73d8d012-6bf0-416b-8180-0c90844e50cb
-source-git-commit: 8823669fd29e8a40a41f9ca5d654b38fbea8e2fa
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 >
 > 智能标记功能并非现成可用，它需要自定义实施，您需要就此咨询系统管理员。
 
-AEM Guides附带了添加智能标记的功能。 可以使用XML关键字提取工具提取智能标记。 此工具使用人工智能来理解内容并提供相关关键词。 您可以使用智能标记来改进搜索引擎优化\(SEO\)，并帮助用户查找相关内容。
+AEM Guides附带了添加智能标记的功能。 您可以使用XML关键字提取工具来提取智能标记。 此工具使用人工智能来理解内容并提供相关关键词。 您可以使用智能标记来改进搜索引擎优化\(SEO\)，并帮助用户查找相关内容。
 
-执行以下步骤以创建智能标记：
+执行以下步骤可创建智能标记：
 
 1. 在Assets UI中，导航到要创建智能标记的主题。
-1. 在预览模式下打开主题并选择 **重新处理资产** 图标。
+1. 在预览模式下打开主题，然后选择 **重新处理资产** 图标。
 1. 选择“XML关键字提取”以提取相关关键字。
 
    ![](images/smart-tag-reprocess-asset.png){width="300" align="left"}

@@ -1,10 +1,10 @@
 ---
 title: 使用映射集合生成输出
-description: 了解如何使用映射收藏集生成输出
+description: 了解如何创建和删除映射收藏集以及添加或删除DITA映射。 在AEM Guides中，通过映射集合配置、生成和取消输出生成任务。
 exl-id: 32e3af6c-9670-42cc-8dbe-9f99fbc60adf
-source-git-commit: 9196d7b1094149f06067c153b9c02c2cd20c18af
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---

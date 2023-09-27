@@ -1,9 +1,9 @@
 ---
 title: 在内容中添加和管理引文
-description: 了解如何通过添加引用并将其应用于内容来实施引用。
-source-git-commit: 85eb0228908134080f3f1e2644f3f7c37b8d7497
+description: 在AEM Guides中添加和管理引文。 了解如何应用、导入、筛选、搜索、更改引文样式、编辑、预览、插入、删除和生成包含引文的内容输出。
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---

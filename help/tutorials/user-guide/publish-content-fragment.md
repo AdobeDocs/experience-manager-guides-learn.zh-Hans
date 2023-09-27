@@ -1,9 +1,9 @@
 ---
 title: 将主题发布到内容片段
-description: 了解如何将主题发布到内容片段。
-source-git-commit: dd677257d94015d888705e4b6a43ae877e58be4b
+description: 在AEM Guides中将主题或主题中的元素发布到内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
+source-git-commit: 6143bdcb4c8a9e1f35ea752cf1be142ab98a716b
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---

@@ -1,41 +1,40 @@
 ---
 title: 下载文件
-description: 了解如何下载文件
+description: 了解如何从AEM Guides中的DITA映射控制台下载文件，以及导出AEM存储库中的DITA映射文件。
 exl-id: 3b588256-da30-4a98-be5c-fa36cfa8a80b
-source-git-commit: 8073716bccacbe8d6a158b44d5106b083e3a5dcd
+source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
 
 # 下载文件 {#id216MC0H0BE8}
 
-您可以下载包括DITA和非DITA文件的资产。 您可以通过多种方式下载资产，有些方法是AEM的本地方法，有些方法受AEM Guides支持。 有关本机AEM Assets下载信息，请参阅 [从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) 在AEM文档中。 以下部分介绍了通过AEM Guides中的DITA map控制台下载文件的机制。
+您可以下载包括DITA和非DITA文件的资源。 您可以通过多种方式下载资源，有些方法是AEM的固有方法，而其他方法受AEM Guides的支持。 有关本机AEM Assets下载信息，请参阅 [从Adobe Experience Manager下载资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html) 请参阅AEM文档。 以下部分将介绍AEM Guides中通过DITA映射控制台下载文件的机制。
 
 ## 导出DITA映射文件
 
-在AEM存储库中拥有DITA映射文件后，即可下载映射文件及其依赖项。 这让您能够灵活地共享完整的映射文件，以便进行离线编辑、验证、审查或只是创建备份。
+在AEM存储库中拥有DITA映射文件后，即可下载映射文件及其依赖项。 这使您能够灵活地共享完整的映射文件，以便进行离线编辑、验证、审阅或只是创建备份。
 
 执行以下步骤下载DITA映射文件及其依赖文件：
 
-1. 在Assets UI中，导航到要下载的DITA映射。
+1. 在资产UI中，导航到要下载的DITA映射。
 
 1. 单击DITA映射以在DITA映射控制台中将其打开。
 
-1. 选择 **主题** 选项卡，查看DITA map中可用的主题列表。
+1. 选择 **主题** 选项卡以查看DITA映射中可用的主题列表。
 
 1. 在主工具栏中，单击 **下载地图**.
 
-   此时将显示“下载映射”对话框。
+   出现“Download Map（下载映射）”对话框。
 
    ![](images/download-map.png){width="300" align="left"}
 
-1. 单击&#x200B;**下载**。在“下载映射”对话框中，您可以选择以下选项：
+1. 单击&#x200B;**“下载”。**&#x200B;在“下载映射”对话框中，您可以选择以下选项：
 
    - **使用基线**：选择此选项可获取为DITA映射创建的基线列表。 如果要根据特定基线下载映射文件及其内容，请从下拉列表中选择基线。 有关使用基线的更多详细信息，请参见 [使用基线](generate-output-use-baseline-for-publishing.md#).
    - **拼合文件层次结构**：选择此选项可将所有引用的主题和媒体文件保存在单个文件夹中。
-
    >[!NOTE]
    >
    > 您也可以在不选择任何选项的情况下下载映射文件。 在这种情况下，将下载引用的主题和媒体文件的最新保留版本。
@@ -47,12 +46,13 @@ ht-degree: 0%
    - 单击 **下载** 以.zip格式下载映射文件。
 
    - 单击 **稍后下载** 以稍后下载映射文件。 可以从AEM通知收件箱访问下载链接。 单击收件箱中生成的映射通知，以.zip格式下载映射。
+
    >[!NOTE]
    >
-   > 默认情况下，下载的映射会在AEM通知收件箱中保留五天。
+   > 默认情况下，下载的地图会在AEM通知收件箱中保留五天。
 
 ![](images/download-map-inbox.png){width="300" align="left"}
 
-下载映射后，您可以选择该映射，并使用顶部的“打开”图标打开选定的报表。
+下载地图后，您可以选择该地图并使用顶部的打开图标打开选定的报表。
 
 **父主题：**[&#x200B;管理内容](authoring.md)

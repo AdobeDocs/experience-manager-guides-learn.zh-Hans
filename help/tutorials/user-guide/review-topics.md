@@ -1,10 +1,10 @@
 ---
 title: 查看主题
-description: 了解如何查看主题
+description: 了解如何在AEM Guides中查看主题并将这些功能用作查看者、文档视图、主题视图、上下文工具栏、预览模式、向注释添加附件和条件面板。
 exl-id: ca94ec2e-cd45-418d-9b35-73d587ba51ec
-source-git-commit: b9bf08ccbe2eb17ca8d4dac675155e0b4631f0a9
+source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 0%
 
    在“注释”面板中，您可以看到文件名和文件大小。 您还可以选择通过单击删除图标来删除文件 ![](images/Delete_icon.svg) 与文件名相关联。
 
-1. 单击 **提交**.
+1. 单击&#x200B;**“提交”。**
 
    附件将上传并添加到注释中。
 
