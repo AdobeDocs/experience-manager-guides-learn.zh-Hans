@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides的新增功能，2023年10月版
 description: 在2023年10月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能。
-source-git-commit: 87aef92535b7204503cd4ed1da838b43b1133b04
+exl-id: 583bc9fe-1e61-4727-869b-0dbc19625f70
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -15,11 +16,11 @@ ht-degree: 0%
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.10.0.md).
 
 
-## 使用工具配置数据源连接器
+## 从用户界面配置数据源连接器
 
 《Experience Manager指南》现在提供了 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以轻松为JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch数据库创建连接器。
 
-您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解如何 [使用工具配置数据源连接器](../cs-install-guide/conf-data-source-connector-tools.md).
+您还可以轻松地编辑、重新连接、复制或删除数据源连接器。 了解如何 [从用户界面轻松配置数据源连接器](../cs-install-guide/conf-data-source-connector-tools.md).
 
 ![数据源面板中列出了数据源连接器](assets/data-sources-create-window.png){width="550" align="left"}
 
@@ -65,4 +66,3 @@ Experience Manager指南在目录(TOC)中显示章节编号和章节名称。 �
 Experience Manager指南现在允许您在Web编辑器中选择文件，然后选择在氧气连接器插件中编辑该文件。 此选项不是现成支持的一部分。
 
 欲知更多详情，请参见 **文件选项** 中的功能描述 [左侧面板](../user-guide/web-editor-features.md#id2051EA0M0HS) 部分。
-

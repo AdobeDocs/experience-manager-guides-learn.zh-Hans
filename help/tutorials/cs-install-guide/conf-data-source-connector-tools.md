@@ -1,15 +1,17 @@
 ---
 title: 使用工具配置数据源连接器
 description: 了解如何使用工具配置数据源连接器。
-source-git-commit: 87e907a1fbc27c9b3f8db5e4ab3c78143b03001e
+exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
+source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 
-# 使用工具配置数据源连接器
+
+# 从用户界面配置数据源连接器
 
 Experience Manager指南随附于 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以为JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch数据库设置连接器。
 
@@ -74,7 +76,3 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 
 
 配置数据源后，连接器将列在 **“数据源”面板** 在Web编辑器中。 然后，您可以连接到数据源并将内容片段插入到您的主题中。 有关详细信息，请查看 [插入数据源中的内容片段](../user-guide/web-editor-content-snippet.md).
-
-
-
-
