@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 40666d63314fa94f4ddf9b23341671994274c7e2
+source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1612'
 ht-degree: 5%
 
 ---
@@ -54,8 +54,10 @@ ht-degree: 5%
       + 内部部署/Managed Services {#on-prem-release-notes}
          + 4.3.0发行版 {#43-release}
             + 新增功能 {#43-whats-new}
+               + [4.3.1新增功能](./release-info/whats-new-4.3.1-release.md)
                + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
             + 发行说明 {#43-release-notes}
+               + [4.3.1发行说明](./release-info/release-notes-4.3.1.md)
                + [4.3.0发行说明](./release-info/release-notes-4.3.md)
          + 4.2版本 {#42-release}
             + 新增功能 {#42-whats-new}
@@ -242,6 +244,7 @@ ht-degree: 5%
          + [配置查询的LimitReads数](./install-guide/conf-query-limitreads.md)
          + [安装用于基于文章的发布的包](./install-guide/configure-article-based-publishing.md)
          + [配置数据源连接器](./install-guide/conf-data-source-connector.md)
+         + [从用户界面配置数据源连接器](./install-guide/conf-data-source-connector-tools.md)
          + [将高级映射编辑器设置为默认值](./install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./install-guide/auto-add-navtitle.md)
          + [配置选项以在氧气中进行编辑](./cs-install-guide/conf-edit-in-oxygen.md)
@@ -322,7 +325,7 @@ ht-degree: 5%
          + [配置单主题PDF生成](./cs-install-guide/conf-pdf-generation-dita-ot.md)
          + [在Web编辑器中配置翻译功能](./cs-install-guide/conf-translation-web-editor.md)
          + [配置数据源连接器](./cs-install-guide/conf-data-source-connector.md)
-         + [使用工具配置数据源连接器](./cs-install-guide/conf-data-source-connector-tools.md)
+         + [从用户界面配置数据源连接器](./cs-install-guide/conf-data-source-connector-tools.md)
          + [将高级映射编辑器设置为默认值](./cs-install-guide/conf-map-editor.md)
          + [默认包含@navtitle属性](./cs-install-guide/auto-add-navtitle.md)
       + 使用全局和文件夹级别的用户档案 {#global-folder-profiles-cs}

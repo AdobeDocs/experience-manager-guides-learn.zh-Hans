@@ -1,10 +1,10 @@
 ---
 title: 插入数据源中的内容片段
 description: 在AEM Guides中使用来自数据源的数据。 了解如何从数据源插入内容片段。 使用主题生成器创建主题。
-exl-id: 9d60499c-49b4-4793-b3ec-5c99b34338e0
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '2029'
+source-wordcount: '2060'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,9 @@ A **数据源** 是一个用于存储和管理组织数据的系统。 这些是
 <details>    
 <summary>  内部部署软件 </summary>
 
-了解如何 [配置数据源连接器](../install-guide/conf-data-source-connector.md)  ，请参见On-premise Installation and Configuration Guide。
+- 如果您使用的是4.3.1版本或更高版本，请了解如何 [从用户界面配置数据源连接器](../cs-install-guide/conf-data-source-connector-tools.md) ，请参见On-premise Installation and Configuration Guide。
+
+- 如果您使用的是4.3版本，请了解如何 [配置数据源连接器](../cs-install-guide/conf-data-source-connector.md) ，请参见On-premise Installation and Configuration Guide。
 </details>
 
 

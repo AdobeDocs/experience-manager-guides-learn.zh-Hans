@@ -1,10 +1,10 @@
 ---
 title: 了解Web编辑器功能
 description: 在AEM Guides中发现Web编辑器的功能。 了解Web编辑器的界面，包括主工具栏、辅助工具栏、左侧面板、内容编辑区域和右侧面板。
-exl-id: 38b378ff-da24-4560-a17f-a2c547aea1b8
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
+source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
 workflow-type: tm+mt
-source-wordcount: '16066'
+source-wordcount: '16500'
 ht-degree: 0%
 
 ---
@@ -141,17 +141,62 @@ ht-degree: 0%
 
 - **属性列表**：与元素列表类似，您可以控制要在元素的属性列表中显示的属性列表及其显示名称。 在以下屏幕截图中，只有3个属性已配置为在元素的属性列表中显示：
 
-![](images/editor-setting-attributes-list.png){width="650" align="left"}
+  ![](images/editor-setting-attributes-list.png){width="650" align="left"}
 
-使用此设置，当尝试将属性添加到元素时，您只会看到列表中配置的属性列表。
+  使用此设置，当尝试将属性添加到元素时，您只会看到列表中配置的属性列表。
 
-![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+  ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
+
+- **发布配置文件**：这包含可用于发布知识库输出的发布配置文件。 您可以为选定的使用者类型创建新配置文件。 例如，Salesforce。
+
+   - **创建Salesforce发布配置文件的要求**
+
+      - 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅 [为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
+
+      - 配置连接的应用程序时，请确保满足以下条件：
+
+         - 指定回调。
+
+           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+
+         - 选择以下OAuth范围：
+            - 完全访问（完全）
+            - 选择通过API (api)管理用户数据
+
+  配置应用程序后，Salesforce会提供 **使用者密钥** 和 **使用者密码**.
+
+  这些资源可用于创建Salesforce发布配置文件。
+  ![编辑器设置中的配置文件](./images/create-profile-editor-settings.png){width="300" align="left"}
+
+
+
+- 要创建发布配置文件，您可以从中选择知识库，如Salesforce **服务器类型** 下拉菜单。 输入配置文件名称。 在 **站点URL** 输入用于发布输出的消费者网站，然后添加 **使用者密钥** 和 **使用者密码** 由Salesforce等消费者网站提供。 然后登录到新创建的配置文件。
+
+  >[!NOTE]
+  >
+  >要为《Experience Manager指南》中的Salesforce配置代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何 [为AEM Link Checker配置代理](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+
+
+  登录后，可以在DITA Map的输出预设中选择发布配置文件，并使用生成所选文章的输出。 有关更多详细信息，请参阅 [从Web编辑器中基于文章的发布](../install-guide/configure-article-based-publishing.md) 在《安装和配置指南》中。
+
+- **验证**：此选项卡包含用于在Web编辑器中配置模式验证的选项。 您可以启用以下功能：
+
+   - **在保存文件之前运行验证检查**：选择此项可在执行任何保存操作之前使用选定的架构文件运行架构验证。 您可以通过单击+图标来添加Schematron文件。 将列出选定的架构文件。
+
+     >[!NOTE]
+     >选定的架构文件将在选定的文件夹配置文件中保留。
+
+     ![在编辑器设置中进行验证](./images/editor-setting-validation.png){width="300" align="left"}
+这会阻止用户保存任何违反选定架构文件中定义的规则的文件。 如果未选择此选项，则在保存更改之前不会验证文件。
+
+   - **允许所有用户在验证面板中添加架构文件**：选择此项可允许用户在Web编辑器的验证面板中添加任何Schematron文件。 这允许用户添加Schematron文件，然后针对Schematron文件验证主题。 如果未选择此选项， **添加Schematron文件** 按钮不适用于 **验证面板** Web编辑器的。
+
 
 - **显示属性**：与“属性列表”一样，您可以控制要在元素的属性列表中显示的属性列表。 默认情况下，四个 **显示属性**  — 受众、平台、产品和prop已配置为显示在元素的属性列表中。 您还可以使用添加显示属性 **添加** 图标。 您也可以使用删除任何显示属性 **删除** 图标。
 
-为元素定义的属性将显示在“布局”和“大纲”视图中。
+  为元素定义的属性将显示在“布局”和“大纲”视图中。
 
-![](images/editor-settings-display-attributes.png){width="550" align="left"}
+  ![](images/editor-settings-display-attributes.png){width="550" align="left"}
 
 - **翻译**：此选项卡包含用于将源标签传播到目标版本的选项。
 
