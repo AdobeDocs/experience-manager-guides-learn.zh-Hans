@@ -1,13 +1,13 @@
 ---
 title: 简介
 description: AEM Guides的API参考指南简介
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
+source-git-commit: 112085153aaf246289bd8f91657c95e986df482e
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
 
 ---
-
 
 # 简介 {#id1761C0007W7}
 
@@ -175,7 +175,7 @@ AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人
    <repository>
       <id>fmdita-public</id>
       <name>fmdita-public</name>
-      <url>https://repo.xmldocumentation.com/repository/fmdita-public</url>
+      <url>https://repo.aem-guides.com/repository/fmdita-public</url>
    </repository>
    ```
 
@@ -228,4 +228,3 @@ AEM Guides API有两种格式：HTTP和Java。 这些API向应用程序开发人
 - 安装和配置指南
 - 快速入门指南
 - [“帮助存档”页](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html) \（访问旧版发行文档\）
-
