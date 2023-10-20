@@ -2,7 +2,7 @@
 title: 升级Adobe Experience Manager指南
 description: 了解如何升级Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 9a4f230d6724bcb5d8fc7036048ca13fd7bc52bc
+source-git-commit: 6078cb1856ba45524e46165d546daf4109e9b2b2
 workflow-type: tm+mt
 source-wordcount: '4349'
 ht-degree: 1%
@@ -526,7 +526,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 ## 升级到版本4.3.1 {#upgrade-version-4-3-1}
 
-升级到4.3.1版取决于当前版本的《Experience Manager指南》。 如果您使用的是版本4.3、4.2或4.2.1，则可以直接升级到版本4.3.1。
+升级到4.3.1版取决于当前版本的《Experience Manager指南》。 如果您使用的是版本4.3.0、4.2或4.2.1，则可以直接升级到版本4.3.1。
 
 >[!NOTE]
 >
