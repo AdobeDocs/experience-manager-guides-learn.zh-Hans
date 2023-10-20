@@ -1,22 +1,22 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.1版的新增功能
 description: 了解Adobe Experience Manager Guides 4.3.1版本中的新增功能和增强功能
-source-git-commit: 5c51ff7f52624c6403e5486e099d1262f324e523
+source-git-commit: a865630527045574ef5a96622537e767eacd9fc2
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Guides 4.3.1版的新增功能（2023年10月）
 
-本文介绍4.3.1版本的Adobe Experience Manager Guides(以后称为 *AEM指南*)。
+本文介绍4.3.1版本的Adobe Experience Manager Guides(以后称为 *Experience Manager指南*)。
 
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](./release-notes-4.3.1.md).
 
 ## 连接到数据源并插入主题
 
-《Experience Manager指南》提供现成的连接器，帮助您连接数据源，使AEM Guides成为真正的Content Hub。 这为您提供了省时省力的优势，否则您将需要花在手动数据添加或复制上。
+《Experience Manager指南》提供现成的连接器，帮助您连接数据源，使《Experience Manager指南》成为真正的“内容中心”。 这为您提供了省时省力的优势，否则您将需要花在手动数据添加或复制上。
 
 除了现有的现成连接器（如JIRA和SQL）(MySQL、PostgreSQL、SQL Server、SQLite)之外，管理员还可以为MariaDB、H2DB、AdobeCommerce和Elasticsearch数据库配置连接器。 它们还可以通过扩展缺省接口来添加其它连接器。
 

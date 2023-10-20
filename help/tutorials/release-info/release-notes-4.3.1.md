@@ -1,41 +1,41 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.1版中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.1版本
-source-git-commit: a8f36d020422d9d83ca47e2246dc42278f2c7963
+source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1216'
 ht-degree: 5%
 
 ---
 
 # 4.3.1版本的Adobe Experience Manager Guides（2023年10月）
 
-本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides 4.3.1版本(以后称为 *AEM指南*)。
+本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guides 4.3.1版本(以后称为 *Experience Manager指南*)。
 
 有关新增功能和增强功能的更多信息，请参阅 [Adobe Experience Manager Guides 4.3.1版的新增功能](./whats-new-4.3.1-release.md).
 
-## 升级到AEM Guides的4.3.1版本
+## 升级到《Experience Manager指南》的4.3.1版本
 
 
-您可以轻松将AEM Guides的当前版本升级到版本4.3.1。在继续升级到4.3.1版本的AEM Guides之前，您必须考虑以下几点：您可以将当前版本的AEM Guides升级到4.3.1版本
+您可以轻松地将指南的当前版本升级到4.3.1版。在继续升级到版本4.3.1的Experience Manager指南之前，您必须考虑以下几点：您可以将当前版本的Experience Manager指南升级到版本4.3.1
 
-- 如果您使用的是版本4.2或4.2.x ，则可以直接升级到版本4.3.1。
-- 如果您使用的是版本4.1或4.1.x ，则需要先升级到版本4.2或4.2.x ，然后再升级到版本4.3.1。
+
+- 如果您使用的是版本4.3.0、4.2或4.2.1，则可以直接升级到版本4.3.1。
+- 如果您使用的是版本4.1或4.1.x ，则需要先升级到版本4.3.0、4.2或4.2.x ，然后再升级到版本4.3.1。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.1。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
-- 如果您使用的版本低于3.8.5，请参阅特定于产品的安装指南中的升级AEM Guides部分。
-
+- 如果您使用的版本低于3.8.5，请参阅特定于产品的安装指南中的“升级Experience Manager指南”部分。
 
 
 >[!NOTE]
 >
->在升级AEM Guides版本之前，必须安装AEM Service Pack。
+>在升级Experience Manager指南版本之前，必须安装AEM Service Pack。
 
 有关详细信息，请参阅 [升级说明](../install-guide/upgrade-xml-documentation.md).
 
 ## 兼容性矩阵
 
-本节列出了AEM Guides 4.3.1版本支持的软件应用程序的兼容性矩阵。
+本部分列出了Experience Manager指南4.3.1版本支持的软件应用程序的兼容性矩阵。
 
 ### Adobe Experience Manager
 
@@ -71,7 +71,7 @@ ht-degree: 5%
 
 | 组件包名称 | 组件版本 | 模板版本 |
 |---|---|---|
-| 适用于Cloud Service的AEM Guides组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
+| 用于Cloud Service的Experience Manager指南组件内容包 | dxml-components.all-1.2.2 | aem-site-template-dxml.all-1.0.15 |
 
 ## 修复的问题
 
