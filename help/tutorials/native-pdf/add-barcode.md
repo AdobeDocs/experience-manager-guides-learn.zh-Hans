@@ -1,7 +1,7 @@
 ---
 title: 本机PDF发布功能 |添加条形码
 description: 了解如何添加条形码。
-source-git-commit: 5a845d91882742dfcbe70421e62110630b3b85b2
+source-git-commit: 31225583f45337b209f325174176b9a4199db648
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 您还可以在创作模式下编辑资源ID。
 
-<img src="./assets/barcode-map.png" alt="带有条形码的示例输出" width="700" border="2px solid gray">
+<img src="./assets/barcode-map.png" alt="带有条形码的示例输出" width="700" border="2px solid blue">
 
 
 ### 在模板标题中添加条形码占位符
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 以下屏幕截图在PDF输出中显示一个条形码示例。
 
-<kbd><img src="./assets/barcode-output-sample.png" alt="带有条形码的示例输出" width="700"></kbd>
+<img src="./assets/barcode-output-sample.png" alt="带有条形码的示例输出" width="700">
 
 
 ## 条形码类型 {#barcode-types}
