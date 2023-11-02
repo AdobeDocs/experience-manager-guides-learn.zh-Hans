@@ -1,19 +1,17 @@
 ---
 title: 使用工具配置数据源连接器
 description: 了解如何使用工具配置数据源连接器。
-exl-id: b73ceb8d-caf0-4752-a6d9-07985cdf741e
-source-git-commit: e8503e1441b7bc365d37c76ab9cf7b5f50374f10
+exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-
-
 # 从用户界面配置数据源连接器
 
-Experience Manager指南随附于 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以为JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce和Elasticsearch数据库设置连接器。
+Experience Manager指南随附于 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以设置JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和通用REST客户端连接器。
 
 要配置连接器，请执行以下步骤：
 

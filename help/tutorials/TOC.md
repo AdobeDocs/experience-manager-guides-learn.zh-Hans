@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: ebc63f6320f512987846b9d359014faf4772c5a7
+source-git-commit: a9772cdde6161923d28be806407931859d9918d1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1617'
 ht-degree: 5%
 
 ---
@@ -20,27 +20,30 @@ ht-degree: 5%
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版 {#2023-releases}
-            + 10月版 {#2310-release}
-               + [新增功能](./release-info/whats-new-2023.10.0.md)
-               + [发行说明](./release-info/release-notes-2023.10.0.md)
-            + 9月版 {#2309-release}
-               + [新增功能](./release-info/whats-new-2023.9.0.md)
-               + [发行说明](./release-info/release-notes-2023.9.0.md)
-            + 7月版 {#2307-release}
-               + [新增功能](./release-info/whats-new-2023.7.0.md)
-               + [发行说明](./release-info/release-notes-2023.7.0.md)
-            + 6月版 {#2306-release}
-               + [新增功能](./release-info/whats-new-2023.6.0.md)
-               + [发行说明](./release-info/release-notes-2023.6.0.md)
-            + 4月版 {#2304-release}
-               + [新增功能](./release-info/whats-new-2023.4.0.md)
-               + [发行说明](./release-info/release-notes-2023.4.0.md)
-            + 3月版 {#2303-release}
-               + [新增功能](./release-info/whats-new-2023.3.0.md)
-               + [发行说明](./release-info/release-notes-2023.3.0.md)
-            + 2月版 {#2302-release}
-               + [新增功能](./release-info/whats-new-2023.2.0.md)
-               + [发行说明](./release-info/release-notes-2023.2.0.md)
+         + 11月版 {#2311-release}
+            + [新增功能](./release-info/whats-new-2023.11.0.md)
+            + [发行说明](./release-info/release-notes-2023.11.0.md)
+         + 10月版 {#2310-release}
+            + [新增功能](./release-info/whats-new-2023.10.0.md)
+            + [发行说明](./release-info/release-notes-2023.10.0.md)
+         + 9月版 {#2309-release}
+            + [新增功能](./release-info/whats-new-2023.9.0.md)
+            + [发行说明](./release-info/release-notes-2023.9.0.md)
+         + 7月版 {#2307-release}
+            + [新增功能](./release-info/whats-new-2023.7.0.md)
+            + [发行说明](./release-info/release-notes-2023.7.0.md)
+         + 6月版 {#2306-release}
+            + [新增功能](./release-info/whats-new-2023.6.0.md)
+            + [发行说明](./release-info/release-notes-2023.6.0.md)
+         + 4月版 {#2304-release}
+            + [新增功能](./release-info/whats-new-2023.4.0.md)
+            + [发行说明](./release-info/release-notes-2023.4.0.md)
+         + 3月版 {#2303-release}
+            + [新增功能](./release-info/whats-new-2023.3.0.md)
+            + [发行说明](./release-info/release-notes-2023.3.0.md)
+         + 2月版 {#2302-release}
+            + [新增功能](./release-info/whats-new-2023.2.0.md)
+            + [发行说明](./release-info/release-notes-2023.2.0.md)
          + 2022版 {#2022-releases}
             + [11月发行说明](./release-info/release-notes-2022.11.0.md)
             + [10月发行说明](./release-info/release-notes-2022.10.0.md)
@@ -267,7 +270,7 @@ ht-degree: 5%
                + [对目录条目和主题内容应用自定义样式](./native-pdf/custom-style-toc.md)
                + [在PDF输出中添加自定义书签](./native-pdf/add-custom-bookmark.md)
                + [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
-               + [在脚注中使用自定义样式](./native-pdf/footnote-number-style.md)
+               + [将样式应用于脚注](./native-pdf/footnote-number-style.md)
          + [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
          + [创建主题和内容片段之间的映射](./install-guide/conf-content-fragment-mapping.md)
       + 使用自定义工作流 {#custom-workflow}

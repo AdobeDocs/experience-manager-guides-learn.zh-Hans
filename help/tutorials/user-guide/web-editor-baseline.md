@@ -1,10 +1,10 @@
 ---
 title: 从Web编辑器创建和管理基线
 description: 在AEM Guides中，通过Web编辑器创建和管理基线。 了解如何基于标签创建基线并将过滤器应用于基线。
-exl-id: 9e390489-16f5-4f9a-a821-5150a66c2ed4
-source-git-commit: 361c605bdf02fb3b8754c6596a70e86a00acb3db
+exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
+source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
   > 添加或删除标签的过程是异步进行的，因此您可以在Web编辑器中继续处理其他文件。 添加或删除标签后，将显示一条弹出消息，确认已添加或删除标签，并且您还会收到该标签的收件箱通知。
 
 - **编辑属性** 创建基线时设置的现有静态基线的ID。
-- 使用将基线的快照导出为CSV文件 **导出基线** 选项。
+- 使用导出Microsoft Excel文件中基线的快照 **导出基线** 选项。
 
 **基线过滤器**
 
