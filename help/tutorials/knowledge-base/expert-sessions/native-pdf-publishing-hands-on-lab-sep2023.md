@@ -1,9 +1,10 @@
 ---
 title: 原生PDF发布“动手实验室 — BYOS” — 交互式学习
 description: 这个“实验操作 — BYOS”课程深入探究了本机PDF的发布方式。 探索各种用例，利用关键功能，并直接与Adobe专家接洽，以解决您的特定问题陈述和要求。
-source-git-commit: 03da00daf0118b66ef5653dfb80918c33bc8f76b
+exl-id: 55c276d8-8611-4050-be5f-7f9854f94228
+source-git-commit: befe892ce4c9a6643593469bdc7fdd808ceb0c31
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -61,8 +62,8 @@ ht-degree: 0%
 
 ## 下一次专家会议
 
-- **主题**  — 待定
-- **计划日期**  — 待定
+- **主题** - Guides扩展框架
+- **计划日期** - 2023年11月02日
 
 ## 联系我们
 
