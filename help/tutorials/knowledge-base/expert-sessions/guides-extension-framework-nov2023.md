@@ -1,8 +1,7 @@
 ---
 title: AEM Guides的扩展框架 — 自定义Web编辑器并查看UI
 description: 借助Guides扩展框架，您可以使用易于更新的JSON、CSS和JavaScript来自定义Review Ui或Webeditor的所需部分。
-exl-id: null
-source-git-commit: 38d0ef3dcfea0d0059296b35c84c4973832f5215
+source-git-commit: 5ad664296478ed16f6f2d80e79a4812f5ff96f9c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
