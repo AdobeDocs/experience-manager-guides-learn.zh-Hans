@@ -1,8 +1,8 @@
 ---
 title: 支持Schematron文件
 description: 了解如何在AEM Guides的Schematron文件中导入和验证DITA主题、使用声明报表语句检查规则、使用正则表达式以及定义抽象模式。
-exl-id: e5912fa1-af26-42f4-b5e5-a6d2afd45bc8
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
+source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
@@ -105,7 +105,7 @@ No one word titles.
 
 ## 定义抽象模式{#schematron-abstract-patterns}
 
-AEM Gudies还支持Schematron中的抽象模式。 可以定义通用的抽象模式并重用这些抽象模式。  可以创建指定实际模式的占位符参数。
+AEM Guides还支持Schematron中的抽象模式。 可以定义通用的抽象模式并重用这些抽象模式。  可以创建指定实际模式的占位符参数。
 
 
 使用抽象模式可减少规则的重复并简化验证逻辑的管理和更新，从而简化您的Schematron模式。 这样还可以使架构更易于理解，因为可以在可以在整个架构中重用的单个抽象模式中定义复杂的验证逻辑。
