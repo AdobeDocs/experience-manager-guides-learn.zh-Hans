@@ -2,9 +2,9 @@
 title: Web编辑器中的其他功能
 description: 浏览AEM Guides中Web编辑器的其他功能。 了解如何在AEM Guides中使用这些功能来改进创作。
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 在打开的文件选项卡的上下文菜单中，可以获取以下函数：
 
-：   ![](images/single-file-context-menu.png){width="300" align="left"}
+:   ![](images/single-file-context-menu.png){width="300" align="left"}
 
 **多个文件**
 
@@ -187,6 +187,15 @@ ht-degree: 0%
 
 - 可通过调用“轮廓”面板中元素的“选项”菜单来访问“重命名元素”对话框。
 
+
+
+**将元素换行**
+
+- 使用元素换行，可以向所选文本添加元素标记。 您可以按照DITA标准将文本换行到任何子元素。 例如，如果您在 `note` 元素，则可以将文本换行 `p` 元素。
+
+  此 **将元素换行** 选项在主题痕迹导航的上下文菜单中可用。 要环绕元素，请右键单击该元素并打开上下文菜单。 从中选择元素 **将元素换行** 对话框。 该文本将显示在新元素中。
+
+  您还可以选择文本或内容中的元素，然后选择 **将元素换行**  选项。
 
 **取消包裹元素**
 

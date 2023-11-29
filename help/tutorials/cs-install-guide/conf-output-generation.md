@@ -2,9 +2,9 @@
 title: 配置输出生成设置
 description: 了解如何配置输出生成设置
 exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '5340'
+source-wordcount: '5496'
 ht-degree: 1%
 
 ---
@@ -140,6 +140,23 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `aemsite.pagetitle` | 布尔值\(true/false\)。 如果要使用页面标题生成输出，则将此属性设置为true。 默认情况下，设置为使用文件名。<br> **默认值**： false |
+
+### 配置AEM站点输出的URL以使用文档标题
+
+您可以在AEM Site输出的URL中使用文档标题。 如果文件名不存在或包含所有特殊字符，则可以配置系统以在AEM Site输出的URL中使用分隔符替换特殊字符。 您还可以将其配置为使用第一个子主题名称替换它们。
+
+
+要配置页面名称，请执行以下步骤：
+
+1. 请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。
+1. 在配置文件中，提供以下（属性）详细信息以配置主题的页面名称。
+
+| PID | 属性键 | 属性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布尔值 (`true/false`). **默认值**: `false` |
+
+例如，如果 *@navtitle* 在 `<topichead>` 包含所有特殊字符，并且您设置 `aemsite.pagetitle` 属性为true，则默认使用分隔符。 如果您设置 `nodename.systemDefinedPageName` 属性为true，则显示第一个子主题的名称。
+
 
 ### 配置用于创建主题和发布AEM站点输出的文件名清理规则 {#id2164D0KD0XA}
 

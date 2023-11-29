@@ -1,10 +1,10 @@
 ---
 title: 创建批量激活映射集合
 description: 了解如何在AEM guides中创建批量激活图收藏集。
-exl-id: 7d17fb37-9486-4a3b-a421-08e279c95b6c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: ea0bd465-a2d9-488f-83e9-62b336233eb1
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
   > 小 ![](images/global-preset-icon.svg) 图标表示文件夹配置文件级别预设。
 - **修改时间**：指示DITA映射是否在上次发布后更新。 根据此信息，您可以决定是否要激活此DITA映射的输出。
 - **已生成**：显示上次生成输出的日期和时间。
-- **已发布**：显示上次发布\（或激活\）输出的日期和时间。 如果单击该链接，则会显示“激活结果”页面，其中包含有关激活内容的根路径的信息。
+- **已发布**：显示上次发布（或激活）输出的日期和时间。 如果您选择链接，则 **激活结果** 此时将显示页面，其中包含日志，其中包含有关激活内容的根路径的信息。
 
 
 左侧面板上提供了以下筛选选项：

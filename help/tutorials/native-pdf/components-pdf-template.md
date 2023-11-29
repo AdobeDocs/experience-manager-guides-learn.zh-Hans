@@ -2,9 +2,9 @@
 title: 本机PDF发布功能 |PDF模板的组件
 description: 了解PDF模板的各种组件以及如何自定义和配置它们。
 exl-id: 0ddb3b81-42ca-4a66-be7d-051a5175d53a
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '4859'
+source-wordcount: '4947'
 ht-degree: 0%
 
 ---
@@ -419,6 +419,10 @@ PDF文档中的页面通常根据在DITA映射或书签映射文件中组织的�
 
 使用 **交叉引用** 选项卡定义交叉引用在PDF中的发布方式。 您可以设置主题标题、表格、插图等的交叉引用的格式。
 
+>[!NOTE]
+>
+> 如果在插入交叉引用时定义了链接文本，则该文本优先于在本机PDF模板中定义的交叉引用格式。
+
 还可使用变量来定义交叉引用。  使用变量时，将从属性中提取其值。 您可以使用单个变量或变量组合来定义交叉引用。 您还可以使用字符串和变量的组合。
 
 例如，您可以使用 `View details on {chapter}`. 如果章节名称为“常规设置”，则输出中的交叉引用为“查看有关常规设置的详细信息”。
@@ -440,6 +444,22 @@ AEM Guides提供了以下开箱即用的变量：
   >
   >可以为字幕和图形标记创建自动编号样式。
 
+#### 默认交叉引用格式
+
+如果将文本字段保留为空，并且在插入交叉引用时尚未定义链接文本，则“Experience Manager参考线”会为各个交叉引用添加以下变量：
+
+* **标题**: `{title}`
+* **描述**: `{description}`
+* **段落**： `{bookmarkText}`
+* **书签**： `{bookmarkText}`
+* **图**： `{captionText}`
+* **表**： `{captionText}`
+
+交叉引用的优先级顺序为：
+* 在交叉引用中添加的链接文本
+* 在本机PDF模板中定义的交叉引用格式
+* 默认交叉引用格式
+
 
 #### 交叉引用中的语言变量
 
@@ -454,11 +474,12 @@ AEM Guides提供了以下开箱即用的变量：
 添加时 `${lng:<variable name>}` 对于“段落”部分，输出段落中的交叉引用包含本地化文本和页码。\
 例如，以下屏幕截图以英语显示交叉引用“View on page 1”并以德语显示“Einzelheiten finden Sie auf der Seite 1”。
 
-<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px solid blue">
+<img src="./assets/english-output-corss-reference.png" alt="在普拉赫语中交叉引用的英语输出" width ="800" border="2px">
 
 *以英语发布时，段落中的交叉引用。*
 
-<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px solid blue">
+<img src="./assets/german-output-corss-reference.png" alt="德语版的a普拉赫交互引用输出" width ="800" border="2px">
+
 
 *以德语发布的段落中的交叉引用。*
 

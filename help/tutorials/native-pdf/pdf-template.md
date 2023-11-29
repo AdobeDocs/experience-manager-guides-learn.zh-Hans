@@ -2,9 +2,9 @@
 title: 创建和自定义本机PDF模板
 description: 了解如何创建和自定义本机PDF模板。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: da6ada7329aa338849de86ebfda94587bbc4ab54
+source-git-commit: 9e806ae9a06eb77441e47413981f27f6e69bd2f9
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1161'
 ht-degree: 0%
 
 ---
@@ -136,7 +136,10 @@ ht-degree: 0%
      除了外观之外，您还可以定义页面元素（如页眉、页脚和页面上的内容区域）的排列。 要了解有关自定义页面布局的更多信息，请参阅 [创建和自定义页面布局](components-pdf-template.md#create-customize-page-layout).
 
    * 样式表：“样式表”部分中的设置允许您自定义页面布局组件（如目录、索引、术语表、引文等）的外观。 此外，您还可以自定义DITA内容的样式，如标题、段落、列表等。 要了解有关使用样式表的更多信息，请参阅 [使用样式表自定义PDF](components-pdf-template.md#stylesheet-customization).
-   * 资源：存储自定义或设计PDF模板所需的资源文件。 徽标、自定义字体、背景图像等资产存储在资源中。 要了解有关利用资源的更多信息，请参阅 [使用资源](components-pdf-template.md#work-with-resources).
+   * 资源：存储自定义或设计PDF模板所需的资源文件。 徽标、自定义字体、背景图像等资产存储在资源中。
+您还可以使用存储库中任何其他位置的资源。 您无需为每个模板创建重复资源，可以将这些资源保存在共享文件夹中，并在所有本机PDF模板中使用它们。
+
+     要了解有关利用资源的更多信息，请参阅 [使用资源](components-pdf-template.md#work-with-resources).
    * 设置：配置用于使用模板生成PDF的输出设置。 通过此部分，您可以为PDF中的各种页面、章节开始页面、打印标记、引文等定义模板映射。
 您还可以按照它们在最终PDF输出中的显示顺序进行排列。
 有关应用设置的详细信息，请参阅 [高级PDF设置](components-pdf-template.md#advanced-pdf-settings).

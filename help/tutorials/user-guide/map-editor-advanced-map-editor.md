@@ -1,10 +1,10 @@
 ---
 title: 使用高级映射编辑器
 description: 了解如何在AEM Guides中使用高级映射编辑器。 了解高级映射编辑器的功能。 通过DITA映射编辑主题，并使用布局视图、作者视图和预览模式。
-exl-id: 4f48d489-d13e-4285-8870-373f0324f5f6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '3701'
+source-wordcount: '3707'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 0%
 
    该主题即添加到映射中。
 
-   ![](images/map-editor-add-topic.png){width="800" align="left"}
+   ![映射编辑器添加主题](images/map-editor-add-topic.png){width="800" align="left"}
 
 1. 要添加后续主题或子映射，请将主题或子映射拖放到映射中的所需位置。
 
@@ -231,7 +231,7 @@ ht-degree: 0%
 
 - **其他属性** 如果管理员为属性创建了配置文件，则您将获得这些属性及其配置的值。 使用“内容属性”面板，您可以选择这些属性，并将它们分配给主题中的相关内容。 您还可以在 **显示属性** 选项卡。 为元素定义的属性将显示在“布局”和“大纲”视图中。 这有助于快速查看映射中为其定义了特定属性的所有主题。 例如，所有具有定义为“Android”的平台属性的主题。
 
-  ![](images/layout-inline-attributes.png){width="650" align="left"}
+  ![布局视图](images/layout-inline-attributes.png){width="650" align="left"}
 
 
   欲知更多详情，请参见 *显示属性* 内部 *编辑器设置* 中的功能描述 [左侧面板](web-editor-features.md#id2051EA0M0HS) 部分。

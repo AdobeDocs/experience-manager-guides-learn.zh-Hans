@@ -1,11 +1,11 @@
 ---
 title: 了解输出预设
 description: 了解AEM Guides中的输出预设。 从Web编辑器和映射功能板为AEM站点、PDF、HTML5、EPUB、自定义和JSON格式创建输出预设。
-exl-id: ff4dedbb-47c4-40c7-950c-51f70d5d4b1b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+exl-id: 8eaf0765-8b66-47d6-9c40-888495baa711
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '208'
+ht-degree: 1%
 
 ---
 
@@ -34,5 +34,6 @@ AEM Guides支持以最受欢迎的格式创建输出，如AEM Site、PDF、HTML5
 
 - **[JSON](generate-output-json.md)**
 
+作为管理员，《Experience Manager指南》允许您为全局和文件夹配置文件创建和管理输出预设。 有关详细信息，请查看 [管理全局和文件夹配置文件输出预设](./web-editor-manage-output-presets.md).
 
 **父主题：**[&#x200B;输出生成](generate-output.md)

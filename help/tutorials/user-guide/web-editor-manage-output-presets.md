@@ -1,10 +1,10 @@
 ---
 title: 管理全局和文件夹配置文件输出预设
 description: 了解如何在AEM Guides中创建、编辑、重命名、复制和删除作为管理用户的全局和文件夹配置文件输出预设。
-exl-id: 40ea464c-16c8-4c95-9c0e-61b6bad95272
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
    - 名称
    - Target \（对于知识库预设\）
 1. 选择 **添加到文件夹配置文件** 复选框，以便为相关文件夹配置文件创建输出预设，然后单击 **添加**. 随即会创建预设，该预设会显示在 **输出** 选项卡。 \( ![](images/global-preset-icon.svg)\)图标表示文件夹配置文件级别预设。
-1. 输入配置详细信息。
+1. 输入配置详细信息。 有关输出预设的更多详细信息，请查看 [了解输出预设](./generate-output-understand-presets.md).
 
    >[!NOTE]
    >

@@ -1,7 +1,8 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年11月版）中的升级说明和修复问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年11月版
-source-git-commit: 1d8f00a82e92e1648615c409d4652b6ce3da7a1f
+exl-id: 80839890-075f-4187-a167-444c73215496
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
 source-wordcount: '1640'
 ht-degree: 3%
@@ -12,7 +13,7 @@ ht-degree: 3%
 
 本发行说明涵盖了升级说明、兼容性矩阵，以及Adobe Experience Manager Guidesas a Cloud Service版本2023年11月中修复的问题(后称为 *Experience Manager指南as a Cloud Service*)。
 
-有关新增功能和增强功能的更多信息，请参阅 [2023年11月版《Experience Manager指南》as a Cloud Service的新增功能](whats-new-2023.11.0.md).
+有关新增功能和增强功能的详细信息，请查看 [2023年11月版《Experience Manager指南》as a Cloud Service的新增功能](whats-new-2023.11.0.md).
 
 ## 升级到2023年11月版
 
@@ -88,11 +89,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
-1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
+1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
-1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)
+1. API返回jobId。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`)
 
 
 1. 作业完成后，先前的GET请求会做出成功响应，并提及是否有任何映射失败。 可以从服务器日志中确认已成功编制索引的映射。

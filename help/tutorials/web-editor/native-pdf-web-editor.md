@@ -2,9 +2,9 @@
 title: 本机PDF |PDF输出生成
 description: 了解如何在AEM Guides中使用本机PDF发布、创建和生成PDF输出预设、在生成本机PDF输出后下载临时文件以及使用语言变量。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 4c10f2387208477bd2ba27188e8aeaa6f3a4a661
+source-git-commit: 1305c960df98553edbd1fb65c8f6e8da7c232087
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3327'
 ht-degree: 0%
 
 ---
@@ -165,8 +165,9 @@ ht-degree: 0%
 | **使用自定义分辨率（每英寸像素）** | 它是以像素/英寸为单位的页面显示分辨率。 在选中此选项时显示的字段中输入首选值。 默认值为每英寸96像素。 设置较高的值以在一英寸内容纳更多内容，如果设置较低的值，则反之亦然。 |
 | **显示水印** | 选择此选项可在输出中叠加水印。 您可以在文本框中输入新的文本字符串，其字符大小写符合您的要求。 <br><br>使用静态文本或语言变量发布水印的本地化版本。  根据您选择的语言，将在PDF输出中自动选取本地化的值。 例如，您可以将“Publisher”作为水印以英语打印，将“Auteure”作为水印以法语打印。  <br> 格式: `${lng:<variable name>}`. 例如， `$ {lng:publisher-label}` 位置 `publisher-label` 是语言变量。 <br> 将鼠标悬停在 <img src="./assets/info-details.svg" alt= "信息图标" width="25"> 靠近该选项，以查看有关该报表的更多详细信息。 |
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
-| **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
 | **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
+| **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **文件属性** | 选择要作为元数据处理的属性。 该下拉列表会同时列出自定义属性和默认属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 设置后，这些属性也会复制到映射中的主题中。 所选的元数据属性将传递到使用本机PDF生成的输出。 |
 
 ## 生成PDF输出 {#generate-pdf-output}
 

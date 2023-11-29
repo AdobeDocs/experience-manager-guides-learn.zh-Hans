@@ -2,9 +2,9 @@
 title: 从Web编辑器创建和管理基线
 description: 在AEM Guides中，通过Web编辑器创建和管理基线。 了解如何基于标签创建基线并将过滤器应用于基线。
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 1. 在“存储库”面板中，在“映射视图”中打开DITA映射文件。
 1. 单击 **管理** 选项卡。 此 **基线** 面板显示DITA映射的基线。
 
-   ![](images/baseline-manage.png){width="800" align="left"}
+   ![基线面板](images/baseline-manage.png){width="800" align="left"}
 
 1. 在 **基线** 单击右上角的+图标。 您可以创建基线，其中含有特定版本的主题和在特定日期和时间可用的引用内容，或者含有为某个版本的主题定义的标签。
 1. 输入中基线的名称 **基线名称**.
@@ -56,7 +56,7 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 
    基于标签的基线会动态更新。 如果您生成基线、下载基线或使用基线创建翻译项目，则系统会根据更新的标签动态选取文件。 例如，如果您使用了主题的1.2版和标签版本1.0作为基线，而更新的版本1.5和标签版本1.0，则将动态更新基线，并使用版本1.5。
 
-   ![](images/dynamic-baseline.png){width="550" align="left"}
+   ![创建基线](images/dynamic-baseline.png){width="550" align="left"}
 
    - **选择标签**：如果主题具有为其指定的标签，则标签将列在 **选择标签** 下拉菜单。 您可以从列表中选择标签。 首先选定的标签优先于后续的标签。
 
@@ -83,7 +83,9 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 
   ![基线选项](images/baseline-options.png){width="800" align="left"}
 
-也可以从“选项”菜单对基线执行以下操作：
+
+
+  也可以从“选项”菜单对基线执行以下操作：
 
 - **编辑**， **复制，** **重命名**，或 **删除** 现有基线。
 
@@ -106,7 +108,7 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 
 使用中的过滤器图标 **基线筛选器** 面板可以对在基线编辑窗口中打开的基线应用筛选器：
 
-![](images/baseline-filter.png){width="350" align="left"}
+![基线过滤器](images/baseline-filter.png){width="300" align="left"}
 
 - 根据文件名或文件位置筛选文件。
 - 根据不同列（如“文件类型”、“引用类型”等）的值筛选文件。

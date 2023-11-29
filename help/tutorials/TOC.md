@@ -2,9 +2,9 @@
 user-guide-title: AEM Guides 教程
 user-guide-description: 阅读 Adobe Experience Manager Guides 的系列教程。
 breadcrumb-title: AEM Guides 教程
-source-git-commit: 3da096cd419b63a5a68e4ee8dc39ceaa5f58d7de
+source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1633'
 ht-degree: 5%
 
 ---
@@ -20,30 +20,33 @@ ht-degree: 5%
       + 云服务 {#cloud-release-notes}
          + [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          + 2023版 {#2023-releases}
-         + 11月版 {#2311-release}
-            + [新增功能](./release-info/whats-new-2023.11.0.md)
-            + [发行说明](./release-info/release-notes-2023.11.0.md)
-         + 10月版 {#2310-release}
-            + [新增功能](./release-info/whats-new-2023.10.0.md)
-            + [发行说明](./release-info/release-notes-2023.10.0.md)
-         + 9月版 {#2309-release}
-            + [新增功能](./release-info/whats-new-2023.9.0.md)
-            + [发行说明](./release-info/release-notes-2023.9.0.md)
-         + 7月版 {#2307-release}
-            + [新增功能](./release-info/whats-new-2023.7.0.md)
-            + [发行说明](./release-info/release-notes-2023.7.0.md)
-         + 6月版 {#2306-release}
-            + [新增功能](./release-info/whats-new-2023.6.0.md)
-            + [发行说明](./release-info/release-notes-2023.6.0.md)
-         + 4月版 {#2304-release}
-            + [新增功能](./release-info/whats-new-2023.4.0.md)
-            + [发行说明](./release-info/release-notes-2023.4.0.md)
-         + 3月版 {#2303-release}
-            + [新增功能](./release-info/whats-new-2023.3.0.md)
-            + [发行说明](./release-info/release-notes-2023.3.0.md)
-         + 2月版 {#2302-release}
-            + [新增功能](./release-info/whats-new-2023.2.0.md)
-            + [发行说明](./release-info/release-notes-2023.2.0.md)
+            + 12月版 {#2312-release}
+               + [新增功能](./release-info/whats-new-2023.12.0.md)
+               + [发行说明](./release-info/release-notes-2023.12.0.md)
+            + 11月版 {#2311-release}
+               + [新增功能](./release-info/whats-new-2023.11.0.md)
+               + [发行说明](./release-info/release-notes-2023.11.0.md)
+            + 10月版 {#2310-release}
+               + [新增功能](./release-info/whats-new-2023.10.0.md)
+               + [发行说明](./release-info/release-notes-2023.10.0.md)
+            + 9月版 {#2309-release}
+               + [新增功能](./release-info/whats-new-2023.9.0.md)
+               + [发行说明](./release-info/release-notes-2023.9.0.md)
+            + 7月版 {#2307-release}
+               + [新增功能](./release-info/whats-new-2023.7.0.md)
+               + [发行说明](./release-info/release-notes-2023.7.0.md)
+            + 6月版 {#2306-release}
+               + [新增功能](./release-info/whats-new-2023.6.0.md)
+               + [发行说明](./release-info/release-notes-2023.6.0.md)
+            + 4月版 {#2304-release}
+               + [新增功能](./release-info/whats-new-2023.4.0.md)
+               + [发行说明](./release-info/release-notes-2023.4.0.md)
+            + 3月版 {#2303-release}
+               + [新增功能](./release-info/whats-new-2023.3.0.md)
+               + [发行说明](./release-info/release-notes-2023.3.0.md)
+            + 2月版 {#2302-release}
+               + [新增功能](./release-info/whats-new-2023.2.0.md)
+               + [发行说明](./release-info/release-notes-2023.2.0.md)
          + 2022版 {#2022-releases}
             + [11月发行说明](./release-info/release-notes-2022.11.0.md)
             + [10月发行说明](./release-info/release-notes-2022.10.0.md)
@@ -362,7 +365,9 @@ ht-degree: 5%
    + [用于处理文件夹配置文件的基于Java的API](./api-reference/folder-profile-java.md)
    + [用于创建和激活包的基于Java的API](./api-reference/create-activate-package-java.md)
    + [后处理事件处理程序](./api-reference/post-process-event.md)
+   + [批量激活完成事件处理程序](./api-reference/bulk-activation-complete-event.md)
    + [转换过程事件处理程序](./api-reference/conversion-complete-event.md)
+
 + 知识库 {#knowledge-base}
    + 专家讲座 {#expert-session}
       + [专家讲座概述](./knowledge-base/expert-sessions/expert-session.md)
@@ -377,7 +382,7 @@ ht-degree: 5%
       + [AEM Guides的扩展框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
-         + 报表 {#reports}
+         + 报告 {#reports}
             + [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          + Web编辑器 {#webeditor}
             + 自定义 {#customizing}
