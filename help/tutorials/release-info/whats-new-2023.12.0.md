@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年12月版）的新增功能
 description: 在2023年12月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能。
-source-git-commit: 9fcc8faec4631d710dbdfd7e4f8567069d0ba120
+source-git-commit: 8d24048af5f5583988da50927e31f2643d844e68
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,8 @@ ht-degree: 0%
 ![映射收藏集仪表板](assets/map-collection-dashboard.png){width="800" align="left"}
 
 *从地图集合仪表板查看、编辑和生成输出。*
+
+了解如何 [使用映射集合生成输出](../user-guide/generate-output-use-map-collection-output-generation.md).
 
 ## 在映射视图中查看关键属性
 
