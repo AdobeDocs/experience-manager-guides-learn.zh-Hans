@@ -2,18 +2,18 @@
 title: Adobe Experience Manager Guides编辑器课程3
 description: AEM Guides Web编辑器的高级用户指南
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
-source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 4%
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
-# 课程概述
+# 创作概述
 
 >[!VIDEO](https://video.tv.adobe.com/v/342759?quality=12&learn=on)
 
-在本课程中，您将学习如何使用以下内容：
+在本组教程中，您将学习如何使用以下内容：
 
 - [用户首选项、编辑器设置和编辑器工具栏](user-settings-preferences-toolbars.md)
 - [文件夹配置文件](folder-profiles.md)

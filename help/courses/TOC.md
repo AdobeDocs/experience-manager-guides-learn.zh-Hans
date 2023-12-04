@@ -1,20 +1,20 @@
 ---
-user-guide-title: Adobe Experience Manager Guides 视频
+user-guide-title: Adobe Experience Manager Guides教程
 user-guide-description: Adobe Experience Manager Guides 的视频收藏集。
 breadcrumb-title: AEM Guides 视频
-source-git-commit: 7d5e4616c0f36c696549e9e08a1b5c137f36a66c
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 18%
+source-wordcount: '125'
+ht-degree: 12%
 
 ---
 
 
-# [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides] 教程 {#videos}
 
 + [[!DNL AEM Guides] 视频](overview.md)
 + 快速入门 [!DNL AEM Guides] {#getting-started}
-   + [课程概述](./course-1/overview.md)
+   + [入门指南概述](./course-1/overview.md)
    + [了解AEM用户界面](./course-1/understanding-the-aem-user-interface.md)
    + [创建和构建内容](./course-1/creating-and-structuring-content.md)
    + [使用图像](./course-1/working-with-images.md)
@@ -24,18 +24,18 @@ ht-degree: 18%
    + [创建映射](./course-1/creating-a-map.md)
    + [发布默认输出](./course-1/publishing-default-output.md)
    + [回顾](./course-1/recap.md)
-+ 输出生成方式 [!DNL AEM Guides] {#output-generation}
-   + [概述](./course-2/overview.md)
++ 输出生成方法 [!DNL AEM Guides] {#output-generation}
+   + [输出生成概述](./course-2/overview.md)
    + [了解地图仪表板](./course-2/introduction-to-the-map-dashboard.md)
-   + [使用报告](./course-2/working-with-reports.md)
+   + [使用报表](./course-2/working-with-reports.md)
    + [使用基线创建和发布](./course-2/creating-and-publishing-with-baselines.md)
    + [使用条件发布](./course-2/publishing-with-conditions.md)
    + [了解输出预设](./course-2/output-presets.md)
-   + [排查发布错误](./course-2/troubleshooting-publishing-errors.md)
+   + [排查发布错误问题](./course-2/troubleshooting-publishing-errors.md)
    + [批量发布](./course-2/bulk-publishing.md)
    + [回顾](./course-2/recap.md)
 + 创作方式 [!DNL AEM Guides] 编辑者 {#advanced-user-guide}
-   + [简介/概述](./course-3/overview.md)
+   + [创作概述](./course-3/overview.md)
    + [用户首选项、编辑器设置和编辑器工具栏](./course-3/user-settings-preferences-toolbars.md)
    + [文件夹配置文件](./course-3/folder-profiles.md)
    + [编辑器配置](./course-3/editor-configuration.md)

@@ -1,17 +1,17 @@
 ---
-title: 输出生成方式 [!DNL AEM Guides]
-description: 输出生成方式 [!DNL Adobe Experience Manager Guides]
+title: 输出生成方法 [!DNL AEM Guides]
+description: 输出生成方法 [!DNL Adobe Experience Manager Guides]
 exl-id: 3786dc47-e006-4059-ba8f-4dc66dbbcf71
-source-git-commit: b5e64512956f0a7f33c2021bc431d69239f2a088
+source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 2%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
-# 概述
+# 输出生成概述
 
-在本课程中，您将学习如何执行以下操作：
+在本教程中，您将学习如何执行以下操作：
 
 - [了解地图仪表板](./introduction-to-the-map-dashboard.md)
 - [使用报告](./working-with-reports.md)
