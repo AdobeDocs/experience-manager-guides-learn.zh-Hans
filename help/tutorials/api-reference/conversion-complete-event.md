@@ -1,13 +1,12 @@
 ---
 title: 转换过程事件处理程序
 description: 了解转换过程事件处理程序
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 0%
 
 ---
-
 
 # 转换过程事件处理程序 {#id175UB30E05Z}
 
@@ -23,6 +22,5 @@ AEM Guides会公开用于在文档转换过程完成后执行任何后处理操�
 com/adobe/fmdita/conversion/complete 
 ```
 
-**参数**:\
+**参数**：\
 名称|类型|描述| --------文----------- |`status`|字符串|所执行操作的返回状态。 可能的选项有： — 成功：转换过程已成功完成。 <br>  — 已完成，但出现错误：转换过程已完成，但有一些错误。 <br> — 失败：转换过程由于某个致命错误而失败。| |`filePath`|字符串|AEM存储库中源文件\（待转换\）的绝对路径。| |`outputPath`|字符串|将保存转换的DITA文件的目标位置的绝对路径。| |`logPath`|字符串|将保存转换日志的节点的绝对路径。|
-

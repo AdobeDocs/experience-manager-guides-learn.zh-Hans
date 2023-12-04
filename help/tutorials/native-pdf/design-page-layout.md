@@ -1,10 +1,9 @@
 ---
 title: 本机PDF发布功能 |设计页面布局
 description: 了解如何设计页面布局以在PDF输出的各个部分展示信息。
-exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5abcc887a24d838caabdf9a34a84ebc851ed4cbf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '4807'
+source-wordcount: '4825'
 ht-degree: 0%
 
 ---
@@ -416,7 +415,7 @@ PDF文档通常包含以下部分：
 
    1. 单击痕迹导航上的Field元素以选择Chapter Title字段。
 
-   1. 在右侧面板中，单击 **内容属性** (<img src="./assets/content-properties-icon.png" width="25">) 图标.
+   1. 在右侧面板中，单击 **内容属性** (<img src="./assets/content-properties-icon.png" width="25">)图标。
 
    1. 展开 **布局** 属性部分，并设置 **浮动** 属性值到 **右**.
       <img src="./assets/float-prop-html-content.png" width="400">
@@ -468,7 +467,7 @@ PDF文档通常包含以下部分：
 
 1. 将光标置于页面布局的内容区域中。
 
-1. 单击章节目录(<img src="./assets/chapter-toc-icon.svg">) 图标.
+1. 单击章节目录(<img src="./assets/chapter-toc-icon.svg">)图标。
 
    默认章节TOC插入到内容区域中。
 

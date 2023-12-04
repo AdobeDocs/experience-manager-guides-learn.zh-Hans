@@ -1,21 +1,20 @@
 ---
 title: 自定义Web编辑器
 description: 了解如何自定义Web编辑器
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
 
 ---
 
-
 # 自定义Web编辑器 {#id181AI0003PN}
 
-AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的作者可以创建和编辑DITA文档。 可以自定义Web编辑器的工具栏，以添加或删除任何可以从工具栏访问的功能。 此外，您还可以配置文件的自动保存、在元素插入到文档中时为其生成ID等等。 以下部分介绍了可以在Web编辑器中自定义的功能：
+AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的作者可以创建和编辑DITA文档。 您可以自定义Web编辑器的工具栏，以添加或删除您可以从工具栏访问的任何功能。 此外，您还可以配置文件的自动保存、在元素插入到文档中时为其生成ID等等。 以下部分介绍了可以在Web编辑器中自定义的功能：
 
 - [自定义工具栏](conf-web-editor-customize-toolbar.md)
 
-- [为“标记”视图配置默认值](configure-default-value-tags-view.md)
+- [配置标记视图的默认值](configure-default-value-tags-view.md)
 
 - [配置基于UUID的链接的显示](conf-uuid-based-links.md)
 
@@ -23,7 +22,7 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 
 - [在左侧面板中配置自定义面板](configure-custom-panel.md)
 
-- [在Web编辑器中自动保存配置文件](auto-save-in-editor.md)
+- [在Web编辑器中配置文件自动保存](auto-save-in-editor.md)
 
 - [配置关闭时另存为新版本的提示](conf-save-as-new-version-close.md)
 
@@ -40,5 +39,3 @@ AEM Guides附带一个功能强大的Web编辑器，通过该编辑器，您的�
 - [配置查询的LimitReads数](conf-query-limitreads.md)
 
 - [安装用于基于文章的发布的包](configure-article-based-publishing.md)
-
-

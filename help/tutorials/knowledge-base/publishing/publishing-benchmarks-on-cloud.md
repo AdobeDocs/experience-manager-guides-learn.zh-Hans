@@ -1,10 +1,9 @@
 ---
 title: 在AEMaaCS上发布基准的指南
 description: 了解AEM Cloud上发布的系统限制。
-exl-id: cc6e38b9-6276-4147-beda-93f66368e15d
-source-git-commit: 06a55ef933f9e7941cef2337212a830413a478af
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 8%
 
 ---
@@ -39,6 +38,6 @@ ht-degree: 8%
 
 ## 要记住的要点
 
-- AEM Site通过在生成期间单独呈现多个cq：Page节点和拼合来创建它们。 因此，建议避免运行大量并发AEM Site发布，因为这会增加系统负担。
-- AEM站点生成时间取决于使用的模板。 如果使用复杂模板，执行时间可能会增加。
+- AEM Site通过在生成期间分别呈现多个cq：Page节点和拼合文件，来创建这些节点和拼合文件。 因此，建议您避免运行大型的多次AEM Site并发发布，因为这会增加系统的负担。
+- AEM站点生成时间取决于所使用的模板。 如果使用复杂模板，执行时间可能会增加。
 - 自定义发布执行时间用于示例自定义输出。 自定义发布时间完全取决于客户自己的转换逻辑。

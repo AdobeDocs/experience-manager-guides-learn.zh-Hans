@@ -1,8 +1,7 @@
 ---
 title: 为AEM Guidesas a Cloud Service配置新的基于微服务的发布
 description: 了解如何为AEM Guides配置新的基于微服务的发布。
-exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
-source-git-commit: aa71a2b8ff5f83365ff2f3562bb2b77061a3da8e
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -105,7 +104,7 @@ ht-degree: 0%
 **文件**：
 `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
-**内容**:
+**内容**：
 
 ```
 {
@@ -116,7 +115,7 @@ ht-degree: 0%
 
 **文件**： `com.adobe.fmdita.publishworkflow.PublishWorkflowConfigurationService.xml`
 
-**内容**:
+**内容**：
 * `dxml.use.publish.microservice`：切换到使用DITA-OT启用基于微服务的发布
 * `dxml.use.publish.microservice.native.pdf`：切换到启用基于微服务的本机PDF发布
 

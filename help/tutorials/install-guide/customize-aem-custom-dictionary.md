@@ -1,17 +1,16 @@
 ---
 title: 自定义AEM默认词典
 description: 了解如何自定义AEM默认词典
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-
 # 自定义AEM默认词典 {#id209SD8000WU}
 
-可以将Web编辑器配置为使用AEM拼写检查器或浏览器的拼写检查器。 如果您选择使用AEM拼写检查器，则可以灵活地定义自定义单词列表。 这些自定义单词随后将添加到AEM词典中，并且不会在Web编辑器中将这些单词标记为\（不正确\）。
+可以将Web编辑器配置为使用AEM拼写检查器或浏览器的拼写检查器。 如果您选择使用AEM拼写检查器，则可以灵活地定义自定义单词列表。 然后，这些自定义单词将添加到AEM词典中，并且这些单词在Web编辑器中不会被标记为\（不正确\）。
 
 执行以下步骤可创建添加到AEM词典中的自定义单词列表：
 
@@ -29,10 +28,9 @@ ht-degree: 0%
 
    ![](assets/custom-words-list-dictionary.png){width="650" align="left"}
 
-1. 保存并关闭文件。
+1. 保存并关闭该文件。
 
 
-作者需要重新启动其Web编辑器会话，才能在AEM词典中更新自定义单词列表。
+作者需要重新启动Web编辑器会话才能在AEM词典中更新自定义词列表。
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

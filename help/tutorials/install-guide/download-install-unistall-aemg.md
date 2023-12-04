@@ -1,21 +1,20 @@
 ---
 title: 卸载AEM Guides
 description: 了解如何卸载AEM Guides
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-
 # 卸载AEM Guides {#id21BHG0C0SXA}
 
-您可以使用CRX包管理器卸载AEM Guides。 在卸载过程中，存储库的内容将恢复到紧接在安装软件包之前创建的快照。
+您可以使用CRX包管理器卸载AEM Guides。 在卸载过程中，存储库的内容将恢复到紧接着软件包安装之前创建的快照。
 
 执行以下步骤卸载AEM Guides：
 
-1. 登录AEM实例并导航到CRX包管理器。 访问包管理器的默认URL是：
+1. 登录AEM实例并导航到CRX包管理器。 访问包管理器的默认URL为：
 
    ```http
    http://<server name>:<port>/crx/packmgr/index.jsp
@@ -37,7 +36,7 @@ ht-degree: 0%
    http://<host>:<port>/system/console/scriptcache
    ```
 
-1. 您可以使用以下命令使缓存失效：
+1. 您可以使用以下代码使缓存失效：
 
    ```http
    http://<host>:<port>/libs/granite/ui/content/dumplibs.rebuild.html?back=true
@@ -47,4 +46,3 @@ ht-degree: 0%
 1. 清理浏览器的缓存。
 
 **父主题：**[&#x200B;下载并安装](download-install.md)
-

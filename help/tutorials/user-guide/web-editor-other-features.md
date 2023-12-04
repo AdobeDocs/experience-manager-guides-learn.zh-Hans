@@ -1,10 +1,9 @@
 ---
 title: Web编辑器中的其他功能
 description: 浏览AEM Guides中Web编辑器的其他功能。 了解如何在AEM Guides中使用这些功能来改进创作。
-exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2248'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 0%
 
 在打开的文件选项卡的上下文菜单中，可以获取以下函数：
 
-:   ![](images/single-file-context-menu.png){width="300" align="left"}
+：   ![](images/single-file-context-menu.png){width="300" align="left"}
 
 **多个文件**
 

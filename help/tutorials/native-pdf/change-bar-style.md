@@ -1,8 +1,7 @@
 ---
 title: 本机PDF发布功能 |使用自定义更改条样式
-description: 了解如何在更改栏上应用样式。
-exl-id: a81ec56c-ccbb-4599-a696-8edef7a73cdd
-source-git-commit: 7b48633ef2418fa7c91842a8d2c2a4177017ef58
+description: 了解如何在更改条中应用样式。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -11,13 +10,13 @@ ht-degree: 0%
 
 # 使用自定义更改条样式
 
-更改条是一条垂直线，用于直观地标识新内容或修订的内容。 AEM Guides允许您在主题中更改的内容左侧显示更改栏，并且还允许您在PDF输出的目录中显示更改的主题。
+更改条是一条垂直线，用于直观地标识新内容或修订的内容。 AEM Guides允许您在PDF输出的目录的主题和已更改的主题的左侧显示更改栏。
 
-有关显示更改栏的更多详细信息，请参阅 *在已发布的版本之间创建具有更改栏的PDF* 在中设置 [发布PDF输出](../web-editor/native-pdf-web-editor.md).
+有关显示更改栏的更多详细信息，请参阅 *在已发布的版本之间使用更改栏创建PDF* 在中设置 [发布PDF输出](../web-editor/native-pdf-web-editor.md).
 
 ## 更改的主题内容
 
-更改栏显示在已插入、更改或删除的主题中内容的左侧。
+更改栏显示在已插入、更改或删除的主题的内容左侧。
 
 您可以修改以下样式以显示更改的内容以及更改栏。
 
@@ -78,11 +77,11 @@ ht-degree: 0%
 
 <img src="./assets/changed-bar-content.png" alt="更改了条形图主题内容" width="500">
 
-## 目录(TOC)中更改的主题
+## 更改了目录(TOC)中的主题
 
-您还可以在PDF输出的目录中已更改的主题左侧添加更改栏。 您可以使用 `-ro-change-bar-color` 中的属性 `.changed-topic` 样式，为目录列表中的更新主题以您选择的颜色添加更改栏。
+您还可以在PDF输出目录中已更改的主题左侧添加更改栏。 您可以使用 `-ro-change-bar-color` 中的属性 `.changed-topic` 样式，为目录列表中的更新主题以您选择的颜色添加更改栏。
 
-例如，您可以添加绿色更改栏。
+例如，可以添加绿色更改栏。
 
 ```css
 ...
@@ -93,6 +92,6 @@ ht-degree: 0%
 ```
 
 
-该屏幕会针对目录中所有进行了更新的主题显示一个绿色更改栏。 您可以单击目录中已更改的主题并查看详细更改。
+该选项会针对目录中所有已完成更新的主题显示绿色更改栏。 您可以单击目录中已更改的主题并查看详细更改。
 
 <img src="./assets/changed-bar-TOC.png" alt="更改条目录" width="500">

@@ -1,8 +1,7 @@
 ---
 title: 条件属性分析
 description: 了解如何在AEM Guides中创建条件属性。 使用文件夹和全局配置文件中的条件属性来条件化您的内容。
-exl-id: 31b0ffe6-44e7-459d-a8df-a64ec868768c
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%

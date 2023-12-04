@@ -1,10 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年9月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年9月版
-source-git-commit: 3f79dfbc747b3d2efc05608d05df6ba45e53d877
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 3%
+source-wordcount: '1486'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ POST：
 http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 ```
 
-响应:
+响应：
 
 ```
 {
@@ -132,7 +132,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 无法在Web编辑器中签出文件，尽管选择了NO选项以在签入前放弃更改。 (12557)
 - 在Web编辑器中，主工具栏中锁定和解锁文件图标的工具提示与存储库视图中显示的图标不一致。(12555)
 - 在Web编辑器中，对于尚未在“映射视图”中签出的文件，将显示“取消签出”和“解锁”选项。 (12556)
-- 无法在现有“topicref”链接中选择PDF资源。 (12477).
+- 无法在现有“topicref”链接中选择PDF资源。 (12477)。
 - 在“存储库视图”中，使用搜索/筛选功能后无法拖动主题或图像。 (12396)
 - 打开一个搜索的文件后，会在“查找和替换”面板中禁用搜索结果。 (12142)
 - 侧键盘上的“8”数字键在AEM Guides编辑器中不起作用。 (12106)
@@ -176,7 +176,3 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 导出翻译的重命名基线的过程失败。 (12993)
 - 将显示已翻译文件的标题来代替源文件的标题。 (11630)
-
-
-
-

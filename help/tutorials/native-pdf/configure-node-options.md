@@ -1,13 +1,12 @@
 ---
 title: 本机PDF |为本机PDF发布配置节点进程
 description: 了解如何为本机PDF发布配置节点进程
-source-git-commit: 45974b88a5b1bbbd2d83ea5cc18e0def2f15c51f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
-
 
 # 为本机PDF发布配置节点进程
 
@@ -17,5 +16,4 @@ ht-degree: 3%
 
 | PID | 属性键 | 属性值 |
 |---|---|---|
-| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 用于设置任何标准的字符串值 `NODE_OPTIONS`.<BR> 默认值: &quot;&quot; |
-
+| `com.adobe.fmdita.config.ConfigManager` | `native.pdf.node.opts` | 用于设置任何标准的字符串值 `NODE_OPTIONS`.<BR> 默认值：“” |

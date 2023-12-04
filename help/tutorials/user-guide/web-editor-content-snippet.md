@@ -1,10 +1,9 @@
 ---
 title: 插入数据源中的内容片段
 description: 在AEM Guides中使用来自数据源的数据。 了解如何从数据源插入内容片段。 使用主题生成器创建主题。
-exl-id: fbd5eff2-451b-49d6-ba77-6eb271e94349
-source-git-commit: f7a0140a274a83dfeb6a1ba70ae9c09297d1754c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2066'
 ht-degree: 0%
 
 ---

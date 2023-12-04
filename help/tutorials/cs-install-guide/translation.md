@@ -1,19 +1,18 @@
 ---
 title: 翻译内容
 description: 了解如何翻译内容
-source-git-commit: 4d54c52b8771b0c5a40018cfec3a6586029af2fb
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 14%
+source-wordcount: '651'
+ht-degree: 11%
 
 ---
-
 
 # 翻译内容 {#id181GB0400UI}
 
 自动翻译页面内容、资产和用户生成的内容，以创建和维护多语言网站。 要自动化翻译工作流，您可以将翻译服务提供商与 AEM 集成并创建项目以将内容翻译成多种语言。AEM 支持人工翻译工作流和机器翻译工作流。
 
-- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
+- 人工翻译：内容将发送给您的翻译提供商并由专业翻译人员进行翻译。 完成后，将返回翻译的内容并将其导入 AEM。当您的翻译提供商与AEM集成时，内容会在AEM和翻译提供商之间自动交换
 
 - 机器翻译：机器翻译服务将立即翻译您的内容
 
@@ -48,7 +47,7 @@ ht-degree: 14%
 
    | PID | 属性键 | 属性值 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 布尔值\( true/ false\)。<br> **默认值**: `true` |
+   | `com.adobe.fmdita.config.ConfigManager` | `tabs.translation` | 布尔值\( true/ false\)。<br> **默认值**： `true` |
 
    >[!NOTE]
    >
@@ -82,4 +81,3 @@ ht-degree: 14%
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `postprocess.temporary.langcopies` | 布尔型： <br>  — 如果不想对临时文件运行后处理操作，则 *禁用* \( false\) **后处理语言副本** 选项。<br>  — 如果要对临时文件运行后处理操作，则 *启用* \( true\) **后处理语言副本** 选项。<br> **默认值**： false |
-

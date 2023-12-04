@@ -1,13 +1,12 @@
 ---
 title: 用于生成输出的基于Java的API
 description: 了解用于生成输出的基于Java的API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
-
 
 # 用于生成输出的基于Java的API {#id175UB30E05Z}
 
@@ -48,4 +47,3 @@ throws GuidesApiException
 **参数**： 名称|类型|描述| --------文----------- |`session`|javax.jcr.Session|有效的JCR会话。| |``sourcePath``|字符串|需要为其生成输出的DITA映射文件的路径\(在AEM存储库中\)。| |``outputName``|字符串|要用于生成输出的输出预设的名称。 可以使用管道分隔符(“\|”\)指定多个输出预设，例如 `aemsite\|pdfoutput`.|
 
 **例外**：丢弃 ``javax.jcr.RepositoryException``， `java.io.IOException`、和 `java.lang.Exception`.
-

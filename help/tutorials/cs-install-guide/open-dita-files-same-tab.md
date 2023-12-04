@@ -1,13 +1,12 @@
 ---
 title: 在同一选项卡中打开DITA主题或映射文件
 description: 了解如何在同一选项卡中打开DITA主题或映射文件
-source-git-commit: 4f15166b1b250578f07e223b0260aacf402224be
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
 
 ---
-
 
 # 在同一选项卡中打开DITA主题或映射文件 {#id223HH0301J3}
 
@@ -19,18 +18,17 @@ ht-degree: 0%
 |---|------------|--------------|
 | `com.adobe.fmdita.xmleditor.config.XmlEditorConfig` | `xmleditor.openinsametab` | 布尔值\(true/false\)。 <br> **默认值**： `false` |
 
-此设置会影响以下您可以访问主题或映射文件的位置：
+此设置会影响以下位置，您可以从中访问主题或映射文件：
 
 - 创建DITA主题\(在工作流结束时，当您单击 **打开主题** button\)
 
-- 创建DITA映射\(在工作流结束时，当您单击 **打开映射** button\)
+- 创建DITA映射\(在工作流结束时，当您单击 **打开地图** button\)
 
-- DITA map控制台中的“主题”选项卡
+- DITA映射控制台中的“主题”选项卡
 
-- DITA map控制台中的“基线”选项卡
+- DITA映射控制台中的“基线”选项卡
 
 - DITA映射控制台中的“报表”选项卡
 
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

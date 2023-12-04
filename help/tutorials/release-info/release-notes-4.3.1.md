@@ -1,10 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.1版中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.1版本
-source-git-commit: eb22fe5d4872b0e5c6594869193799fd9e64d95d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 5%
+source-wordcount: '1306'
+ht-degree: 1%
 
 ---
 

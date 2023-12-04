@@ -1,8 +1,7 @@
 ---
 title: 了解如何翻译内容
 description: 在AEM Guides中将您的内容翻译成多种语言。 了解人工翻译工作流和机器翻译工作流。
-exl-id: 21a3307f-2b25-40e8-8801-2f3fd5b2415f
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 1%

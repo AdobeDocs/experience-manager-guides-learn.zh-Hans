@@ -1,13 +1,12 @@
 ---
 title: 用于转化工作流的基于Java的API
 description: 了解用于转化工作流的基于Java的API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
-
 
 # 用于转化工作流的基于Java的API {#id175UB30E05Z}
 
@@ -68,4 +67,3 @@ public static void convertWordToDita(Session session,
 **参数**： 名称|类型|描述| --------文----------- |`session`|javax.jcr.Session|有效的JCR会话。| |`inputFile`|字符串|AEM存储库中源Word文件的绝对路径。| |`destPath`|字符串|将保存转换的DITA文件的目标位置的绝对路径。| |`style2tagMap`|字符串|用于转换的样式映射文件的绝对路径。| |`createRev`|布尔值|指定是否创建文件的修订版本\( `true`\)是否位于指定的目标\( `false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。|
 
 **例外**：丢弃 `RepositoryException`.
-

@@ -1,13 +1,12 @@
 ---
 title: 使用DITA映射的REST API
 description: 了解用于DITA映射的REST API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # 使用DITA映射的REST API {#id175UB30E05Z}
 
@@ -43,4 +42,3 @@ ht-degree: 0%
 |名称|类型|必需|描述| --------------------------- |`jobId`|字符串|是|启动导出作业时检索到的作业ID。|
 
 **响应值**： 元素|描述| ------------------ |`status`|导出作业的状态。 可能的选项包括：“已启动”、“失败”、“进行中”、“成功”、“缺失”、“已删除”| |`jobId`|作业的唯一ID。 以后可用于查询状态。| |`errorMessage`|失败时作业的错误消息\（如果状态为“失败”、“缺失”或“已删除”\）。| |`filePath`|ZIP文件的路径。 仅当作业已完成且状态为“成功”时，它才会出现。 这可用于下载ZIP文件。|
-

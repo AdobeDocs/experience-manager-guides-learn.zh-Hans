@@ -1,8 +1,7 @@
 ---
 title: 管理全局和文件夹配置文件输出预设
 description: 了解如何在AEM Guides中创建、编辑、重命名、复制和删除作为管理用户的全局和文件夹配置文件输出预设。
-exl-id: 549c9fe2-77f8-423c-8b3e-b43e56055732
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%

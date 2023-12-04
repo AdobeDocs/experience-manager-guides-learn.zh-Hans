@@ -1,15 +1,14 @@
 ---
-title: 配置 Dispatcher
-description: 了解如何配置Dispatcher
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+title: 配置Dispatch
+description: 了解如何配置调度程序
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 22%
+source-wordcount: '81'
+ht-degree: 14%
 
 ---
 
-
-# 配置 Dispatcher {#id213BCM0M05U}
+# 配置Dispatch {#id213BCM0M05U}
 
 Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关更多详细信息，请参阅 [云中的调度程序](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/content-delivery/disp-overview.html?lang=en).
 
@@ -18,7 +17,6 @@ Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有
 
 >[!NOTE]
 >
-> AEM as a cloud service不支持用于创作实例的Dispatcher。
+> AEM as a cloud service不支持将Dispatcher用于创作实例。
 
 **父主题：**[&#x200B;下载并安装](download-install.md)
-

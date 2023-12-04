@@ -1,13 +1,12 @@
 ---
 title: 用于创建和激活包的基于Java的API
 description: 了解用于创建和激活包的基于Java的API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
-
 
 # 用于创建和激活包的基于Java的API {#id175UB30E05Z}
 
@@ -90,4 +89,3 @@ throws GuidesApiException
 - 该包中仅包含/content/dam/nested路径下的.png、.jpg和.gif图像。
 - /content/output/sites/hierarchy\_ditamap下的所有节点都包含在包中。
 - 中存在的路径 `fileReference` /content/output/sites/hierarchy\_ditamap下的节点的属性包含在包中。
-

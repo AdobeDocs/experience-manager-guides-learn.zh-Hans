@@ -1,13 +1,12 @@
 ---
 title: 用于基线和标签的基于Java的API
 description: 了解用于基线和标签的基于Java的API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
-
 
 # 用于基线和标签的基于Java的API {#id175UB30E05Z}
 
@@ -50,7 +49,7 @@ LinkedHashMap indirectContext)
 throws GuidesApiException
 ```
 
-**参数**： 名称|类型|描述| --------文----------- |`session`|javax.jcr.Session|有效的JCR会话。 用户会话需要同时具有DITA映射的读取和写入权限以及基线中包含的所有引用文件的读取权限。| |`sourcePath`|字符串|AEM存储库中DITA映射文件的绝对路径。| |`baselineTitle`|字符串|基线的唯一标题。| |`label`|字符串|选择应用了给定标签的主题版本。| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|选择直接引用主题\(content\)的配置，按照映射中提到的顺序解析版本。 <br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。 <br> 如果HashMap为空\（发送空映射，默认为null映射\），则默认填充为： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 如果您希望基线创建仅选取给定标签的版本，如果没有此类版本，则失败，请将 `label` 键和要在其中创建基线的标签。| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|选择间接引用主题\（引用的内容\）所依据的配置，按照映射中提到的顺序解析版本。 <br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。 <br> 如果HashMap为空\（发送空映射，默认为null映射\），则默认填充为： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 如果您希望它成为最新版本而不是自动选取版本，请替换： <br>`indirectContext.put("pickAutomatically", null);` <br> _替换为:_ <br>`indirectContext.put("latest", true)`|
+**参数**： 名称|类型|描述| --------文----------- |`session`|javax.jcr.Session|有效的JCR会话。 用户会话需要同时具有DITA映射的读取和写入权限以及基线中包含的所有引用文件的读取权限。| |`sourcePath`|字符串|AEM存储库中DITA映射文件的绝对路径。| |`baselineTitle`|字符串|基线的唯一标题。| |`label`|字符串|选择应用了给定标签的主题版本。| |`directContext`|LinkedHashMap&lt;string object=&quot;&quot;>|选择直接引用主题\(content\)的配置，按照映射中提到的顺序解析版本。 <br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。 <br> 如果HashMap为空\（发送空映射，默认为null映射\），则默认填充为： <br>`directContext.put("label", label);` <br> `directContext.put("latest", true);` <br> 如果您希望基线创建仅选取给定标签的版本，如果没有此类版本，则失败，请将 `label` 键和要在其中创建基线的标签。| |`indirectContext`|LinkedHashMap&lt;string object=&quot;&quot;>|选择间接引用主题\（引用的内容\）所依据的配置，按照映射中提到的顺序解析版本。 <br> 如果在迭代映射的所有键后未找到版本，则基线创建过程将失败。 <br> 如果HashMap为空\（发送空映射，默认为null映射\），则默认填充为： <br>`indirectContext.put("label", label);` <br>`indirectContext.put "pickAutomatically", null);` <br> 如果您希望它成为最新版本而不是自动选取版本，请替换： <br>`indirectContext.put("pickAutomatically", null);` <br> _替换为：_ <br>`indirectContext.put("latest", true)`|
 
 **返回**：基线的名称，是JCR存储库中基线的节点名称。 新创建的基线的标题将显示在DITA映射的“基线”页上，供用户使用。
 
@@ -109,4 +108,3 @@ String label) throws GuidesApiException
 **返回**：映射和 *键：值* 对 `path:deletedlabels` 基线中的所有文件。
 
 **例外**：丢弃 ``RepositoryException`, `VersionException`, `Exception``.
-

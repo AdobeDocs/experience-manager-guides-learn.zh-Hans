@@ -1,10 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.0版本
-source-git-commit: b53f76c2f0234c1ef6c65d954311e3f8c980ffe2
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 5%
+source-wordcount: '1086'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 - 无法在Web编辑器中签出文件，尽管选择了NO选项以在签入前放弃更改。 (12557)
 - 在Web编辑器中，主工具栏中锁定和解锁文件图标的工具提示与存储库视图中显示的图标不一致。(12555)
 - 在Web编辑器中，对于尚未在“映射视图”中签出的文件，将显示“取消签出”和“解锁”选项。 (12556)
-- 无法在现有“topicref”链接中选择PDF资源。 (12477).
+- 无法在现有“topicref”链接中选择PDF资源。 (12477)。
 - 在表中执行合并和拆分时，AEM Guides 4.2会生成其他表单元格。 (11793)
 - 在“存储库视图”中，使用搜索/筛选功能后无法拖动主题或图像。 (12396)
 - 打开一个搜索的文件后，会在“查找和替换”面板中禁用搜索结果。 (12142)

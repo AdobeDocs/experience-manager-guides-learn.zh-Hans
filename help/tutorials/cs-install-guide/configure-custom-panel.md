@@ -1,20 +1,19 @@
 ---
 title: 在左侧面板中配置自定义面板
 description: 了解如何在左侧面板中配置自定义面板
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
 
 ---
 
-
 # 在左侧面板中配置自定义面板 {#id224JI200Y6F}
 
 执行以下步骤，在Web编辑器的左侧面板中添加自定义面板：
 
 1. 创建 *clientlib* 并将JavaScript和CSS文件添加到此文件夹中。
-1. 更新以下项的类别属性： *clientlib* 文件夹，为其分配 *apps.fmdita.xml\_editor.page\_overrides*.
+1. 更新 *clientlib* 文件夹，为其分配 *apps.fmdita.xml\_editor.page\_overrides*.
 
 用于配置自定义面板的示例代码：
 
@@ -56,4 +55,3 @@ tcx.ready(function () { //Ready will call the callback after editor code is set 
 ```
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

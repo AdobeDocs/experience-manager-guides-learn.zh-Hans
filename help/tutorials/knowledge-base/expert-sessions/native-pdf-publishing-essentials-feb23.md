@@ -1,17 +1,16 @@
 ---
 title: 本机PDF发布要点
-description: 了解如何在AEM Guides中使用本机PDF引擎发布PDF。
-exl-id: e7ba6d2d-ebfb-4400-9b10-c4fb173123cf
-source-git-commit: 093cb6c3b3a523e56f401e813c2b51a414c725d2
+description: 了解如何使用AEM Guides中的本机PDF引擎发布PDF。
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '204'
 ht-degree: 1%
 
 ---
 
 # 本机PDF发布要点
 
-AEM Guides具有内置的PDF发布引擎，为用户提供了以PDF格式创建、开发和发布内容的功能。 其丰富的功能集可用于创建多样化的页面布局、自定义样式表以及设计无缝内容发布所需的各种PDF组件。
+AEM Guides具有内置的PDF发布引擎，该引擎为用户提供了以PDF格式创建、开发和发布内容的功能。 其丰富的功能允许创建各种页面布局、自定义样式表以及设计无缝内容发布所需的各种PDF组件。
 
 ## 会话概述
 
@@ -26,12 +25,12 @@ AEM Guides具有内置的PDF发布引擎，为用户提供了以PDF格式创建�
 - **日期** - 2023年2月23日
 - **与会者人数** - 135
 - **持续时间** - 60分钟
-- **Audience**  — 客户、合作伙伴和Adobe员工
+- **受众**  — 客户、合作伙伴和Adobe员工
 
 ## 要点
 
-在本课程中，您将了解以下内容：
-- PDF发布Essentials
+在本课程中，您将学习以下内容：
+- PDF发布要点
 - 创建和自定义PDF模板的各种组件
 - 用于发布的内容结构和样式
 - 通过脚本处理输出
@@ -43,14 +42,13 @@ AEM Guides具有内置的PDF发布引擎，为用户提供了以PDF格式创建�
 
 - **用户指南** - [本机PDF发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/configuring/config-native-pdf-publish/pdf-template.html?lang=en)
 
-- **社区论坛**  — 对于特定会话的Experience League社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
+- **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides中可用：
 > - 内部部署4.2或更高版本
-> - Cloud Services2211及更高版本
-
+> - Cloud Service2211及更高版本
 
 ## 联系我们
 

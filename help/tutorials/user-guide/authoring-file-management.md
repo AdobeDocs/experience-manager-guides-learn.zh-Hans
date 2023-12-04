@@ -1,10 +1,9 @@
 ---
 title: 管理文件和文件夹
 description: 了解如何在AEM Guides中管理文件和文件夹。 复制和粘贴、拖放、删除、批量移动文件和文件夹以及搜索DITA内容。
-exl-id: e7810b06-f49f-467a-b987-a5e6f731d4cf
-source-git-commit: 3cc7a9bf91881ed09173077be7d7fc7705295e4b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3108'
 ht-degree: 0%
 
 ---

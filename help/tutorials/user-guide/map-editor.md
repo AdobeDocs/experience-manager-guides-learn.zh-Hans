@@ -1,8 +1,7 @@
 ---
 title: 使用映射编辑器
 description: 使用AEM Guides中的映射编辑器。 了解如何在AEM映射编辑器中创建和编辑映射文件。
-exl-id: 19f40bc2-0f44-43fc-bc9f-1e2692eb11d6
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%

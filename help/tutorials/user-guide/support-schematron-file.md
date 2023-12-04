@@ -1,10 +1,9 @@
 ---
 title: 支持Schematron文件
 description: 了解如何在AEM Guides的Schematron文件中导入和验证DITA主题、使用声明报表语句检查规则、使用正则表达式以及定义抽象模式。
-exl-id: ed07a5ec-6adc-43a3-8f03-248b8c963e9a
-source-git-commit: 05a7b46b0c6ec056f85a82759400717fce9a845c
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---

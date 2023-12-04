@@ -1,13 +1,12 @@
 ---
 title: 用于转换工作流的REST API
 description: 了解用于转换工作流的REST API
-source-git-commit: 8707acf3ba01b7488eea6597c434da73a901d037
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
-
 
 # 用于转换工作流的REST API {#id175UB30E05Z}
 
@@ -42,4 +41,3 @@ ht-degree: 0%
 **参数**： |名称|类型|必需|描述| --------------------------- |``operation``|字符串|是|要调用的操作的名称。 此参数的值为 ``idml2dita``. <br> **注意：** 该值不区分大小写。| |`inputFile`|字符串|是|AEM存储库中源InDesign文件的绝对路径。| |`destPath`|字符串|是|将保存转换的DITA文件的目标位置的绝对路径。| |`createRev`|布尔值|是|指定是否创建文件的修订版本\( `true`\)是否位于指定的目标\( `false`\)。 仅当目标位置包含转换文件的现有版本时，才考虑使用此选项。|
 
 **响应值**：返回HTTP 200 \(Successful\)响应。
-

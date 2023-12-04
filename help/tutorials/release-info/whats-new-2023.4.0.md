@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月版
-description: Adobe Experience Manager Guidesas a Cloud Service版2023年4月版
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+description: Adobe Experience Manager Guidesas a Cloud Service2023年4月版
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ ht-degree: 0%
 
 ## PDF发布中的高级元数据支持
 
-AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，例如作者姓名、文档标题、关键字、版权信息和其他数据字段。
+AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，如作者姓名、文档标题、关键字、版权信息和其他数据字段。
 
-<img src="assets/pdf-metadata.png" alt=" 本机pdf元数据">
+<img src="assets/pdf-metadata.png" alt=" 原生pdf元数据">
 
 您可以导入XMP文件，AEM Guides可以从文件中选取信息。 您还可以选择使用下拉菜单提供元数据名称和值。 您还可以通过直接在名称字段中键入来添加自定义元数据。
 
 
-## “增强的大纲视图”面板
+## 增强的大纲视图面板
 
 AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中获得文档中所用元素的分层视图。
 
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 本机pdf元数据">
+<img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf元数据">
 
 “大纲视图”提供了以下增强功能：
 
@@ -40,6 +40,5 @@ AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中�
 
 AEM Guidesas a Cloud Service提供了与基于微服务的发布同时运行大型发布工作负载的功能，并利用业界领先的Adobe I/O Runtime无服务器平台。
 
-现在，在4月版本中，您可以使用基于微服务的本机PDF发布来同时运行多个发布请求并非常高效地生成批量PDF输出。
+现在，在4月版中，您可以使用基于微服务的本机PDF发布同时运行多个发布PDF并非常高效地生成批量请求输出。
 有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](../knowledge-base/publishing/configure-microservices.md).
-

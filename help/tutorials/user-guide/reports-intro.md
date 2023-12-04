@@ -1,15 +1,14 @@
 ---
-title: 报表
+title: 报告
 description: 了解如何在AEM Guides中创建DITA映射报表。
-exl-id: baf3bc11-0725-418e-afef-fe9aa55327fe
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-# 报表 {#id1645H9007MZ}
+# 报告 {#id1645H9007MZ}
 
 在组织设置中，您需要先验证技术文档的整体完整性，然后再开始处理技术文档或将文档推送到现场。 在多用户和大规模环境中，这种需求变得更加重要。 AEM Guides提供了一些报表，这些报表可以针对存储库中内容的总体运行状况以及文档过程中如何使用内容提供有用的洞察。
 

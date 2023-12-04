@@ -1,13 +1,12 @@
 ---
 title: 安装用于基于文章的发布的包
-description: 了解如何安装用于基于文章的发布的包
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+description: 了解如何安装包以进行基于文章的发布
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
-
 
 # 安装用于基于文章的发布的包 {#id21BNL02052Z}
 
@@ -16,28 +15,27 @@ AEM Guides提供了与Web编辑器集成的强大的基于文章的发布功能�
 要创建用于发布基于文章的输出的AEM站点，请执行以下步骤：
 
 1. 下载 **适用于Cloud Service的XML Documentation组件内容包** 来自您的 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
-1. 打开AEM包管理器。 访问包管理器的默认URL是： `https://<hostname>/crx/packmgr/index.jsp`
+1. 打开AEM包管理器。 访问包管理器的默认URL为： `https://<hostname>/crx/packmgr/index.jsp`
 1. 上传用于Cloud Service的XML Documentation组件内容包，然后安装它。
 1. 下载 `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` 来自您的文件 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/general.html).
 1. 在全局导航中，选择 **站点**.
-1. 在站点UI中，单击 **创建** 按钮。
-1. 选择 **模板中的站点** 从 **创建** 下拉菜单。
+1. 在站点UI中，单击 **创建** 按钮进行标记。
+1. 选择 **从模板创建站点** 从 **创建** 下拉菜单。
 1. 单击 **导入** 按钮，然后选择 `Knowledge-base-template-for-article-based-publishing-for-cloud-service.zip` 已在您的系统上下载。 导入站点模板后，该模板将列在底部。
 
    >[!NOTE]
    >
-   > 您只需要第一次导入ZIP文件。 导入后，站点模板即可在列表中找到。
+   > 您只需在第一次导入ZIP文件即可。 导入后，站点模板即可在列表中找到。
 
-   选择 **用于基于文章的发布的知识库模板** 创建AEM站点并单击 **下一个** 右上角。
+   选择 **用于基于文章的发布的知识库模板** 创建AEM站点并单击 **下一个** 在右上角。
 
-1. 输入 **网站标题** 和 **站点名称** 并单击 **创建** 右上角。 AEM站点是使用Tragopan站点模板创建的。 \(Tragopan站点是一个示例知识库AEM站点，其中包含类别、分区和文章页面的模板。\)
+1. 输入 **网站标题** 和 **站点名称** 并单击 **创建** 在右上角。 AEM站点是使用Tragopan站点模板创建的。 \(Tragopan站点是一个示例知识库AEM站点，其中包含用于类别、分区和文章页面的模板。\)
 
    >[!NOTE]
    >
    > 您可以使用同一模板创建多个AEM站点。
 
 
-您可以使用AEM网站通过Web编辑器中的输出预设发布文章。
+您可以使用AEM站点通过Web编辑器中的输出预设发布文章。
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

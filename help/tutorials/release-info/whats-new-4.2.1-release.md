@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.2.1版的新增功能
 description: 了解Adobe Experience Manager Guides 4.2.1版本中的新增功能和增强功能
-source-git-commit: 6a1c6383f827bcd1e388290a793b69d372b7e7ce
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 ## PDF发布中的高级元数据支持
 
-AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，例如作者姓名、文档标题、关键字、版权信息和其他数据字段。
+AEM Guides现在为映射到PDF输出中元数据的元数据提供高级支持。 元数据选项包括有关文档及其内容的信息，如作者姓名、文档标题、关键字、版权信息和其他数据字段。
 
-<img src="assets/pdf-metadata.png" alt=" 本机pdf元数据">
+<img src="assets/pdf-metadata.png" alt=" 原生pdf元数据">
 
 您可以导入XMP文件，AEM Guides可以从文件中选取信息。 您还可以选择使用下拉菜单提供元数据名称和值。 您还可以通过直接在名称字段中键入来添加自定义元数据。
 
 有关更多详细信息，请参阅 **元数据** 中的功能描述 [创建PDF输出预设](../web-editor/native-pdf-web-editor.md).
 
-### “增强的大纲视图”面板
+### 增强的大纲视图面板
 
 AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中获得文档中所用元素的分层视图。
 
-<img src="assets/select-element-content-outline-view_cs.png" alt=" 本机pdf元数据">
+<img src="assets/select-element-content-outline-view_cs.png" alt=" 原生pdf元数据">
 
 “大纲视图”提供了以下增强功能：
 
@@ -51,9 +51,9 @@ AEM Guides提供了一个改进的“大纲视图”面板，您可以在其中�
 
 ## 从Web编辑器生成多媒体报告
 
-AEM Guides提供了为技术文档生成报表的功能。  您可以使用此功能查看主题列表和管理文档的元数据。 现在，您还可以从以下位置查看当前地图的所有引用中使用的多媒体： **报告** 选项卡。
+AEM Guides提供了为技术文档生成报表的功能。  您可以使用此功能查看主题列表和管理文档的元数据。 现在，您还可以从以下位置查看当前地图的所有引用中使用的多媒体： **报表** 选项卡。
 
-您可以生成多媒体报告，该报告包含有关当前映射中引用所使用的多媒体的详细信息。 您可以灵活地筛选和排序报告中列出的多媒体文件。
+您可以生成多媒体报告，该报告包含有关当前映射中引用使用的多媒体的详细信息。 您可以灵活地筛选和排序报表中列出的多媒体文件。
 您还可以生成CSV来下载DITA映射中使用的多媒体的当前快照。
 
 <img src="assets/web-editor-reports-multimedia.png" alt="多媒体报告" width="600">
@@ -62,9 +62,9 @@ AEM Guides提供了为技术文档生成报表的功能。  您可以使用此�
 
 ## 本机PDF |更改栏以指示目录中已更改的主题
 
-AEM Guides现在允许您快速识别PDF输出目录中已更改的主题。  它会在目录中已更改的主题的左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
+AEM Guides现在允许您快速识别PDF输出目录中的已更改主题。  它会在目录中已更改的主题左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
 
-<img src="assets/change-marker-toc.png" alt="更改目录中的标记 " width="500">
+<img src="assets/change-marker-toc.png" alt="目录中的更改标记 " width="500">
 
 有关更多详细信息，请参阅 [使用自定义更改条样式](../native-pdf/change-bar-style.md).
 
@@ -72,7 +72,7 @@ AEM Guides现在允许您快速识别PDF输出目录中已更改的主题。  �
 
 ## 本机PDF |在脚注组件中设置页面标记的样式
 
-现在，您可以在脚注中为页面标记设置样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
+现在，您可以在脚注中设置页面标记的样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
 
 有关更多详细信息，请参阅 [在脚注中使用自定义样式](../native-pdf/footnote-number-style.md).
 

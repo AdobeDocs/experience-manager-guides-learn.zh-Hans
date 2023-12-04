@@ -1,15 +1,12 @@
 ---
 title: 将带有版本的非UUID内容转换为UUID内容
 description: 了解如何使用版本迁移非UUID内容。
-source-git-commit: 33cdc1b14db0d123c01bbc719c2833ce0df4c9d9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1287'
 ht-degree: 1%
 
 ---
-
-
-
 
 # 使用版本迁移非UUID内容
 
@@ -135,7 +132,7 @@ ht-degree: 1%
 
    | 终结点 URL | 请求类型 | 查询参数 | 预期结果 |
    |---|---|---|---|
-   | `/bin/guides/data_export`<br><br>**例如**： <br> `http://localhost:4502/bin/guides/data_export?timestamp=2023-07-11&root=/content/dam` | GET | **timestamp** <br> **值**： YYYY-MM-DD<br><br> **根**：根文件夹 <br> **值**： `/content/dam` 整个存储库。 | 在/var/dxml/exports中创建包含增量内容的zip文件。 <br> <br>**示例**： dataexport_1689761491218.zip（创建文件） |
+   | `/bin/guides/data_export`<br><br>**例如**： <br> `http://localhost:4502/bin/guides/data_export?timestamp=2023-07-11&root=/content/dam` | GET | **时间戳** <br> **值**： YYYY-MM-DD<br><br> **根**：根文件夹 <br> **值**： `/content/dam` 整个存储库。 | 在/var/dxml/exports中创建包含增量内容的zip文件。 <br> <br>**示例**： dataexport_1689761491218.zip（创建文件） |
 
 1. 下载由脚本导出的zip文件。 响应的最后一行应给出所生成zip文件（存储在系统的/var/dxml/exports中）的路径。
 

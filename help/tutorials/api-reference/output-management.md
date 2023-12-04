@@ -1,13 +1,12 @@
 ---
 title: 用于输出管理的REST API
 description: 了解用于输出管理的REST API
-source-git-commit: 4dcd90422f02f3b45aa74137fe58609962b09b49
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
-
 
 # 用于输出管理的REST API {#id175UB30E05Z}
 
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 **请求URL**： http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/publishlistener
 
-**参数**:\
+**参数**：\
 |名称|类型|必需|描述| --------------------------- |`:operation`|字符串|是|要调用的操作的名称。 此参数的值为 `getalloutputs`.<br> **注意：** 该值不区分大小写。| |`sourcePath`|字符串|是|DITA映射文件的绝对路径。|
 
 **响应值**：返回一个JSON输出预设对象数组，每个对象包含以下元素：
@@ -134,4 +133,3 @@ ht-degree: 0%
 **参数**： |名称|类型|必需|描述| --------------------------- |`:operation`|字符串|是|要调用的操作的名称。 此参数的值为 `deleteoutput`.<br> **注意：** 该值不区分大小写。| |`sourcePath`|字符串|是|DITA映射文件的绝对路径。| |`outputName`|字符串|是|要删除的输出预设的名称。|
 
 **响应值**：返回HTTP 200 \(Successful\)响应。
-

@@ -1,10 +1,9 @@
 ---
 title: 批量标记DITA内容
 description: 在AEM Guides中使用对内容进行批量标记来改进DITA内容可发现性。 了解如何在单个或多个主题上应用、删除、显示或隐藏批量标记。
-exl-id: 0e855575-e62f-4dc7-869c-7fd3ec61ffdb
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---

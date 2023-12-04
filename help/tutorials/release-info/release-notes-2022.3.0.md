@@ -1,33 +1,32 @@
 ---
 title: 的发行说明 [!DNL AEM Guides]， 2022年3月版
-description: 3月版 [!DNL Adobe Experience Manager Guides] as a Cloud Service
-exl-id: 885edbb5-dfe4-4bdc-bb66-0df64addb094
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+description: 3月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 2%
+source-wordcount: '777'
+ht-degree: 0%
 
 ---
 
-# 3月版 [!DNL Adobe Experience Manager Guides] as a Cloud Service
+# 3月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 
 ## 升级到3月版
 
-升级当前 [!DNL Adobe Experience Manager Guides] as a Cloud Service(后称为 *[!DNL AEM Guides]as a Cloud Service*)通过以下步骤进行设置：
-1. 查看Cloud Services的Git代码，然后切换到在Cloud Services管道中配置的与要升级的环境对应的分支。
-1. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServicesGit代码的文件更改为2022.3.123。
-1. 提交更改并运行Cloud Services管道，以升级到3月版的 [!DNL AEM Guides] as a Cloud Service。
+升级您当前的 [!DNL Adobe Experience Manager Guides] as a Cloud Service(以后称为 *[!DNL AEM Guides]as a Cloud Service*)进行设置：
+1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
+1. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServiceGit代码的文件更改为2022.3.123。
+1. 提交更改并运行Cloud Service管道，以升级到 [!DNL AEM Guides] as a Cloud Service。
 
 ## 兼容性矩阵
 
-本节列出了支持的软件应用程序的兼容性矩阵 [!DNL AEM Guides] 2022年3月版as a Cloud Service。
+本节列出了所支持的软件应用程序的兼容性矩阵 [!DNL AEM Guides] 2022年3月版as a Cloud Service。
 
 ### FrameMaker和FrameMaker Publishing Server
 
 | FMPS | FrameMaker |
 | --- | --- |
-| 不兼容 | 2020 Update 4及更高版本 |
-|  |  |
+| 不兼容 | 2020更新4及更高版本 |
+| | |
 
 
 ### 氧气连接器
@@ -43,11 +42,11 @@ ht-degree: 2%
 
 ### 新建基线仪表板
 
-[!DNL AEM Guides] 3月as a Cloud Service版本提供了集成在Web编辑器中的基线功能。 您现在可以从Web编辑器创建基线，并使用它们发布或翻译不同版本的主题。
+[!DNL AEM Guides] 3月as a Cloud Service发行版提供了集成在Web编辑器中的基线功能。 您现在可以从Web编辑器创建基线，并使用它们发布或翻译不同版本的主题。
 
-注意：对于已升级的系统，请更新最新的 **ui_config.json** 文件夹配置文件。
+注意：对于已升级的系统，请更新最新的 **ui_config.json** 用于文件夹配置文件。
 
-使用此功能可创建基线，其中包含特定日期和时间可用的主题的特定版本。 此外，您还可以获得API支持，以创建或更新具有为主题版本定义的标签的基线。
+使用此功能可使用特定日期和时间提供的主题的特定版本创建基线。 此外，您还获得API支持，可使用为主题版本定义的标签创建或更新基线。
 
 ![基线管理选项卡](assets/baseline-manage.png)
 
@@ -61,32 +60,32 @@ ht-degree: 2%
 
 ### 改进了Web编辑器刷新行为
 
-Web编辑器中的浏览器刷新操作现在提供以下增强功能：
+现在，Web编辑器中的浏览器刷新操作提供了以下增强功能：
 
-* 现在，当您在Web编辑器中编辑内容时，您能够获得刷新浏览器的支持。 如果在打开一个或多个包含未保存更改的文件进行编辑时点击浏览器刷新图标，系统会提示您保存文件或取消刷新操作。
+* 现在，当您在Web编辑器中编辑内容时，支持您刷新浏览器。 如果在打开一个或多个未保存更改的文件进行编辑时点击浏览器刷新图标，系统将提示您保存文件或取消刷新操作。
 
-* 即使在刷新浏览器时，左侧面板和右侧面板的视图也会保留。
+* 即使刷新浏览器时，左侧面板和右侧面板的视图也会保留。
 
 * 活动主题或DITA映射将在内容编辑区域中重新打开。
 
 ### 发布增强功能
 
-发布过程已通过3月版进一步改进 [!DNL AEM Guides] as a Cloud Service：
+发布流程已通过3月版进一步改进 [!DNL AEM Guides] as a Cloud Service：
 
 * 已对AEM站点输出的元数据应用基线。 您还可以将基线版本的属性作为元数据处理。 如果未定义基线，则最新版本的属性将作为元数据处理。
 
-* 此 **文件名** 和 **DITA-OT命令行参数** 已为HTML5、EPUB和自定义输出预设添加了选项。 现在，您可以指定要用来保存输出的文件名。 您还可以指定在生成输出时希望DITA-OT处理的附加参数。
+* 此 **文件名** 和 **DITA-OT命令行参数** 已为HTML5、EPUB和自定义输出预设添加了选项。 现在，您可以指定要用来保存输出的文件名。 您还可以指定在生成输出时希望DITA-OT处理的其他参数。
 
 ## 修复的问题
 
-修复了多个区域的错误如下：
+修复了多个区域中的错误如下：
 
-* 无法使用Web编辑器的“创作”视图将frontmatter、backmatter元素添加到书签映射中。 (7652)
-* 引用树在删除主题并执行移动操作后断开。 (8804)
+* 无法使用Web编辑器的“作者”视图在书签中添加前置内容、后置内容元素。 (7652)
+* 在删除主题并执行移动操作后，引用树断开。 (8804)
 * 上传资源后查看内容时收到异常。 (3638)
-* 当在Oxygen中打开其父文件夹的文件名中包含特殊字符时(使用 **在氧气中编辑** 按钮)。 (8918)
+* 当其父文件夹的文件名中有特殊字符的文件在Oxyor中打开(使用 **在Oxygen中编辑** 按钮)。 (8918)
 * 此 **在存储库中找到** 选项不会在XML编辑器中查找并突出显示DITA映射。 (8796)
-* 将多个属性添加到XML编辑器中的内容时，筛选功能不显示相应的结果。 (8795)
+* 将多个属性添加到XML编辑器中的内容时，筛选不会显示相应的结果。 (8795)
 * 当用户ID为数字时，在文件夹配置文件中将用户添加为管理员时出错。 (8908)
 
 ## 已知问题

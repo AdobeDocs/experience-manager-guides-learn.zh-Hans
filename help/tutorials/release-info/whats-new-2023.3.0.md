@@ -1,10 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月版
 description: Adobe Experience Manager Guidesas a Cloud Service3月版
-exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 4bb9ce2690a2e76a5b2a93b65db7dd452e15d295
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -12,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Experience Manager Guidesas a Cloud Service版2023年3月版的新增功能
 
-本文介绍2023年3月版的Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
+本文介绍2023年3月版Adobe Experience Manager Guides(以后称为 *AEM Guidesas a Cloud Service*)。
 
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](release-notes-2023.3.0.md) 文章。
 

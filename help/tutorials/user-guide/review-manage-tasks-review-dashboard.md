@@ -1,8 +1,7 @@
 ---
 title: 使用审阅功能板管理审阅任务
 description: 从AEM Guides的“审阅功能板”中管理审阅任务。 了解任务、内容、审阅人选项卡下的执行操作，并检查审阅任务的状态。
-exl-id: 617017fe-59b6-4b38-b375-a126fa9dddf5
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 0%

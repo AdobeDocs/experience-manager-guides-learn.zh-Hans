@@ -1,10 +1,9 @@
 ---
 title: 使用条件预设
 description: 了解AEM Guides中条件预设的使用。 了解如何在AEM中创建、编辑、复制和删除条件预设。
-exl-id: f6865a34-abdd-4d23-b903-0211bebd13b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1210'
 ht-degree: 1%
 
 ---
@@ -43,7 +42,8 @@ Experience Manager指南允许您从Web编辑器管理条件预设，并在输�
    >
    > 如果名称字段为空，或者输入无效字符或与现有条件预设相同的名称，则会查看错误。 可以使用连字符“ — ”或下划线“_”作为分隔符。
 
-1. 选择&#x200B;**创建**。新条件预设即添加到列表中。
+1. 选择 **创建**.
+新条件预设即添加到列表中。
 1. 双击条件预设可查看属性和操作。
 此 **属性** 面板显示添加到地图中存在的任何引用的所有属性。 右侧面板仅显示您添加到条件预设的条件。
 1. 执行以下任一操作以添加属性：

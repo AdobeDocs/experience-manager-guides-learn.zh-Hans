@@ -1,7 +1,7 @@
 ---
 title: 配置签入和签出图标的标题
 description: 了解如何配置签入和签出图标的标题
-source-git-commit: bb4b875864b31197437a944ded5862bbf937bc29
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -29,4 +29,3 @@ AEM Guides允许您在Web编辑器中配置签入和签出图标的标题。 执
    ```
 
 1. 保存文件并将其上传。
-

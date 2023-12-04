@@ -1,8 +1,7 @@
 ---
 title: 管理元数据
 description: 了解如何在AEM Guides中定义和管理元数据。 使用智能和批量标记轻松地在DITA映射中查找相关主题。
-exl-id: 842f1b41-9146-4de3-bcc0-38c10646a032
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%

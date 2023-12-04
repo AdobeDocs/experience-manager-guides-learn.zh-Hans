@@ -1,13 +1,12 @@
 ---
 title: 本机PDF |为本机PDF发布配置JVM标记
 description: 为本机PDF发布配置JVM标记
-source-git-commit: cfb1197d0aad7ea3771bc6e1a73c02f540cef0c9
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%
 
 ---
-
 
 # 为本机PDF发布配置JVM标记
 
@@ -29,4 +28,4 @@ ht-degree: 1%
 
 
 
-1. 单击“**保存**”。
+1. 单击&#x200B;**保存**。

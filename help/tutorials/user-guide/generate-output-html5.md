@@ -1,10 +1,9 @@
 ---
 title: 使用HTML5
 description: 了解如何从Web编辑器和地图仪表板创建HTML5预设。 在AEM Guides中配置HTML5输出预设。
-exl-id: c484289b-92aa-4790-b62b-650ecbe1b86b
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---

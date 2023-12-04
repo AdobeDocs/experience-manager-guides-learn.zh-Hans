@@ -1,13 +1,12 @@
 ---
 title: 本机PDF |支持语言变量
 description: 在PDF输出和输出模板中使用语言变量
-source-git-commit: 6de4b4666d804c678674faa6fe1a54ef9b9dbbe0
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
-
 
 # 支持语言变量
 
@@ -96,7 +95,7 @@ Experience Manager指南支持导出和导入以选定语言显示的语言变�
 
 >[!NOTE]
 > 
->如果语言变量中有任何未保存的更改，则无法导出这些更改。 保存更改以查看已启用的 **导出** <img src="./assets/language-variable-export-icon.svg" alt="导入图标" width="25"> 图标.
+>如果语言变量中有任何未保存的更改，则无法导出这些更改。 保存更改以查看已启用的 **导出** <img src="./assets/language-variable-export-icon.svg" alt="导入图标" width="25"> 图标。
 
 ### 导入语言变量
 
@@ -233,6 +232,3 @@ h1:before {
 color: red;
 } 
 ```
-
-
-

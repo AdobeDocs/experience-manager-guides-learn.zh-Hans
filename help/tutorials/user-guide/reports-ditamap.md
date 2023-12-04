@@ -1,10 +1,9 @@
 ---
 title: 映射仪表板中的DITA映射报表
 description: 从AEM Guides中的映射仪表板生成DITA映射报表。 了解如何生成DITA映射报告的CSV。
-exl-id: 8ba1dc83-fa96-4ae0-bfa8-89b5a8949f08
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ AEM Guides为管理员提供了报告功能，可在文档上线或提供给最�
 
      列出所选映射文件的总体摘要。 通过查看“摘要”，您可以快速了解地图中的主题总数、缺少的主题、具有缺少元素的主题数、主题的状态 — “草稿”、“审阅”或“审阅”状态。
 
-   - **详细信息:**
+   - **详细信息：**
 
      单击某个主题时，将显示选定主题的详细报告。
 

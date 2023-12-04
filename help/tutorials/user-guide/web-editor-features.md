@@ -1,10 +1,9 @@
 ---
 title: 了解Web编辑器功能
 description: 在AEM Guides中发现Web编辑器的功能。 了解Web编辑器的界面，包括主工具栏、辅助工具栏、左侧面板、内容编辑区域和右侧面板。
-exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '17231'
+source-wordcount: '17222'
 ht-degree: 0%
 
 ---

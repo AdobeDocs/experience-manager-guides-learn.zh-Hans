@@ -1,8 +1,7 @@
 ---
 title: 输出生成
 description: 通过AEM Guides中的DITA-OT插件、本机PDF发布和FMPS，在AEM站点、PDF、HTML5、EPUB、自定义和JSON中生成输出。
-exl-id: 32fc32f8-16b1-4c3c-a6e2-abfb8fba9e66
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -43,4 +42,3 @@ AEM Guides具有内置的发布功能，可生成各种行业标准格式的输�
 >[!IMPORTANT]
 >
 > 本主题中介绍的功能仅对具有Publishers或管理员权限的用户可用。
-

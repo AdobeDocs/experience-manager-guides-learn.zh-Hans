@@ -1,13 +1,12 @@
 ---
 title: 配置选项以在氧气中进行编辑
 description: 了解如何配置在氧气连接器插件中编辑的选项。
-source-git-commit: a209e46e41055348402292e20c229890cd0c01cf
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
 
 ---
-
 
 # 配置选项以在氧气中进行编辑
 
@@ -26,4 +25,3 @@ AEM Guides还允许用户在氧气连接器插件中编辑其DITA主题和DITA�
 > 默认情况下，此配置处于禁用状态，并且选项在Web编辑器中不可用。
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

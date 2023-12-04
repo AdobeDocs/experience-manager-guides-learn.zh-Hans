@@ -1,13 +1,12 @@
 ---
 title: 配置主题和内容片段模型之间的基于JSON的映射。
 description: 了解如何配置主题和内容片段模型之间的基于JSON的映射。
-source-git-commit: 85b2e3a2085579c7a44e31e278ff22e22677b540
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # 创建主题和内容片段之间的映射
 
@@ -39,7 +38,7 @@ AEM Guides提供了在主题和内容片段模型之间创建基于JSON的映射
       `"outputType": string`
 1. 保存文件并将其上传。
 
-示例文件:
+示例文件：
 
 ```
 [

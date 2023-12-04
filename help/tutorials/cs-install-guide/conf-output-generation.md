@@ -1,11 +1,10 @@
 ---
 title: 配置输出生成设置
 description: 了解如何配置输出生成设置
-exl-id: b5cf4f6c-dc56-428e-a514-6c9f879ac03d
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '5496'
-ht-degree: 1%
+source-wordcount: '5470'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ AEM Guides提供了许多配置选项，供您自定义输出生成过程。 本
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | 布尔值\(`true/false`\).**默认值**: `true` |
+| `com.adobe.fmdita.config.ConfigManager` | `hide.tabs.baseline` | Boolean\(`true/false`\)。**默认值**： `true` |
 
 >[!NOTE]
 >
@@ -106,7 +105,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
    | 属性 | 描述 |
    |--------|-----------|
-   | `landingPageTemplate`, `searchPageTemplate`, `topicPageTemplate`, `shadowPageTemplate` | 指定 `cq:Template` 节点\（登陆、搜索和主题\）。 默认情况下， `cq:Template` 可以在中找到这些页面的节点 `/libs/fmdita/templates/default/cqtemplates` 节点。 此节点定义登录、搜索和主题页面的结构和属性。<br> 此 `shadowPageTemplate` 用于优化分块内容。 您需要将此属性的值设置为： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 您必须为以下项目指定一个值： `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 是可选属性。 如果您不希望生成搜索和登陆页面，请不要指定这些属性。 |
+   | `landingPageTemplate`， `searchPageTemplate`， `topicPageTemplate`， `shadowPageTemplate` | 指定 `cq:Template` 节点\（登陆、搜索和主题\）。 默认情况下， `cq:Template` 可以在中找到这些页面的节点 `/libs/fmdita/templates/default/cqtemplates` 节点。 此节点定义登录、搜索和主题页面的结构和属性。<br> 此 `shadowPageTemplate` 用于优化分块内容。 您需要将此属性的值设置为： `fmdita/templates/default/cqtemplates/shadowpage` <br> **注意：** 您必须为以下项目指定一个值： `topicPageTemplate`. 此 `landingPageTemplate` 和 `searchPageTemplate` 是可选属性。 如果您不希望生成搜索和登陆页面，请不要指定这些属性。 |
    | `title` | 设计模板的描述性名称。 |
    | `topicContentNode` | 将在主题页面中包含DITA内容的节点的位置。 路径相对于主题页面。 |
    | `topicHeadNode` | 包含派生自DITA内容的头值\（或metadata\）的节点位置。 路径相对于主题页面。 |
@@ -153,7 +152,7 @@ AEM Guides附带的默认设计模板允许您自定义登录、主题和搜索�
 
 | PID | 属性键 | 属性值 |
 |---|------------|--------------|
-| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布尔值 (`true/false`). **默认值**: `false` |
+| `com.adobe.fmdita.common.SanitizeNodeName` | `nodename.systemDefinedPageName` | 布尔值(`true/false`)。 **默认值**： `false` |
 
 例如，如果 *@navtitle* 在 `<topichead>` 包含所有特殊字符，并且您设置 `aemsite.pagetitle` 属性为true，则默认使用分隔符。 如果您设置 `nodename.systemDefinedPageName` 属性为true，则显示第一个子主题的名称。
 
@@ -225,7 +224,7 @@ AEM Guides允许您配置如何在内部创建AEM Site输出的节点结构。 �
 
    | PID | 属性键 | 属性值 |
    |---|------------|--------------|
-   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 布尔值\(true/false\)。<br> **默认值**: `false` |
+   | `com.adobe.dxml.flattening.FlatteningConfigurationService` | `flattening.enabled` | 布尔值\(true/false\)。<br> **默认值**： `false` |
 
 
 现在，当您生成AEM Site输出时， `p` 元素平面化并存储在 `p` 元素本身。 您可以为以下对象找到新的拼合属性： `p` CRXDE中的元素。
@@ -271,7 +270,7 @@ AEM Guides允许您配置如何在内部创建AEM Site输出的节点结构。 �
 
    | PID | 属性键 | 属性值 |
    |---|------------|--------------|
-   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 布尔值\(true/false\)。<br> **默认值**: `true` |
+   | `com.adobe.fmdita.confi g.ConfigManager` | `no.version.creation.on.deletion` | 布尔值\(true/false\)。<br> **默认值**： `true` |
 
    >[!NOTE]
    >
@@ -305,7 +304,7 @@ AEM Guides提供了一种在使用DITA-OT发布输出时传递自定义元数据
 
 1. 单击 **元数据架构** 磁贴。
 
-   此时会显示元数据架构表单页面。
+   此时会显示元数据架构Forms页面。
 
 1. 选择 **默认** 表单中。
 

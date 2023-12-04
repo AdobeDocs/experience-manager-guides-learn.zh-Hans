@@ -1,13 +1,12 @@
 ---
 title: 升级AEM指南
 description: 了解如何升级AEM Guides
-source-git-commit: 6051181e243cf71919901093c1b5590f21832545
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # 升级AEM指南 {#id213BD050YPH}
 
@@ -17,7 +16,7 @@ ht-degree: 0%
 
 1. 将dox.version变量的值更新为Adobe提供的版本详细信息。
 
-1. 提交更改并运行Cloud Manager管道以部署升级后的包。
+1. 提交更改并运行Cloud Manager管道以部署升级的包。
 
 
 >[!NOTE]
@@ -29,4 +28,3 @@ ht-degree: 0%
 完成升级过程后，所有用户必须先清除浏览器缓存，然后才能使用AEM Guides的升级版本。
 
 **父主题：**[&#x200B;下载并安装](download-install.md)
-

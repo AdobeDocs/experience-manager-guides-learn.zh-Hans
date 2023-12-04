@@ -1,19 +1,18 @@
 ---
 title: 下载并安装
 description: 了解如何下载和安装
-source-git-commit: 5ac066bb8db32944abd046f64da11eeb1bdbe467
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # 下载并安装 {#id1645E0O04MK}
 
 AEM Guides可通过Adobe软件分发门户获取。 您可以从Adobe软件分发门户帐户下载AEM Guides，并将其安装在安装程序中的所有Adobe Experience Manager \(AEM\)实例上。 通常，您的AEM创作实例和生产实例将托管在不同服务器上。 您必须在要使用的所有AEM实例上安装AEM Guides。
 
-在开始下载和安装过程之前，必须确保系统满足安装AEM Guides的技术要求。
+在开始下载和安装过程之前，必须确保您的系统满足安装AEM Guides的技术要求。
 
 - **[技术要求](download-install-technical-requirements.md)**
 
@@ -21,7 +20,7 @@ AEM Guides可通过Adobe软件分发门户获取。 您可以从Adobe软件分�
 
 - **[首次下载并安装AEM Guides](download-install-aemg-first-time.md)**
 
-- **[配置 Dispatcher](download-install-configure-dispatcher.md)**
+- **[配置Dispatch](download-install-configure-dispatcher.md)**
 
 - **[验证AEM Guides的安装](download-install-verify-aemg-installation.md)**
 
@@ -29,6 +28,4 @@ AEM Guides可通过Adobe软件分发门户获取。 您可以从Adobe软件分�
 
 - **[卸载AEM Guides](download-install-unistall-aemg.md)**
 
-- **[用于性能优化的Recommendations](download-install-recommend-perf-optimiz.md)**
-
-
+- **[Recommendations优化性能](download-install-recommend-perf-optimiz.md)**

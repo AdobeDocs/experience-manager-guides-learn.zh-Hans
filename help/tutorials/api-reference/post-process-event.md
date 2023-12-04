@@ -1,13 +1,12 @@
 ---
 title: 后处理事件处理程序
 description: 了解后处理事件处理程序
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '198'
 ht-degree: 1%
 
 ---
-
 
 # 后处理事件处理程序 {#id175UB30E05Z}
 
@@ -33,4 +32,3 @@ com/adobe/fmdita/postprocess/complete
 ```
 
 **参数**： 名称|类型|描述| --------文----------- |`path`|字符串|触发此事件的文件的路径。 通常，这是已对其执行操作的文件。| |`status`|字符串|所执行操作的返回状态。 可能的选项包括： - <br> — 成功：后处理操作已成功完成。 <br> — 已完成，但出现错误：后处理操作已完成，但有一些错误。 <br> — 失败：后处理操作失败，因为发生了一些致命错误。| |`message`|字符串|如果状态为COMPLETED WITH ERRORS或FAILED，则此参数包含有关错误或失败原因的详细信息。| |`operation`|字符串|对文件执行的后处理操作。 可能的选项包括：<br> — 添加 <br> — 更新 <br> — 删除|
-

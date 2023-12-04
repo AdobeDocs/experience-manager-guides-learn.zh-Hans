@@ -1,13 +1,12 @@
 ---
 title: 用于处理文件夹配置文件的基于Java的API
 description: 了解用于处理文件夹配置文件的基于Java的API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
-
 
 # 用于处理文件夹配置文件的基于Java的API {#id175UB30E05Z}
 
@@ -62,4 +61,3 @@ Session session) throws GuidesApiException
 - 如果API是通过未经授权的用户会话调用的，例如不是给定文件夹配置文件的管理员的用户。
 
 [1](#fnsrc_1) 此 `attributeNames`， `values`、和 `labels` 数组列表中的同一索引必须对应于同一条目。
-

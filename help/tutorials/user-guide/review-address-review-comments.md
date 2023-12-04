@@ -1,8 +1,7 @@
 ---
 title: 地址审核注释
 description: 了解如何在AEM Guides中以作者身份处理审核评论。 了解作者如何编辑、筛选、接受或拒绝文档中的评论。
-exl-id: 04f6114d-601f-4e92-a303-18a6dd309a49
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%

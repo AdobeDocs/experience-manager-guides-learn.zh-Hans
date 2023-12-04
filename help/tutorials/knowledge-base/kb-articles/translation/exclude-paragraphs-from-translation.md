@@ -3,8 +3,7 @@ title: 从翻译中排除主题中的段落
 description: 如何从翻译中排除主题中的段落
 feature: Translation
 role: User
-exl-id: 21e41bb4-52f3-4352-92d9-4a60f636de99
-source-git-commit: 6ae539eff23b1fd5f1d74878b03cf6dd5b20a57d
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -15,12 +14,12 @@ ht-degree: 0%
 
 最简单的方法是使用translation=no attribute。
 
-+ 作者可以将附加属性作为 **translation=no** 他们不想翻译的段落。 需要通知翻译供应商，他们可以在终端进行配置以忽略具有此属性的文本。
-+ OOTB机器翻译(使用试用版Microsoft翻译连接器)具有相同的行为。
-+ 使用Microsoft翻译进行测试：如果您定义 **translate=no** 属性位于段落级别，则它不会翻译完整的段落。 此属性可以在任何元素中定义，并且不会翻译该元素中的内容。
++ 作者可以将其他属性插入为 **translation=no** 他们不想翻译的段落。 需要通知翻译供应商，他们可以在终端进行配置以忽略具有此属性的文本。
++ OOTB机器翻译(带有试用版Microsoft翻译连接器)具有相同的行为。
++ 使用Microsoft翻译进行测试：如果您定义 **translate=no** 属性，则它不会翻译完整的段落。 此属性可以在任何元素中定义，并且不会翻译该元素中的内容。
 
 
-以下屏幕截图进一步解释了这一点：
+以下是一些屏幕截图，进一步解释了这一点：
 
 **源内容**
 

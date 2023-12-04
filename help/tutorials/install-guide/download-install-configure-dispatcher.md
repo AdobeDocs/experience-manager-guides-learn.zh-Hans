@@ -1,25 +1,24 @@
 ---
-title: 配置 Dispatcher
-description: 了解如何配置Dispatcher
-source-git-commit: 9fe396dcfd2e3570ec386c958d7d4efdb4d608e5
+title: 配置Dispatch
+description: 了解如何配置调度程序
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '302'
+ht-degree: 5%
 
 ---
 
+# 配置Dispatch {#id213BCM0M05U}
 
-# 配置 Dispatcher {#id213BCM0M05U}
-
-如果您计划将AEM创作实例上的Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
+如果您打算在AEM创作实例上将Dispatcher与AEM Guides结合使用，则需要执行以下其他配置以完成设置：
 
 >[!NOTE]
 >
-> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的更多详细信息，请参阅 [Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=zh-Hans).
+> Dispatcher 是 Adobe Experience Manager 的缓存和/或负载平衡工具。有关使用Dispatcher的更多详细信息，请参阅 [Dispatcher概述](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en).
 
 ## 在URL中启用AllowEncodedSlases
 
-默认情况下，AEM Dispatcher设置中未启用带编码斜杠的URL，但是当您在AEM Guides中工作时，需要启用此项。 要实现此目的，您需要在Apache配置中将AllowEncodedSlashes参数设置为On，如以下代码片段所示：
+默认情况下，AEM Dispatcher设置中未启用包含编码斜杠的URL，但是在AEM Guides中工作时，您需要启用此功能。 为此，您需要在Apache配置中将AllowEncodedSlashes参数设置为On，如以下代码片段所示：
 
 ```XML
 <VirtualHost *:80>
@@ -50,11 +49,11 @@ ht-degree: 7%
 
    `text/html html htm`
 
-1. 通过添加ditamap和dita扩展来更新映射，如下所示：
+1. 通过将ditamap和dita扩展添加为来更新映射：
 
    `text/html html htm ditamap dita`
 
-1. 保存并关闭文件。
+1. 保存并关闭该文件。
 
 
 此配置更新确保Dispatcher渲染的DITA映射和主题文件在Assets UI中显示为HTML。
@@ -79,4 +78,3 @@ ht-degree: 7%
 ```
 
 **父主题：**[&#x200B;下载并安装](download-install.md)
-

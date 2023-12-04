@@ -1,10 +1,9 @@
 ---
 title: 配置全局或文件夹级别的配置文件
 description: 了解如何配置全局或文件夹级别的配置文件
-exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
-source-git-commit: 22d364d28859e6aa3ae147a72b736669f56788b3
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '3961'
+source-wordcount: '3967'
 ht-degree: 0%
 
 ---
@@ -187,7 +186,7 @@ AEM Guides允许您在企业\(global\)级别和文件夹级别配置创作\（to
 
 1. 单击 **编辑**.
 
-1. 单击&#x200B;**添加**。
+1. 单击 **添加**.
 
 1. 输入 **名称**， **值**，和 **标签** 用于条件属性。
 
@@ -266,7 +265,7 @@ AEM Guides提供了7个现成的主题模板、2个DITA映射模板和3个PDF模
 
    - 单击 **浏览** 并从DAM中选择模板。
 
-1. 单击&#x200B;**添加**。
+1. 单击 **添加**.
 
    选定的模板即添加到模板列表中。
 

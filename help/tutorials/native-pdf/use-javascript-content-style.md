@@ -1,8 +1,7 @@
 ---
 title: 本机PDF发布功能 |使用JavaScript处理内容或样式
 description: 了解如何为内容创建使用样式表和样式。
-exl-id: 2f301f6a-0d1c-4194-84c2-0fddaef8d3ec
-source-git-commit: 99ca14a816630f5f0ec1dc72ba77994ffa71dff6
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -11,8 +10,8 @@ ht-degree: 0%
 
 # 使用JavaScript处理内容或样式
 
-本机PDF发布功能允许您运行JavaScript以处理在生成最终PDF之前应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望将法律声明信息添加到驻留在另一个PDF中的PDF输出中。 使用JavaScript，您可以在为基本PDF创建PDF后、生成最终内容之前添加法律声明信息。\
-为了支持JavaScript执行，本机PDF发布功能提供了以下回调函数：
+本机PDF发布功能允许您运行JavaScript以处理在生成最终PDF之前应用于内容的内容或样式。 此功能可让您完全控制最终输出的生成方式。 例如，您可能希望向PDF输出(位于另一个PDF中)添加法律声明信息。 使用JavaScript，您可以在为基本PDF创建PDF后、生成最终内容之前添加法律声明信息。\
+为了支持JavaScript执行，“本机PDF发布”功能提供了以下回调函数：
 
 * `window.pdfLayout.onBeforeCreateTOC(callback)`：此回调函数在生成目录之前执行。
 * `window.pdfLayout.onBeforePagination(callback)`：此回调函数在生成目录之后、但在PDF中添加分页符之前执行。
@@ -22,9 +21,9 @@ ht-degree: 0%
 >
 >在内部，会维护这些标注函数的执行顺序。 首先执行onBeforeCreateTOC，然后执行onBeforePagination，最后执行onAfterPagination。
 
-根据要执行的内容类型或样式修改，可以选择要使用的回调函数。 例如，如果要添加内容，建议在生成目录之前添加内容。 同样，如果要进行一些样式更新，则可以在分页之前或之后进行这些更新。
+根据要执行的内容类型或样式修改，可以选择要使用的回调函数。 例如，如果要添加内容，建议在生成目录之前添加内容。 同样，如果您想要进行一些样式更新，则可以在分页之前或之后完成这些更新。
 
-在以下示例中，图标题的位置从图像上方更改为图像下方。 为此，您需要在预设中启用JavaScript执行选项。 为此，请执行以下步骤：
+在下面的示例中，图标题的位置从图像上方更改为图像下方。 为此，您需要在预设中启用JavaScript执行选项。 为此，请执行以下步骤：
 
 1. 打开预设进行编辑。
 1. 转到 **高级** 选项卡。
@@ -73,7 +72,7 @@ window.addEventListener('DOMContentLoaded', function () {
 ## 为草稿文档的PDF输出添加水印 {#watermark-draft-document}
 
 您还可以使用JavaScript添加条件水印。 当满足定义的条件时，这些水印将添加到文档中。\
-例如，您可以创建一个包含以下代码的JavaScript文件，以便为尚未批准的文档的PDF输出创建水印。 如果您为处于“已批准”文档状态的文档生成PDF，则不会显示此水印。
+例如，您可以创建一个包含以下代码的JavaScript文件，以便为尚未批准的文档的PDF输出创建水印。 如果您为“已批准”文档生成的文档PDF，则不会显示此水印。
 
 ```css
 ...
@@ -98,6 +97,6 @@ window.addEventListener('DOMContentLoaded', function () {
 ...
 ```
 
-使用此代码生成的PDF输出显示水印 *草稿* 在文档的封面页上：
+使用此代码生成的PDF输出会显示水印 *草稿* 在文档的封面上：
 
 <img src="./assets/draft-watermark.png" width="500">

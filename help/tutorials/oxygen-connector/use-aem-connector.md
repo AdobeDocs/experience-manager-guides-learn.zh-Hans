@@ -3,14 +3,12 @@ title: 适用于Adobe Experience Manager Guides的氧气插件
 description: 了解如何使用Adobe Experience Manager Guides的氧气插件创建和管理您的内容。
 hide: true
 hidefromtoc: true
-exl-id: 2db9a34e-2efa-47ad-ba6b-02afc5197669
-source-git-commit: 23c1dfb405643bd9f5906807dddc4fff3f2e8535
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6101'
 ht-degree: 0%
 
 ---
-
 
 # 适用于Adobe Experience Manager Guides的氧气插件 {#id1645H6010Q5}
 
@@ -43,7 +41,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 有关卸载说明的文章。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 有关卸载说明的文章。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -77,7 +75,7 @@ AEM Guides的氧气插件可通过您的Adobe软件分发门户获取。 在“E
 
 >[!IMPORTANT]
 >
->如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/cn/experience-manager/6-4/sites/administering/using/package-manager.html) 文章卸载说明。
+>如果系统上安装了旧版本的插件，请确保先卸载该插件，然后再开始安装过程。 请参阅 **卸载包** 中的部分 [如何使用包](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html) 文章卸载说明。
 
 在安装了Oxygon XML Author的系统上执行以下步骤：
 
@@ -253,7 +251,8 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 1. 在 **扩展** 选项卡中，进行以下更改：
    - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
-   - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。以下屏幕截图显示了配置的 **扩展名** DITA主题的选项卡：
+   - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击 **确定**.
+以下屏幕截图显示了配置的 **扩展名** DITA主题的选项卡：
 
      ![为DITA主题配置的扩展](images/dita-topic-extension-tab.png){width="650" align="left"}
 
@@ -483,7 +482,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 - 您可以根据文件的文件名、标题或路径对文件列表进行排序。 如果新文件已签出，则该文件将在视图中按排序顺序显示。
 
 
-### 上传文件和文件夹 {#id195HC03F03J}
+### 上载文件和文件夹 {#id195HC03F03J}
 
 执行以下步骤上载文件或文件夹：
 
@@ -748,5 +747,3 @@ AEM Guides允许您使用相关的DITA属性轻松创建和关联条件属性。
 
 
 在前面的步骤中，将启用日志，您可以使用日志调试问题。
-
-

@@ -1,13 +1,12 @@
 ---
 title: 用于条件属性的REST API
 description: 了解用于条件属性的REST API
-source-git-commit: fad5049962f258bbe59c7d172436d82b3d6cd68f
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
-
 
 # 用于条件属性的REST API {#id175UB30E05Z}
 
@@ -17,10 +16,10 @@ ht-degree: 2%
 
 一种POST方法，用于将条件属性添加到给定的文件夹级配置文件。
 
-**请求 URL**:\
+**请求URL**：\
 http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/fmdita/folderprofiles
 
-**参数**:\
+**参数**：\
 |名称|类型|必需|描述| --------------------------- |`:operation`|字符串|是|要调用的操作的名称。 此参数的值为 ``ADDATTRIBUTEPROFILES``. <br> **注意：** 该值不区分大小写。| |`profilename`|字符串|是|必须添加条件属性的文件夹级别配置文件的显示名称。| |`conditionalprofiles`|JSON数组|是|由条件属性名称和值组成的JSON数组。 以下示例代码片段显示了具有两个属性的JSON数组 —  `platform` 和 `product` 为其分配了多个值。|
 
 ```JSON
@@ -40,4 +39,3 @@ http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/fmdita/folderprofiles
 
 **响应值**：\
 返回HTTP 200 \(Successful\)响应。
-

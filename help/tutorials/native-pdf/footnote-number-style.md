@@ -1,10 +1,9 @@
 ---
 title: 本机PDF发布功能 |在脚注中使用自定义样式
 description: 了解如何在脚注中对数字应用样式。
-exl-id: f1068f2f-2ace-4bdb-b5a4-46b03d4e43d6
-source-git-commit: cb2aa028330c1e1b8b71e9e928d724cc0d87bf44
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 0%
 您可以更改脚注调用和标记的样式并管理它们在PDF输出中的外观。 这些样式可帮助您快速识别文档中的脚注。
 
 
-**示例 1**:
+**示例1**：
 
 使用给定示例，在脚注调用和标记之前和之后添加一个括号：
 
@@ -50,7 +49,7 @@ content: "(" counter(footnote, decimal) ")";
 
 *在脚注调用和脚注标记周围添加括号。*
 
-**示例 2**:
+**示例2**：
 
 您还可以使用星号或小希腊字符而不是数字来标记脚注调用和标记。
 

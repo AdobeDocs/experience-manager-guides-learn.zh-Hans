@@ -1,17 +1,16 @@
 ---
 title: 自定义工具栏
 description: 了解如何自定义工具栏
-source-git-commit: ef2e99db8c298d34af5777baa48886a55ac32590
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
 
 ---
 
-
 # 自定义工具栏 {#id172FB00L0V6}
 
-默认情况下，Web编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型、交叉引用、内容引用、表格、段落和字符格式等元素的功能。 除了这些基本元素之外，您还可以自定义Web编辑器以插入创作环境中使用的元素。
+默认情况下，Web编辑器附带了任何DITA编辑器所需的最常见编辑功能。 编辑器中提供了插入列表\（编号或项目符号\）类型的元素、交叉引用、内容引用、表格、段落和字符格式等功能。 除了这些基本元素之外，您还可以自定义Web编辑器以插入在创作环境中使用的元素。
 
 可通过两种方式自定义Web编辑器的工具栏：
 
@@ -26,7 +25,7 @@ ht-degree: 0%
 
 **在工具栏中添加图标**
 
-执行以下步骤，向Web编辑器的工具栏中添加功能：
+执行以下步骤以将功能添加到Web编辑器的工具栏：
 
 1. 登录AEM并打开CRXDE Lite模式。
 
@@ -34,64 +33,64 @@ ht-degree: 0%
 
    `/libs/fmdita/clientlibs/clientlibs/xmleditor/ui_config.json`
 
-1. 在下列位置创建默认配置文件的副本：
+1. 在以下位置创建默认配置文件的副本：
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
 1. 导航到并打开 `ui_config.json` 中的文件 `apps` 节点进行编辑。
 
-1. 在 `ui_config.json` 文件，在工具栏部分中添加新功能的定义。 通常，您可以创建一个新的工具栏按钮组并向其添加一个或多个工具栏按钮。 或者，您可以在现有工具栏组中添加新的工具栏按钮。 需要以下详细信息才能创建新工具栏组：
+1. 在 `ui_config.json` 文件，在工具栏部分中添加新功能的定义。 通常，您可以创建新的工具栏按钮组，并向其添加一个或多个工具栏按钮。 或者，您可以在现有工具栏组中添加新的工具栏按钮。 需要以下详细信息才能创建新的工具栏组：
 
    - **type：**指定 `blockGroup` 作为 `type` 值。 此值表示您正在创建包含一个或多个工具栏组的块组。
 
-   - **extraclass：** 用空格分隔的一个或多个类的名称。
+   - **Extrass（类外）：** 用空格分隔的一个或多个类的名称。
 
-   - **个项目：** 指定工具栏中所有组的定义。 每个组可以包含一个或多个工具栏图标。 要定义工具栏组中的图标，您需要再次定义 `type` 中的属性 `items`，并将其值设置为 `buttonGroup`. 在中指定一个或多个类名 `extraclass` 属性。 在中指定特征名称 `label` 属性。 以下代码片段来自 `ui_config.json` file显示主工具栏块的定义，后面跟 `buttonGroup` 定义：
+   - **项目：** 在工具栏中指定所有组的定义。 每个组可以包含一个或多个工具栏图标。 要在工具栏组中定义图标，您需要重新定义 `type` 中的属性 `items`，并将其值设置为 `buttonGroup`. 在中指定一个或多个类名 `extraclass` 属性。 在中指定特征名称 `label` 属性。 以下代码片段来自 `ui_config.json` file显示主工具栏块的定义，后面跟 `buttonGroup` 定义：
 
-      ```json
-      "toolbar": {    
-        "type": "blockGroup",    
-        "extraclass": 
-        "toolbar operations",    
-          "items": [      
-            {        
-              "type": "buttonGroup",        
-              "extraclass": "left-controls",        
-              "label": "Left Controls",        
-              "items": [
-      ```
+     ```json
+     "toolbar": {    
+       "type": "blockGroup",    
+       "extraclass": 
+       "toolbar operations",    
+         "items": [      
+           {        
+             "type": "buttonGroup",        
+             "extraclass": "left-controls",        
+             "label": "Left Controls",        
+             "items": [
+     ```
 
-      在 `items` 收藏集，则需要指定一个或多个工具栏图标的定义。
+     在 `items` 收藏集，您需要指定一个或多个工具栏图标的定义。
 您需要定义以下属性以添加工具栏图标：
 
    - **类型：** 指定 `button` 作为 `type` 值。 此值表示您正在添加工具栏按钮。
 
-   - **图标：** 指定要在工具栏中使用的Coral图标的名称。
+   - **图标：** 在工具栏中指定要使用的Coral图标的名称。
 
    - **变量：** 指定 `quiet` 作为 `variant` 值。
 
    - **标题：** 指定图标的工具提示。
 
-   - **单击：** 在JavaScript文件中指定为特征定义的命令名称。 如果您的命令需要输入参数，则将命令名称指定为：
+   - **单击：** 在JavaScript文件中指定为特征定义的命令名称。 如果命令需要输入参数，则将命令名称指定为：
 
-      ```JavaScript
-      "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
-      ```
+     ```JavaScript
+     "on-click": {"name": "AUTHOR_INSERT_ELEMENT", "args": "simpletable"}
+     ```
 
-   - **显示或隐藏：** 如果您要定义 `show` 属性，然后指定显示图标的模式。 可能的值包括 —  `@isAuthorMode`， `@isSourceMode`， `@isPreviewMode`， `true` \（在所有模式下显示\），或 `false` \（在所有模式下隐藏\）。
+   - **显示或隐藏：** 如果您要定义 `show` 属性，然后指定显示图标的模式。 可能的值为 —  `@isAuthorMode`， `@isSourceMode`， `@isPreviewMode`， `true` \（在所有模式下显示\），或 `false` \（在所有模式下隐藏\）。
 
-   替换 `show`，您还可以定义 `hide` 属性。 可能值与中的相同 `show` 属性，在指定模式下不会显示图标。
+   取代 `show`，您还可以定义 `hide` 属性。 可能的值与中的相同 `show` 属性，该属性与指定模式下不显示图标的唯一区别。
 
 1. 创建 *clientlib* 并将您的JavaScript添加到此文件夹中。
 
-1. 更新以下项的类别属性： *clientlib* 文件夹，为其分配 *apps.fmdita.xml\_editor.page\_overrides*.
+1. 更新 *clientlib* 文件夹，为其分配 *apps.fmdita.xml\_editor.page\_overrides*.
 
 1. 保存 *ui\_config.json* 文件并重新加载Web编辑器。
 
 
 **JavaScript代码示例**
 
-本节提供两个JavaScript代码示例，可帮助您开始添加自定义功能。 以下示例显示了用户单击工具栏中的“显示版本”图标时的AEM Guides版本号。
+本节提供两个JavaScript代码示例，可帮助您开始添加自定义功能。 以下示例显示了当用户单击工具栏中的“显示版本”图标时AEM Guides的版本号。
 
 将以下代码添加到JavaScript文件中：
 
@@ -211,7 +210,7 @@ ht-degree: 0%
 
    `/libs/fmdita/clientlibs/clientlibs/xmleditor/ui_config.json`
 
-1. 在下列位置创建默认配置文件的副本：
+1. 在以下位置创建默认配置文件的副本：
 
    `/apps/fmdita/xmleditor/ui_config.json`
 
@@ -220,18 +219,17 @@ ht-degree: 0%
 
 - **工具栏：**   本节包含编辑器工具栏中所有可用功能的定义，如插入/删除编号列表、\(file\)关闭、保存、注释等。
 
-- **快捷键：**   本节包含分配给编辑器中特定功能的键盘快捷键的定义。
+- **快捷键：**   本节包含指定给编辑器中特定功能的键盘快捷键的定义。
 
-- **模板：**   本节包含可在文档中使用的DITA元素的预定义结构。 默认情况下，“模板”部分包含段落、简单表格、表格和正文元素的模板定义。 通过为所需元素添加有效的XML结构，可以为任何元素创建模板定义。 例如，如果要添加 `p` 元素，每个新 `li` 元素，则可以在模板部分的末尾添加以下代码来实现这一点：
+- **模板：**   本节包含可在文档中使用的DITA元素的预定义结构。 默认情况下，“模板”部分包含段落、简单表格、表格和正文元素的模板定义。 通过为所需元素添加有效的XML结构，可以为任何元素创建模板定义。 例如，如果要添加 `p` 元素，每个新 `li` 元素中，您可以在模板部分的末尾添加以下代码来实现这一点：
 
 ```HTML
 "li": "<li><p></p></li>"
 ```
 
-1. 在工具栏部分中，删除您不想向用户公开的功能条目。
+1. 从工具栏部分中，删除不想向用户公开的功能条目。
 
 1. 保存 *ui\_config.json* 文件并重新加载Web编辑器。
 
 
 **父主题：**[&#x200B;自定义Web编辑器](conf-web-editor.md)
-

@@ -1,21 +1,20 @@
 ---
 title: 默认包含@navtitle属性
 description: 了解如何默认包含@navtitle属性
-source-git-commit: 801c306fa120e7889d4b9428fd5bee2849bf1956
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 1%
 
 ---
 
-
 # 默认包含@navtitle属性 {#id2115BC0J0XA}
 
-可以在映射中添加不同类型的引用文件，例如主题、引用、任务、\(sub\)映射等。 这些文件中的大多数都支持 `@navtitle` 属性。 但是，没有多少作者会始终如一地使用它。 如果要强制使用 `@navtitle` 属性，则可以使用简单的配置完成此操作。
+可以在映射中添加不同类型的引用文件，例如主题、引用、任务、\(sub\)映射等。 这些文件中的大多数都支持 `@navtitle` 属性。 但是，并没有多少作者能够一致地使用它。 如果要强制使用 `@navtitle` 属性，则可以使用简单的配置完成此操作。
 
 启用后，您在映射中添加的每个引用文件将自动获取 `@navtitle` 特性添加到其属性。 此 `@navtitle` 还将获得 `title` 引用内容的元素。
 
-要包含 `@navtitle` 属性，请执行以下步骤：
+要包含 `@navtitle` 属性默认情况下，请执行以下步骤：
 
 1. 下载ui\_config.json文件。
 
@@ -44,5 +43,4 @@ ht-degree: 1%
 1. 将文件上传到相应的配置文件\（全局或文件夹\）。
 
 
-通过此配置，您添加到映射的每个引用文件将包含 `@navtitle` 属性。
-
+使用此配置，您添加到映射的每个参考文件将包含 `@navtitle` 属性。

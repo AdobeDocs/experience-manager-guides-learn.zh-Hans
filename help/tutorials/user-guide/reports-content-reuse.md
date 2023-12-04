@@ -1,10 +1,9 @@
 ---
 title: 内容重用报告
 description: 了解如何在AEM Guides中查看内容重用报告。 生成报告以查找内容重用百分比。
-exl-id: 658ae0fd-9032-4480-b9e4-fe4fec261e72
-source-git-commit: 8504a0a52d381044bf1f0d6e7de3585ebecf3a7b
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -39,7 +38,7 @@ ht-degree: 0%
 
      列出平均内容重复使用，其计算公式为“内容重复使用实例数/主题总数”。 此报表会考虑用于计算的所有第一级直接内容引用和主题引用。 内容重用实例的计算方式为重用次数字段中的值总和。 “报告摘要”中还列出了重复使用最广泛的主题。 单击最重复使用主题中的主题链接可打开主题预览。
 
-   - **详细信息:**
+   - **详细信息：**
 
      “详细信息”部分包含以下列：
 

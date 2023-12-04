@@ -1,10 +1,9 @@
 ---
 title: 从Web编辑器创建和管理基线
 description: 在AEM Guides中，通过Web编辑器创建和管理基线。 了解如何基于标签创建基线并将过滤器应用于基线。
-exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
-source-git-commit: e8a912b0f8bc690fceade0b54bb36057a727ab33
+source-git-commit: 880cd344ceb65ea339be699ebcad41c0d62e168a
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
