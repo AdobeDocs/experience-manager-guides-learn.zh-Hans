@@ -5,6 +5,6 @@ source-wordcount: '20'
 ht-degree: 0%
 
 ---
-# Adobe Experience Manager指南
+# Adobe Experience Manager Guides
 
-这是存储“AEM Guides”课程的视频和Markdown文件的存储库。
+这是用于存储“AEM Guides”课程的视频和Markdown文件的存储库。

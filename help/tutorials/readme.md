@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 # 文件已移动
 
-“教程”部分中的文件现在位于 `experience-manager-guides.en` 存储库：
+“教程”部分中的文件现在位于`experience-manager-guides.en`存储库中：
 
 <https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
 

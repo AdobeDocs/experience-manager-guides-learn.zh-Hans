@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager Guides编辑器课程3
+title: Adobe Experience Manager Guides Editor课程3
 description: AEM Guides Web 编辑器的高级用户指南
 exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
@@ -23,10 +23,10 @@ ht-degree: 13%
 - [交叉引用和链接](cross-references-and-links.md)
 - [内容重用](content-reuse.md)
 - [键](keys.md)
-- [术语表](glossary.md)
-- [拼写检查和查找/替换](spell-check.md)
+- [词汇表](glossary.md)
+- [拼写检查并查找/替换](spell-check.md)
 - [跟踪更改](track-changes.md)
 - [条件](conditions.md)
 - [映射和书图](maps-and-bookmaps.md)
-- [简单的内容创建工作流](simple-content-creation-workflows.md)
+- [简单内容创建工作流](simple-content-creation-workflows.md)
 - [结论/摘要](recap.md)

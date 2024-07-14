@@ -10,10 +10,10 @@ ht-degree: 16%
 ---
 
 
-# 的Tutorials [!DNL Adobe Experience Manager Guides] {#videos}
+# [!DNL Adobe Experience Manager Guides]的Tutorials {#videos}
 
-+ [[!DNL AEM Guides] 视频](overview.md)
-+ 快速入门 [!DNL AEM Guides] {#getting-started}
++ [[!DNL AEM Guides]视频](overview.md)
++ 开始使用[!DNL AEM Guides] {#getting-started}
    + [入门指南概述](./course-1/overview.md)
    + [了解AEM用户界面](./course-1/understanding-the-aem-user-interface.md)
    + [创建和构建内容](./course-1/creating-and-structuring-content.md)
@@ -22,9 +22,9 @@ ht-degree: 16%
    + [使用列表](./course-1/working-with-lists.md)
    + [版本内容](./course-1/versioning-content.md)
    + [创建映射](./course-1/creating-a-map.md)
-   + [发布默认输出](./course-1/publishing-default-output.md)
+   + [Publish默认输出](./course-1/publishing-default-output.md)
    + [回顾](./course-1/recap.md)
-+ 输出生成方法 [!DNL AEM Guides] {#output-generation}
++ 使用[!DNL AEM Guides] {#output-generation}生成输出
    + [输出生成概述](./course-2/overview.md)
    + [了解地图仪表板](./course-2/introduction-to-the-map-dashboard.md)
    + [使用报表](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [排查发布错误问题](./course-2/troubleshooting-publishing-errors.md)
    + [批量发布](./course-2/bulk-publishing.md)
    + [回顾](./course-2/recap.md)
-+ 创作方式 [!DNL AEM Guides] 编辑者 {#advanced-user-guide}
++ 使用[!DNL AEM Guides]编辑器{#advanced-user-guide}进行创作
    + [创作概述](./course-3/overview.md)
    + [用户首选项、编辑器设置和编辑器工具栏](./course-3/user-settings-preferences-toolbars.md)
    + [文件夹配置文件](./course-3/folder-profiles.md)

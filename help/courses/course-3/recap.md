@@ -5,11 +5,11 @@ exl-id: 29fe5e78-8787-4f09-a969-60f68e376976
 source-git-commit: 1c4d278a05f2612bc55ce277efb5da2e6a0fa9a9
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
-# 审核
+# 审查
 
 >[!VIDEO](https://video.tv.adobe.com/v/342771?quality=12&learn=on)
 
@@ -31,9 +31,9 @@ ht-degree: 8%
 
 - [键](keys.md)
 
-- [术语表](glossary.md)
+- [词汇表](glossary.md)
 
-- [拼写检查以及查找和替换](spell-check.md)
+- [拼写检查并查找和替换](spell-check.md)
 
 - [跟踪更改](track-changes.md)
 
@@ -41,4 +41,4 @@ ht-degree: 8%
 
 - [映射和书签](maps-and-bookmaps.md)
 
-- [简单的内容创建工作流](simple-content-creation-workflows.md)
+- [简单内容创建工作流](simple-content-creation-workflows.md)
