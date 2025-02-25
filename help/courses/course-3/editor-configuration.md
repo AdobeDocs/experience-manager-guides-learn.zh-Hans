@@ -2,9 +2,9 @@
 title: AEM Guides编辑器配置
 description: 为AEM Guides配置编辑器
 exl-id: 437d9598-4afc-431f-81bd-6762e22656b7
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+source-git-commit: 988c288fc03e509a3a55e87b1e1ecd8fd07d1c92
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 现在，您可以在文本编辑器中打开和修改内容。 _AEM Guides安装和配置_&#x200B;指南包含有关如何删除、自定义或向UI配置添加功能的示例。
 
-## 上传修改后的XML编辑器UI配置
+## 上载修改的XML编辑器配置
 
 自定义UI配置后，您可以上传它。 请注意，为示例配置文件&#x200B;_ui-config-restricted-editor.json_&#x200B;提供了本课程的支持主题集。
 
 1. 在文件夹配置文件中，单击&#x200B;[!UICONTROL **XML编辑器配置**]&#x200B;选项卡。
 
-1. 在XML编辑器UI配置下，单击&#x200B;[!UICONTROL **上传**]。
+1. 在XML编辑器配置下，单击&#x200B;[!UICONTROL **上传**]。
 
    ![上传](images/lesson-4/upload.png)
 
