@@ -43,5 +43,5 @@ ht-degree: 1%
 ## 其他资源
 
 * [[!DNL AEM Guides] 联机用户指南](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html)
-* [[!DNL AEM Guides] PDF指南](https://helpx.adobe.com/support/xml-documentation-for-experience-manager.html)
-* [Experience League — 浏览AEM](https://experienceleague.adobe.com/#recommended/solutions/experience-manager)
+* [[!DNL AEM Guides] PDF指南](https://helpx.adobe.com/cn/support/xml-documentation-for-experience-manager.html)
+* [Experience League — 浏览AEM](https://experienceleague.adobe.com/zh-hans#recommended/solutions/experience-manager)
