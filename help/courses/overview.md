@@ -27,6 +27,6 @@ ht-degree: 5%
 
   *了解如何使用[!DNL Adobe Experience Manager Guides]创建、组织、创作和发布内容。*
 
-* 使用&#x200B; [!DNL AEM Guides]](course-2/overview.md)**生成**[&#x200B;输出
+* 使用&#x200B; [!DNL AEM Guides][&#128279;](course-2/overview.md)**生成**&#x200B;输出
 
   *了解如何使用[!DNL Adobe Experience Manager Guides]生成输出。 了解可用于生成输出的各种功能 — 报告、基线、条件、故障排除、批量发布和激活。*

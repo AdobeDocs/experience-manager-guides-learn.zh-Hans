@@ -67,7 +67,7 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
    ![新字典文件创建](images/lesson-11/new-dictionary-file.png)
 
-   c.命名文件&#x200B;_**user_dictionary.txt**_。
+   c.命名文件&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
 
    ![用户字典文本](images/lesson-11/user-dictionary.png)
 

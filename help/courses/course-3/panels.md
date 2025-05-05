@@ -222,7 +222,7 @@ AEM Guides Web Editor分为多个部分，包括主工具栏、辅助工具栏�
 
 1. 在编辑器中打开主题。
 
-1. 单击右侧面板上的[!UICONTROL  **文件属性**]&#x200B;图标。
+1. 单击右侧面板上的[!UICONTROL &#x200B; **文件属性**]&#x200B;图标。
 
    ![文件属性图标](images/lesson-5/file-properties-icon.png)
 
