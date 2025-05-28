@@ -1,9 +1,10 @@
 ---
 title: AEM Guides编辑器配置
 description: 为新的AEM Guides编辑器自定义JSON配置和转换UI配置。
-source-git-commit: ec6f5685d690e53e5c6eb29d6b61436833f62c68
+exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
+source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -12,6 +13,9 @@ ht-degree: 0%
 
 从旧UI迁移到新AEM Guides UI时，**ui_config**&#x200B;的更新必须转换为更灵活和模块化的UI配置。 此框架有助于将更改无缝地纳入&#x200B;**editor_toolbar**&#x200B;和[其他工具栏](/help/courses/course-3/conver-ui-config.md#editing-json-for-different-screens)。 该过程还支持修改应用程序中的其他视图和小部件。
 
+>[!NOTE]
+>
+>在向扩展框架过渡期间，应用于特定按钮的自定义项可能会遇到问题。 如果发生这种情况，您可以参照此页面提出支持工单以提示支持和解决问题。
 
 ## 为不同屏幕编辑JSON
 
@@ -38,24 +42,34 @@ ht-degree: 0%
 
 每个JSON遵循一致结构：
 
-1. **id**：指定要自定义组件的小组件。
-1. **targetEditor**：使用编辑器和模式属性定义何时显示或隐藏按钮：
+1. `id`：指定要自定义该组件的小组件。
+1. `targetEditor`：使用编辑器和模式属性定义何时显示或隐藏按钮：
 
-   当前系统中有这些&#x200B;**编辑器**&#x200B;和&#x200B;**模式**。
+   `targetEditor`支持以下选项：
 
-   **编辑器**： ditamap， bookmap， subjectScheme， xml， css，翻译，预设， pdf_preset
+   - `mode`
+   - `displayMode`
+   - `editor`
+   - `documentType`
+   - `documentSubType`
+   - `flag`
 
-   **模式**：作者，源，预览，目录，拆分
+   有关详细信息，请查看[了解targetEditor属性](#understanding-targeteditor-properties)
 
-   （注意：目录模式适用于布局视图。）
+   >[!NOTE]
+   >
+   > Experience Manager Guides 2506版本引入了新属性： `displayMode`、`documentType`、`documentSubType`和`flag`。 仅从版本2506开始支持这些属性。 同样，从本版本开始，模式属性中从`toc`到`layout`的更改也适用。
+   >
+   > 新字段`documentType`现在可与现有`editor`字段一起使用。  这两个字段均受支持，可根据需要使用。 但是，建议使用`documentType`以确保实施之间的一致性，尤其是在使用`documentSubType`属性时。 `editor`字段仍然有效，以支持向后兼容性和现有集成。
 
-1. **target**：指定将添加新组件的位置。 它使用键值对或索引进行唯一标识。 视图状态包括：
 
-   * **附加**：在末尾添加。
+1. `target`：指定将添加新组件的位置。 它使用键值对或索引进行唯一标识。 视图状态包括：
 
-   * **前置词**：在开头添加。
+   - **附加**：在末尾添加。
 
-   * **替换**：替换现有组件。
+   - **前置词**：在开头添加。
+
+   - **替换**：替换现有组件。
 
 示例JSON结构：
 
@@ -87,6 +101,140 @@ ht-degree: 0%
 ```
 
 <br>
+
+## 了解`targetEditor`属性
+
+以下是每个属性、其用途和受支持值的明细。
+
+### `mode`
+
+定义编辑器的操作模式。
+
+**支持的值**： `author`、`source`、`preview`、`layout`（以前为`toc`）、`split`
+
+### `displayMode` *（可选）*
+
+控制UI组件的可见性或交互性。 如果未指定，则默认值设置为`show`。
+
+**支持的值**： `show`，`hide`，`enabled`，`disabled`
+
+示例：
+
+```
+ {
+        "icon": "textBulleted",
+        "title": "Custom Insert Bulleted",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_BULLETED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ],
+          "displayMode": "hide"
+        }
+      },
+```
+
+### `editor`
+
+在编辑器中指定主要文档类型。
+
+**支持的值**： `ditamap`，`bookmap`，`subjectScheme`，`xml`，`css`，`translation`，`preset`，`pdf_preset`
+
+### `documentType`
+
+指示主要文档类型。
+
+**支持的值**： `dita`、`ditamap`、`bookmap`、`subjectScheme`、`css`、`preset`、`ditaval`、`reports`、`baseline`、`translation`、`html`、`markdown`、`conditionPresets`
+
+> 对于特定用例，可能支持其他值。
+
+示例：
+
+```
+ {
+        "icon": "textNumbered",
+        "title": "Custom Numbered List",
+        "on-click": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "key": "$$AUTHOR_INSERT_REMOVE_NUMBERED_LIST",
+        "targetEditor": {
+          "documentType": [
+            "dita",
+            "ditamap"
+          ],
+          "mode": [
+            "author",
+            "source"
+          ]
+
+        }
+      },
+```
+
+### `documentSubType`
+
+进一步根据`documentType`对文档进行分类。
+
+- **对于`preset`**：`pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
+- `dita`**的**：`topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+
+> 对于特定用例，可能支持其他值。
+
+示例：
+
+```
+ {
+        "icon": "rename",
+        "title": "Custom Rename",
+        "on-click": "$$PUBLISH_PRESETS_RENAME",
+        "label": "Custom Rename",
+        "key": "$$PUBLISH_PRESETS_RENAME",
+        "targetEditor": {
+          "documentType": [
+            "preset"
+          ],
+          "documentSubType": [
+            "nativePDF",
+            "aemsite",
+            "json"
+          ]
+
+        }
+      },
+```
+
+### `flag`
+
+文档状态或功能的布尔指示器。
+
+**支持的值**： `isOutputGenerated`、`isTemporaryFileDownloadable`、`isPDFDownloadable`、`isLocked`、`isUnlocked`、`isDocumentOpen`
+
+此外，您还可以在`extensionMap`内创建一个自定义标志，该标志用作`targetEditor`中的标志。 此处，`extensionMap`是用于添加自定义键或可观察值的全局变量。
+
+示例：
+
+```
+ {
+        "icon": "filePDF",
+        "title": "Custom Export pdf",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "documentType": [
+            "markdown"
+          ],
+          "mode": [
+            "preview"
+          ],
+          "flag": ["isPDFDownloadable"]
+
+        }
+      },
+```
+
 
 ## 示例
 
@@ -189,6 +337,75 @@ ht-degree: 0%
 
 <br>
 
+### 在预览模式下添加按钮
+
+根据该设计，针对锁定和未锁定（只读）模式分别管理按钮可见性，以保持清晰可控的用户体验。 默认情况下，当界面处于只读模式时，任何新添加的按钮都会隐藏。
+要使按钮在**只读**模式下可见，您必须指定一个目标，以便将该按钮置于即使接口被锁定也保持可访问的工具栏子部分中。
+例如，通过将目标指定为**Download作为PDF**，您可以确保该按钮与现有的可见按钮出现在同一部分中，从而使其在解锁模式下可访问。
+
+```json
+"target": {
+  "key": "label",
+  "value": "Download as PDF",
+  "viewState": "prepend"
+}
+```
+
+在&#x200B;**预览**&#x200B;模式下添加按钮&#x200B;**导出为PDF**，该按钮在锁定和解锁模式下均可见。
+
+```json
+{
+  "id": "editor_toolbar",
+  "view": {
+    "items": [
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Download as PDF",
+          "viewState": "prepend"
+        }
+      },
+      {
+        "icon": "filePDF",
+        "title": "Export as PDF",
+        "on-click": "$$DOWNLOAD_TOPIC_PDF",
+        "key": "$$DOWNLOAD_TOPIC_PDF",
+        "targetEditor": {
+          "editor": [
+            "ditamap",
+            "xml"
+          ],
+          "mode": [
+            "preview"
+          ]
+        }
+      }
+    ]
+  }
+}
+```
+
+以下代码片段显示了包含锁定方案的&#x200B;**导出为PDF**&#x200B;按钮。
+
+![导出为PDF](images/reuse/lock.png)
+
+此外，下面的代码片段中还显示带有解锁方案的&#x200B;**导出为PDF**&#x200B;按钮。
+
+![导出为PDF](images/reuse/unlock.png)
+
 ## 如何上传自定义JSON
 
 1. 在&#x200B;**XML编辑器配置**&#x200B;选项卡上，单击顶部栏中的&#x200B;**编辑**。
@@ -210,7 +427,7 @@ ht-degree: 0%
 
 您还可以添加css以自定义已添加自定义按钮或UI上已存在构件或按钮的外观。
 
-对于新添加的自定义按钮，请将&#x200B;**extraclass**&#x200B;添加到JSON中的自定义按钮或组件。
+对于新添加的自定义按钮，请将&#x200B;**extraclass**添加到JSON中的自定义按钮或组件。
 对于旧类，可以检查元素并修改现有类。
 
 ```json
