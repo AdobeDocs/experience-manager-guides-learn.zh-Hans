@@ -2,9 +2,9 @@
 title: AEM Guides编辑器配置
 description: 为新的AEM Guides编辑器自定义JSON配置和转换UI配置。
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: efdb02d955e223783fc1904eda8d41942c1c9ccf
+source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 0%
 进一步根据`documentType`对文档进行分类。
 
 - **对于`preset`**：`pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
-- `dita`**的**：`topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+- **的`dita`**：`topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
 
 > 对于特定用例，可能支持其他值。
 
@@ -340,8 +340,8 @@ ht-degree: 0%
 ### 在预览模式下添加按钮
 
 根据该设计，针对锁定和未锁定（只读）模式分别管理按钮可见性，以保持清晰可控的用户体验。 默认情况下，当界面处于只读模式时，任何新添加的按钮都会隐藏。
-要使按钮在&#x200B;**只读**&#x200B;模式下可见，您必须指定一个目标，以便将该按钮置于即使接口被锁定也保持可访问的工具栏子部分中。
-例如，通过将目标指定为&#x200B;**Download作为PDF**，您可以确保该按钮与现有的可见按钮出现在同一部分中，从而使其在解锁模式下可访问。
+要使按钮在**只读**模式下可见，您必须指定一个目标，以便将该按钮置于即使接口被锁定也保持可访问的工具栏子部分中。
+例如，通过将目标指定为**Download作为PDF**，您可以确保该按钮与现有的可见按钮出现在同一部分中，从而使其在解锁模式下可访问。
 
 ```json
 "target": {
@@ -406,6 +406,94 @@ ht-degree: 0%
 
 ![导出为PDF](images/reuse/unlock.png)
 
+### 自定义显示在编辑器工具栏的菜单下拉列表中的选项
+
+您可以使用以下示例在“菜单”下拉菜单中附加、隐藏、替换和添加自定义选项。
+
+#### 附加
+
+在菜单下拉菜单中附加选项。 在此，我们在菜单选项中附加&#x200B;**自定义菜单按钮**
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "targetEditor": {
+          "editor": [
+            "ditamap"
+          ],
+          "mode": [
+            "author"
+          ]
+        },
+        "target": {
+          "key": "label",
+          "value": "Version label",
+          "viewState": "append"
+        }
+      }
+```
+
+#### 替换
+
+替换菜单下拉菜单中显示的选项。 此处我们将&#x200B;**创建审核任务**&#x200B;替换为&#x200B;**自定义菜单按钮3**。
+
+```json
+{
+        "icon": "specialCharacter",
+        "title": "Custom menu button 3",
+        "on-click": "$$AUTHOR_INSERT_SYMBOL",
+        "target": {
+          "key": "label",
+          "value": "Create review task",
+          "viewState": "replace"
+        }
+
+      }
+```
+
+#### 隐藏
+
+隐藏菜单下拉菜单中显示的选项。 在此，我们在菜单中隐藏&#x200B;**查找和替换**&#x200B;选项。
+
+```json
+{
+        "hide": true,
+        "target": {
+          "key": "label",
+          "value": "Find and replace",
+          "viewState": "replace"
+        }
+      }
+```
+
+#### 在子菜单中添加自定义选项
+
+在菜单下拉菜单的子菜单中添加选项。
+
+```json
+{
+        "icon": "viewAllTags",
+        "title": "Toggle Tags View Goziamasu",
+        "key": "AUTHOR_TOGGLE_TAG_VIEW",
+        "target": {
+          "key": "label",
+          "value": "Track changes",
+          "viewState": "replace"
+        },
+        "targetEditor": {
+          "documentType": [
+            "dita"
+          ],
+          "mode": [
+            "author"
+          ]
+        }
+
+      }
+```
+
 ## 如何上传自定义JSON
 
 1. 在&#x200B;**XML编辑器配置**&#x200B;选项卡上，单击顶部栏中的&#x200B;**编辑**。
@@ -427,7 +515,7 @@ ht-degree: 0%
 
 您还可以添加css以自定义已添加自定义按钮或UI上已存在构件或按钮的外观。
 
-对于新添加的自定义按钮，请将&#x200B;**extraclass**&#x200B;添加到JSON中的自定义按钮或组件。
+对于新添加的自定义按钮，请将&#x200B;**extraclass**添加到JSON中的自定义按钮或组件。
 对于旧类，可以检查元素并修改现有类。
 
 ```json
