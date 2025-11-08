@@ -9,6 +9,6 @@ ht-degree: 0%
 
 “教程”部分中的文件现在位于`experience-manager-guides.en`存储库中：
 
-<https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.en>
+<https://git.corp.adobe.com/AdobeDocs/experience-manager-guides.zh-Hans>
 
 此 — learn存储库应仅包含视频内容。 所有产品文档现在都位于另一个存储库中。
