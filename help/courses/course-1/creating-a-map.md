@@ -2,7 +2,7 @@
 title: 在 [!DNL AEM Guides]中创建映射
 description: 了解如何在 [!DNL Adobe Experience Manager Guides]中创建映射
 exl-id: e38a7fd5-2a29-4248-8e8f-e6a87e1eae9c
-source-git-commit: 9e3650f4711ca49b923baf445c36d5b460daf70b
+source-git-commit: 66d6cfd4a73459f70dd33e86bd41c8b311fe7f8a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 1%
@@ -10,8 +10,6 @@ ht-degree: 1%
 ---
 
 # 创建地图
-
-{{test}}
 
 地图是一种组织工具，允许您以层次结构添加和组织信息。 此任务向您说明如何创建映射并整理映射中的内容。
 
