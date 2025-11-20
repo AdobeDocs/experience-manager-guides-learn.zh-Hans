@@ -20,4 +20,4 @@ ht-degree: 0%
 - [使用项目符号和编号列表](working-with-lists.md)
 - [对您的内容进行版本控制](versioning-content.md)
 - [创建并组织映射](creating-a-map.md)
-- [将地图Publish为AEM站点和PDF](publishing-default-output.md)
+- [将地图发布为AEM站点和PDF](publishing-default-output.md)

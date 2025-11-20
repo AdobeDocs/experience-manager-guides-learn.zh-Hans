@@ -5,7 +5,7 @@ breadcrumb-title: AEM Guides 教程
 source-git-commit: 2f11a068afaa2941e437ee8b0a735a8c7e69784c
 workflow-type: tm+mt
 source-wordcount: '130'
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 16%
 # [!DNL Adobe Experience Manager Guides]的教程 {#videos}
 
 + [[!DNL AEM Guides]视频](overview.md)
-+ 开始使用[!DNL AEM Guides] {#getting-started}
++ [!DNL AEM Guides] 入门 {#getting-started}
    + [入门指南概述](./course-1/overview.md)
    + [了解AEM用户界面](./course-1/understanding-the-aem-user-interface.md)
    + [创建和构建内容](./course-1/creating-and-structuring-content.md)
@@ -24,7 +24,7 @@ ht-degree: 16%
    + [创建映射](./course-1/creating-a-map.md)
    + [发布默认输出](./course-1/publishing-default-output.md)
    + [回顾](./course-1/recap.md)
-+ 使用[!DNL AEM Guides]生成输出 {#output-generation}
++ 使用 [!DNL AEM Guides] 生成输出 {#output-generation}
    + [输出生成概述](./course-2/overview.md)
    + [了解地图仪表板](./course-2/introduction-to-the-map-dashboard.md)
    + [使用报表](./course-2/working-with-reports.md)
@@ -34,7 +34,7 @@ ht-degree: 16%
    + [排查发布错误问题](./course-2/troubleshooting-publishing-errors.md)
    + [批量发布](./course-2/bulk-publishing.md)
    + [回顾](./course-2/recap.md)
-+ 使用[!DNL AEM Guides]编辑器进行创作{#advanced-user-guide}
++ 使用[!DNL AEM Guides]编辑器创作 {#advanced-user-guide}
    + [创作概述](./course-3/overview.md)
    + [用户首选项、编辑器设置和编辑器工具栏](./course-3/user-settings-preferences-toolbars.md)
    + [文件夹配置文件](./course-3/folder-profiles.md)

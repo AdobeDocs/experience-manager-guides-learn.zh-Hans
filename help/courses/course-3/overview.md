@@ -5,7 +5,7 @@ exl-id: f73a11ae-07e4-42c6-a803-7bdffe08de6d
 source-git-commit: 6a35536d55bec04d69d1c296b75b55f034f70186
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
 - [交叉引用和链接](cross-references-and-links.md)
 - [内容重用](content-reuse.md)
 - [键](keys.md)
-- [词汇表](glossary.md)
+- [术语表](glossary.md)
 - [拼写检查并查找/替换](spell-check.md)
 - [跟踪更改](track-changes.md)
 - [条件](conditions.md)

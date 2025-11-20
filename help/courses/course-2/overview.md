@@ -16,7 +16,7 @@ ht-degree: 0%
 - [了解地图仪表板](./introduction-to-the-map-dashboard.md)
 - [使用报表](./working-with-reports.md)
 - [使用基线创建和发布](./creating-and-publishing-with-baselines.md)
-- 带条件的[Publish](./publishing-with-conditions.md)
+- [发布条件](./publishing-with-conditions.md)
 - [了解输出预设](./output-presets.md)
 - [发布错误疑难解答](./troubleshooting-publishing-errors.md)
 - [批量发布](./bulk-publishing.md)
