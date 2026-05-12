@@ -3,8 +3,11 @@ title: 拼写检查并查找/替换
 description: 在AEM Guides中使用拼写检查和查找/替换
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
 TQID: https://experienceleague.adobe.com/cSdhulSc30KrwsGh1ldB2yn-8eSLccHBpyD-0S1x1M0
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 443
@@ -70,7 +73,7 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
    ![新字典文件创建](images/lesson-11/new-dictionary-file.png)
 
-   c. 命名文件&#x200B;_**user_dictionary.txt**_。
+   c. 命名文件&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
 
    ![用户字典文本](images/lesson-11/user-dictionary.png)
 

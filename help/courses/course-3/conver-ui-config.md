@@ -3,11 +3,20 @@ title: AEM Guides编辑器配置
 description: 为新的AEM Guides编辑器自定义JSON配置和转换UI配置。
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
 TQID: https://experienceleague.adobe.com/-OjsNVIiPAMvXO2UhRf0EpJ5BipU4g2b2HYL1KOQwPE
-product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: ae478996-b206-4712-9b0c-dc78a2644453id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0eid: d90290ec-3e61-4ebd-8649-bcafe0836803
-subfeature_v2: id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 1311
@@ -346,8 +355,8 @@ ht-degree: 0%
 ### 在预览模式下添加按钮
 
 根据该设计，针对锁定和未锁定（只读）模式分别管理按钮可见性，以保持清晰可控的用户体验。 默认情况下，当界面处于只读模式时，任何新添加的按钮都会隐藏。
-要使按钮在**只读**模式下可见，您必须指定一个目标，以便将该按钮置于即使接口被锁定也保持可访问的工具栏子部分中。
-例如，通过将目标指定为**Download作为PDF**，您可以确保该按钮与现有的可见按钮出现在同一部分中，从而使其在解锁模式下可访问。
+要使按钮在&#x200B;**只读**&#x200B;模式下可见，您必须指定一个目标，以便将该按钮置于即使接口被锁定也保持可访问的工具栏子部分中。
+例如，通过将目标指定为&#x200B;**Download作为PDF**，您可以确保该按钮与现有的可见按钮出现在同一部分中，从而使其在解锁模式下可访问。
 
 ```json
 "target": {
@@ -521,7 +530,7 @@ ht-degree: 0%
 
 您还可以添加css以自定义已添加自定义按钮或UI上已存在构件或按钮的外观。
 
-对于新添加的自定义按钮，请将&#x200B;**extraclass**添加到JSON中的自定义按钮或组件。
+对于新添加的自定义按钮，请将&#x200B;**extraclass**&#x200B;添加到JSON中的自定义按钮或组件。
 对于旧类，可以检查元素并修改现有类。
 
 ```json
