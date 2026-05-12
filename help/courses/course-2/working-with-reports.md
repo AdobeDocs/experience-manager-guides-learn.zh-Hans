@@ -2,9 +2,18 @@
 title: 使用报表
 description: 在 [!DNL Adobe Experience Manager Guides]中使用报告
 exl-id: 755506a6-c416-4a8c-8359-8db7e63a90a4
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/k4uvmKzypx6Z29GkMbzV01G62BQp4A3aNDuQYjJDhUI
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: 710
 ht-degree: 0%
 
 ---
@@ -77,14 +86,14 @@ ht-degree: 0%
 
 1. 选择&#x200B;**保存**。
 
-## 生成AEM Site输出
+## 生成AEM站点输出
 
 1. 在存储库中，选择地图上的省略号图标以打开“选项”菜单，然后&#x200B;**打开地图仪表板。**
 
    ![open-map-dashboard.png](images/open-map-dashboard.png)
 
    “映射仪表板”将在另一个选项卡中打开。
-1. 在“输出预设”选项卡中，选择&#x200B;**AEM Site**。
+1. 在“输出预设”选项卡中，选择&#x200B;**AEM站点**。
 
    ![aem-site-checkbox](images/aem-site-checkbox.png)
 
@@ -139,4 +148,4 @@ ht-degree: 0%
 1. 将文件拖放到文件夹中。
 文件已上传，并解决了conref错误。
 
-所有错误现已得到解决。 “报表”页面将指示没有其他错误，生成AEM Site将导致完整输出，并且没有缺少的组件。
+所有错误现已得到解决。 “报表”页面将指示没有其他错误，生成AEM站点将导致完整输出，并且没有缺少的组件。

@@ -2,23 +2,29 @@
 title: 了解 [!DNL AEM Guides]中的AEM用户界面
 description: 了解 [!DNL Adobe Experience Manager Guides]中的AEM用户界面
 exl-id: 955a05ed-92d3-480e-9c6b-a0ff362cc464
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/k69iwbiqIEyFjgOMiBC2gMm1QWqxddSTC1xoRQmJmKQ
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 2%
 
 ---
 
 # 了解AEM用户界面
 
-了解如何在XML编辑器中管理资源、文件和文件夹以进行Experience Manager。
+了解如何在Experience Manager的XML编辑器中管理资源、文件和文件夹。
 
 >[!VIDEO](https://video.tv.adobe.com/v/336659?quality=12&learn=on)
 
 ## 访问XML编辑器
 
 1. 在登录屏幕中，输入您的用户名和密码，然后选择&#x200B;**[!UICONTROL 登录]**。
-1. 从AEM导航页中选择&#x200B;**[!UICONTROL XML编辑器]**。
+1. 从AEM导航页面中选择&#x200B;**[!UICONTROL XML编辑器]**。
 
 ## XML编辑器视图
 

@@ -2,9 +2,17 @@
 title: 交叉引用和链接
 description: 在AEM Guides中创建交叉引用和链接
 exl-id: bee7d50f-cbdd-4ac8-b15b-101febc4ae80
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/K55H51fnM7bsR68-HQWbNHrSxHgQBPkM-jnGG-OFIbw
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: 362
 ht-degree: 0%
 
 ---
@@ -26,13 +34,13 @@ XML编辑器和DITA为主题之间的链接提供了一种强大的方式。 请
 
 1. 为要引用的元素分配一个ID。
 
-   a.单击元素内部。
+   答： 在元素内单击。
 
-   b.在“内容属性”面板上，从“属性”下拉列表中选择&#x200B;**ID**。
+   b. 在“内容属性”面板上，从“属性”下拉列表中选择&#x200B;**ID**。
 
-   c.在“值”字段中键入逻辑名称。
+   c. 在“值”字段中键入逻辑名称。
 
-   d.如果需要，在&#x200B;**大纲视图**&#x200B;中查看元素及其值。
+   d. 如果需要，可在&#x200B;**大纲视图**&#x200B;中查看元素及其值。
 
 1. **保存**&#x200B;主题以确保存储库具有更新的ID。
 

@@ -2,9 +2,15 @@
 title: 拼写检查并查找/替换
 description: 在AEM Guides中使用拼写检查和查找/替换
 exl-id: 5f39618d-a919-4d3c-a4de-2896f2d1bf20
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/cSdhulSc30KrwsGh1ldB2yn-8eSLccHBpyD-0S1x1M0
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: 443
 ht-degree: 1%
 
 ---
@@ -39,7 +45,7 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
    - **浏览器拼写检查** — 拼写检查的默认设置使用浏览器的内置词典。
 
-   - **AEM拼写检查** — 使用此项通过AEM的自定义词典生成自定义词列表。
+   - **AEM拼写检查** — 使用此项通过AEM的自定义词典生成自定义单词列表。
 
 1. 选择&#x200B;**AEM拼写检查**。
 
@@ -53,7 +59,7 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
 1. 登录到&#x200B;**CRXDE Lite**。
 
-   ![AEM UICRXDE Lite图标](images/lesson-11/crxde-lite.png)
+   ![AEM UI CRXDE Lite图标](images/lesson-11/crxde-lite.png)
 
 1. 导航到&#x200B;**_/apps/fmdita/config节点_**。
 
@@ -61,17 +67,17 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
 1. 创建新文件。
 
-   a.右键单击配置文件夹。
+   答： 右键单击配置文件夹。
 
-   b.选择&#x200B;**创建>创建文件**。
+   b. 选择&#x200B;**创建>创建文件**。
 
    ![新字典文件创建](images/lesson-11/new-dictionary-file.png)
 
-   c.命名文件&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
+   c. 命名文件&#x200B;_&#x200B;**user_dictionary.txt**&#x200B;_。
 
    ![用户字典文本](images/lesson-11/user-dictionary.png)
 
-   d.单击&#x200B;[!UICONTROL **确定**]。
+   d. 单击&#x200B;[!UICONTROL **确定**]。
 
 1. 打开文件。
 
@@ -81,7 +87,7 @@ AEM Guides编辑器具有强大的拼写检查和查找与替换功能。
 
 1. 关闭文件。
 
-作者可能需要重新启动Web编辑器会话才能在AEM词典中获取更新的自定义词列表。
+作者可能需要重新启动其Web编辑器会话，才能在AEM词典中获取更新的自定义单词列表。
 
 ## 在单个文件中查找和替换
 

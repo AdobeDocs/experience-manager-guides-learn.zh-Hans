@@ -2,9 +2,24 @@
 title: AEM Guides编辑器配置
 description: 为新的AEM Guides编辑器自定义JSON配置和转换UI配置。
 exl-id: bb047962-0e2e-4b3a-90c1-052a2a449628
-source-git-commit: 1ed48d543161be88becad9c0cd58014323aeda47
+TQID: https://experienceleague.adobe.com/-OjsNVIiPAMvXO2UhRf0EpJ5BipU4g2b2HYL1KOQwPE
+product_v2:
+  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+  - id: d90290ec-3e61-4ebd-8649-bcafe0836803
+subfeature_v2:
+  - id: b1ef4d86-3917-4b76-a0bc-4a4771f9b3b0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1311
 ht-degree: 0%
 
 ---
@@ -179,7 +194,7 @@ ht-degree: 0%
 进一步根据`documentType`对文档进行分类。
 
 - **对于`preset`**：`pdf`，`html5`，`aemsite`，`nativePDF`，`json`，`custom`，`kb`
-- **的`dita`**：`topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
+- `dita`**的**：`topic`，`reference`，`concept`，`glossary`，`task`，`troubleshooting`
 
 > 对于特定用例，可能支持其他值。
 
