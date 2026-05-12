@@ -2,10 +2,13 @@
 title: 条件
 description: 使用AEM Guid中的条件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 1%
+source-wordcount: 498
+ht-degree: 3%
 
 ---
 
@@ -41,7 +44,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->注意：配置全局配置文件可能是控制属性和值使用遵循一致样式指南的早期和有效方法。
+注意：配置全局配置文件可能是控制属性和值使用遵循一致样式指南的早期和有效方法。
 
 ## 将属性分配给元素
 
@@ -63,15 +66,15 @@ ht-degree: 1%
 
 1. 修改&#x200B;**用户首选项**。
 
-   a.单击用户首选项图标。
+   答： 单击用户首选项图标。
 
    ![用户偏好设置图标](images/lesson-13/user-prefs-icon.png)
 
-   b.完成&#x200B;**用户首选项**&#x200B;对话框中的必填字段。 例如：
+   b. 完成&#x200B;**用户首选项**&#x200B;对话框中的必填字段。 例如：
 
    ![用户首选项](images/lesson-13/user-preferences.png)
 
-   c.单击&#x200B;[!UICONTROL **保存**]。
+   c. 单击&#x200B;[!UICONTROL **保存**]。
 
 1. 从条件面板中，展开Audience和Platform的下拉菜单。 请注意，可用的条件特定于文件夹配置文件。
 
@@ -89,29 +92,29 @@ ht-degree: 1%
 
 1. 配置用户首选项。
 
-   a.单击&#x200B;[!UICONTROL **用户首选项**]&#x200B;图标。
+   答： 单击&#x200B;[!UICONTROL **用户首选项**]&#x200B;图标。
 
    ![用户首选项](images/lesson-13/user-prefs-icon-2.png)
 
-   b.填充&#x200B;**用户首选项**&#x200B;对话框中的字段。
+   b. 填充&#x200B;**用户首选项**&#x200B;对话框中的字段。
 
-   c.单击“基本路径”字段旁边的文件夹符号，选择所需文件的路径。
+   c. 单击“基本路径”字段旁边的文件夹符号，选择所需文件的路径。
 
-   d.单击&#x200B;[!UICONTROL **选择**]。
+   d. 单击&#x200B;[!UICONTROL **选择**]。
 
-   e.单击&#x200B;**根映射**&#x200B;字段旁边的键符号输入路径。
+   e. 单击&#x200B;**根映射**&#x200B;字段旁边的键符号输入路径。
 
    >[!IMPORTANT]
    >
-   >重要信息：选定的根映射必须是包含主题方案的映射。
+   重要信息：选定的根映射必须是包含主题方案的映射。
 
    ![用户首选项](images/lesson-13/user-preferences-2.png)
 
-   f.通过选择要使用的文件夹限制显示的资源。
+   f. 通过选择要使用的文件夹限制显示的资源。
 
-   g.单击&#x200B;[!UICONTROL **选择**]。
+   g. 单击&#x200B;[!UICONTROL **选择**]。
 
-   h.单击&#x200B;[!UICONTROL **保存**]。
+   h. 单击&#x200B;[!UICONTROL **保存**]。
 
 主题方案现已分配。
 

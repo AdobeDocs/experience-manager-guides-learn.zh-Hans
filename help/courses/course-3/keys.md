@@ -2,10 +2,14 @@
 title: 键
 description: 利用键，可在AEM Guides中使用DITA时将变量信息包含到
 exl-id: cb64e094-fe6d-4a5e-8f0e-25ae58aaa2c6
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/Uw-JiHQLITcmUtAuV-SogA6mM73A6EeCi27gUQC-8Eo
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 0%
+source-wordcount: 585
+ht-degree: 1%
 
 ---
 
@@ -21,25 +25,25 @@ ht-degree: 0%
 
 1. 上传提供的示例文件集。
 
-   a.加载压缩文件。
+   答： 加载zip文件。
 
-   b.刷新AEM环境。
+   b. 刷新AEM环境。
 
-   c.选择要提取的文件。
+   c. 选择要提取的文件。
 
    ![选择Zip](images/lesson-9/select-zip.png)
 
-   d.单击顶部工具栏中的&#x200B;[!UICONTROL **提取存档**]。
+   d. 单击顶部工具栏中的&#x200B;[!UICONTROL **提取存档**]。
 
    ![工具栏](images/lesson-9/extract-archive.png)
 
-   e.在对话框中，选择要提取的文件的特定位置，例如名为“密钥”的文件夹。
+   e. 在对话框中，选择要提取文件的特定位置，例如名为“键”的文件夹。
 
-   f.单击&#x200B;[!UICONTROL **下一步**]。
+   f. 单击&#x200B;[!UICONTROL **下一步**]。
 
-   g.跳过任何冲突，因为以前从未上传过的内容不存在这些冲突。
+   g. 跳过任何冲突，因为以前从未上传过的内容不存在这些冲突。
 
-   h.选择屏幕右上方的&#x200B;[!UICONTROL **提取**]。
+   h. 选择屏幕右上方的&#x200B;[!UICONTROL **提取**]。
 
 1. 提取完成后，单击&#x200B;[!UICONTROL **转到目标文件夹**]。
 
@@ -51,21 +55,21 @@ ht-degree: 0%
 
 1. 指定根映射。
 
-   a.在“按键”屏幕中，打开地图。
+   答： 在“键”屏幕中，打开一个映射。
 
-   b.配置用户首选项。
+   b. 配置用户首选项。
 
-   c.单击顶部工具栏上的&#x200B;[!UICONTROL **用户首选项**]&#x200B;图标。
+   c. 单击顶部工具栏上的&#x200B;[!UICONTROL **用户首选项**]&#x200B;图标。
 
    ![顶部工具栏](images/lesson-9/author-view.png)
 
-   d.单击键图标以指定将用于解析键的&#x200B;**根映射**。
+   d. 单击键图标以指定将用于解析键的&#x200B;**根映射**。
 
-   e.选中任何所需的Assets对应的复选框。
+   e. 选中任何所需的Assets对应的复选框。
 
    ![Assets下拉列表](images/lesson-9/select-assets.png)
 
-   f.单击&#x200B;[!UICONTROL **选择**]。
+   f. 单击&#x200B;[!UICONTROL **选择**]。
 
    g. **保存**&#x200B;用户首选项。
 
@@ -85,39 +89,39 @@ ht-degree: 0%
 
 1. 插入新键盘。
 
-   a.在地图中的有效位置单击。
+   答： 在地图中的有效位置单击。
 
-   b.选择顶部工具栏上的&#x200B;**Keydef**&#x200B;图标。
+   b. 选择顶部工具栏上的&#x200B;**Keydef**&#x200B;图标。
 
    ![Keydef工具栏](images/lesson-9/key-icon.png)
 
-   c.在“插入Keydef”对话框中，为键输入对您创建的定义有意义的唯一值。
+   c. 在“插入Keydef”对话框中，为要创建的定义输入唯一的Keys值。
 
-   d.单击&#x200B;[!UICONTROL **插入**]。
+   d. 单击&#x200B;[!UICONTROL **插入**]。
 
 1. 在keydef中添加topicmeta。
 
-   a.单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
+   答： 单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
 
    ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在插入元素对话框中，搜索并选择“topicmeta”。
+   b. 在“插入元素”对话框中，搜索并选择“topicmeta”。
 
 1. 在topicmeta中添加关键字。
 
-   a.单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
+   答： 单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
 
    ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在“插入元素”对话框中，搜索并选择“关键字”。
+   b. 在插入元素对话框中，搜索并选择“关键字”。
 
 1. 在topicmeta中添加关键字。
 
-   a.单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
+   答： 单击顶部工具栏上的&#x200B;[!UICONTROL **插入元素**]&#x200B;图标。
 
    ![Keydef工具栏](images/lesson-9/add-icon.png)
 
-   b.在&#x200B;**插入元素**&#x200B;对话框中，搜索并选择“关键字”
+   b. 在&#x200B;**插入元素**&#x200B;对话框中，搜索并选择“关键字”
 
 1. 在关键字中键入keydef的值。
 

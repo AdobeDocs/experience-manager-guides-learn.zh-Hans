@@ -2,9 +2,14 @@
 title: 用户首选项、编辑器设置和编辑器工具栏
 description: 在AEM Guides中更改用户首选项和编辑器设置
 exl-id: 8cb099e4-d985-4eeb-b1a5-0e372b04d218
-source-git-commit: 67ba514616a0bf4449aeda035161d1caae0c3f50
+TQID: https://experienceleague.adobe.com/OA2xVO7uyM-70UZKo4oq37HvbpXkTWKmCmQjGkppF7o
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: ab01a588-7dea-43f2-a699-0b3f128465d6id: afb45297-4313-4f67-818e-bc0b03abe086
+subfeature_v2: id: ad602516-aca3-4247-9ae8-f393d958efa9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: 1171
 ht-degree: 1%
 
 ---
@@ -221,7 +226,7 @@ ht-degree: 1%
 
 ## 在编辑器设置中创建发布配置文件
 
-Publish配置文件可用于发布知识库。 例如，Salesforce使用带有使用者密钥和使用者密钥的配置应用程序。 此信息可用于创建Salesforce发布配置文件。
+发布配置文件可用于发布知识库。 例如，Salesforce使用配置了使用者密钥和使用者密钥的应用程序。 此信息可用于创建Salesforce发布配置文件。
 
 1. 单击顶部工具栏上的&#x200B;[!UICONTROL **编辑器设置**]&#x200B;图标。
 
