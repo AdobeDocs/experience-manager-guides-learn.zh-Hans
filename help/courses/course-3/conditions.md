@@ -3,11 +3,8 @@ title: 条件
 description: 使用AEM Guid中的条件
 exl-id: 2cb670d9-1a22-47c6-8409-52d1d526010a
 TQID: https://experienceleague.adobe.com/RmYnleEQKJitdoHoBKuBDRR1LdFcqmMm4lEDqF3E-vY
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 498
@@ -47,7 +44,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->注意：配置全局配置文件可能是控制属性和值使用遵循一致样式指南的早期和有效方法。
+注意：配置全局配置文件可能是控制属性和值使用遵循一致样式指南的早期和有效方法。
 
 ## 将属性分配给元素
 
@@ -109,7 +106,7 @@ ht-degree: 3%
 
    >[!IMPORTANT]
    >
-   >重要信息：选定的根映射必须是包含主题方案的映射。
+   重要信息：选定的根映射必须是包含主题方案的映射。
 
    ![用户首选项](images/lesson-13/user-preferences-2.png)
 

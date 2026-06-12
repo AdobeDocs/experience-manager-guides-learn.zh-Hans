@@ -3,13 +3,9 @@ title: ' [!DNL AEM Guides]中的版本控制内容'
 description: ' [!DNL Adobe Experience Manager Guides]中的版本控制内容'
 exl-id: 766af002-d17b-4d27-b4d1-baaacc4579ca
 TQID: https://experienceleague.adobe.com/1CECqiCOCBI8iOZVQqlRI4pZUm9w9H2YTfT-POxqKew
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 352
@@ -38,7 +34,7 @@ ht-degree: 1%
 
    >[!NOTE]
    >
-   >如果您的程序配置了预定义标签，则可以从这些标签中进行选择，以确保标签的一致性。
+   如果您的程序配置了预定义标签，则可以从这些标签中进行选择，以确保标签的一致性。
 
 1. 选择&#x200B;**保存**。
 
