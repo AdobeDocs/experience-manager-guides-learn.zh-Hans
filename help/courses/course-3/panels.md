@@ -3,15 +3,10 @@ title: 面板
 description: 在AEM Guides中使用面板
 exl-id: 24ecfc93-3540-4efa-ae85-afb346454b7f
 TQID: https://experienceleague.adobe.com/MU1L4hdbwXSlViTzqKYrCUI0pWqE78V7C2ZYxbjttgg
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: cb8c6a2a-3c38-4e40-867c-756f8c36bb0e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f5c2a4bb-71ca-4d7e-8efd-442250e6ba48
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
 source-wordcount: 1455
@@ -232,7 +227,7 @@ AEM Guides Web Editor分为多个部分，包括主工具栏、辅助工具栏�
 
 1. 在编辑器中打开主题。
 
-1. 单击右侧面板上的[!UICONTROL &#x200B; **文件属性**]&#x200B;图标。
+1. 单击右侧面板上的[!UICONTROL  **文件属性**]&#x200B;图标。
 
    ![文件属性图标](images/lesson-5/file-properties-icon.png)
 
