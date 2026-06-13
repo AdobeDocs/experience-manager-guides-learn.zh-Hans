@@ -3,23 +3,19 @@ title: 映射和书图
 description: 在AEM Guides中创建和编辑映射和书图
 exl-id: 9c717e4b-017b-4f2b-b93e-f2c0e7525c55
 TQID: https://experienceleague.adobe.com/Fg0DsG6-pi2TSKPrBpvbbTlBGtpzeoojTnMqk0f22mw
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
 workflow-type: tm+mt
-source-wordcount: 468
-ht-degree: 1%
+source-wordcount: 427
+ht-degree: 2%
 
 ---
 
 # 映射和书图
 
-Adobe Experience Manager Guides的映射编辑器允许您创建和编辑映射文件。 使用“映射编辑器”，可以编辑两种类型的文件 — DITA映射和bookmap。 在我们的目的中，将这些概念视为基本上可互换的概念。
+Adobe Experience Manager Guides的映射编辑器允许您创建和编辑映射文件。使用“映射编辑器”，可以编辑两种类型的文件 — DITA映射和bookmap。在我们的目的中，将这些概念视为基本上可互换的概念。
 地图编辑器提供两种模式 — 基本地图编辑器和高级地图编辑器。
 
 >[!VIDEO](https://video.tv.adobe.com/v/342766?quality=12&learn=on)
