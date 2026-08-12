@@ -3,17 +3,13 @@ title: 在 [!DNL AEM Guides]中创建内容
 description: 在 [!DNL Adobe Experience Manager Guides]中创建内容
 exl-id: f7cfc5c8-414f-4480-a9c9-b9920975a55d
 TQID: https://experienceleague.adobe.com/Lq5OHK1A0CDSTUHhO-FX2FZVEcJRfyHfGXYi5gZXjbo
-product_v2:
-  - id: fae5e35a-80c9-4b94-9352-1a060a6aab1d
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a3bd6397-2eb2-4908-a61c-226e26855dca
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 27ffc636d63300fb2e99903d92cab12f0cfcbb25
+product_v2: id: fae5e35a-80c9-4b94-9352-1a060a6aab1did: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a3bd6397-2eb2-4908-a61c-226e26855dca
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 961580a797f22e35f48a0dc72537f67c9a43677e
 workflow-type: tm+mt
 source-wordcount: 381
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -31,7 +27,7 @@ ht-degree: 1%
 
 1. 选择&#x200B;**+**&#x200B;图标和&#x200B;**文件夹**。
 
-   ![+图标](images/lesson-3/+-icon.png)
+   ![+图标](images/lesson-3/plus-icon.png)
 
 1. 为文件夹提供一个标题。
 1. 选择&#x200B;**创建**。
@@ -103,7 +99,7 @@ ht-degree: 1%
 
    >[!NOTE]
    > 
-   >如果您的程序配置了预定义标签，则可以从这些标签中进行选择，以确保标签的一致性。
+   > 如果您的程序配置了预定义标签，则可以从这些标签中进行选择，以确保标签的一致性。
 
 1. 选择&#x200B;**保存**。
 
